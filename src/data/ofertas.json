@@ -1,0 +1,291 @@
+[
+    {
+        "id":1,
+        "provincia":"Piura",
+        "slug":"city-tour-piura-catacaos",
+        "nombre":"City tour Piura - Catacaos",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/piu_peru_norte_half_day.jpg.jpg",
+        "porcentaje":"28%",
+        "descripcion":"Turismo Perú Norte",
+        "duracion":"Half Day",
+        "precio":"65",
+        "antes":"90",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/5787_city-tour-piura-catacaos",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":2,
+        "provincia":"Huánuco",
+        "slug":"negritos-de-huanuco",
+        "nombre":"Negritos De Huánuco",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/negritos-huanuco.jpg",
+        "porcentaje":"19%",
+        "descripcion":"Tours Terra Nova",
+        "duracion":"Full day",
+        "precio":"69",
+        "antes":"85",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/6609_negritos-de-huanuco",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":3,
+        "provincia":"Moquegua",
+        "slug":"ruta-del-pisco-olivo",
+        "nombre":"Ruta del Pisco & Olivo",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/moq_expotur_ilo_full_day.jpg",
+        "porcentaje":"30%",
+        "descripcion":"Expotour Ilo",
+        "duracion":"Full day",
+        "precio":"105",
+        "antes":"150",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/5440_ruta-del-pisco-olivo",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":4,
+        "provincia":"Moquegua",
+        "slug":"ilo-tesoro-del-peru",
+        "nombre":"Ilo tesoro del Perú",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/moq_exportur_ilo_full_day.jpg",
+        "porcentaje":"13%",
+        "descripcion":"Expotour Ilo",
+        "duracion":"Full day",
+        "precio":"126",
+        "antes":"145",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/5553_ilo-tesoro-del-peru",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":5,
+        "provincia":"Moquegua",
+        "slug":"ilo-tesoro-del-peru",
+        "nombre":"Ilo, Tesoro del Perú",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/moq_expoturilo_full_day.jpg",
+        "porcentaje":"13%",
+        "descripcion":"Expotour Ilo",
+        "duracion":"Full day",
+        "precio":"139",
+        "antes":"159",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/6015_ilo-tesoro-del-peru",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":6,
+        "provincia":"Piura",
+        "slug":"colan-triangulo-del-sol",
+        "nombre":"Colán, triángulo del sol",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/piu_peru_norte_full_day_2.jpg.jpg",
+        "porcentaje":"21%",
+        "descripcion":"Turismo Perú Norte",
+        "duracion":"Full day",
+        "precio":"150",
+        "antes":"190",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/5786_colan-triangulo-del-sol",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":7,
+        "provincia":"Cajamrca",
+        "slug":"cajamarca-destino-de-bienestar",
+        "nombre":"Cajamarca destino de bienestar",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/caj_tmtravel_3d_2n.jpg.jpg",
+        "porcentaje":"13%",
+        "descripcion":"TM Travel",
+        "duracion":"03 Días / 02 Noches",
+        "precio":"175",
+        "antes":"200",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/5854_cajamarca-destino-de-bienestar",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":8,
+        "provincia":"Junín",
+        "slug":"viaje-de-fin-de-ano-2019",
+        "nombre":"Viaje de fin de año 2019",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/junin---paraiso.JPG",
+        "porcentaje":"20%",
+        "descripcion":"Paraiso Travel",
+        "duracion":"02 Días / 01 Noche",
+        "precio":"240",
+        "antes":"300",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/6565_viaje-de-fin-de-ano-2019",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":9,
+        "provincia":"Huánuco",
+        "slug":"festividad-de-los-negritos-de-huanuco",
+        "nombre":"Festividad De Los Negritos De Huánuco",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/Hco_Tours_Terra_Nova_2d_1n.jpg",
+        "porcentaje":"23%",
+        "descripcion":"Tours Terra Nova",
+        "duracion":"02 Días / 01 Noches",
+        "precio":"249",
+        "antes":"325",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/6605_festividad-de-los-negritos-de-huanuco",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":10,
+        "provincia":"Huánuco",
+        "slug":"ano-nuevo-en-tingo-maria",
+        "nombre":"Año Nuevo en Tingo María",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/parque-nacional-tingo.jpg",
+        "porcentaje":"16%",
+        "descripcion":"Ecology Peru",
+        "duracion":"03 Días / 02 Noches",
+        "precio":"380",
+        "antes":"450",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/6610_ano-nuevo-en-tingo-maria",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":11,
+        "provincia":"Junín",
+        "slug":"fin-de-ano-en-tarma",
+        "nombre":"Fin de Año en Tarma",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/Junin---Max.jpg",
+        "porcentaje":"19%",
+        "descripcion":"Max Aventura",
+        "duracion":"03 Días / 02 Noches",
+        "precio":"425",
+        "antes":"525",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/6567_fin-de-ano-en-tarma",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":12,
+        "provincia":"Cerro de Pasco",
+        "slug":"ano-nuevo-en-oxapampa",
+        "nombre":"Año Nuevo en Oxapampa",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/pas_amazon_tours_3d_2n_1.jpg",
+        "porcentaje":"37%",
+        "descripcion":"Amazon Tours-Oxapampa",
+        "duracion":"03 Días / 02 Noches",
+        "precio":"499",
+        "antes":"790",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/5197_ano-nuevo-en-oxapampa",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":13,
+        "provincia":"Moquegua",
+        "slug":"moquegua-andina",
+        "nombre":"Moquegua Andina",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/moq_expoturilo_2d_1n.jpg",
+        "porcentaje":"15%",
+        "descripcion":"Expotour Ilo",
+        "duracion":"02 Días / 01 Noche",
+        "precio":"509",
+        "antes":"599",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/6014_moquegua-andina",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":14,
+        "provincia":"Cerro de Pasco",
+        "slug":"ano-nuevo-en-oxapampa-con-loma",
+        "nombre":"Año Nuevo en Oxapampa con Loma",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/Pasco.jpeg",
+        "porcentaje":"11%",
+        "descripcion":"Loma Tours",
+        "duracion":"03 Días / 02 Noches",
+        "precio":"520",
+        "antes":"585",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/6568_ano-nuevo-en-oxapampa-con-loma",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":15,
+        "provincia":"Amazonas",
+        "slug":"chachapoyas-cuidad-milenaria",
+        "nombre":"Chachapoyas cuidad milenaria",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/5880_chachapoyas-cuidad-milenaria.jpg",
+        "porcentaje":"11%",
+        "descripcion":"Viajes Chachapoyas",
+        "duracion":"04 Días / 03 Noches",
+        "precio":"550",
+        "antes":"615",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/5880_chachapoyas-cuidad-milenaria",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    },
+    {
+        "id":16,
+        "provincia":"Cusco",
+        "slug":"ano-nuevo-en-cusco",
+        "nombre":"Año Nuevo en Cusco",
+        "imagen":"https://www.ytuqueplanes.com/fotos/ofertas/tren-cusco.jpg",
+        "porcentaje":"20%",
+        "descripcion":"Peruvian Shades",
+        "duracion":"03 Días / 02 Noches",
+        "precio":"1359",
+        "antes":"1699",
+        "redirect_url":"https://www.ytuqueplanes.com/oferta/6600_ano-nuevo-en-cusco",
+        "iconos": [
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/historia-uno.png"},
+            {"imagen":"https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"}
+        ]
+
+    }
+
+  ]

@@ -1,0 +1,80 @@
+.slick-dots li button.hero-slider-button:before{
+    color: white !important;
+    font-size: 9px !important;
+}
+.hero-heading{
+    font-size: 38px;
+    color: $white;
+    font-family: ClanOffcBold;
+}
+.hero-subheading{
+    font-size: 32px;
+    color: $white;
+    font-family: ClanOffcNews;
+}
+.hero-headings-container{
+    text-align: left;
+    bottom: 10%;
+    position: absolute;
+}
+.hero-slider-btn {
+    color: white;
+    background-color: $pale-green;
+    border-color: $pale-green;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-family: ClanOffc;
+    }
+.hero-slider-btn:hover    {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25) !important;
+    color: white;
+    text-decoration: none; 
+    background-color: $pale-green;
+    border-color: $pale-green;                      
+}
+.hero-slider-btn:not(:disabled):not(.disabled).active, .hero-slider-btn:not(:disabled):not(.disabled):active, .show>.hero-slider-btn.dropdown-toggle {
+    color: #fff;
+    background-color: $pale-green;
+    border-color: $pale-green;
+}
+.hero-heading-row{
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+}
+@media only screen and (min-width: 400px){
+    .hero-heading-row{
+        width: 380px;
+    }
+    .hero-headings-container{
+        bottom: 17%; 
+        margin-left: 28px;
+    }
+
+}
+@media only screen and (min-width: 576px){
+    .hero-heading-row{
+        margin-left: 10%;
+        width: 411px;
+    }
+    .hero-slider-btn{
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+    .hero-heading {
+        font-size: 44px;
+    }
+    .hero-subheading {
+        font-size: 42px;
+    }
+    .hero-headings-container{
+        bottom: 11%; 
+        margin-left: 0px;
+    }
+
+}

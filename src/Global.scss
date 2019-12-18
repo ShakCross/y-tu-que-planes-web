@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+@font-face {
+	font-family: BreePeru;
+	src: url(assets/fonts/BreePeru_Regular.otf);
+  }
+@font-face {
+	font-family: BreePeruLight;
+	src: url(assets/fonts/BreePeru_Light.otf);
+  }
+@font-face {
+	font-family: ClanOffcBold;
+	src: url(assets/fonts/ClanOffc-Bold.ttf);
+  }
+@font-face {
+	font-family: ClanOffcNews;
+	src: url(assets/fonts/ClanOffc-News.ttf);
+  }
+@font-face {
+	font-family: ClanOffc;
+	src: url(assets/fonts/ClanOffc-Medium.ttf);
+  }
+// Set your brand colors
+$white: #ffffff;
+$black:#000000;
+
+$dark-grey: #636363;
+$grey: #adafaf;
+$transparent-grey: rgba(0, 0, 0, 0.5);
+
+$dark-yellow: #f0b127;
+$yellow: #fed118;
+$purple: #811063;
+$dark-blue: #2b2b6f;
+$sky-blue: #3ba8fc;
+$blue: #0e70b9;
+$pale-green: #33aba0;
+$green: #84c131;
+$red: #e13b3d;
+
+$default-background: #f9f9f9;
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+  background-color: $default-background !important;
+  font-family: Nunito;
+}
+dl, ol, ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+main{
+	background-color: $white;
+}
+h2 {
+	// font-family: BreePeru;
+	font-size: 30px;
+	font-weight: bold !important;
+	line-height: normal !important;
+	letter-spacing: normal;
+	color: $dark-yellow
+}
+.bg-purple{
+	background-color: $purple;
+}
+
