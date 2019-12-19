@@ -71,7 +71,7 @@ const Blog = () => {
                                     <Col md={7} xs={7} className="p-3 xxs">
                                         <div className="card-block px-3">
                                             <h4 className="card-title blog-card-title mt-3">{post.titulo}</h4>
-                                            <p className="card-text blog-card-desc mb-4">{post.contenido.substring(0, 75) + "..."}</p>
+                                            <p className="card-text blog-card-desc mb-4">{post.contenido.substring(0, 100) + "..."}</p>
                                             <a className="blog-card-link" target="_blank" rel="noopener noreferrer" href={post.url}>Ver Más</a>
                                         </div>
                                     </Col>
