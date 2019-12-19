@@ -18,10 +18,10 @@ const Header = () => {
                 <Row className="justify-content-center header-row">
                     <nav className="header-nav d-flex align-items-center justify-content-between">
                         <div className="menu-item" >
-                            <a href="https://www.ytuqueplanes.com/destinos/lambayeque">Destinos</a>
+                            <a href="https://www.ytuqueplanes.com/destinos">Destinos</a>
                         </div>
                         <div className="menu-item">
-                            <a href="https://www.ytuqueplanes.com/ofertas/02_ancash">Ofertas</a>
+                            <a href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                         </div>
                         <div className="menu-item">
                             <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>                          
