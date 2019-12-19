@@ -63,9 +63,9 @@ const MainFooter = () => {
                                 </ul>
                             </div>
                             <Row className="justify-content-around mx-4 mx-md-5 my-4 m-md-auto d-md-none d-flex">
-                                <Image className="my-img mr-md-5 mt-md-3" src={Brand1} />
-                                <Image className="my-img mr-md-5 mt-md-3" src={Brand2} />
-                                <Image className="my-img mr-md-5 mt-md-3" src={Brand3} />
+                                <Image alt="iperu-logo" className="my-img mr-md-5 mt-md-3" src={Brand1} />
+                                <Image alt="promperu-logo" className="my-img mr-md-5 mt-md-3" src={Brand2} />
+                                <Image alt="marca-peru-logo" className="my-img mr-md-5 mt-md-3" src={Brand3} />
                             </Row>
                         </div>
                     </Col>
@@ -83,9 +83,9 @@ const MainFooter = () => {
                                 </InputGroup.Append>
                             </InputGroup>
                             <Row className="justify-content-around justify-content-md-start my-4 m-md-auto d-md-flex d-none">
-                                <Image className="my-img mr-md-5 mt-md-3" src={Brand1} />
-                                <Image className="my-img mr-md-5 mt-md-3" src={Brand2} />
-                                <Image className="my-img mr-md-5 mt-md-3" src={Brand3} />
+                                <Image alt="iperu-logo" className="my-img mr-md-5 mt-md-3" src={Brand1} />
+                                <Image alt="promperu-logo" className="my-img mr-md-5 mt-md-3" src={Brand2} />
+                                <Image alt="marca-peru-logo" className="my-img mr-md-5 mt-md-3" src={Brand3} />
                             </Row>
                         </div>
                     </Col>
