@@ -5,7 +5,7 @@ import Logo from 'assets/img/ytqp-logo.png';
 import Alert from 'assets/img/alert_top.png';
 import User from 'assets/img/user.png';
 import Search from 'assets/img/search.png';
-import Link from 'react-router-dom/Link'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -49,7 +49,7 @@ const Header = () => {
                                 <img src={Search} alt="" />
                             </a>
                             <a href="/" className="hidden-collapse" onClick={handleToggle}>
-                                <i class="fa fa-bars"></i>
+                                <i className="fa fa-bars"></i>
                             </a>
                         </div>
                     </nav>

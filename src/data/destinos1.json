@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "provincia": "Piura",
+        "slug": "city-tour-piura-catacaos",
+        "nombre": "City tour Piura - Catacaos",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/piu_peru_norte_half_day.jpg.jpg",
+        "porcentaje": "28%",
+        "descripcion": "Turismo Perú Norte",
+        "duracion": "Half Day",
+        "precio": "65",
+        "antes": "90",
+        "redirect_url": "https://www.ytuqueplanes.com/oferta/5787_city-tour-piura-catacaos",
+        "iconos": [
+            {
+                "imagen": "https://www.ytuqueplanes.com/img/icons/historia-uno.png"
+            },
+            {
+                "imagen": "https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "provincia": "Piura",
+        "slug": "colan-triangulo-del-sol",
+        "nombre": "Colán, triángulo del sol",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/piu_peru_norte_full_day_2.jpg.jpg",
+        "porcentaje": "21%",
+        "descripcion": "Turismo Perú Norte",
+        "duracion": "Full day",
+        "precio": "150",
+        "antes": "190",
+        "redirect_url": "https://www.ytuqueplanes.com/oferta/5786_colan-triangulo-del-sol",
+        "iconos": [
+            {
+                "imagen": "https://www.ytuqueplanes.com/img/icons/historia-uno.png"
+            },
+            {
+                "imagen": "https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"
+            }
+        ]
+    }
+]

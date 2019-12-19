@@ -23,7 +23,12 @@
     border-color: #84c131;
     border-radius: 20px;
     font-family: BreePeruLight;
-    }
+}
+.btn-green.focus, .btn-green:focus{
+    background-color: #84c131;
+    border-color: #84c131;
+    box-shadow: 0 0 0 0.2rem rgba(63, 255, 38, 0.562) !important;
+}
 .btn-green:hover    {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25) !important;
@@ -35,10 +40,10 @@
 .btn-green:not(:disabled):not(.disabled).active:focus, .btn-green:not(:disabled):not(.disabled):active:focus, .show>.btn-green.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25);
 }
-.btn-green.focus, .btn-green:focus {
-    color: #fff;
-    box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25);
-}
+// .btn-green.focus, .btn-green:focus {
+//     color: #fff;
+//     box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25);
+// }
 .btn-green:not(:disabled):not(.disabled).active, .btn-green:not(:disabled):not(.disabled):active, .show>.btn-green.dropdown-toggle {
     color: #fff;
     background-color: #84c131;

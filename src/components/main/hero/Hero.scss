@@ -29,6 +29,12 @@
     padding-top: 12px;
     font-family: ClanOffc;
     }
+.hero-slider-btn.focus, .hero-slider-btn:focus{
+    color: white;
+    background-color: $pale-green;
+    border-color: $pale-green;
+    box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25) !important;
+}
 .hero-slider-btn:hover    {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25) !important;

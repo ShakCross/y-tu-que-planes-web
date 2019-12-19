@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import data from 'data/blog.json'
 
 
 const settings = {
@@ -29,49 +30,49 @@ const settings = {
 };
 
 
-const data = [
-    {
-        title: "Trekking en Z - EL Baúl de Antonia",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
-        img: "https://picsum.photos/id/1024/200/200"
-    },
-    {
-        title: "Trekking en Z - EL Baúl de Antonia",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
-        img: "https://picsum.photos/id/1025/200/200"
-    },
-    {
-        title: "Trekking en Z - EL Baúl de Antonia",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
-        img: "https://picsum.photos/id/1026/200/200"
-    },
-    {
-        title: "Trekking en Z - EL Baúl de Antonia",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
-        img: "https://picsum.photos/id/1027/200/200"
-    }
-]
+// const data = [
+//     {
+//         title: "Trekking en Z - EL Baúl de Antonia",
+//         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
+//         img: "https://picsum.photos/id/1024/200/200"
+//     },
+//     {
+//         title: "Trekking en Z - EL Baúl de Antonia",
+//         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
+//         img: "https://picsum.photos/id/1025/200/200"
+//     },
+//     {
+//         title: "Trekking en Z - EL Baúl de Antonia",
+//         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
+//         img: "https://picsum.photos/id/1026/200/200"
+//     },
+//     {
+//         title: "Trekking en Z - EL Baúl de Antonia",
+//         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
+//         img: "https://picsum.photos/id/1027/200/200"
+//     }
+// ]
 
 
 const Blog = () => {
-
+    
     return (
         <Container>
             <Col className="p-0">
                 <h2 className="mb-4 text-center blog-title"> Blog Viajero </h2>
                 <Slider {...settings}>
-                    {data.map((post, index) =>
-                        <Container key={index} className="py-3 px-1">
+                    {data.map(post =>
+                        <Container key={post.id} className="py-3 px-1">
                             <div className="card card-slider">
                                 <Row>
-                                    <Col xl={5} lg={4} md={3} sm={5} xs={5} className="pr-0 xxs">
-                                        <img className="card-image" src={post.img} alt="Imagen" />
+                                    <Col xl={5} lg={5} md={5} sm={5} xs={5} className="pr-0 xxs">
+                                        <img className="card-image" src={post.imagen} alt="Imagen"/>
                                     </Col>
                                     <Col md={7} xs={7} className="p-3 xxs">
                                         <div className="card-block px-3">
-                                            <h4 className="card-title blog-card-title mt-3">{post.title}</h4>
-                                            <p className="card-text blog-card-desc mb-4">{post.desc}</p>
-                                            <a className="blog-card-link" href="/">Ver Más</a>
+                                            <h4 className="card-title blog-card-title mt-3">{post.titulo}</h4>
+                                            <p className="card-text blog-card-desc mb-4">{post.contenido.substring(0, 75) + "..."}</p>
+                                            <a className="blog-card-link" target="_blank" rel="noopener noreferrer" href={post.url}>Ver Más</a>
                                         </div>
                                     </Col>
                                 </Row>

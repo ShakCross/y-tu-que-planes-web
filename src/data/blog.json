@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "titulo": "5 destinos para vivir el mejor Año Nuevo en Perú",
+        "imagen": "https://www.ytuqueplanes.com/fotos/novedades/YTQP-Ano-Nuevo-Banner.jpg",
+        "contenido": "Las vacaciones de Año Nuevo son la oportunidad perfecta para despedir el año con un gran viaje. En Perú, tenemos la suerte de que el buen tiempo nos acompaña en estas fechas, por lo que el abanico de posibilidades de destinos para visitar es muy amplio. Si todavía no decides dónde viajar para pasar el 31 de diciembre, aquí te dejamos cinco lugares perfectos para disfrutar del mejor fin de año.",
+        "url": "https://www.ytuqueplanes.com/novedades/79_relajate-al-maximo-en-los-banos-del-inca-de-cajamarca"
+    },
+    {
+        "id": 2,
+        "titulo": "Relájate al máximo en los Baños del Inca de Cajamarca",
+        "imagen": "https://www.ytuqueplanes.com/fotos/novedades/YTQP-Banner-Cajamarca.jpg",
+        "contenido": "En la actualidad, los Baños del Inca es uno de los lugares turísticos más visitados de Cajamarca. Aquí encontrarás pozas con aguas termales cerradas y de uso privado (perfectas para compartir con tus amigos o pareja), piscinas al aire libre y otros servicios de tratamiento terapéutico. Además, podrás observar otras pozas en las que las temperaturas superan los 70 °C. ¡ Anímate a conocerlas!",
+        "url": "https://www.ytuqueplanes.com/novedades/88_5-destinos-para-vivir-el-mejor-ano-nuevo-en-peru"
+    },
+    {
+        "id": 3,
+        "titulo": "Cinco razones por las que debes visitar los Manglares de Tumbes",
+        "imagen": "https://www.ytuqueplanes.com/fotos/novedades/manglar-pareja_nota.jpg",
+        "contenido": "En el norte del Perú no solo encontrarás hermosas playas, también hay un lugar con extensos bosques acuáticos, en los que las aguas saladas del mar fluyen en armonía con el agua dulce de los ríos. Se trata del Santuario Nacional de los Manglares de Tumbes, un destino que debes conocer por estas cinco razones que la convierten en una de las zonas más exóticas del país.",
+        "url": "https://ytuqueplanes.com/novedades/162_cinco-razones-por-las-que-debes-visitar-los-manglares-de-tumbes"
+    },
+    {
+        "id": 4,
+        "titulo": "Las playas de Áncash te esperan para gozar el verano",
+        "imagen": "https://www.ytuqueplanes.com/fotos/novedades/playa-antivito_nota.jpg",
+        "contenido": "Cuando piensas en Áncash seguro se te viene a la mente la Cordillera Blanca, el Callejón de Huaylas o el complejo arqueológico de Chavín de Huántar, pero debes saber que en esta región también hay bellos paisajes en su costa, exactamente en dos playas ideales para relajarse y disfrutar del sol.",
+        "url": "https://www.ytuqueplanes.com/novedades/163_las-playas-de-ancash-te-esperan-para-gozar-el-verano"
+    }
+]

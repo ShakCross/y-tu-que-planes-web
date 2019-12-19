@@ -4,6 +4,9 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Slider from "react-slick";
 import Post from 'components/general/post/Post'
+import data1 from 'data/destinos1.json'
+import data2 from 'data/destinos2.json'
+import data3 from 'data/destinos3.json'
 
 
 function SampleNextArrow(props) {
@@ -57,98 +60,98 @@ const settings = {
     ]
 };
 
-const data1 = [
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1020/500/500"
-    },
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1021/500/500"
-    },
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1022/500/500"
-    },
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1023/500/500"
-    }
-]
+// const data1 = [
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1020/500/500"
+//     },
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1021/500/500"
+//     },
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1022/500/500"
+//     },
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1023/500/500"
+//     }
+// ]
 
-const data2 = [
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1042/500/500"
-    },
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1035/500/500"
-    },
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1036/500/500"
-    },
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1037/500/500"
-    }
-]
+// const data2 = [
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1042/500/500"
+//     },
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1035/500/500"
+//     },
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1036/500/500"
+//     },
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1037/500/500"
+//     }
+// ]
 
-const data3 = [
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1038/500/500"
-    },
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1039/500/500"
-    },
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1040/500/500"
-    },
-    {
-        price: "S/ 230",
-        sale: "S/ 500",
-        title: "Trekking al Colca",
-        days: "02 Días/01 Noche",
-        img: "https://picsum.photos/id/1002/500/500"
-    }
-]
+// const data3 = [
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1038/500/500"
+//     },
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1039/500/500"
+//     },
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1040/500/500"
+//     },
+//     {
+//         price: "S/ 230",
+//         sale: "S/ 500",
+//         title: "Trekking al Colca",
+//         days: "02 Días/01 Noche",
+//         img: "https://picsum.photos/id/1002/500/500"
+//     }
+// ]
 
 
 
@@ -164,19 +167,19 @@ const Destinos = () => {
             <Row className="mb-5 justify-content-around">
                 <Col xs={12} md={6} lg={4} className="destinos-slider-container">
                     <Col xs={12}>
-                        <h2 className="mb-2 text-center destinos-subtitle-one"> Arequipa </h2>
+                        <h2 className="mb-2 text-center destinos-subtitle-one"> Piura </h2>
                     </Col>
                     <Slider {...settings}>
-                        {data1.map((posts, index) =>
-                            <Container key={index} className="py-3 px-1">
+                        {data1.map(posts =>
+                            <Container key={posts.id} className="py-3 px-1">
                                 <Post
-                                    key={index}
                                     customClass="post post-slider" 
-                                    image={posts.img}
-                                    title={posts.title}
-                                    price={posts.price}
-                                    days={posts.days}
-                                    sale={posts.sale}
+                                    image={posts.imagen}
+                                    title={posts.nombre}
+                                    price={ `S/.` + posts.precio}
+                                    days={posts.duracion}
+                                    sale={ `S/.` + posts.antes}
+                                    url={posts.redirect_url} 
                                     customClassBtn="destinos-price-tag-btn"
                                     customClassTitle="destinos-price-tag-price-title"
                                     customClassTitleTwo="destinos-price-tag-place-title"
@@ -187,19 +190,19 @@ const Destinos = () => {
                 </Col>
                 <Col xs={12} md={6} lg={4} className="destinos-slider-container">
                     <Col xs={12} className="mt-4 mt-md-0">
-                        <h2 className="mb-2 text-center destinos-subtitle-two"> Piura </h2>
+                        <h2 className="mb-2 text-center destinos-subtitle-two"> Cusco </h2>
                     </Col>
                     <Slider {...settings}>
-                        {data2.map((posts, index) =>
-                            <Container key={index} className="py-3 px-1">
+                        {data2.map(posts =>
+                            <Container key={posts.id} className="py-3 px-1">
                                 <Post
-                                    key={index}
                                     customClass="post post-slider" 
-                                    image={posts.img}
-                                    title={posts.title}
-                                    price={posts.price}
-                                    days={posts.days}
-                                    sale={posts.sale}
+                                    image={posts.imagen}
+                                    title={posts.nombre}
+                                    price={ `S/.` + posts.precio}
+                                    days={posts.duracion}
+                                    sale={ `S/.` + posts.antes}
+                                    url={posts.redirect_url} 
                                     customClassBtn="destinos-price-tag-btn"
                                     customClassTitle="destinos-price-tag-price-title"
                                     customClassTitleTwo="destinos-price-tag-place-title"
@@ -211,19 +214,19 @@ const Destinos = () => {
 
                 <Col xs={12} md={12} lg={4} className="destinos-slider-container">
                     <Col xs={12} className="mt-4 mt-md-0">
-                        <h2 className="mb-2 text-center destinos-subtitle-three"> Lambayeque </h2>
+                        <h2 className="mb-2 text-center destinos-subtitle-three"> Cajamarca </h2>
                     </Col>
                     <Slider {...settings}>
-                        {data3.map((posts, index) =>
-                            <Container key={index} className="py-3 px-1">
+                        {data3.map(posts =>
+                            <Container key={posts.id} className="py-3 px-1">
                                 <Post
-                                    key={index}
                                     customClass="post post-slider" 
-                                    image={posts.img}
-                                    title={posts.title}
-                                    price={posts.price}
-                                    days={posts.days}
-                                    sale={posts.sale}
+                                    image={posts.imagen}
+                                    title={posts.nombre}
+                                    price={ `S/.` + posts.precio}
+                                    days={posts.duracion}
+                                    sale={ `S/.` + posts.antes}
+                                    url={posts.redirect_url} 
                                     customClassBtn="destinos-price-tag-btn"
                                     customClassTitle="destinos-price-tag-price-title"
                                     customClassTitleTwo="destinos-price-tag-place-title"
