@@ -5,7 +5,6 @@ import Logo from 'assets/img/ytqp-logo.png';
 import Alert from 'assets/img/alert_top.png';
 import User from 'assets/img/user.png';
 import Search from 'assets/img/search.png';
-import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -19,22 +18,22 @@ const Header = () => {
                 <Row className="justify-content-center header-row">
                     <nav className="header-nav d-flex align-items-center justify-content-between">
                         <div className="menu-item" >
-                            Destinos
+                            <a href="https://www.ytuqueplanes.com/destinos/lambayeque">Destinos</a>
                         </div>
                         <div className="menu-item">
-                            Ofertas
+                            <a href="https://www.ytuqueplanes.com/ofertas/02_ancash">Ofertas</a>
                         </div>
                         <div className="menu-item">
-                            Experiencias
+                            <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>                          
                         </div>
                         <div className="menu-logo">
-                            <Link to='/' ><img alt="" src={Logo} /></Link>
+                            <a href="https://www.ytuqueplanes.com/"><img alt="" src={Logo} /></a>
                         </div>
                         <div className="menu-item">
-                            Rutas Cortas
+                            <a href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
                         </div>
                         <div className="menu-item">
-                            Guía Viajera
+                            <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>                          
                         </div>
                         <div className="menu-item-icons">
                             <img className="header-icon-bg" src={Alert} alt="" />

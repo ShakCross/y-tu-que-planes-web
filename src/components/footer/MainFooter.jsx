@@ -22,9 +22,9 @@ const MainFooter = () => {
                                 Información para tu viaje
                             </h5>
                             <ul className="footer-li text-center text-md-left">
-                                <li>Lista de Feriados</li>
-                                <li>Clima y Pronóstico del Tiempo</li>
-                                <li>Áreas Naturales Protegidas</li>
+                                <a target="_blank" rel="noopener noreferrer" href="http://export.promperu.gob.pe/emailing/2019/feb/pdf/feriados_2019.pdf"><li>Lista de Feriados</li></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.senamhi.gob.pe/"><li>Clima y Pronóstico del Tiempo</li></a>
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.sernanp.gob.pe/"><li>Áreas Naturales Protegidas</li></a>
                             </ul>
                         </div>
                     </Col>
@@ -33,7 +33,11 @@ const MainFooter = () => {
                             <div className="footer-phone d-flex justify-content-center justify-content-md-start">
                                 <Button className="btn-green mr-2 whatsapp-icon d-flex align-items-center px-4 rounded-pill">
                                     <i className="fa fa-whatsapp"></i>
-                                    <h5 className="mb-0 ml-1 fs-14 footer-asis">Asistencia al viajero</h5>
+                                    <h5 className="mb-0 ml-1 fs-14 footer-asis">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://wa.me/051944492314">
+                                            Asistencia al viajero
+                                        </a>
+                                    </h5>
                                 </Button>
                             </div>
                             <div className="mt-4 mb-5 text-center text-md-left">
@@ -47,19 +51,19 @@ const MainFooter = () => {
                                     Información para tu viaje
                             </h5>
                                 <ul className="footer-li text-center text-md-left">
-                                    <li>Lista de Feriados</li>
-                                    <li>Clima y Pronóstico del Tiempo</li>
-                                    <li>Áreas Naturales Protegidas</li>
+                                    <a target="_blank" rel="noopener noreferrer" href="http://export.promperu.gob.pe/emailing/2019/feb/pdf/feriados_2019.pdf"><li>Lista de Feriados</li></a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.senamhi.gob.pe/"><li>Clima y Pronóstico del Tiempo</li></a>
+                                    <a target="_blank" rel="noopener noreferrer" href="http://www.sernanp.gob.pe/"><li>Áreas Naturales Protegidas</li></a>
                                 </ul>
                             </div>
                             <div>
                                 <h5 className="footer-heading text-center text-md-left mb-5 mb-md-2">Síguenos</h5>
                                 <ul className="d-flex justify-content-around mt-3">
-                                    <SocialICon abrv="fb" name='facebook' />
-                                    <SocialICon abrv="tw" name='twitter' />
-                                    <SocialICon abrv="in" name='instagram' />
-                                    <SocialICon abrv="you" name='youtube-play' />
-                                    <SocialICon abrv="spo" name='spotify' />
+                                    <SocialICon abrv="fb" name='facebook' target="https://www.facebook.com/pages/Visit-Peru/524042817717056" />
+                                    <SocialICon abrv="tw" name='twitter' target="https://twitter.com/conoceelperu" />
+                                    <SocialICon abrv="in" name='instagram' target="https://www.instagram.com/ytuqueplanes/" />
+                                    <SocialICon abrv="you" name='youtube-play' target="http://www.youtube.com/visitperu" />
+                                    <SocialICon abrv="spo" name='spotify' target="https://open.spotify.com/user/yt%C3%BAqu%C3%A9planes/playlist/7pTRlBhxN2YhkEqtwu0T4k" />
                                 </ul>
                             </div>
                             <Row className="justify-content-around mx-4 mx-md-5 my-4 m-md-auto d-md-none d-flex">

@@ -24,6 +24,12 @@
     color: $white;
     font-family: BreePeruLight;
 }
+.menu-item > a{
+    color: $white;   
+}
+.menu-item > a{
+    text-decoration: none;   
+}
 .menu-item:hover {
     background: #2e998f;
     cursor: pointer;
