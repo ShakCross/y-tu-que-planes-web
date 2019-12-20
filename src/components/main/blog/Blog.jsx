@@ -16,7 +16,7 @@ const settings = {
     autoplaySpeed: 5000,
     centerPadding: 10,
     adaptiveHeight: true,
-    arrows: false,
+    arrows: true,
     responsive: [
         {
           breakpoint: 1024,
@@ -25,7 +25,16 @@ const settings = {
             rows: 2,
             slidesPerRow: 1
           }
-        }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                slidesToShow: 1,
+                rows: 2,
+                slidesPerRow: 1
+            }
+          }
     ]
 };
 

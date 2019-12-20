@@ -12,6 +12,10 @@
     height: 100%;
     width: 100%;
 }
+
+div.p-0.col > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:before{
+    color: $dark-yellow
+}
 .blog-title{
     font-family: BreePeru;
 }

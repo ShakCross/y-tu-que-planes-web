@@ -16,6 +16,7 @@
     text-align: left;
     bottom: 10%;
     position: absolute;
+    z-index: 99999;
 }
 .hero-slider-btn {
     color: white;
@@ -28,6 +29,8 @@
     padding-bottom: 12px;
     padding-top: 12px;
     font-family: ClanOffc;
+    margin-right: auto;
+    margin-left: auto;
     }
 .hero-slider-btn.focus, .hero-slider-btn:focus{
     color: white;
@@ -59,13 +62,13 @@
     }
     .hero-headings-container{
         bottom: 17%; 
-        margin-left: 28px;
+        
     }
 
 }
 @media only screen and (min-width: 576px){
     .hero-heading-row{
-        margin-left: 10%;
+        
         width: 411px;
     }
     .hero-slider-btn{

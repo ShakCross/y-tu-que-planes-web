@@ -54,8 +54,18 @@ import data from 'data/ofertas.json'
 const Ofertas = () => {
 
     const [showMore, setShowMore] = useState(false)
+    const [filterProvince, setFilterProvince] = useState(false)
     const handleShowMore = () => setShowMore({showMore: true})
+    const handleFilterProvince = () => setFilterProvince ({filterProvince:true})
+
     const numberOfItems = showMore ?  data.lenght : 6
+
+
+    const algo = data.filter(x => x.provincia === 'Moquegua') 
+    console.log(algo);
+
+    
+
 
     return (
         <>
@@ -72,16 +82,23 @@ const Ofertas = () => {
                         </Col>
                         <Col xs={12} lg={4}>
                             <select className="form-control ofertas-select my-4 my-lg-0">
-                                <option>Departamentos</option>
+                                <option selected disabled>Departamentos</option>
+                                <option value="Amazonas">Amazonas</option>
+                                <option value="Cajamarca">Cajamarca</option>
+                                <option value="Cerro de Pasco">Cerro de Pasco</option>
+                                <option value="Cusco">Cusco</option>
+                                <option value="Huánuco">Huánuco</option>
+                                <option value="Junín">Junín</option>
+                                <option value="Piura">Piura</option>
                             </select>
                         </Col>
                         <Col xs={12} lg={4} className="text-center text-lg-left">
-                            <YtqpButton content="Buscar" />
+                            <YtqpButton clicked={handleFilterProvince} content="Buscar" />
                         </Col>
                     </Row>
                 </Container>
                 <Row className="justify-content-center">
-                    {data.slice(0, numberOfItems).map(posts =>
+                    {algo.slice(0, numberOfItems).map(posts =>
                         <Post
                             key={posts.id}
                             customClass="post" 
