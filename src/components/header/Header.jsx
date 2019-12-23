@@ -27,7 +27,7 @@ const Header = () => {
                             <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>                          
                         </div>
                         <div className="menu-logo">
-                            <a href="https://www.ytuqueplanes.com/"><img alt="" src={Logo} /></a>
+                            <a href="https://www.ytuqueplanes.com/"><img alt="Logo-Ytuqueplanes" src={Logo} /></a>
                         </div>
                         <div className="menu-item">
                             <a href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
@@ -36,16 +36,16 @@ const Header = () => {
                             <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>                          
                         </div>
                         <div style={{cursor: "not-allowed"}} className="menu-item-icons">
-                            <img className="header-icon-bg" src={Alert} alt="" />
-                            <img src={User} alt="" />
-                            <img className="ml-11" src={Search} alt="" />
+                            <img className="header-icon-bg" src={Alert} alt="icono-alerta" />
+                            <img src={User} alt="icono-usuario" />
+                            <img className="ml-11" src={Search} alt="icono-buscar" />
                         </div>
                         <div className="align-items-center hidden-lg">
                             <a href="/">
-                                <img src={Alert} alt="" />
+                                <img src={Alert} alt="icono-alerta" />
                             </a>
                             <a href="/">
-                                <img src={Search} alt="" />
+                                <img src={Search} alt="icono-buscar" />
                             </a>
                             <a href="#" className="hidden-collapse" onClick={handleToggle}>
                                 <i className="fa fa-bars"></i>
