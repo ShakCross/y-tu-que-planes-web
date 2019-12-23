@@ -83,7 +83,7 @@ const MainFooter = () => {
                                     aria-describedby="basic-addon2"
                                 />
                                 <InputGroup.Append>
-                                    <Button variant="purple" className="px-3">Suscribirme</Button>
+                                    <Button disabled variant="purple" className="px-3">Suscribirme</Button>
                                 </InputGroup.Append>
                             </InputGroup>
                             <Row className="justify-content-around justify-content-md-start my-4 m-md-auto d-md-flex d-none">
@@ -102,7 +102,8 @@ const MainFooter = () => {
                         background-color: #990564;
                         border-color: #990564;
                         border-radius: 6px;
-                        font-family: ClanOffc
+                        font-family: ClanOffc;
+                        cursor: not-allowed;
                         }
                     .btn-purple:hover    {
                         outline: 0;

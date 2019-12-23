@@ -72,7 +72,7 @@ const Destinos = (props) => {
                                         <Row>
                                             <div className="hero-heading-row">
                                                 <h1 className="hero-heading">Encuentra el destino perfecto</h1>
-                                                <h1 className="hero-subheading">para un Año Nuevo increíble</h1>
+                                                <h2 className="hero-subheading">para un Año Nuevo increíble</h2>
                                                 <Button onClick={props.clicked} className="hero-slider-btn whatsapp-icon d-flex align-items-center my-4 rounded-pill">
                                                     <h5 className="mb-0 ml-1">Elige aquí</h5>
                                                 </Button>
