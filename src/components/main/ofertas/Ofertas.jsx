@@ -66,7 +66,7 @@ const Ofertas = (props) => {
     return (
         <>
             <Container ref={props.refered}>
-                <Row className="">
+                <Row>
                     <Col xs={12} className="mt-5 mb-3">
                         <h2 className="my-4 text-center ofertas-title">Cierra el año 2019 con estas ofertas</h2>
                     </Col>
