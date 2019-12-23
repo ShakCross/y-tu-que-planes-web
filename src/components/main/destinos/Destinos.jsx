@@ -161,13 +161,13 @@ const Destinos = () => {
         <Container>
             <Row>
                 <Col xs={12}>
-                    <h1 className="mb-5 text-center destinos-title">Destinos más populares para este fin de año</h1>
+                    <h2 className="mb-5 text-center destinos-title">Destinos más populares para este fin de año</h2>
                 </Col>
             </Row>
             <Row className="mb-5 justify-content-around">
                 <Col xs={12} md={6} lg={4} className="destinos-slider-container">
                     <Col xs={12}>
-                        <h2 className="mb-2 text-center destinos-subtitle-one"> Piura </h2>
+                        <h3 className="mb-2 text-center destinos-subtitle-one"> Piura </h3>
                     </Col>
                     <Slider {...settings}>
                         {data1.map(posts =>
@@ -190,7 +190,7 @@ const Destinos = () => {
                 </Col>
                 <Col xs={12} md={6} lg={4} className="destinos-slider-container">
                     <Col xs={12} className="mt-4 mt-md-0">
-                        <h2 className="mb-2 text-center destinos-subtitle-two"> Cusco </h2>
+                        <h3 className="mb-2 text-center destinos-subtitle-two"> Cusco </h3>
                     </Col>
                     <Slider {...settings}>
                         {data2.map(posts =>
@@ -214,7 +214,7 @@ const Destinos = () => {
 
                 <Col xs={12} md={12} lg={4} className="destinos-slider-container">
                     <Col xs={12} className="mt-4 mt-md-0">
-                        <h2 className="mb-2 text-center destinos-subtitle-three"> Cajamarca </h2>
+                        <h3 className="mb-2 text-center destinos-subtitle-three"> Cajamarca </h3>
                     </Col>
                     <Slider {...settings}>
                         {data3.map(posts =>

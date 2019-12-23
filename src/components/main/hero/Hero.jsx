@@ -57,7 +57,8 @@ import Button from 'react-bootstrap/Button'
 // ]
 
 
-const Destinos = () => {
+const Destinos = (props) => {
+
     return (
         <Container fluid>
             <Row className="mb-5 justify-content-around">
@@ -65,32 +66,32 @@ const Destinos = () => {
                     <Col className="p-0" xs={12}>
                         <div>
                             {/* <Slider {...settings}> */}
-                                <div>
-                                    <div className="d-flex justify-content-center w-100">
-                                        <Container className="hero-headings-container">
-                                            <Row>
-                                                <div className="hero-heading-row">
-                                                    <h1 className="hero-heading">Encuentra el destino perfecto</h1>
-                                                    <h1 className="hero-subheading">para un Año Nuevo increíble</h1>
-                                                    <Button className="hero-slider-btn whatsapp-icon d-flex align-items-center my-4 rounded-pill">
-                                                        <h5 className="mb-0 ml-1">Elige aquí</h5>
-                                                    </Button>
-                                                </div>
-                                            </Row>
-                                        </Container>
-                                        {/* <video className="d-block w-100" autoPlay crossOrigin="anonymous" loop>
+                            <div>
+                                <div className="d-flex justify-content-center w-100">
+                                    <Container className="hero-headings-container">
+                                        <Row>
+                                            <div className="hero-heading-row">
+                                                <h1 className="hero-heading">Encuentra el destino perfecto</h1>
+                                                <h1 className="hero-subheading">para un Año Nuevo increíble</h1>
+                                                <Button onClick={props.clicked} className="hero-slider-btn whatsapp-icon d-flex align-items-center my-4 rounded-pill">
+                                                    <h5 className="mb-0 ml-1">Elige aquí</h5>
+                                                </Button>
+                                            </div>
+                                        </Row>
+                                    </Container>
+                                    {/* <video className="d-block w-100" autoPlay crossOrigin="anonymous" loop>
                                             <source src="https://a0.muscache.com/v/15/ab/15ab6cff-e313-5437-bb51-255c1060b29e/15ab6cffe3135437bb51255c1060b29e_1500k_1.mp4?imformat=h265&amp;impolicy=high_quality" type="video/mp4; codecs=hevc" />
                                             <source src="https://a0.muscache.com/v/15/ab/15ab6cff-e313-5437-bb51-255c1060b29e/15ab6cffe3135437bb51255c1060b29e_1500k_1.mp4?impolicy=high_quality" type="video/mp4" />
                                         </video> */}
-                                        <img
-                                            height="450px"
-                                            className="d-block w-100"
-                                            src="https://picsum.photos/id/1022/1900/1600"
-                                            alt="First slide"
-                                        />
-                                    </div>
+                                    <img
+                                        height="450px"
+                                        className="d-block w-100"
+                                        src="https://picsum.photos/id/1022/1900/1600"
+                                        alt="First slide"
+                                    />
                                 </div>
-                                {/* <div>
+                            </div>
+                            {/* <div>
                                     <div className="d-flex justify-content-center w-100">
                                         <Container className="hero-headings-container">
                                             <Row>

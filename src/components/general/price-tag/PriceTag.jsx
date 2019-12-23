@@ -13,7 +13,7 @@ function PriceTag(props) {
                     <Col className="d-flex align-items-center price-tag-col">
                         <div>
                             <div className="price-tag-price">
-                                <h3 className={`price-tag-price-title ` + props.customClassTitle}> {props.price} </h3>
+                                <h4 className={`price-tag-price-title ` + props.customClassTitle}> {props.price} </h4>
                                 <p className="price-tag-price-sale text-center">Antes: <s>{props.sale}</s></p>
                             </div>
                         </div>
@@ -21,7 +21,7 @@ function PriceTag(props) {
                     <Col className="px-1 d-flex align-items-center price-flex-center">
                         <div className="price-tag-place">
                             <h4 className={`price-tag-place-title ` + props.customClassTitleTwo}>{props.title}</h4>
-                            <p className={`price-tag-place-days ` + props.customClassDays}>{props.days}</p>
+                            <h5 className={`price-tag-place-days ` + props.customClassDays}>{props.days}</h5>
                         </div>
                     </Col>
                     <Col className="price-tag-container-btn">

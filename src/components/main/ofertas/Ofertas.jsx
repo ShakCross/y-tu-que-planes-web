@@ -51,7 +51,7 @@ import data from 'data/ofertas.json'
 //     },
 // ]
 
-const Ofertas = () => {
+const Ofertas = (props) => {
 
     const prov = ["Amazonas", "Cajamarca", "Cerro de Pasco", "Cusco", "Huánuco", "Junín", "Piura"]
     const [filterProvince, setFilterProvince] = useState(false)
@@ -65,7 +65,7 @@ const Ofertas = () => {
 
     return (
         <>
-            <Container>
+            <Container ref={props.refered}>
                 <Row className="">
                     <Col xs={12} className="mt-5 mb-3">
                         <h2 className="my-4 text-center ofertas-title">Cierra el año 2019 con estas ofertas</h2>
