@@ -68,7 +68,7 @@ const Blog = () => {
     return (
         <Container>
             <Col className="p-0">
-                <h2 className="mb-4 text-center blog-title"> Blog Viajero </h2>
+                <h2 className="mb-4 text-center blog-title">  Lo que todo viajero debe saber </h2>
                 <Slider {...settings}>
                     {data.map(post =>
                         <Container key={post.id} className="py-3 px-1">

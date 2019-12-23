@@ -47,7 +47,7 @@ const Header = () => {
                             <a href="/">
                                 <img src={Search} alt="" />
                             </a>
-                            <a href="/" className="hidden-collapse" onClick={handleToggle}>
+                            <a href="#" className="hidden-collapse" onClick={handleToggle}>
                                 <i className="fa fa-bars"></i>
                             </a>
                         </div>
@@ -55,19 +55,19 @@ const Header = () => {
                     { toggle ? ('') : 
                     (<div className="toggle-menu hidden-lg">
                         <div className="menu-item-mobile no-border" >
-                            Destinos
+                            <a href="https://www.ytuqueplanes.com/destinos">Destinos</a>
                         </div>
                         <div className="menu-item-mobile">
-                            Ofertas
+                            <a href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                         </div>
                         <div className="menu-item-mobile">
-                            Experiencias
+                            <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>
                         </div>
                         <div className="menu-item-mobile">
-                            Rutas Cortas
+                            <a href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
                         </div>
                         <div className="menu-item-mobile">
-                            Guía Viajera
+                            <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
                         </div>
                     </div>) }
                 </Row>

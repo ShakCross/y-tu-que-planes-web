@@ -30,6 +30,12 @@
 .menu-item > a{
     text-decoration: none;   
 }
+.menu-item-mobile > a{
+    color: $white;   
+}
+.menu-item-mobile > a{
+    text-decoration: none;   
+}
 .menu-item:hover {
     background: #2e998f;
     cursor: pointer;
@@ -60,6 +66,9 @@
     width: 30px;
     height: 30px;
     border: solid 2px;
+}
+.hidden-collapse:hover{
+    text-decoration: none;
 }
 a.hidden-collapse > i {
     color: white;

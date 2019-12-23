@@ -161,7 +161,7 @@ const Destinos = () => {
         <Container>
             <Row>
                 <Col xs={12}>
-                    <h1 className="mb-5 text-center destinos-title"> Destinos más populares para esta fecha </h1>
+                    <h1 className="mb-5 text-center destinos-title">Destinos más populares para este fin de año</h1>
                 </Col>
             </Row>
             <Row className="mb-5 justify-content-around">
