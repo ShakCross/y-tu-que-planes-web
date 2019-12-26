@@ -1,3 +1,51 @@
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
 .slick-dots li button.hero-slider-button:before{
     color: white !important;
     font-size: 9px !important;
@@ -19,6 +67,20 @@
     bottom: 10%;
     position: absolute;
     // z-index: 99999;
+}
+.video{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-31%);
 }
 .hero-slider-btn {
     color: white;
@@ -63,7 +125,7 @@
     }
     .hero-headings-container{
         bottom: 17%; 
-        margin-left: 28px;
+        // margin-left: 28px;
     }
 
 }
@@ -73,14 +135,14 @@
         width: 639px;
     }
     .hero-slider-btn{
-        padding-left: 75px;
-        padding-right: 75px;
+        padding-left: 65px;
+        padding-right: 65px;
     }
     .hero-heading {
-        font-size: 44px;
+        font-size: 38px;
     }
     .hero-subheading {
-        font-size: 42px;
+        font-size: 36px;
     }
     .hero-headings-container{
         bottom: 16%; 

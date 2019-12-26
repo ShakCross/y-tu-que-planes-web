@@ -38,31 +38,6 @@ const settings = {
     ]
 };
 
-
-// const data = [
-//     {
-//         title: "Trekking en Z - EL Baúl de Antonia",
-//         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
-//         img: "https://picsum.photos/id/1024/200/200"
-//     },
-//     {
-//         title: "Trekking en Z - EL Baúl de Antonia",
-//         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
-//         img: "https://picsum.photos/id/1025/200/200"
-//     },
-//     {
-//         title: "Trekking en Z - EL Baúl de Antonia",
-//         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
-//         img: "https://picsum.photos/id/1026/200/200"
-//     },
-//     {
-//         title: "Trekking en Z - EL Baúl de Antonia",
-//         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae harum sequi.",
-//         img: "https://picsum.photos/id/1027/200/200"
-//     }
-// ]
-
-
 const Blog = () => {
     
     return (
@@ -75,7 +50,7 @@ const Blog = () => {
                             <div className="card card-slider">
                                 <Row>
                                     <Col xl={5} lg={5} md={5} sm={5} xs={5} className="pr-0 xxs">
-                                        <img className="card-image" src={post.imagen} alt="Imagen"/>
+                                        <img className="card-image" src={post.imagen} alt={post.alt}/>
                                     </Col>
                                     <Col md={7} xs={7} className="p-3 xxs">
                                         <div className="card-block px-3">
