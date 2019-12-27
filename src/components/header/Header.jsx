@@ -24,7 +24,7 @@ const Header = () => {
                             <a href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                         </div>
                         <div className="menu-item">
-                            <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>                          
+                            <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>
                         </div>
                         <div className="menu-logo">
                             <a href="https://www.ytuqueplanes.com/"><img alt="Logo-Ytuqueplanes" src={Logo} /></a>
@@ -33,9 +33,9 @@ const Header = () => {
                             <a href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
                         </div>
                         <div className="menu-item">
-                            <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>                          
+                            <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
                         </div>
-                        <div style={{cursor: "not-allowed"}} className="menu-item-icons">
+                        <div style={{ cursor: "not-allowed" }} className="menu-item-icons">
                             <img className="header-icon-bg" src={Alert} alt="icono-alerta" />
                             <img src={User} alt="icono-usuario" />
                             <img className="ml-11" src={Search} alt="icono-buscar" />
@@ -52,24 +52,24 @@ const Header = () => {
                             </a>
                         </div>
                     </nav>
-                    { toggle ? ('') : 
-                    (<div className="toggle-menu hidden-lg">
-                        <div className="menu-item-mobile no-border" >
-                            <a href="https://www.ytuqueplanes.com/destinos">Destinos</a>
-                        </div>
-                        <div className="menu-item-mobile">
-                            <a href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
-                        </div>
-                        <div className="menu-item-mobile">
-                            <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>
-                        </div>
-                        <div className="menu-item-mobile">
-                            <a href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
-                        </div>
-                        <div className="menu-item-mobile">
-                            <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
-                        </div>
-                    </div>) }
+                    {toggle ? ('') :
+                        (<div className="toggle-menu hidden-lg">
+                            <div className="menu-item-mobile no-border" >
+                                <a href="https://www.ytuqueplanes.com/destinos">Destinos</a>
+                            </div>
+                            <div className="menu-item-mobile">
+                                <a href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
+                            </div>
+                            <div className="menu-item-mobile">
+                                <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>
+                            </div>
+                            <div className="menu-item-mobile">
+                                <a href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
+                            </div>
+                            <div className="menu-item-mobile">
+                                <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
+                            </div>
+                        </div>)}
                 </Row>
             </Container>
         </div>
