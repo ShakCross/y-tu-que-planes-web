@@ -1,0 +1,23 @@
+[
+    {
+        "id": 16,
+        "provincia": "Cusco",
+        "slug": "ano-nuevo-en-cusco",
+        "nombre": "Año Nuevo en Cusco",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/tren-cusco.jpg",
+        "porcentaje": "20%",
+        "descripcion": "Peruvian Shades",
+        "duracion": "03 Días / 02 Noches",
+        "precio": "1359",
+        "antes": "1699",
+        "redirect_url": "https://www.ytuqueplanes.com/oferta/6600_ano-nuevo-en-cusco",
+        "iconos": [
+            {
+                "imagen": "https://www.ytuqueplanes.com/img/icons/historia-uno.png"
+            },
+            {
+                "imagen": "https://www.ytuqueplanes.com/img/icons/naturaleza-uno.png"
+            }
+        ]
+    }
+]

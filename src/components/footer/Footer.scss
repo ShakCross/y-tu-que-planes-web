@@ -5,14 +5,23 @@
     font-weight: bold;
     color: $dark-grey;
 }
-.footer-phone {
-    // font-family: ClanOffc;
-    font-size: 17px;
-    font-weight: bold;
-    align-items: center;
+ul.footer-li.text-center.text-md-left > a{
+    font-family: ClanOffc;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    line-height: 45px;
+    color: $transparent-grey;
 }
 .whatsapp-icon{
     color: $green;
+}
+h5.mb-0.ml-1.fs-14.footer-asis > a {
+    color: $white;
+}
+h5.mb-0.ml-1.fs-14.footer-asis > a:hover {
+    color: $white;
+    text-decoration: none;
 }
 .footer-asis{
     padding-top: 3px;
@@ -23,7 +32,12 @@
     border-color: #84c131;
     border-radius: 20px;
     font-family: BreePeruLight;
-    }
+}
+.btn-green.focus, .btn-green:focus{
+    background-color: #84c131;
+    border-color: #84c131;
+    box-shadow: 0 0 0 0.2rem rgba(63, 255, 38, 0.562) !important;
+}
 .btn-green:hover    {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25) !important;
@@ -35,22 +49,11 @@
 .btn-green:not(:disabled):not(.disabled).active:focus, .btn-green:not(:disabled):not(.disabled):active:focus, .show>.btn-green.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25);
 }
-.btn-green.focus, .btn-green:focus {
-    color: #fff;
-    box-shadow: 0 0 0 0.2rem rgba(59, 180, 43, 0.25);
-}
+
 .btn-green:not(:disabled):not(.disabled).active, .btn-green:not(:disabled):not(.disabled):active, .show>.btn-green.dropdown-toggle {
     color: #fff;
     background-color: #84c131;
     border-color: #84c131;
-}
-.footer-li{
-    font-family: ClanOffc;
-    font-size: 12px;
-    font-weight: normal;
-    letter-spacing: 0.3px;
-    line-height: 45px;
-    color: $transparent-grey;
 }
 .ayuda{
     font-family: ClanOffcNews;
@@ -160,7 +163,16 @@
     font-family: ClanOffc;
     font-size: 12px;
     font-weight: 700;
-    color: $transparent-grey;
+    color: $transparent-grey; 
+}
+h6.subfooter-links.text-center.text-xl-left > a{
+    font-family: ClanOffc;
+    font-size: 12px;
+    font-weight: 700;
+    color: $transparent-grey; 
+}
+h6.subfooter-links.text-center.text-xl-left > a:hover{
+    text-decoration: none;
 }
 .alter-color{
     color: rgba(36, 36, 36, 0.5);

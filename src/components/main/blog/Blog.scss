@@ -12,6 +12,10 @@
     height: 100%;
     width: 100%;
 }
+
+div.p-0.col > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:before{
+    color: $dark-yellow
+}
 .blog-title{
     font-family: BreePeru;
 }
@@ -36,6 +40,9 @@
     color: $grey;
     text-decoration: underline;
 }
+.blog-card-link:hover{
+    color: $purple;
+}
 .slick-dots li button:before{
     font-size: 13px !important;
     color: $dark-grey !important;
@@ -57,7 +64,7 @@
 @media only screen and (min-width: 1200px){
     .card-image {
         width: 100% !important;
-        height: fit-content;
+        // height: fit-content;
     }
 }
 

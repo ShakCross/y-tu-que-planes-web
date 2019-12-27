@@ -5,7 +5,6 @@ import Logo from 'assets/img/ytqp-logo.png';
 import Alert from 'assets/img/alert_top.png';
 import User from 'assets/img/user.png';
 import Search from 'assets/img/search.png';
-import Link from 'react-router-dom/Link'
 
 
 const Header = () => {
@@ -19,58 +18,58 @@ const Header = () => {
                 <Row className="justify-content-center header-row">
                     <nav className="header-nav d-flex align-items-center justify-content-between">
                         <div className="menu-item" >
-                            Destinos
+                            <a href="https://www.ytuqueplanes.com/destinos">Destinos</a>
                         </div>
                         <div className="menu-item">
-                            Ofertas
+                            <a href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                         </div>
                         <div className="menu-item">
-                            Experiencias
+                            <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>
                         </div>
                         <div className="menu-logo">
-                            <Link to='/' ><img alt="" src={Logo} /></Link>
+                            <a href="https://www.ytuqueplanes.com/"><img alt="Logo-Ytuqueplanes" src={Logo} /></a>
                         </div>
                         <div className="menu-item">
-                            Rutas Cortas
+                            <a href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
                         </div>
                         <div className="menu-item">
-                            Guía Viajera
+                            <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
                         </div>
-                        <div className="menu-item-icons">
-                            <img className="header-icon-bg" src={Alert} alt="" />
-                            <img src={User} alt="" />
-                            <img className="ml-11" src={Search} alt="" />
+                        <div style={{ cursor: "not-allowed" }} className="menu-item-icons">
+                            <img className="header-icon-bg" src={Alert} alt="icono-alerta" />
+                            <img src={User} alt="icono-usuario" />
+                            <img className="ml-11" src={Search} alt="icono-buscar" />
                         </div>
                         <div className="align-items-center hidden-lg">
                             <a href="/">
-                                <img src={Alert} alt="" />
+                                <img src={Alert} alt="icono-alerta" />
                             </a>
                             <a href="/">
-                                <img src={Search} alt="" />
+                                <img src={Search} alt="icono-buscar" />
                             </a>
-                            <a href="/" className="hidden-collapse" onClick={handleToggle}>
-                                <i class="fa fa-bars"></i>
+                            <a href="#" className="hidden-collapse" onClick={handleToggle}>
+                                <i className="fa fa-bars"></i>
                             </a>
                         </div>
                     </nav>
-                    { toggle ? ('') : 
-                    (<div className="toggle-menu hidden-lg">
-                        <div className="menu-item-mobile no-border" >
-                            Destinos
-                        </div>
-                        <div className="menu-item-mobile">
-                            Ofertas
-                        </div>
-                        <div className="menu-item-mobile">
-                            Experiencias
-                        </div>
-                        <div className="menu-item-mobile">
-                            Rutas Cortas
-                        </div>
-                        <div className="menu-item-mobile">
-                            Guía Viajera
-                        </div>
-                    </div>) }
+                    {toggle ? ('') :
+                        (<div className="toggle-menu hidden-lg">
+                            <div className="menu-item-mobile no-border" >
+                                <a href="https://www.ytuqueplanes.com/destinos">Destinos</a>
+                            </div>
+                            <div className="menu-item-mobile">
+                                <a href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
+                            </div>
+                            <div className="menu-item-mobile">
+                                <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>
+                            </div>
+                            <div className="menu-item-mobile">
+                                <a href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
+                            </div>
+                            <div className="menu-item-mobile">
+                                <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
+                            </div>
+                        </div>)}
                 </Row>
             </Container>
         </div>

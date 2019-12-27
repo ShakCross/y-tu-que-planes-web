@@ -2,6 +2,7 @@
     font-size: 34px;
     font-weight: bold;
     font-family: BreePeru;
+    color: $dark-yellow;
 }
 .destinos-subtitle-one{
     font-size: 30px;
@@ -65,9 +66,9 @@ div.destinos-slider-container.col-lg-4.col-md-12.col-12 div.slick-slider.slick-i
 }
 @media only screen and (max-width: 1199px){
     .destinos-price-tag-btn{
-        padding-left: 7px !important;
-        padding-right: 7px !important;
-        font-size: 12px !important;
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+        font-size: 10px !important;
     }
     .ytqp-slick-next {
         right: 4px;
