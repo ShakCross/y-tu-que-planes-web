@@ -57,7 +57,9 @@ const Ofertas = (props) => {
     const [filterProvince, setFilterProvince] = useState(false)
     const handleFilterProvince = () => setFilterProvince ({filterProvince:true})
     const selectRef = useRef();
-    const filtered = filterProvince ? x => x.provincia === selectRef.current.value : x => x.provincia
+    const filtered = filterProvince ? 
+    selectRef.current.value === 'Todos' ? x => x.provincia : 
+    x => x.provincia === selectRef.current.value : x => x.provincia
 
     const [showMore, setShowMore] = useState(false)
     const handleShowMore = () => setShowMore({showMore: true})
@@ -78,7 +80,7 @@ const Ofertas = (props) => {
                         </Col>
                         <Col xs={12} lg={4}>
                             <select ref={selectRef} className="form-control ofertas-select my-4 my-lg-0">
-                                <option selected="selected" disabled>Departamentos</option>
+                                <option selected="selected">Todos</option>
                                 {prov.map( provincias => 
                                     <option key={provincias} value={provincias}>{provincias}</option>
                                 )}
