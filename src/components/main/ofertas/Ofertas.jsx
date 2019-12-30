@@ -78,7 +78,7 @@ const Ofertas = (props) => {
                         </Col>
                         <Col xs={12} lg={4}>
                             <select ref={selectRef} className="form-control ofertas-select my-4 my-lg-0">
-                                <option defaultValue disabled>Departamentos</option>
+                                <option selected="selected" disabled>Departamentos</option>
                                 {prov.map( provincias => 
                                     <option key={provincias} value={provincias}>{provincias}</option>
                                 )}
