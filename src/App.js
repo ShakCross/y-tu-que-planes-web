@@ -1,14 +1,19 @@
-import React from 'react';
-import Routes from './routes'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import 'App.scss'
+import React from "react";
+import { hot } from "react-hot-loader/root";
+import styles from "./app.module";
+import jonpreece from "./images/jonpreece-square";
+import Header from './components/Header/Header'
+import 'styles/global.scss'
+import 'styles/normalize.scss'
 
 function App() {
   return (
-      <Routes/>
+    <>
+      <Header/>
+      {/* <img src={jonpreece} alt="Jon Preece" /> */}
+      <h2 className={styles.red}>This is our React application!</h2>
+    </>
   );
 }
 
-export default App;
+export default hot(App);
