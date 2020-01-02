@@ -1,35 +1,46 @@
 import React from 'react'
-import HeaderStyles from './header.module.scss';
+import styles from './header.module.scss';
+import Logo from 'assets/img/ytqp-2.png'
+import NewsIcon from 'assets/img/news.svg'
+import BellIcon from 'assets/img/campana.svg'
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
     return (
-        <nav className={HeaderStyles.row}>
-            <div className={HeaderStyles.row}>
-                LOGO
+        <nav className={styles.wrapper}>
+            <div className={styles.logo}>
+                <img src={Logo} alt="" />
             </div>
-            <div className={HeaderStyles.row}>
+            <div className={styles.main}>
                 <div>
-                    <a href="">Ofertas</a>
+                    <a className={styles.main__link} href="">Ofertas</a>
                 </div>
                 <div>
-                    <a href="">Destinos</a>
+                    <a className={styles.main__link} href="">Destinos</a>
                 </div>
                 <div>
-                    <a href="">Rutas cortas</a>
+                    <a className={styles.main__link} href="">Rutas cortas</a>
                 </div>
                 <div>
-                    <a href="">Blog Viajero</a>
+                    <a className={styles.main__link} href="">Blog Viajero</a>
                 </div>
             </div>
-            <div className={HeaderStyles.row}>
+            <div className={styles.icons}>
                 <div>
-                    ITEM1
+                    <img src={NewsIcon} alt="" />
+                </div>
+                <div className={styles.searchIcon}>
+                    <FontAwesomeIcon icon={faSearch} />
                 </div>
                 <div>
-                    ITEM2
+                    <img src={BellIcon} alt="" />
                 </div>
-                <div>
-                    ITEM3
+                <div className={styles.hamburguer}>
+                    <div className={styles.hamburguer__icon}>
+                        <FontAwesomeIcon icon={faBars} />
+                    </div>
                 </div>
             </div>
         </nav>

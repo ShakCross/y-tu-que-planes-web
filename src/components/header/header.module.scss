@@ -1,4 +1,4 @@
-.row {
+.wrapper {
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12,8 +12,72 @@
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -0.5rem;
-    margin-left: -0.5rem;
-    background-color: $yellow;
+    justify-content: center;
+    background-color: $default-background;
+    height: 75px;
+    opacity: 0.95;
   }
-  
+.logo{
+  display: flex;
+    flex-basis: 14%;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+  display: flex;
+  flex-basis: 49%;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  flex-basis: 22%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main__link{
+  font-family: ClanOffcNews;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: $grey;
+}
+.searchIcon{
+  font-size: 28px;
+  color: $grey;
+}
+.hamburguer{
+  display: none;
+  border: solid 1px;
+  font-size: 24px;
+  border-radius: 43px;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-color: $transparent-dark-grey;
+  color: $grey;
+}
+.hamburguer__icon{
+  position: relative;
+    top: 8px;
+    left: 11px;
+}
+@include respond-to('mobile') {
+  .main{
+    display: none;
+  }
+  .logo{
+    flex-basis: 40%;
+    justify-content: flex-start;
+  }
+  .logo > img {
+    width: 50px;
+  }
+  .icons{
+    flex-basis: 50%;
+  }
+  .hamburguer{
+    display: inline-block;
+  }
+}
+

@@ -1,0 +1,28 @@
+.wrapper {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: $default-background;
+    height: 302px;
+    opacity: 0.95;
+  }
+.informacion{
+    flex-basis: 20%;
+}
+.asistencia{
+    flex-basis: 20%;
+}
+.suscribete{
+    flex-basis: 35%;
+}

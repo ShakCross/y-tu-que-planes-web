@@ -1,14 +1,22 @@
 /* Global variables
 ========================================================================== */
 
-$font-heading: 'Bodoni 72 Book', sans-serif;
-$font-body-medium: 'Hind SemiBold', -apple-system, sans-serif;
-$font-body: 'Hind Regular', -apple-system, sans-serif;
-
-$black: #000e1b;
-$grey: #8d939f;
-$grey-light: lighten(#8d939f, 20);
-$blue: #6caeff;
 $white: #ffffff;
-$green: #006630;
+$black:#000000;
+
+$dark-grey: #636363;
+$grey: #adafaf;
+$transparent-grey: rgba(0, 0, 0, 0.5);
+$transparent-dark-grey: rgba(215, 215, 215, 0.5);
+
+$dark-yellow: #f0b127;
 $yellow: #fed118;
+$purple: #811063;
+$dark-blue: #2b2b6f;
+$sky-blue: #3ba8fc;
+$blue: #0e70b9;
+$pale-green: #33aba0;
+$green: #84c131;
+$red: #e13b3d;
+
+$default-background: #f9f9f9;

@@ -1,10 +1,6 @@
-/* Global styles
-========================================================================== */
-
 html {
   box-sizing: border-box;
 }
-
 *,
 *:before,
 *:after {
@@ -13,23 +9,19 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
-
 .clearfix:after {
   visibility: hidden;
   display: block;
-  content: '';
+  content: "";
   clear: both;
   height: 0;
 }
-
 .show {
   display: block;
 }
-
 .show-flex {
   display: flex;
 }
-
 h1,
 h2,
 h3,
@@ -38,23 +30,19 @@ h5,
 h6 {
   margin: 0;
 }
-
 ul,
 ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 p {
   margin: 0;
 }
-
 a {
   display: inline-block;
   text-decoration: none;
 }
-
 img {
   width: auto;
   display: block;
