@@ -6,7 +6,8 @@ import Home from './pages/Home'
 const Routes = () => {
     return (
         <>
-            <Route exact path='/ofertas-fin-de-ano' component={Findeano} />
+            <Route exact path='/' component={Findeano} /> 
+            {/* <Route exact path='/ofertas-fin-de-ano' component={Findeano} /> */}
             <Route exact path='/home' component={Home} />
         </>
 
