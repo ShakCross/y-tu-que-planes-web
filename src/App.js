@@ -1,5 +1,4 @@
 import React from "react";
-import { hot } from "react-hot-loader/root";
 import Routes from './routes'
 import 'styles/global.scss'
 import 'styles/normalize.scss'
@@ -12,4 +11,4 @@ function App() {
   );
 }
 
-export default hot(App);
+export default App;

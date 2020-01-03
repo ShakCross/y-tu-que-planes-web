@@ -16,13 +16,65 @@
     background-color: $default-background;
     height: 302px;
     opacity: 0.95;
-  }
-.informacion{
+}
+
+.informacion {
     flex-basis: 20%;
 }
-.asistencia{
+
+.asistencia {
     flex-basis: 20%;
 }
-.suscribete{
+
+.suscribete {
     flex-basis: 35%;
+}
+
+.perulogos {
+    display: flex;
+}
+
+.heading {
+    font-family: ClanOffc;
+    font-size: 14px;
+    font-weight: bold;
+    color: $dark-grey;
+}
+
+.list {
+    font-family: ClanOffc;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    line-height: 45px;
+    display: inline-grid;
+}
+
+.list__link {
+    color: $transparent-grey;
+}
+
+.button_ws {
+    display: flex;
+    color: white;
+    background-color: #84c131;
+    border-color: #84c131;
+    border-radius: 20px;
+    font-family: BreePeruLight;
+    font-size: 14px;
+}
+
+.ayuda {
+    font-family: ClanOffcNews;
+    font-size: 14px;
+    font-weight: 600;
+    color: $dark-grey
+}
+
+.ayuda_p {
+    font-family: ClanOffc;
+    font-weight: 400;
+    font-size: 14px;
+    color: $transparent-grey;
+    line-height: 25px;
 }

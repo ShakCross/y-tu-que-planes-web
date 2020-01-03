@@ -1,0 +1,8 @@
+.wrapper {
+  display: flex;
+  width: 67px;
+  height: 17px;
+  font-family: ClanOffc;
+  font-size: 13px;
+  font-weight: 500;
+}

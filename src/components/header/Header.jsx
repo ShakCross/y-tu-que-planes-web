@@ -34,7 +34,10 @@ const Header = () => {
                 <div className={styles.searchIcon}>
                     <FontAwesomeIcon icon={faSearch} />
                 </div>
-                <div>
+                <div className={styles.bellContainer}>
+                    <span className={styles.circle}>
+                        <span className={styles.circle__tick}>2</span>
+                    </span>
                     <img src={BellIcon} alt="" />
                 </div>
                 <div className={styles.hamburguer}>

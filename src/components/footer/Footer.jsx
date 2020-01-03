@@ -1,36 +1,39 @@
 import React from 'react'
 import styles from './footer.module.scss';
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faSpotify } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faWhatsapp, faTwitter, faInstagram , faYoutube, faSpotify } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import iperu from 'assets/img/iperu.png'
+import promperu from 'assets/img/promperu.png'
+import marcaperu from 'assets/img/perumarca.png'
+import SubscribeInput from 'components/footer/subscribe-input/SubscribeInput'
 
 const Footer = () => {
     return (
         <footer className={styles.wrapper}>
             <div className={styles.informacion}>
-                <h5 className="">
+                <h5 className={styles.heading}>
                     Información para tu viaje
                 </h5>
-                <ul className="">
-                    <a target="_blank" rel="noopener noreferrer" href="http://export.promperu.gob.pe/emailing/2019/feb/pdf/feriados_2019.pdf"><li>Lista de Feriados</li></a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.senamhi.gob.pe/"><li>Clima y Pronóstico del Tiempo</li></a>
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.sernanp.gob.pe/"><li>Áreas Naturales Protegidas</li></a>
+                <ul className={styles.list}>
+                    <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="http://export.promperu.gob.pe/emailing/2019/feb/pdf/feriados_2019.pdf"><li>Lista de Feriados</li></a>
+                    <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="https://www.senamhi.gob.pe/"><li>Clima y Pronóstico del Tiempo</li></a>
+                    <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="http://www.sernanp.gob.pe/"><li>Áreas Naturales Protegidas</li></a>
                 </ul>
             </div>
             <div className={styles.asistencia}>
-                <h5 className="">
-                    <a target="_blank" rel="noopener noreferrer" href="https://wa.me/051944492314">
-                        Asistencia al viajero
-                    </a>
-                </h5>
-                <h5 className="">
-                    ¿Necesitas Ayuda?
+                <button className={styles.button_ws}>
+                <FontAwesomeIcon icon={faWhatsapp}/>
+                    <h5 className="mb-0 ml-1 fs-14 footer-asis">
+                        <a target="_blank" rel="noopener noreferrer" href="https://wa.me/051944492314">
+                            Asistencia al viajero
+                        </a>
                     </h5>
-                <p className="">Escríbenos las 24 horas</p>
-                <h5 className="">Síguenos</h5>
+                </button>
+                <h5 className={styles.ayuda}>
+                    ¿Necesitas Ayuda?
+                </h5>
+                <p className={styles.ayuda_p}>Escríbenos las 24 horas</p>
+                <h5 className={styles.heading}>Síguenos</h5>
                 <ul className="">
                     <FontAwesomeIcon icon={faFacebookF} />
                     <FontAwesomeIcon icon={faTwitter} />
@@ -49,9 +52,15 @@ const Footer = () => {
                 </ul>
             </div>
             <div className={styles.suscribete}>
-                <h5 className="">
+                <h5 className={styles.heading}>
                     ¡Suscríbete para recibir nuevas ofertas y novedades!
                 </h5>
+                <SubscribeInput />
+                <div className={styles.perulogos}>
+                    <img src={iperu} alt="" />
+                    <img src={promperu} alt="" />
+                    <img src={marcaperu} alt="" />
+                </div>
             </div>
         </footer>
     )

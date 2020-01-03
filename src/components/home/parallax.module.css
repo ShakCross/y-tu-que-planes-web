@@ -1,0 +1,42 @@
+.wrapper {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 328px;
+  background: url("https://i.picsum.photos/id/155/3264/2176.jpg");
+  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.wrapper::after {
+  background-blend-mode: soft-light;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(15, 118, 182, 0.6),
+    rgba(15, 118, 182, 0.6)
+  );
+  width: 100%;
+  height: 328px;
+  position: absolute;
+  content: "";
+  z-index: 1;
+}
+.ico {
+  flex-basis: 16%;
+  z-index: 2;
+}
+.ico_big {
+  flex-basis: 15%;
+  z-index: 2;
+}
