@@ -1,0 +1,19 @@
+.wrapper {
+  width: 205px;
+  height: 329px;
+  box-shadow: 7px 8px 10px 0 rgba(51, 171, 160, 0.21);
+  background-color: white;
+  border-bottom-right-radius: 24px;
+  padding-right: 20px;
+  margin-left: 0px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px 15px 0px 15px;
+  margin: 0px 10px 15px 10px;
+}
+.inner__wrapper {
+  display: flex;
+  justify-content: center;
+}

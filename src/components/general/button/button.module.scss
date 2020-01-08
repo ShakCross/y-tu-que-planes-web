@@ -8,7 +8,15 @@
     min-height: 53px;
     padding: 16px 60px 16px 60px;
     border-radius: 24px;
+    cursor: pointer;
     background-color: $pale-green;
+}
+
+.container_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .wrapper_green {
@@ -21,6 +29,7 @@
     min-height: 53px;
     padding: 16px 60px 16px 60px;
     border-radius: 24px;
+    cursor: pointer;
     background-color: $green;
 }
 
@@ -32,7 +41,14 @@
     border: none;
     min-width: 217px;
     min-height: 53px;
-    padding: 16px 60px 16px 60px;
-    border-radius: 24px;
+    padding: 19px 60px 19px 60px;
+    border-radius: 28px;
+    cursor: pointer;
     background-color: $yellow;
+}
+
+@include respond-to('xs') {
+    .calendar_button {
+        padding: 18px 17px 16px 17px;
+    }
 }

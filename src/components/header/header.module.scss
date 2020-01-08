@@ -15,7 +15,6 @@
     justify-content: center;
     background-color: $default-background;
     height: 75px;
-    opacity: 0.95;
 }
 
 .logo {
@@ -96,7 +95,7 @@
     position: relative;
 }
 
-@include respond-to('mobile') {
+@include respond-to('sm') {
     .main {
         display: none;
     }

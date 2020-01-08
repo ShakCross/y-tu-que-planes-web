@@ -1,0 +1,21 @@
+.wrapper {
+  box-sizing: border-box;
+  min-height: 621px;
+  background-repeat: no-repeat;
+  background: url("../../assets/img/bg-date.jpeg");
+  background-size: cover;
+  padding: 20px 0px 20px 0px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 78%;
+  flex-wrap: wrap;
+}
+.show_slider {
+  display: none;
+}

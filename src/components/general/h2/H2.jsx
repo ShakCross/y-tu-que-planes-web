@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from './h2.module.scss'
 
-const H2 = ({title}) => {
+const H2 = ({ title }) => {
     return (
-        <h2 className={styles.wrapper}>
-            {title}
-        </h2>
+        <div className={styles.inner__wrapper}>
+            <h2 className={styles.wrapper}>
+                {title}
+            </h2>
+        </div>
     )
 }
 H2.defaultProps = {

@@ -9,7 +9,7 @@
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
-  flex-direction: row;
+  flex-direction: column;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: center;
@@ -37,6 +37,6 @@
   z-index: 2;
 }
 .ico_big {
-  flex-basis: 15%;
+  flex-basis: 57%;
   z-index: 2;
 }

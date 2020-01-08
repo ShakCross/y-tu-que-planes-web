@@ -1,44 +1,79 @@
 .wrapper {
+    background-color: $default-background;
+    min-height: 260px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inner__wrapper {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__links,
+.wrapper__help {
+    flex-direction: column;
+    justify-content: center;
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
-    flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: center;
-    background-color: $default-background;
-    height: 302px;
-    opacity: 0.95;
-}
-
-.informacion {
-    flex-basis: 20%;
-}
-
-.asistencia {
-    flex-basis: 20%;
-}
-
-.suscribete {
-    flex-basis: 35%;
-}
-
-.perulogos {
     display: flex;
 }
 
-.heading {
-    font-family: ClanOffc;
-    font-size: 14px;
-    font-weight: bold;
-    color: $dark-grey;
+.inner_wrapper__links,
+.inner_wrapper__help {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.wrapper__subscribe {
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: flex;
+    flex-basis: 50%;
+}
+
+.inner_wrapper__subscribe {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.wrapper__perulogos {
+    display: flex;
+}
+
+.inner_wrapper__perulogos {
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+}
+
+.h5 {
+    height: 20%;
 }
 
 .list {
@@ -46,22 +81,20 @@
     font-size: 12px;
     font-weight: normal;
     letter-spacing: 0.3px;
-    line-height: 45px;
-    display: inline-grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65%;
 }
 
 .list__link {
     color: $transparent-grey;
 }
 
-.button_ws {
+.social_list {
     display: flex;
-    color: white;
-    background-color: #84c131;
-    border-color: #84c131;
-    border-radius: 20px;
-    font-family: BreePeruLight;
-    font-size: 14px;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 .ayuda {
@@ -76,5 +109,39 @@
     font-weight: 400;
     font-size: 14px;
     color: $transparent-grey;
-    line-height: 25px;
+    margin-top: 5px;
+}
+
+.button_ws {
+    display: flex;
+    color: white;
+    background-color: #84c131;
+    border-color: #84c131;
+    border-radius: 20px;
+    font-family: BreePeruLight;
+    font-size: 23px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 192px;
+    padding: 7px 20px;
+    border-radius: 17.5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button__div {
+    font-size: 14px;
+    color: white;
+}
+
+@include respond-to('lg') {
+    .inner__wrapper {
+        flex-direction: column;
+    }
+    .inner_wrapper__links,
+    .inner_wrapper__help {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }

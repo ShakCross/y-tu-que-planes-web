@@ -1,6 +1,20 @@
-.wrapper {
+.inner__wrapper {
     font-family: ClanOffc;
     font-size: 25px;
     font-weight: bold;
     color: $dark-grey;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+@include respond-to('xs') {
+    .wrapper {
+        margin-bottom: 20px;
+    }
 }

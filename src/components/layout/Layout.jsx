@@ -4,7 +4,7 @@ import Footer from 'components/footer/Footer';
 
 const Layout = ({children}) => {
     return (
-        <div>
+        <div style={{backgroundColor: 'white'}}>
             <Header />
             <main role="main">{children}</main>
             <Footer />

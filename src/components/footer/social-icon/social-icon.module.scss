@@ -1,0 +1,61 @@
+.icon {
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    color: white;
+    border-radius: 50px;
+    width: 27px;
+    height: 27px;
+}
+
+.fb {
+    background: $blue;
+}
+
+.tw {
+    background: $sky-blue;
+}
+
+.in {
+    background: $grey;
+}
+
+.you {
+    background: $red;
+}
+
+.spo {
+    background: $green;
+}
+
+.fb_svg {
+    position: relative;
+    top: 5px;
+}
+
+.tw_svg {
+    position: relative;
+    top: 5px;
+    left: 0.01em;
+}
+
+.in_svg {
+    position: relative;
+    top: 4px;
+    font-size: 18px;
+    right: 0.3px;
+}
+
+.you_svg {
+    position: relative;
+    top: 5px;
+}
+
+.spo_svg {
+    position: relative;
+    top: 5px;
+    left: 0.0215em;
+}

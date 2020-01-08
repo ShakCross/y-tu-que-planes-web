@@ -1,21 +1,27 @@
 import React from 'react'
 import styles from './button.module.scss'
 
-const Button = ({title, green, yellow }) => {
+const Button = ({ title, green, yellow, xclassname }) => {
     return (
-        <button 
-            className={`
-                ${green ? styles.wrapper_green : styles.wrapper } 
-                ${yellow ? styles.wrapper_yellow : styles.wrapper}
+        <div className={styles.container_button}>
+            <button
+                className={`
+                ${green ? styles.wrapper_green : styles.wrapper} 
+                ${yellow ? styles.wrapper_yellow : styles.wrapper} 
+                ${styles[xclassname]}
             `}
-        >
-            {title}
-        </button>
+            >
+                {title}
+            </button>
+        </div>
     )
 }
 
 Button.defaultProps = {
     title: 'Más Información',
+    green: '',
+    yellow: '',
+    xclassname: ''
 };
 
 export default Button
