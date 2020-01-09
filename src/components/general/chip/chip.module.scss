@@ -3,13 +3,14 @@
     width: 96px;
     height: 25px;
     border-radius: 9px;
-    font-family: ClanOffc;
+    font-family: ClanOffcNews;
     font-size: 13px;
     font-weight: 500;
-    color: $pale-green;
+    color: $pale-blue;
     background-color: $default-background-t;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    margin-left: -6px;
 }
 
 .wrapper_no_bg {
@@ -17,17 +18,23 @@
     width: 96px;
     height: 25px;
     border-radius: 9px;
-    font-family: ClanOffc;
+    font-family: ClanOffcNews;
     font-size: 13px;
     font-weight: 500;
-    color: $pale-green;
+    color: $pale-blue;
     background-color: transparent;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    margin-left: -6px;
 }
 
 .title {
     font-size: 13px;
     margin-top: 3px;
     margin-right: 3px;
+    margin-left: 3px;
+}
+
+.icon {
+    font-size: 15px;
 }

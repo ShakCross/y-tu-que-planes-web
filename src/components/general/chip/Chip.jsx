@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Chip = ({ title, filled }) => {
     return (
         <div className={`${filled ? styles.wrapper : styles.wrapper_no_bg}`}>
-            <FontAwesomeIcon icon={faMapMarkerAlt} />
+            <FontAwesomeIcon className={styles.icon} icon={faMapMarkerAlt} />
             <h6 className={styles.title}>{title}</h6>
         </div>
     )

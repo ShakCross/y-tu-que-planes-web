@@ -47,6 +47,10 @@
     background-color: $yellow;
 }
 
+.ofertas_button {
+    padding: 19px 35px;
+}
+
 @include respond-to('xs') {
     .calendar_button {
         padding: 18px 17px 16px 17px;

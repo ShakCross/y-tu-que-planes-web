@@ -1,0 +1,29 @@
+.wrapper__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 35%;
+}
+
+.wrapper__content {
+    display: flex;
+    align-items: center;
+    flex-basis: 65%;
+}
+
+.inner_wrapper__content {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.span {
+    font-family: ClanOffcLight;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: $dark-grey;
+    max-width: 267px;
+    margin-top: -10px;
+}
