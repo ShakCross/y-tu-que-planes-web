@@ -43,7 +43,6 @@
 }
 
 .wrapper {
-    // background: url() center/cover no-repeat;
     background-color: #fff;
     width: 231px;
     height: 354px;
@@ -51,6 +50,7 @@
     position: relative;
     overflow: hidden;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
 .data {
@@ -66,10 +66,6 @@
     transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
-// .wrapper:hover .data {
-//     -webkit-transform: translateY(0);
-//     transform: translateY(0);
-// }
 .span {
     width: 217px;
     height: 42px;
@@ -84,11 +80,64 @@
     top: 0;
     left: 0;
     background-color: $dark-yellow;
-    color: $dark-blue;
-    padding: 0.8em;
+    padding: 20px 1px 1px 11px;
     width: 85.2px;
     height: 62.4px;
     border-radius: 12px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+
+.date__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.date__discount {
+    font-family: ClanOffcNews;
+    font-size: 10px;
+    line-height: 1.6;
+    color: $dark-blue;
+    text-decoration: line-through;
+    margin-top: 3px;
+}
+
+.date__price {
+    font-family: ClanOffc;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 0.62;
+    color: $dark-blue
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom, transparent -4%, rgba(0, 0, 0, 0.7) 65%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 87%;
+    justify-content: space-between;
+    height: 73%;
+}
+
+.text_content {
+    font-family: ClanOffc;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.11;
+    color: white;
+    text-transform: uppercase;
+}
+
+.text_title {
+    font-family: ClanOffcNews;
+    font-size: 14px;
+    line-height: 1.14;
+    color: white;
 }

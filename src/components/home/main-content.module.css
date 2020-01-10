@@ -1,0 +1,26 @@
+.wrapper {
+  box-sizing: border-box;
+  min-height: 460px;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-basis: 76%;
+}
+.spacer {
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+  justify-content: space-between;
+  max-width: 1096px;
+}
+@media only screen and (max-width: 1350px) {
+  .spacer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

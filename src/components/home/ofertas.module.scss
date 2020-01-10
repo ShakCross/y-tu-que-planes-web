@@ -8,7 +8,7 @@
 .wrapper__content {
     display: flex;
     align-items: center;
-    flex-basis: 65%;
+    flex-basis: 77%;
 }
 
 .inner_wrapper__content {
@@ -26,4 +26,17 @@
     color: $dark-grey;
     max-width: 267px;
     margin-top: -10px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .inner_wrapper__content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .wrapper__text {
+        align-items: center;
+    }
+    .span {
+        text-align: center;
+    }
 }

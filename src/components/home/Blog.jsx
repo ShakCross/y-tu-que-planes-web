@@ -20,9 +20,9 @@ const Blog = () => {
             </div>
             <div className={styles.wrapper__content}>
                 <div className={styles.inner_wrapper__content}>
-                    <Card />
-                    <Card />
-                    <Card />
+                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg"/>
+                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg"/>
+                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg"/>
                 </div>
             </div>
         </MainContent>

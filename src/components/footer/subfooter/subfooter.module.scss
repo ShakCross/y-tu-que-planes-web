@@ -50,3 +50,29 @@
     flex: 2;
     text-align: right;
 }
+
+@include respond-to('lg') {
+    .copyright {
+        text-align: center;
+        flex: none;
+    }
+    .links {
+        text-align: center;
+        flex: none;
+        margin: 0px 5px;
+    }
+    .inner__wrapper {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        widows: 100%;
+    }
+    .wrapper {
+        height: 113px;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+    .copyright {
+        margin-top: 15px;
+    }
+}

@@ -56,3 +56,10 @@
         padding: 18px 17px 16px 17px;
     }
 }
+
+@include respond-to('md') {
+    .ofertas_button {
+        padding: 19px 0;
+        font-size: 16px;
+    }
+}

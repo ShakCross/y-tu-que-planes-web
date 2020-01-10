@@ -8,13 +8,31 @@ const Card = ({ shadow, image }) => {
         <div className={styles.wrapper} style={{ background: `url(${image}) center/cover no-repeat` }}>
             {shadow ? (
                 <div className={styles.date}>
-
+                    <div className={styles.date__wrapper}>
+                        <span className={styles.date__price}>
+                            S/ 99
+                        </span>
+                        <span className={styles.date__discount}>
+                            Antes S/ 130
+                        </span>
+                    </div>
                 </div>
-            ) : ''}
+            ) : 
+            ''}
             <div className={styles.data}>
                 {shadow ? (
-                    ''
-                ) : <div className={styles.content}>
+                    <div className={styles.gradient}>
+                        <div className={styles.text__wrapper}>
+                            <span className={styles.text_title}>
+                                Full Day
+                            </span>
+                            <span className={styles.text_content}>
+                                Trek bosque cataratas gigantes cuispes
+                            </span>
+                        </div>
+                    </div>
+                ) : 
+                <div className={styles.content}>
                         <div className={styles.wrapper__chip}>
                             <Chip />
                         </div>

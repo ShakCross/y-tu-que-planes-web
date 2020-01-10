@@ -34,7 +34,7 @@ const Festividades = () => {
 
 
     return (
-        <div className={styles.wrapper} >
+        <section className={styles.wrapper} >
             <div>
                 <H2 title="Próximas Festividades" />
             </div>
@@ -165,7 +165,7 @@ const Festividades = () => {
                 </Slider>
             </div>
                 <Button title="Ver calendario de festividades" xclassname="calendar_button"/>
-        </div>
+        </section>
     )
 }
 

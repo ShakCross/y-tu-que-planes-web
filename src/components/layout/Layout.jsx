@@ -2,13 +2,13 @@ import React from 'react'
 import Header from 'components/header/Header';
 import Footer from 'components/footer/Footer';
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
     return (
-        <div style={{backgroundColor: 'white'}}>
+        <main role="main">
             <Header />
-            <main role="main">{children}</main>
+            {children}
             <Footer />
-        </div>
+        </main>
     )
 }
 

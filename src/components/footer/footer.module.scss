@@ -137,11 +137,18 @@
 @include respond-to('lg') {
     .inner__wrapper {
         flex-direction: column;
+        justify-content: space-evenly;
     }
     .inner_wrapper__links,
     .inner_wrapper__help {
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+    .h5 {
+        height: 100%;
+    }
+    .wrapper {
+        min-height: 744px;
     }
 }
