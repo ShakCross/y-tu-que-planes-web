@@ -46,7 +46,7 @@ const Festividades = () => {
                         <EventTitle />
                     </div>
                     <div>
-                        <Chip filled />
+                        <Chip />
                         <EventTitle />
                     </div>
                     <PlusLink />
