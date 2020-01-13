@@ -4,6 +4,7 @@ import MainContent from './MainContent'
 import Card from 'components/general/card/Card'
 import H2 from 'components/general/h2/H2'
 import Button from 'components/general/button/Button'
+import CardSlider from 'components/general/card-slider/CardSlider'
 
 
 const Ofertas = () => {
@@ -15,16 +16,21 @@ const Ofertas = () => {
                     Encuentra las mejores ofertas para tu próximo viaje.
                 </span>
                 <div>
-                    <Button yellow title="Ver todas las Ofertas" xclassname="ofertas_button"/>
+                    <Button yellow title="Ver todas las Ofertas" xclassname="ofertas_button" />
                 </div>
             </div>
             <div className={styles.wrapper__content}>
                 <div className={styles.inner_wrapper__content}>
                     <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
-                    <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg"/>
-                    <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg"/>
+                    <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
+                    <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
                 </div>
             </div>
+            <CardSlider>
+                <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
+                <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
+                <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
+            </CardSlider>
         </MainContent>
     )
 }

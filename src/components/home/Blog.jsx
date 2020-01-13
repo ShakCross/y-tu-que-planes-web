@@ -4,9 +4,10 @@ import Card from 'components/general/card/Card'
 import H2 from 'components/general/h2/H2'
 import Button from 'components/general/button/Button'
 import MainContent from './MainContent'
-
+import CardSlider from 'components/general/card-slider/CardSlider'
 
 const Blog = () => {
+
     return (
         <MainContent>
             <div className={styles.wrapper__text}>
@@ -20,11 +21,16 @@ const Blog = () => {
             </div>
             <div className={styles.wrapper__content}>
                 <div className={styles.inner_wrapper__content}>
-                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg"/>
-                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg"/>
-                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg"/>
+                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
+                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
+                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
                 </div>
             </div>
+            <CardSlider>
+                <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
+                <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
+                <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
+            </CardSlider>
         </MainContent>
     )
 }

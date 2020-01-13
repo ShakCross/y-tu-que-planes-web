@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: $transparent-dark-grey;
+}
+
+.inner_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.link {
+    font-family: ClanOffcLight;
+    font-size: 20px;
+    color: $dark-grey;
+    text-transform: uppercase;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px $dark-grey;
+    padding-left: 50px;
+}

@@ -5,6 +5,8 @@ import Festividades from 'components/home/Festividades'
 import Blog from 'components/home/Blog'
 import Ofertas from 'components/home/Ofertas'
 import Hero from 'components/home/Hero'
+// import HeroContent from 'components/general/hero-content/HeroContent'
+import CardSlider from 'components/general/card-slider/CardSlider'
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
                 <Festividades/>
                 <Parallax/>
             </Layout>
+            // <CardSlider/>
+            // <HeroContent/>
     )
 }
 

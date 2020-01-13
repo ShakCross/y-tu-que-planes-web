@@ -19,7 +19,7 @@ const SubFooter = () => {
                         <a className={styles.h6__a} target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/terminos-condiciones.aspx">Términos y Condiciones</a></h6>
                 </div>
                 <div className={styles.copyright}>
-                    <h6 className={styles.rights}>Todos los Derechos Reservados,<span className={styles.h6}> Ytuqueplanes 2019</span></h6>
+                    <h6 className={styles.rights}>Todos los Derechos Reservados,<span className={styles.h6}> Ytuqueplanes {(new Date().getFullYear())}</span></h6>
                 </div>
             </div>
         </div>

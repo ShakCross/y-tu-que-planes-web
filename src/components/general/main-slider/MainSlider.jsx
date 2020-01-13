@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import styles from './main-slider.module.scss'
+import { faPause, faPlay } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Chip from 'components/general/chip/Chip'
+import Button from 'components/general/button/Button'
+import H1 from 'components/general/h1/H1'
+import HeroContent from 'components/general/hero-content/HeroContent'
 
-export default class AutoPlayMethods extends Component {
+export default class MainSlider extends Component {
     constructor(props) {
         super(props);
         this.play = this.play.bind(this);
@@ -18,44 +24,68 @@ export default class AutoPlayMethods extends Component {
         const settings = {
             dots: true,
             infinite: true,
-            slidesToShow: 3,
+            speed: 2000,
+            slidesToShow: 1,
             slidesToScroll: 1,
+            adaptiveHeight: true,
+            arrows: false,
             autoplay: true,
-            autoplaySpeed: 2000
+            autoplaySpeed: 5000,
+            customPaging: i => (
+
+                <a className={styles.dots}>
+                    {i + 1}
+                </a>
+            ),
+
+            appendDots: dots => (
+                <div
+                    style={{
+                        bottom: 60,
+                        display: "flex",
+                        justifyContent: "center",
+                        justifyContent: "flex-end",
+                        width: "83%"
+                    }}
+                >
+                    <ul className={styles.dots__ul}>
+                        {dots}
+                        <div style={{ textAlign: "center" }} className={styles.button__container}>
+                            {/* <button className={styles.button} onClick={this.play}>
+                                <FontAwesomeIcon icon={faPlay} />
+                            </button> */}
+                            <button className={styles.button} onClick={this.pause}>
+                                <FontAwesomeIcon icon={faPause} />
+                            </button>
+                        </div>
+                    </ul>
+                </div>
+            ),
         };
         return (
             <div>
-                <h2>Auto Play & Pause with buttons</h2>
                 <div className={styles.wrapper}>
                     <Slider ref={slider => (this.slider = slider)} {...settings}>
                         <div>
-                            <h3>1</h3>
+                            <HeroContent />
+                            <img className={styles.slides} src="https://i.picsum.photos/id/1002/4312/2868.jpg" alt="" />
                         </div>
                         <div>
-                            <h3>2</h3>
+                            <HeroContent />
+                            <img className={styles.slides} src="https://i.picsum.photos/id/100/2500/1656.jpg" alt="" />
                         </div>
                         <div>
-                            <h3>3</h3>
+                            <HeroContent />
+                            <img className={styles.slides} src="https://i.picsum.photos/id/1000/5626/3635.jpg" alt="" />
                         </div>
                         <div>
-                            <h3>4</h3>
-                        </div>
-                        <div>
-                            <h3>5</h3>
-                        </div>
-                        <div>
-                            <h3>6</h3>
+                            <HeroContent />
+                            <img className={styles.slides} src="https://i.picsum.photos/id/1001/5616/3744.jpg" alt="" />
                         </div>
                     </Slider>
                 </div>
-                <div style={{ textAlign: "center" }}>
-                    <button className="button" onClick={this.play}>
-                        Play
-          </button>
-                    <button className="button" onClick={this.pause}>
-                        Pause
-          </button>
-                </div>
+
+
             </div>
         );
     }
