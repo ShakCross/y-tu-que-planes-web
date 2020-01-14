@@ -10,6 +10,8 @@
 
 .form {
     border-radius: 6px;
+    display: flex;
+    justify-content: center;
 }
 
 .button {
@@ -64,4 +66,18 @@
 
 .input::placeholder {
     color: $grey;
+}
+
+@include respond-to('xs') {
+    .button {
+        padding-top: 17px;
+        font-size: 12px;
+        width: 40%;
+    }
+}
+
+@include respond-to('lg') {
+    .form {
+        margin-top: 20px;
+    }
 }

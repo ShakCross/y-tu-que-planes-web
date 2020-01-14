@@ -16,6 +16,20 @@ const Footer = () => {
         <footer>
             <div className={styles.wrapper}>
                 <div className={styles.inner__wrapper}>
+                    <div className={styles.wsp__mobile}>
+                        <a target="_blank" rel="noopener noreferrer" href="https://wa.me/051944492314">
+                            <button className={styles.button_ws}>
+                                <FontAwesomeIcon icon={faWhatsapp} />
+                                <div className={styles.button__div} >
+                                    Asistencia al viajero
+                                </div>
+                            </button>
+                        </a>
+                        <div className={styles.help__mobile}>
+                            <H5 title="¿Necesitas ayuda?" />
+                            <p className={styles.ayuda_p}>Escríbenos las 24 horas</p>
+                        </div>
+                    </div>
                     <div className={styles.wrapper__links}>
                         <div className={styles.inner_wrapper__links}>
                             <div className={styles.h5}>
@@ -30,19 +44,21 @@ const Footer = () => {
                     </div>
                     <div className={styles.wrapper__help}>
                         <div className={styles.inner_wrapper__help}>
-                            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/051944492314">
-                                <button className={styles.button_ws}>
-                                    <FontAwesomeIcon icon={faWhatsapp} />
-                                    <div className={styles.button__div} >
-                                        Asistencia al viajero
+                            <div className={styles.wsp}>
+                                <a target="_blank" rel="noopener noreferrer" href="https://wa.me/051944492314">
+                                    <button className={styles.button_ws}>
+                                        <FontAwesomeIcon icon={faWhatsapp} />
+                                        <div className={styles.button__div} >
+                                            Asistencia al viajero
                                 </div>
-                                </button>
-                            </a>
-                            <div>
-                                <H5 title="¿Necesitas ayuda?" />
-                                <p className={styles.ayuda_p}>Escríbenos las 24 horas</p>
+                                    </button>
+                                </a>
+                                <div>
+                                    <H5 title="¿Necesitas ayuda?" />
+                                    <p className={styles.ayuda_p}>Escríbenos las 24 horas</p>
+                                </div>
                             </div>
-                            <div>
+                            <div className={styles.social}>
                                 <H5 title="Síguenos" />
                                 <ul className={styles.social_list}>
                                     <SocialICon xclassname="fb" xsvg="fb_svg" name={faFacebookF} target="https://www.facebook.com/pages/Visit-Peru/524042817717056" />
@@ -51,13 +67,28 @@ const Footer = () => {
                                     <SocialICon xclassname="you" xsvg="you_svg" name={faYoutube} target="http://www.youtube.com/visitperu" />
                                     <SocialICon xclassname="spo" xsvg="spo_svg" name={faSpotify} target="https://open.spotify.com/user/yt%C3%BAqu%C3%A9planes/playlist/7pTRlBhxN2YhkEqtwu0T4k" />
                                 </ul>
+                                <div className={styles.wrapper__perulogos__mobile}>
+                                    <div className={styles.inner_wrapper__perulogos}>
+                                        <div>
+                                            <img src={iperu} alt="" />
+                                        </div>
+                                        <div>
+                                            <img src={promperu} alt="" />
+                                        </div>
+                                        <div>
+                                            <img src={marcaperu} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div className={styles.wrapper__subscribe}>
                         <div className={styles.inner_wrapper__subscribe}>
-                            <H5 title="¡Suscríbete para recibir nuevas ofertas y novedades!" />
+                            <div className={styles.h5}>
+                                <H5 title="¡Suscríbete para recibir nuevas ofertas y novedades!" />
+                            </div>
                             <SubscribeInput />
                             <div className={styles.wrapper__perulogos}>
                                 <div className={styles.inner_wrapper__perulogos}>

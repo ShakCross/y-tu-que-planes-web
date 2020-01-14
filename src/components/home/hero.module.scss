@@ -37,3 +37,9 @@
     justify-content: center;
     bottom: 25px;
 }
+
+@include respond-to('xs') {
+    .wrapper {
+        height: 550px;
+    }
+}

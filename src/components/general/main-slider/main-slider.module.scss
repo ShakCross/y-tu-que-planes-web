@@ -68,3 +68,9 @@
     font-weight: 500;
     color: white;
 }
+
+@include respond-to('xs') {
+    .slides {
+        height: 550px;
+    }
+}
