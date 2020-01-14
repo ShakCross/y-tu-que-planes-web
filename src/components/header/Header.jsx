@@ -6,7 +6,7 @@ import BellIcon from 'assets/img/campana.svg'
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import HeaderResponsive from 'components/header/HeaderResponsive'
+import HeaderResponsive from 'components/header/header-responsive/HeaderResponsive'
 
 const Header = () => {
 

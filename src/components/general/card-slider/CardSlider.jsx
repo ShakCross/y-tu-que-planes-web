@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './card-slider.module.scss'
 import Slider from "react-slick";
-import Card from 'components/general/card/Card'
 
 const CardSlider = ({children}) => {
 
@@ -48,5 +47,10 @@ const CardSlider = ({children}) => {
         </div>
     )
 }
+
+CardSlider.defaultProps = {
+    children: '',
+};
+
 
 export default CardSlider

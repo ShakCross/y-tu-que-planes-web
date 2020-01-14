@@ -13,4 +13,8 @@ const MainContent = ({children}) => {
     )
 }
 
+MainContent.defaultProps = {
+    children: '',
+};
+
 export default MainContent

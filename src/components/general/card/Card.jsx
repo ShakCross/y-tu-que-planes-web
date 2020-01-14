@@ -46,7 +46,8 @@ const Card = ({ shadow, image }) => {
 }
 
 Card.defaultProps = {
-    shadow: ''
+    shadow: '',
+    image: ''
 };
 
 export default Card

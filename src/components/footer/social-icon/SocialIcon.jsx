@@ -22,4 +22,12 @@ const SocialICon = ({ target, xclassname, name, xsvg }) => {
     )
 }
 
+SocialICon.defaultProps = {
+    target: '',
+    xclassname: '',
+    name: '',
+    xsvg: ''
+};
+
+
 export default SocialICon

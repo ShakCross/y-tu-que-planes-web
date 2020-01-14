@@ -12,4 +12,8 @@ const Layout = ({ children }) => {
     )
 }
 
+Layout.defaultProps = {
+    children: '',
+};
+
 export default Layout

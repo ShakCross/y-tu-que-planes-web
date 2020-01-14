@@ -8,5 +8,8 @@ const H1 = ({title}) => {
         </div>
     )
 }
+H1.defaultProps = {
+    title: 'Heading 1',
+};
 
 export default H1

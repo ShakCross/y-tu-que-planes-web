@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './ofertas.module.scss'
-import MainContent from './MainContent'
+import MainContent from 'components/home/main-content/MainContent'
 import Card from 'components/general/card/Card'
 import H2 from 'components/general/h2/H2'
 import Button from 'components/general/button/Button'

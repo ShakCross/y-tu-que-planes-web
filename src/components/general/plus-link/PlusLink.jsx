@@ -11,6 +11,7 @@ const PlusLink = ({ lenght, none }) => {
 
 PlusLink.defaultProps = {
     lenght: '5',
+    none: false
 };
 
 

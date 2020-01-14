@@ -19,8 +19,8 @@ const Button = ({ title, green, yellow, xclassname }) => {
 
 Button.defaultProps = {
     title: 'Más Información',
-    green: '',
-    yellow: '',
+    green: false,
+    yellow: false,
     xclassname: ''
 };
 

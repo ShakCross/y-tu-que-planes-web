@@ -3,9 +3,6 @@ import Slider from "react-slick";
 import styles from './main-slider.module.scss'
 import { faPause, faPlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Chip from 'components/general/chip/Chip'
-import Button from 'components/general/button/Button'
-import H1 from 'components/general/h1/H1'
 import HeroContent from 'components/general/hero-content/HeroContent'
 
 export default class MainSlider extends Component {
@@ -84,8 +81,6 @@ export default class MainSlider extends Component {
                         </div>
                     </Slider>
                 </div>
-
-
             </div>
         );
     }
