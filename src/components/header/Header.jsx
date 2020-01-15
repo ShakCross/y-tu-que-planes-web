@@ -3,8 +3,7 @@ import styles from './header.module.scss';
 import Logo from 'assets/img/ytqp-2.png'
 import NewsIcon from 'assets/img/news.svg'
 import BellIcon from 'assets/img/campana.svg'
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import HeaderResponsive from 'components/header/header-responsive/HeaderResponsive'
 
@@ -46,15 +45,21 @@ const Header = () => {
                         </span>
                         <img src={BellIcon} alt="" />
                     </div>
-                    <div className={styles.hamburguer}>
-                        <div className={styles.hamburguer__icon} onClick={handleToggle}>
-                            <FontAwesomeIcon icon={faBars} />
-                        </div>
+                    <div className={styles.hamburguer} onClick={handleToggle}>
+                        
+                            {(toggle) ? 
+                            (<div className={styles.hamburguer__icon}><FontAwesomeIcon icon={faBars}/></div>)
+                            :
+                            (<div className={styles.times__icon}><FontAwesomeIcon className={styles.times} icon={faTimes} /></div> )
+                            }
+
+
+                        
                     </div>
                 </div>
             </nav>
             {toggle ? ('') : (
-                <HeaderResponsive/>
+                <HeaderResponsive />
             )}
         </>
 

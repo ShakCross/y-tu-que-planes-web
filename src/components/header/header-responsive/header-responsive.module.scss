@@ -1,7 +1,11 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    background-color: $transparent-dark-grey;
+    background-color: rgb(242, 242, 242);
+    position: sticky;
+    z-index: 9999999;
+    width: 100%;
+    top: 75px;
 }
 
 .inner_wrapper {

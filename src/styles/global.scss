@@ -69,3 +69,7 @@ img {
 .slick-dots li {
     margin: 15px;
 }
+
+.slick-slide.slick-active.slick-center.slick-current>div>div {
+    opacity: 1;
+}

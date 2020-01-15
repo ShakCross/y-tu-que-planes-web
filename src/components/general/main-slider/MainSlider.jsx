@@ -48,12 +48,15 @@ export default class MainSlider extends Component {
                     <ul className={styles.dots__ul}>
                         {dots}
                         <div style={{ textAlign: "center" }} className={styles.button__container}>
-                            {/* <button className={styles.button} onClick={this.play}>
-                                <FontAwesomeIcon icon={faPlay} />
-                            </button> */}
-                            <button className={styles.button} onClick={this.pause}>
-                                <FontAwesomeIcon icon={faPause} />
-                            </button>
+                            {this.play = true ?
+                                <button className={styles.button} onClick={this.pause}>
+                                    <FontAwesomeIcon icon={faPause} />
+                                </button> 
+                                : 
+                                <button className={styles.button} onClick={this.play}>
+                                    <FontAwesomeIcon icon={faPlay} />
+                                </button>
+                            }
                         </div>
                     </ul>
                 </div>

@@ -5,7 +5,7 @@ import Chip from 'components/general/chip/Chip'
 
 const Card = ({ shadow, image }) => {
     return (
-        <div className={styles.wrapper} style={{ background: `url(${image}) center/cover no-repeat` }}>
+        <div className={styles.wrapper} style={{ backgroundImage: `url(${image})` }}>
             {shadow ? (
                 <div className={styles.date}>
                     <div className={styles.date__wrapper}>
