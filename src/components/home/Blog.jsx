@@ -21,15 +21,15 @@ const Blog = () => {
             </div>
             <div className={styles.wrapper__content}>
                 <div className={styles.inner_wrapper__content}>
-                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
-                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
-                    <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
+                    <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
+                    <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
+                    <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
                 </div>
             </div>
             <CardSlider>
-                <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
-                <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
-                <Card image="https://i.picsum.photos/id/112/4200/2800.jpg" />
+                <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
+                <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
+                <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
             </CardSlider>
         </MainContent>
     )

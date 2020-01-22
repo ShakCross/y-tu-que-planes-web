@@ -1,8 +1,6 @@
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const webpack = require("webpack");
-const autoprefixer = require("autoprefixer");
 
 const isDevelopment = process.env.NODE_ENV !== "production";
 
@@ -56,7 +54,6 @@ module.exports = {
                     isDevelopment ? "style-loader" :
                     MiniCssExtractPlugin.loader,
                     "css-loader",
-                    "postcss-loader",
                     {
                         loader: "sass-loader",
                         options: {
@@ -92,13 +89,6 @@ module.exports = {
         new HtmlWebPackPlugin({
             template: "./src/index.html",
             filename: "./index.html"
-        }),
-        new webpack.LoaderOptionsPlugin({
-            options: {
-                postcss: [
-                    autoprefixer()
-                ]
-            }
         }),
         new MiniCssExtractPlugin({
             filename: isDevelopment ? "[name].css" : "[name].[hash].css",

@@ -21,15 +21,15 @@ const Ofertas = () => {
             </div>
             <div className={styles.wrapper__content}>
                 <div className={styles.inner_wrapper__content}>
-                    <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
-                    <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
-                    <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
+                    <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
+                    <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
+                    <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
                 </div>
             </div>
             <CardSlider>
-                <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
-                <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
-                <Card shadow image="https://i.picsum.photos/id/1003/1181/1772.jpg" />
+                <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
+                <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
+                <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
             </CardSlider>
         </MainContent>
     )

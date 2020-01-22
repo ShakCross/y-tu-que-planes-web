@@ -33,3 +33,11 @@
         display: none;
     }
 }
+
+@include respond-to('md') {
+    .wrapper{
+        background-attachment: scroll;
+    } 
+}
+
+
