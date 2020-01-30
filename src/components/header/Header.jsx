@@ -58,8 +58,8 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            {toggle ? ('') : (
-                <HeaderResponsive />
+            {toggle ? (<HeaderResponsive xclassname="wrapper-none"/>) : (
+                <HeaderResponsive/>
             )}
         </>
 

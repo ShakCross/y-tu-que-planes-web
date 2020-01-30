@@ -9,10 +9,18 @@
     justify-content: center;
     background-color: rgb(242, 242, 242);
     position: -webkit-sticky;
-    position: sticky;
-    z-index: 9999999;
+    position: fixed;
+    z-index: 9;
     width: 100%;
     top: 75px;
+    -webkit-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.wrapper-none {
+    top: -330px;
+    position: fixed;
 }
 
 .inner_wrapper {
