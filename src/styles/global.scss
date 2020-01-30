@@ -1,13 +1,18 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
 /* Global styles
 ========================================================================== */
 
 html {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
+    -webkit-box-sizing: inherit;
     box-sizing: inherit;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -27,6 +32,8 @@ html {
 }
 
 .show-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 

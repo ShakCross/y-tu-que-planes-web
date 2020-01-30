@@ -1,4 +1,7 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .wrapper {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12,14 +15,20 @@
     flex-direction: column;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     height: 328px;
     background: url('https://i.picsum.photos/id/155/3264/2176.jpg');
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .ico_big {
+    -ms-flex-preferred-size: 57%;
     flex-basis: 57%;
     z-index: 2;
 }
@@ -35,9 +44,7 @@
 }
 
 @include respond-to('md') {
-    .wrapper{
+    .wrapper {
         background-attachment: scroll;
-    } 
+    }
 }
-
-

@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .wrapper__chip {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -140,8 +142,8 @@
 }
 
 .gradient {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-4%, transparent), color-stop(65%, rgba(0, 0, 0, 0.7)));
     background-image: -o-linear-gradient(top, transparent -4%, rgba(0, 0, 0, 0.7) 65%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-4%, transparent), color-stop(65%, rgba(0, 0, 0, 0.7)));
     background-image: linear-gradient(to bottom, transparent -4%, rgba(0, 0, 0, 0.7) 65%);
     height: 100%;
     width: 100%;

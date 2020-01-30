@@ -1,4 +1,7 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .wrapper {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12,6 +15,8 @@
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     background-color: $default-background;
     height: 75px;
@@ -21,23 +26,44 @@
 }
 
 .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-preferred-size: 14%;
     flex-basis: 14%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-preferred-size: 49%;
     flex-basis: 49%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-preferred-size: 22%;
     flex-basis: 22%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
@@ -109,13 +135,17 @@
         display: none;
     }
     .logo {
+        -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
         justify-content: flex-start;
     }
     .logo>img {
         width: 50px;
     }
     .icons {
+        -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     }
     .hamburguer {

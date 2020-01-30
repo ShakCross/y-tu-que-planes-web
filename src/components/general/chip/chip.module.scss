@@ -1,4 +1,8 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 96px;
     height: 25px;
@@ -8,12 +12,18 @@
     font-weight: 500;
     color: $pale-blue;
     background-color: $default-background-t;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-left: -6px;
 }
 
 .wrapper_no_bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 96px;
     height: 25px;
@@ -23,7 +33,11 @@
     font-weight: 500;
     color: $pale-blue;
     background-color: transparent;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-left: -6px;
 }

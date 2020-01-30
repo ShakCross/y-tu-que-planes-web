@@ -1,20 +1,34 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .wrapper {
     background-color: $default-background;
     min-height: 260px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
 .inner__wrapper {
     width: 75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .wrapper__links,
 .wrapper__help {
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -31,15 +45,26 @@
 
 .inner_wrapper__links,
 .inner_wrapper__help {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 60%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .wrapper__subscribe {
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -52,17 +77,27 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     display: flex;
+    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
 }
 
 .inner_wrapper__subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 60%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .wrapper__perulogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -71,15 +106,26 @@
 }
 
 .inner_wrapper__perulogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 62%;
 }
 
 .wsp {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 55%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -96,8 +142,15 @@
     font-size: 12px;
     font-weight: normal;
     letter-spacing: 0.3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     height: 65%;
 }
@@ -107,7 +160,11 @@
 }
 
 .social_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 10px;
 }
@@ -128,6 +185,8 @@
 }
 
 .button_ws {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: white;
     background-color: #84c131;
@@ -135,7 +194,11 @@
     border-radius: 20px;
     font-family: BreePeruLight;
     font-size: 23px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 192px;
     padding: 7px 20px;
@@ -155,13 +218,22 @@
         height: 23%;
     }
     .inner__wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
         width: 86%;
     }
     .inner_wrapper__links,
     .inner_wrapper__help {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         text-align: center;
         height: 100%;
@@ -169,27 +241,47 @@
     .h5 {
         height: 75%;
         text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
     .wrapper {
         min-height: 744px;
     }
     .wrapper__subscribe {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
         order: -1;
+        -ms-flex-preferred-size: 20%;
         flex-basis: 20%;
     }
     .wrapper__perulogos {
         display: none;
     }
     .wrapper__perulogos__mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .wsp__mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         height: 12%;
     }
@@ -203,13 +295,22 @@
         height: 100%;
     }
     .social {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         height: 90%;
         width: 60%;
     }
     .inner_wrapper__perulogos {
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
         width: 100%;
     }

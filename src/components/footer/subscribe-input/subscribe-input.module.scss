@@ -1,5 +1,10 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .form:focus-within {
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
     transform: translateY(-1px);
 }
 
@@ -10,7 +15,11 @@
 
 .form {
     border-radius: 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -37,6 +46,7 @@
 .button:focus,
 .button:hover {
     outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(180, 43, 172, .25);
     box-shadow: 0 0 0 0.2rem rgba(180, 43, 172, .25);
     color: white;
     text-decoration: none;
@@ -62,6 +72,22 @@
     font-size: 16px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.input::-webkit-input-placeholder {
+    color: $grey;
+}
+
+.input::-moz-placeholder {
+    color: $grey;
+}
+
+.input:-ms-input-placeholder {
+    color: $grey;
+}
+
+.input::-ms-input-placeholder {
+    color: $grey;
 }
 
 .input::placeholder {
