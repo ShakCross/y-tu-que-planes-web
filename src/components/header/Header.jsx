@@ -6,11 +6,15 @@ import BellIcon from 'assets/img/campana.svg'
 import { faSearch, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import HeaderResponsive from 'components/header/header-responsive/HeaderResponsive'
+import HeaderBuscador from 'components/header/header-buscador/HeaderBuscador';
 
 const Header = () => {
 
     const [toggle, setToggle] = useState(true);
-    const handleToggle = () => setToggle(!toggle)
+    const handleToggle = () => setToggle(!toggle) & setSearch(true)
+
+    const [search, setSearch] = useState(true);
+    const handleSearch = () => setSearch(!search) & setToggle(true)
 
     return (
         <>
@@ -36,7 +40,7 @@ const Header = () => {
                     <div>
                         <img src={NewsIcon} alt="" />
                     </div>
-                    <div className={styles.searchIcon}>
+                    <div className={styles.searchIcon} onClick={handleSearch}>
                         <FontAwesomeIcon icon={faSearch} />
                     </div>
                     <div className={styles.bellContainer}>
@@ -60,6 +64,9 @@ const Header = () => {
             </nav>
             {toggle ? (<HeaderResponsive xclassname="wrapper-none"/>) : (
                 <HeaderResponsive/>
+            )}
+            {search ? (<HeaderBuscador xclassname="wrapper-none"/>) : (
+                <HeaderBuscador/>
             )}
         </>
 
