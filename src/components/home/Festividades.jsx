@@ -24,7 +24,6 @@ const Festividades = () => {
                     centerMode: true,
                     infinite: true,
                     centerPadding: "17%",
-                    // slidesToShow: 1,
                     arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,

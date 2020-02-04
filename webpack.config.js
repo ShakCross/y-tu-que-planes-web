@@ -1,36 +1,28 @@
-const CleanWebpackPlugin = require("clean-webpack-plugin");
-const HtmlWebPackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const isDevelopment = process.env.NODE_ENV !== "production";
+const isDevelopment = process.env.NODE_ENV === 'development'
 
 module.exports = {
-    mode: isDevelopment ? "development" : "production",
+    entry: 'src/index.js',
     output: {
-        filename: isDevelopment ? "[name].js" : "[name].[hash].js"
+        path: path.join(__dirname, 'dist'),
+        filename: 'script.js'
     },
     module: {
-        rules: [{
-                test: /\.jsx?$/,
-                loader: "babel-loader",
-                exclude: /node_modules/
-            },
-            {
-                test: /\.(gif|png|jpe?g|svg)$/i,
-                use: [
-                    "file-loader",
-                ]
-            },
+        rules: [
             {
                 test: /\.module\.s(a|c)ss$/,
                 loader: [
-                    isDevelopment ? "style-loader" : MiniCssExtractPlugin.loader,
+                    isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
                     {
                         loader: "css-loader",
                         options: {
-                            modules: true,
-                            localIdentName: "[name]__[local]___[hash:base64:5]",
-                            camelCase: true,
+                            modules: {
+                                localIdentName: "[name]__[local]___[hash:base64:5]"
+                            },
                             sourceMap: isDevelopment
                         }
                     },
@@ -38,11 +30,19 @@ module.exports = {
                         loader: "sass-loader",
                         options: {
                             sourceMap: isDevelopment,
-                            data: `
-              @import './src/styles/variables.scss';
-              @import './src/styles/mixins.scss';
-            `,
-                            includePaths: ['./src/styles']
+                            prependData: '@import "src/styles/variables.scss", "src/styles/mixins.scss";',
+                            sassOptions: {
+                                includePaths: [path.resolve(__dirname, 'src/styles')]
+                            }
+                        }
+                    },
+                    {
+                        loader: "postcss-loader",
+                        options: {
+                            ident: 'postcss',
+                            plugins: [
+                                require('autoprefixer')(),
+                            ]
                         }
                     }
                 ]
@@ -51,28 +51,50 @@ module.exports = {
                 test: /\.s(a|c)ss$/,
                 exclude: /\.module.(s(a|c)ss)$/,
                 loader: [
-                    isDevelopment ? "style-loader" :
-                    MiniCssExtractPlugin.loader,
-                    "css-loader",
+                    isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
+                    'css-loader',
                     {
-                        loader: "sass-loader",
+                        loader: 'sass-loader',
                         options: {
                             sourceMap: isDevelopment,
+                        }
+                    },
+                    {
+                        loader: "postcss-loader",
+                        options: {
+                            ident: 'postcss',
+                            plugins: [
+                                require('autoprefixer')(),
+                            ]
                         }
                     }
                 ]
             },
             {
-                test: /\.html$/,
-                use: [{
-                    loader: "html-loader",
-                    options: { minimize: !isDevelopment }
-                }]
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader'
+                },
+
+            },
+            
+            {
+                test: /\.(gif|png|jpe?g|svg)$/i,
+                use: [
+                    {
+                      loader: 'file-loader',
+                      options: {
+                        name: '[name].[ext]',
+                        outputPath: 'images',
+                      },
+                    }
+                  ]
             },
         ]
     },
     resolve: {
-        modules: [__dirname, './src', 'node_modules'],
+        modules: [__dirname, 'src', 'node_modules'],
         extensions: [
             ".js",
             ".jsx",
@@ -81,18 +103,20 @@ module.exports = {
             ".png",
             ".jpg",
             ".jpeg",
-            ".svg"
-        ]
+            ".svg",
+            ".ttf",
+            ".otf"]
     },
     plugins: [
-        new CleanWebpackPlugin(["dist"]),
-        new HtmlWebPackPlugin({
-            template: "./src/index.html",
-            filename: "./index.html"
+        new CleanWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            filename: 'index.html',
+            template: 'src/index.html',
+            hash: true
         }),
         new MiniCssExtractPlugin({
-            filename: isDevelopment ? "[name].css" : "[name].[hash].css",
+            filename: 'style.css',
             chunkFilename: isDevelopment ? "[id].css" : "[id].[hash].css"
         })
-    ]
-};
+    ],
+}

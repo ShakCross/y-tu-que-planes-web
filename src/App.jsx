@@ -1,5 +1,5 @@
 import React from "react";
-import Routes from './routes'
+import Routes from 'routes'
 import 'styles/global.scss'
 import 'styles/normalize.scss'
 

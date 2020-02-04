@@ -1,2 +1,2 @@
 # y-tu-que-planes-web
-Página web desarrollada en React js para Havas Media del cliente PromPeru
+Página realizada con React.js para el cliente Promperu-MINCETUR, web oficial de Y Tu Que Planes

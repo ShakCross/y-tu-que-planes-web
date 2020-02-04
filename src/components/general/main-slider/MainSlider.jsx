@@ -61,21 +61,6 @@ export default class MainSlider extends Component {
                     </ul>
                 </div>
             ),
-            // responsive: [
-            //     {
-            //         breakpoint: 577,
-            //         settings: {
-            //             dots: true,
-            //             infinite: true,
-            //             speed: 2000,
-            //             slidesToShow: 1,
-            //             slidesToScroll: 1,
-            //             adaptiveHeight: true,
-            //             arrows: false,
-            //             autoplay: true,
-            //         }
-            //     }
-            // ]
         };
         return (
             <div>
