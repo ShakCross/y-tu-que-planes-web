@@ -15,7 +15,7 @@
 .dots {
     width: 31px;
     height: 31px;
-    border: solid white 1px;
+    border: solid white 2px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     color: white;
@@ -30,6 +30,11 @@
     align-items: center;
     font-family: BreePeru;
     font-size: 18px;
+}
+
+.dots:hover{
+    background-color: white;
+    color: $pale-blue;
 }
 
 .dots__ul {

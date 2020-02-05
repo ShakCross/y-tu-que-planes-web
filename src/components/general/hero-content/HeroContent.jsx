@@ -13,7 +13,7 @@ const HeroContent = () => {
                 <span className={styles.span}>
                     Conoce el conjunto de tumbas antropomorfas de más de dos metros de alto al borde de un acantilado.
                 </span>
-                <Button title="Más Información" />
+                <Button title="Más Información" xclassname="slider_button"/>
             </div>
         </div>
     )

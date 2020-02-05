@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "titulo": "Full Day Caral Cuna de la Civilizacion",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/caral-full-day.jpg",
+        "precio": "299",
+        "antes": "359",
+        "url": "https://www.ytuqueplanes.com/oferta/6615_full-day-caral-cuna-de-la-civilizacion"
+    },
+    {
+        "id": 2,
+        "titulo": "Cusco maravilloso",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
+        "precio": "300",
+        "antes": "435",
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso"
+    },
+    {
+        "id": 3,
+        "titulo": "Vichayito",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/vichayito.jpg",
+        "precio": "204",
+        "antes": "340",
+        "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito"
+    }
+]

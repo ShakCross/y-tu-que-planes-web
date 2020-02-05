@@ -22,8 +22,6 @@
 }
 
 .wrapper_no_bg {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 96px;
     height: 25px;
@@ -33,13 +31,8 @@
     font-weight: 500;
     color: $pale-blue;
     background-color: transparent;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: -6px;
 }
 
 .title {

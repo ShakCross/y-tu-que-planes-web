@@ -25,7 +25,6 @@
 .heading__wrapper {
     z-index: 9999;
     position: absolute;
-    width: 12%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -35,7 +34,9 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    height: 710px;
+    height: 720px;
+    background-color: rgba(0,0,0,0.15);
+    width: 11.1%;
 }
 
 .heading__inner_wrapper {

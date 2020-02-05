@@ -5,6 +5,7 @@ import Card from 'components/general/card/Card'
 import H2 from 'components/general/h2/H2'
 import Button from 'components/general/button/Button'
 import CardSlider from 'components/general/card-slider/CardSlider'
+import data from 'data/ofertas.json'
 
 
 const Ofertas = () => {
@@ -16,20 +17,36 @@ const Ofertas = () => {
                     Encuentra las mejores ofertas para tu próximo viaje.
                 </span>
                 <div>
-                    <Button yellow title="Ver todas las Ofertas" xclassname="ofertas_button" />
+                    <Button yellow title="Ver todas las Ofertas" xclassname="ofertas_button" url="https://www.ytuqueplanes.com/ofertas"/>
                 </div>
             </div>
             <div className={styles.wrapper__content}>
                 <div className={styles.inner_wrapper__content}>
-                    <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
-                    <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
-                    <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
+                    {data.map(post =>
+                        <Card
+                            shadow 
+                            key={post.id} 
+                            image={post.imagen} 
+                            title={post.titulo} 
+                            price={post.precio} 
+                            before={post.antes} 
+                            alt={post.alt}
+                        />
+                    )}
                 </div>
             </div>
             <CardSlider>
-                <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
-                <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
-                <Card shadow image="https://i.picsum.photos/id/1003/1000/1100.jpg" />
+                {data.map(post =>
+                    <Card 
+                        shadow 
+                        key={post.id} 
+                        image={post.imagen} 
+                        title={post.titulo} 
+                        price={post.precio} 
+                        before={post.antes} 
+                        alt={post.alt}
+                    />
+                )}
             </CardSlider>
         </MainContent>
     )

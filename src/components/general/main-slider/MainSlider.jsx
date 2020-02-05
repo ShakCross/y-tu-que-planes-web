@@ -83,6 +83,9 @@ export default class MainSlider extends Component {
                             <img className={styles.slides} src="https://i.picsum.photos/id/1001/5616/3744.jpg" alt="" />
                         </div>
                     </Slider>
+                    <div>
+                        
+                    </div>
                 </div>
             </div>
         );

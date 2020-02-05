@@ -5,6 +5,7 @@ import H2 from 'components/general/h2/H2'
 import Button from 'components/general/button/Button'
 import MainContent from 'components/home/main-content/MainContent'
 import CardSlider from 'components/general/card-slider/CardSlider'
+import data from 'data/blog.json'
 
 const Blog = () => {
 
@@ -16,20 +17,34 @@ const Blog = () => {
                     de nuestros viajeros.
                     </span>
                 <div>
-                    <Button green title="Ir al Blog" />
+                    <Button green title="Ir al Blog" url="https://www.ytuqueplanes.com/novedades" />
                 </div>
             </div>
             <div className={styles.wrapper__content}>
                 <div className={styles.inner_wrapper__content}>
-                    <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
-                    <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
-                    <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
+                    {data.map(post =>
+                        <Card 
+                            key={post.id} 
+                            image={post.imagen} 
+                            title={post.titulo} 
+                            location={post.localia} 
+                            url={post.url} 
+                            alt={post.alt}
+                        />
+                    )}
                 </div>
             </div>
             <CardSlider>
-                <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
-                <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
-                <Card image="https://i.picsum.photos/id/112/1000/1100.jpg" />
+                {data.map(post =>
+                    <Card 
+                        key={post.id} 
+                        image={post.imagen} 
+                        title={post.titulo} 
+                        location={post.localia} 
+                        url={post.url} 
+                        alt={post.alt}
+                    />
+                )}
             </CardSlider>
         </MainContent>
     )

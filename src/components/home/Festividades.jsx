@@ -128,7 +128,7 @@ const Festividades = () => {
                     )}
                 </Slider>
             </div>
-            <Button title="Ver calendario de festividades" xclassname="calendar_button" />
+            <Button title="Ver calendario de festividades" xclassname="calendar_button" url="https://www.ytuqueplanes.com/festividades"/>
         </section>
     )
 }

@@ -1,16 +1,10 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
 .wrapper__chip {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
     justify-content: flex-start;
     width: 90%;
-    height: 30%;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+    height: 20%;
     align-items: center;
 }
 
@@ -22,7 +16,7 @@
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 90%;
-    height: 50%;
+    height: 55%;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -58,30 +52,47 @@
     border-radius: 12px;
     position: relative;
     overflow: hidden;
-    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.14), 0 15px 12px rgba(0, 0, 0, 0.14);
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.14), 0 15px 12px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.14), 0 15px 12px rgba(0, 0, 0, 0.1);
     margin: 50px 0px;
     font-family: ClanOffcNews;
     font-size: 13px;
     font-weight: 500;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    background: center/cover no-repeat;
     cursor: pointer;
-    background-size: 100% 100%
+    background: top/100% 80% no-repeat;
+    transition: all 1s;
 }
 
 .wrapper:hover {
-    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.4), 0 15px 12px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.4), 0 15px 12px rgba(0, 0, 0, 0.4);
-    background-size: 550px 800px;
-    -webkit-transition: background-size 2s;
-    -o-transition: background-size 2s;
-    transition: background-size 2s;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.4), 0 15px 12px rgba(0, 0, 0, 0.1);
+    background: top/110% 90% no-repeat;
+    transition: all 1s;
+}
+
+.wrapper_full{
+    background-color: #fff;
+    width: 231px;
+    height: 354px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.14), 0 15px 12px rgba(0, 0, 0, 0.1);
+    margin: 50px 0px;
+    font-family: ClanOffcNews;
+    font-size: 13px;
+    font-weight: 500;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    background: top/100% 100% no-repeat;
+    transition: all 1s;
+}
+
+.wrapper_full:hover {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.4), 0 15px 12px rgba(0, 0, 0, 0.1);
+    background: top/110% 110% no-repeat;
+    transition: all 1s;
 }
 
 .data {
@@ -95,7 +106,7 @@
     width: 217px;
     height: 42px;
     font-family: ClanOffc;
-    font-size: 16px;
+    font-size: 15px;
     color: $dark-grey;
     font-weight: bold;
 }
@@ -105,7 +116,6 @@
     top: 0;
     left: 0;
     background-color: $dark-yellow;
-    padding: 20px 1px 1px 11px;
     width: 85.2px;
     height: 62.4px;
     border-radius: 12px;
@@ -114,13 +124,11 @@
 }
 
 .date__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 @supports (-webkit-overflow-scrolling: touch) {
     .date__discount {
@@ -134,7 +142,7 @@
     
     .date__price {
         font-family: ClanOffc;
-        font-size: 26px;
+        font-size: 23px;
         font-weight: bold;
         line-height: 0.62;
         color: $dark-blue
@@ -152,9 +160,8 @@
 
 .date__price {
     font-family: ClanOffc;
-    font-size: 26px;
+    font-size: 21px;
     font-weight: bold;
-    line-height: 0.62;
     color: $dark-blue
 }
 
@@ -173,18 +180,10 @@
 }
 
 .text__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex-preferred-size: 87%;
     flex-basis: 87%;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     height: 73%;
 }
 
@@ -195,6 +194,7 @@
     line-height: 1.11;
     color: white;
     text-transform: uppercase;
+    height: 50%;
 }
 
 .text_title {
@@ -202,6 +202,7 @@
     font-size: 14px;
     line-height: 1.14;
     color: white;
+    height: 35%;
 }
 
 @media only screen and (min-width: 577px) {
