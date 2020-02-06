@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from './header.module.scss';
 import Logo from 'assets/img/ytqp-2.png'
-import NewsIcon from 'assets/img/news.svg'
+import NewsIcon from 'assets/img/news.png'
 import BellIcon from 'assets/img/campana.svg'
 import { faSearch, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,27 +24,29 @@ const Header = () => {
         <>
             <nav className={styles.wrapper}>
                 <div className={styles.logo}>
-                    <img src={Logo} alt="" />
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src={Logo} alt="" />
+                    </a> 
                 </div>
                 <div className={styles.main}>
                     <div>
-                        <a className={styles.main__link} href="">Ofertas</a>
+                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                     </div>
                     <div>
-                        <a className={styles.main__link} href="">Destinos</a>
+                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/destinos">Destinos</a>
                     </div>
                     <div>
-                        <a className={styles.main__link} href="">Rutas cortas</a>
+                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/rutas-cortas">Rutas cortas</a>
                     </div>
                     <div>
-                        <a className={styles.main__link} href="">Blog Viajero</a>
+                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/novedades">Blog Viajero</a>
                     </div>
                 </div>
                 <div className={styles.icons}>
-                    <div>
+                    <div className={` ${news ? styles.newsIcon : styles.newsIconClicked} `}>
                         <img src={NewsIcon} alt="" onClick={handleNews}/>
                     </div>
-                    <div className={styles.searchIcon} onClick={handleSearch}>
+                    <div className={` ${search ? styles.searchIcon : styles.searchIconClicked} `} onClick={handleSearch}>
                         <FontAwesomeIcon icon={faSearch} />
                     </div>
                     <div className={styles.bellContainer}>

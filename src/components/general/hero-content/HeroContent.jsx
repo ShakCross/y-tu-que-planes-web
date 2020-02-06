@@ -4,18 +4,18 @@ import Chip from 'components/general/chip/Chip'
 import Button from 'components/general/button/Button'
 import H1 from 'components/general/h1/H1'
 
-const HeroContent = () => {
+const HeroContent = ({desc, title, chip, url, to}) => {
     return (
-        <div className={styles.heading__wrapper}>
+        <a className={styles.heading__wrapper} href={to}>
             <div className={styles.heading__inner_wrapper}>
-                <Chip filled />
-                <H1 title="SARCÓFAGOS DE KARAJÍA" />
+                <Chip filled title={chip}/>
+                <H1 title={title} />
                 <span className={styles.span}>
-                    Conoce el conjunto de tumbas antropomorfas de más de dos metros de alto al borde de un acantilado.
+                    {desc}
                 </span>
-                <Button title="Más Información" xclassname="slider_button"/>
+                <Button title="Más Información" xclassname="slider_button" url={url}/>
             </div>
-        </div>
+        </a>
     )
 }
 

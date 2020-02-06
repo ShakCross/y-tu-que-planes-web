@@ -29,7 +29,8 @@ const Ofertas = () => {
                             image={post.imagen} 
                             title={post.titulo} 
                             price={post.precio} 
-                            before={post.antes} 
+                            before={post.antes}
+                            url={post.url}  
                             alt={post.alt}
                         />
                     )}
@@ -43,7 +44,8 @@ const Ofertas = () => {
                         image={post.imagen} 
                         title={post.titulo} 
                         price={post.precio} 
-                        before={post.antes} 
+                        before={post.antes}
+                        url={post.url}  
                         alt={post.alt}
                     />
                 )}

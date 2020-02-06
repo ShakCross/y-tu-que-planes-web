@@ -5,13 +5,15 @@ import H4 from 'components/general/h4/H4'
 
 const Parallax = () => {
     return (
-        <section className={styles.wrapper}>
-            <div className={styles.ico_big}>
-                <img src={ico1} alt="" />
-            </div>
-            <div className={styles.h4}>
-                <H4 title="Dile sí a lo formal y vive el turismo seguro por el Perú"/>
-            </div>
+        <section>
+            <a className={styles.wrapper} href="https://www.ytuqueplanes.com/novedades/172_el-secreto-de-viajar-sin-preocupaciones" target="_blank" rel="noopener noreferrer">
+                <div className={styles.ico_big}>
+                    <img src={ico1} alt="" />
+                </div>
+                <div className={styles.h4}>
+                    <H4 title="Dile sí a lo formal y vive el turismo seguro por el Perú" />
+                </div>
+            </a>
         </section>
     )
 }

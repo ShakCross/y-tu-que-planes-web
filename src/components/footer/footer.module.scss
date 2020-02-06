@@ -321,3 +321,13 @@
         width: 100%;
     }
 }
+
+.sub_button{
+    display: flex;
+}
+
+@include respond-to('lg') {
+    .sub_button {
+        justify-content: center;
+    }
+}

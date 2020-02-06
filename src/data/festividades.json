@@ -8,12 +8,12 @@
             {
                 "titulo": "Festividad Virgen de la Candelaria",
                 "provincia": "Puno",
-                "url": "https://www.ytuqueplanes.com/festividades/898_festividad-virgen-de-la-candelaria-",
+                "url": "https://www.ytuqueplanes.com/festividades/898_festividad-virgen-de-la-candelaria-"
             },
             {
                 "titulo": "Carnaval Mombire Ayanda (Bailemos Juntos)",
                 "provincia": "Madre de Dios",
-                "url": "https://www.ytuqueplanes.com/festividades/965_carnaval-mombire-ayanda-bailemos-juntos",
+                "url": "https://www.ytuqueplanes.com/festividades/965_carnaval-mombire-ayanda-bailemos-juntos"
             }
         ]
     },
@@ -26,12 +26,12 @@
             {
                 "titulo": "Aniversario de la creación política de Yurimaguas",
                 "provincia": "Loreto",
-                "url": "https://www.ytuqueplanes.com/festividades/961_aniversario-de-la-creacion-politica-de-yurimaguas",
+                "url": "https://www.ytuqueplanes.com/festividades/961_aniversario-de-la-creacion-politica-de-yurimaguas"
             },
             {
                 "titulo": "",
                 "provincia": "",
-                "url": "",
+                "url": ""
             }
         ]
     },
@@ -44,12 +44,12 @@
             {
                 "titulo": "Carnaval Ucayalino",
                 "provincia": "Ucayali",
-                "url": "https://www.ytuqueplanes.com/festividades/949_carnaval-ucayalino",
+                "url": "https://www.ytuqueplanes.com/festividades/949_carnaval-ucayalino"
             },
             {
                 "titulo": "Carnavales Cusqueños",
                 "provincia": "Cusco",
-                "url": "https://www.ytuqueplanes.com/festividades/945_carnavales-cusquenos",
+                "url": "https://www.ytuqueplanes.com/festividades/945_carnavales-cusquenos"
             }
         ]
     },
@@ -62,12 +62,12 @@
             {
                 "titulo": "Festival del Mango de El Ingenio",
                 "provincia": "Ica",
-                "url": "https://www.ytuqueplanes.com/festividades/953_festival-del-mango-de-el-ingenio",
+                "url": "https://www.ytuqueplanes.com/festividades/953_festival-del-mango-de-el-ingenio"
             },
             {
                 "titulo": "Carnaval Huaytarino",
                 "provincia": "Huancavelica",
-                "url": "https://www.ytuqueplanes.com/festividades/950_carnaval-huaytarino",
+                "url": "https://www.ytuqueplanes.com/festividades/950_carnaval-huaytarino"
             }
         ]
     },
@@ -80,13 +80,13 @@
             {
                 "titulo": "Carnaval de Juliaca: Fiesta en Honor a la Pachamama",
                 "provincia": "Puno",
-                "url": "https://www.ytuqueplanes.com/festividades/968_carnaval-de-juliaca-fiesta-en-honor-a-la-pachamama",
+                "url": "https://www.ytuqueplanes.com/festividades/968_carnaval-de-juliaca-fiesta-en-honor-a-la-pachamama"
             },
             {
                 "titulo": "",
                 "provincia": "",
-                "url": "",
+                "url": ""
             }
         ]
-    },
+    }
 ]

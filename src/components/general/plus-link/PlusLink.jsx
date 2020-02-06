@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './plus-link.module.scss'
 
-const PlusLink = ({ lenght, none }) => {
+const PlusLink = ({ lenght, none, url }) => {
     return (
-        <a className={`${none ? styles.wrapper_none  : styles.wrapper }`}>
+        <a href={url} className={`${none ? styles.wrapper_none  : styles.wrapper }`} target="_blank" rel="noopener noreferrer">
             {`${"+ "} ${lenght} ${" actividad(es)"}`}
         </a>
     )
@@ -11,7 +11,8 @@ const PlusLink = ({ lenght, none }) => {
 
 PlusLink.defaultProps = {
     lenght: '5',
-    none: false
+    none: false,
+    url: '#'
 };
 
 

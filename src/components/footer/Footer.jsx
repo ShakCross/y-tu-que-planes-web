@@ -9,6 +9,7 @@ import SubscribeInput from 'components/footer/subscribe-input/SubscribeInput'
 import H5 from 'components/general/h5/H5';
 import SocialICon from 'components/footer/social-icon/SocialIcon'
 import SubFooter from 'components/footer/subfooter/SubFooter';
+import Button from 'components/general/button/Button'
 
 
 const Footer = () => {
@@ -89,7 +90,10 @@ const Footer = () => {
                             <div className={styles.h5}>
                                 <H5 title="¡Suscríbete para recibir nuevas ofertas y novedades!" />
                             </div>
-                            <SubscribeInput />
+                            {/* <SubscribeInput /> */}
+                            <div className={styles.sub_button}>
+                                <Button purple title="Suscríbete" url="https://www.ytuqueplanes.com/suscribete.aspx"/>
+                            </div>
                             <div className={styles.wrapper__perulogos}>
                                 <div className={styles.inner_wrapper__perulogos}>
                                     <div>

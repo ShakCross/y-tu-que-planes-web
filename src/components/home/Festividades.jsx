@@ -8,6 +8,7 @@ import Date from 'components/general/date/Date'
 import WrapperFest from 'components/general/wrapper-fest/WrapperFest'
 import EventTitle from 'components/general/event-title/EventTitle'
 import Slider from 'react-slick'
+import data from 'data/festividades.json'
 
 const Festividades = () => {
 
@@ -36,99 +37,54 @@ const Festividades = () => {
         ]
     }
 
-    const data = [
-        {
-            "id": 1,
-            "day": "29",
-            "month": "Septiembre",
-            "province1": "Amazonas",
-            "name1": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "province2": "Amazonas",
-            "name2": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "more": "1"
-        },
-        {
-            "id": 2,
-            "day": "08",
-            "month": "Octubre",
-            "province1": "Amazonas",
-            "name1": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "province2": "Amazonas",
-            "name2": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "more": "2"
-        },
-        {
-            "id": 3,
-            "day": "12",
-            "month": "Octubre",
-            "province1": "Amazonas",
-            "name1": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "province2": "Amazonas",
-            "name2": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "more": "4"
-        },
-        {
-            "id": 4,
-            "day": "24",
-            "month": "Octubre",
-            "province1": "Amazonas",
-            "name1": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "province2": "Amazonas",
-            "name2": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "more": "0"
-        },
-        {
-            "id": 5,
-            "day": "28",
-            "month": "Octubre",
-            "province1": "Amazonas",
-            "name1": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "province2": "Amazonas",
-            "name2": "Feria Internacional del Señor Cautivo de Ayabaca 2019",
-            "more": "1"
-        },
-    ]
-
     return (
         <section className={styles.wrapper} >
             <div>
                 <H2 title="Próximas Festividades" />
             </div>
             <div className={styles.inner_wrapper}>
-                {data.map(event =>
-                    <WrapperFest key={event.id}>
-                        <Date day={event.day} month={event.month} />
-                        <div>
-                            <Chip title={event.province1} />
-                            <EventTitle title={event.name1} />
-                        </div>
-                        <div>
-                            <Chip title={event.province2} />
-                            <EventTitle title={event.name2} />
-                        </div>
-                        <PlusLink lenght={event.more} />
+                {data.map(post =>
+                    <WrapperFest key={post.id}>
+                        <Date day={post.dia} month={post.mes} />
+                        <a href={post.festividades[0].url} target="_blank" rel="noopener noreferrer">
+                            <Chip title={post.festividades[0].provincia} />
+                            <EventTitle title={post.festividades[0].titulo} />
+                        </a>
+                        {post.festividades[1].provincia === "" ?
+                            ''
+                            :
+                            (<a href={post.festividades[1].url} target="_blank" rel="noopener noreferrer">
+                                <Chip title={post.festividades[1].provincia} />
+                                <EventTitle title={post.festividades[1].titulo} />
+                            </a>)
+                        }
+                        <PlusLink url={post.url} lenght={post.more} />
                     </WrapperFest>
                 )}
             </div>
             <div className={styles.show_slider}>
                 <Slider {...settings}>
-                    {data.map(event =>
-                        <WrapperFest key={event.id}>
-                            <Date day={event.day} month={event.month} />
-                            <div>
-                                <Chip title={event.province1} />
-                                <EventTitle title={event.name1} />
-                            </div>
-                            <div>
-                                <Chip title={event.province2} />
-                                <EventTitle title={event.name2} />
-                            </div>
-                            <PlusLink />
+                    {data.map(post =>
+                        <WrapperFest key={post.id}>
+                            <Date day={post.dia} month={post.mes} />
+                            <a href={post.festividades[0].url} target="_blank" rel="noopener noreferrer">
+                                <Chip title={post.festividades[0].provincia} />
+                                <EventTitle title={post.festividades[0].titulo} />
+                            </a>
+                            {post.festividades[1].provincia === "" ?
+                                ''
+                                :
+                                (<a href={post.festividades[1].url} target="_blank" rel="noopener noreferrer">
+                                    <Chip title={post.festividades[1].provincia} />
+                                    <EventTitle title={post.festividades[1].titulo} />
+                                </a>)
+                            }
+                            <PlusLink url={post.url} lenght={post.more} />
                         </WrapperFest>
                     )}
                 </Slider>
             </div>
-            <Button title="Ver calendario de festividades" xclassname="calendar_button" url="https://www.ytuqueplanes.com/festividades"/>
+            <Button title="Ver calendario de festividades" xclassname="calendar_button" url="https://www.ytuqueplanes.com/festividades" />
         </section>
     )
 }
