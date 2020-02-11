@@ -8,17 +8,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import HeaderResponsive from 'components/header/header-responsive/HeaderResponsive'
 import HeaderBuscador from 'components/header/header-buscador/HeaderBuscador';
 import HeaderNoticias from 'components/header/header-noticias/HeaderNoticias';
+import HeaderNotificaciones from 'components/header/header-notificaciones/HeaderNotificaciones';
 
 const Header = () => {
 
     const [toggle, setToggle] = useState(true);
-    const handleToggle = () => setToggle(!toggle) & setSearch(true) & setNews(true)
+    const handleToggle = () => setToggle(!toggle) & setSearch(true) & setNews(true) & setAlert(true)
 
     const [search, setSearch] = useState(true);
-    const handleSearch = () => setSearch(!search) & setToggle(true) & setNews(true)
+    const handleSearch = () => setSearch(!search) & setToggle(true) & setNews(true) & setAlert(true)
 
     const [news, setNews] = useState(true);
-    const handleNews = () => setNews(!news) & setToggle(true) & setSearch(true)
+    const handleNews = () => setNews(!news) & setToggle(true) & setSearch(true) & setAlert(true)
+
+    const [alert, setAlert] = useState(true);
+    const handleAlert = () => setAlert(!alert) & setToggle(true) & setSearch(true) & setNews(true)
 
     return (
         <>
@@ -26,7 +30,7 @@ const Header = () => {
                 <div className={styles.logo}>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src={Logo} alt="" />
-                    </a> 
+                    </a>
                 </div>
                 <div className={styles.main}>
                     <div>
@@ -44,12 +48,12 @@ const Header = () => {
                 </div>
                 <div className={styles.icons}>
                     <div className={` ${news ? styles.newsIcon : styles.newsIconClicked} `}>
-                        <img src={NewsIcon} alt="" onClick={handleNews}/>
+                        <img src={NewsIcon} alt="" onClick={handleNews} />
                     </div>
                     <div className={` ${search ? styles.searchIcon : styles.searchIconClicked} `} onClick={handleSearch}>
                         <FontAwesomeIcon icon={faSearch} />
                     </div>
-                    <div className={styles.bellContainer}>
+                    <div className={styles.bellContainer} onClick={handleAlert}>
                         <span className={styles.circle}>
                             <span className={styles.circle__tick}>2</span>
                         </span>
@@ -76,6 +80,9 @@ const Header = () => {
             )}
             {news ? (<HeaderNoticias xclassname="wrapper-none" />) : (
                 <HeaderNoticias />
+            )}
+            {alert ? (<HeaderNotificaciones xclassname="wrapper-none" />) : (
+                <HeaderNotificaciones />
             )}
         </>
 

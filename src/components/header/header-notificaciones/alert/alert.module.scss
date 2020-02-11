@@ -1,0 +1,18 @@
+.content{
+    font-family: ClanOffcNews;
+    font-size: 11px;
+    color: $dark-grey;
+}
+
+.info{
+    font-family: ClanOffcNews;
+    font-size: 11px;
+    color: $sky-blue;
+}
+
+.alert{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 28.5px;
+}
