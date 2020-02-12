@@ -73,32 +73,29 @@
 @include respond-to('lg') {
     .copyright {
         text-align: center;
-        -webkit-box-flex: 0;
-        -ms-flex: none;
         flex: none;
     }
     .links {
         text-align: center;
-        -webkit-box-flex: 0;
-        -ms-flex: none;
         flex: none;
         margin: 5px 5px;
     }
     .inner__wrapper {
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
         widows: 100%;
+        align-items: center;
     }
     .wrapper {
         height: 113px;
     }
 }
 
-@media only screen and (max-width: 805px) {
+@media only screen and (max-width: 752px) {
     .copyright {
-        margin-top: 15px;
+        margin: 15px;
+    }
+    .links{
+        flex-basis: 50%;
     }
 }

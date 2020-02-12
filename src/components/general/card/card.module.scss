@@ -4,7 +4,7 @@
     display: flex;
     justify-content: flex-start;
     width: 90%;
-    height: 20%;
+    height: 25%;
     align-items: center;
 }
 
@@ -106,7 +106,7 @@
     width: 217px;
     height: 42px;
     font-family: ClanOffc;
-    font-size: 15px;
+    font-size: 13px;
     color: $dark-grey;
     font-weight: bold;
 }
@@ -210,6 +210,16 @@
         margin: 50px 15px;
     }
 }
+
+@media only screen and (max-width: 576px) {
+    .wrapper:hover {
+        background: top/100% 80% no-repeat;
+    }
+    .wrapper_full:hover {
+        background: top/100% 100% no-repeat;
+    }
+}
+
 
 .header_wrapper{
     width: 195px;

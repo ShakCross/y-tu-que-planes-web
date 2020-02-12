@@ -7,7 +7,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: $default-background;
+    background-color: white;
     height: 75px;
     position: fixed;
     z-index: 99;
@@ -91,6 +91,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    
 }
 
 .searchIcon {

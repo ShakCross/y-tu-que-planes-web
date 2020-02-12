@@ -16,7 +16,7 @@ const CardSlider = ({children}) => {
                     className: "center",
                     centerMode: true,
                     infinite: true,
-                    centerPadding: "15%",
+                    centerPadding: "19%",
                     slidesToShow: 1,
                     speed: 500,
                     arrows: false,
@@ -24,12 +24,38 @@ const CardSlider = ({children}) => {
                 }
             },
             {
-                breakpoint: 470,
+                breakpoint: 400,
                 settings: {
                     className: "center",
                     centerMode: true,
                     infinite: true,
-                    centerPadding: "9.9%",
+                    centerPadding: "12%",
+                    slidesToShow: 1,
+                    speed: 500,
+                    arrows: false,
+                    autoplay: true
+                }
+            },
+            {
+                breakpoint: 343,
+                settings: {
+                    className: "center",
+                    centerMode: true,
+                    infinite: true,
+                    centerPadding: "10%",
+                    slidesToShow: 1,
+                    speed: 500,
+                    arrows: false,
+                    autoplay: true
+                }
+            },
+            {
+                breakpoint: 330,
+                settings: {
+                    className: "center",
+                    centerMode: true,
+                    infinite: true,
+                    centerPadding: "12%",
                     slidesToShow: 1,
                     speed: 500,
                     arrows: false,
