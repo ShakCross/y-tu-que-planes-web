@@ -1,0 +1,11 @@
+.wrapper {
+  font-family: BreePeru;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+.h1 {
+  font-size: 36px;
+  margin: 0;
+  text-transform: uppercase;
+}

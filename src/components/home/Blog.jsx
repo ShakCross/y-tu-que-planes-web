@@ -17,7 +17,7 @@ const Blog = () => {
                     de nuestros viajeros.
                     </span>
                 <div>
-                    <Button green title="Ir al Blog" url="https://www.ytuqueplanes.com/novedades" />
+                    <Button green title="Ir al Blog" xclassname="blog_button" url="https://www.ytuqueplanes.com/novedades" />
                 </div>
             </div>
             <div className={styles.wrapper__content}>
@@ -46,6 +46,7 @@ const Blog = () => {
                     />
                 )}
             </CardSlider>
+            <Button green title="Ir al Blog" xclassname="blog_button_mobile" url="https://www.ytuqueplanes.com/novedades" />
         </MainContent>
     )
 }

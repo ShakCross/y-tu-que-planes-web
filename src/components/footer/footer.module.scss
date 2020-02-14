@@ -212,6 +212,12 @@
     color: white;
 }
 
+.perulogos{
+    width: 80px;
+    height: 35px;
+    object-fit: contain;
+}
+
 @include respond-to('lg') {
     .wrapper__links,
     .wrapper__help {

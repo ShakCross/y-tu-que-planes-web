@@ -71,13 +71,13 @@ const Footer = () => {
                                 <div className={styles.wrapper__perulogos__mobile}>
                                     <div className={styles.inner_wrapper__perulogos}>
                                         <div>
-                                            <img src={iperu} alt="" />
+                                            <img className={styles.perulogos} src={iperu} alt="" />
                                         </div>
                                         <div>
-                                            <img src={promperu} alt="" />
+                                            <img className={styles.perulogos} src={promperu} alt="" />
                                         </div>
                                         <div>
-                                            <img src={marcaperu} alt="" />
+                                            <img className={styles.perulogos} src={marcaperu} alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -97,13 +97,13 @@ const Footer = () => {
                             <div className={styles.wrapper__perulogos}>
                                 <div className={styles.inner_wrapper__perulogos}>
                                     <div>
-                                        <img src={iperu} alt="" />
+                                        <img className={styles.perulogos} src={iperu} alt="" />
                                     </div>
                                     <div>
-                                        <img src={promperu} alt="" />
+                                        <img className={styles.perulogos} src={promperu} alt="" />
                                     </div>
                                     <div>
-                                        <img src={marcaperu} alt="" />
+                                        <img className={styles.perulogos} src={marcaperu} alt="" />
                                     </div>
                                 </div>
                             </div>

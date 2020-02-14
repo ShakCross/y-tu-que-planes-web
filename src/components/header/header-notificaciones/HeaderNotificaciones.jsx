@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './header-notificaciones.module.scss'
 import Alert from 'components/header/header-notificaciones/alert/Alert';
 
-const HeaderNotificaciones = ({ xclassname }) => {
+const HeaderNotificaciones = ({ xclassname, clicked }) => {
     return (
         <>
             <div className={`${styles.wrapper}  ${styles[xclassname]}`}>
@@ -12,17 +12,7 @@ const HeaderNotificaciones = ({ xclassname }) => {
                         <div className={styles.date}>ALERTAS</div>
                     </div>
                     <div className={styles.content_wrapper}>
-                        <div className={styles.head}>
-                            <div className={styles.chip}>
-                                Nuevo
-                            </div>
-                            <div className={styles.title}>
-                                Telecabinas Kueláp
-                            </div>
-                        </div>
                         <div className={styles.alert_wrapper}>
-                            <Alert />
-                            <Alert />
                             <Alert />
                             <Alert />
                             <Alert />
@@ -36,7 +26,7 @@ const HeaderNotificaciones = ({ xclassname }) => {
                     </a>
                 </div>
             </div>
-            <div className={`${styles.background}  ${styles[xclassname]}`}></div>
+            <div className={`${styles.background}  ${styles[xclassname]}`} onClick={clicked}></div>
         </>
     )
 }

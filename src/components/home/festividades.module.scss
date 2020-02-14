@@ -27,6 +27,13 @@
     display: none
 }
 
+.wrapper_content{
+    display: flex;
+    flex-direction: column;
+    height: 37%;
+    justify-content: space-between;
+}
+
 @include respond-to('xs') {
     .show_slider {
         display: block

@@ -89,8 +89,12 @@
     color: $purple;
 }
 
-.ofertas_button {
+.ofertas_button, .ofertas_button_mobile  {
     padding: 19px 35px;
+}
+
+.ofertas_button_mobile, .blog_button_mobile{
+    display: none;
 }
 
 .slider_button{
@@ -108,6 +112,12 @@
 @include respond-to('xs') {
     .calendar_button {
         padding: 18px 17px 16px 17px;
+    }
+    .ofertas_button, .blog_button {
+        display: none;
+    }
+    .ofertas_button_mobile, .blog_button_mobile{
+        display: block;
     }
 }
 

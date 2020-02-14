@@ -16,7 +16,7 @@ export default class MainSlider extends Component {
         this.slider.slickPlay();
     }
     pause() {
-        this.slider.slickPause();
+        !this.slider.slickPause();
     }
     render() {
         const settings = {
@@ -49,15 +49,13 @@ export default class MainSlider extends Component {
                     <ul className={styles.dots__ul}>
                         {dots}
                         <div style={{ textAlign: "center" }} className={styles.button__container}>
-                            {this.play = true ?
-                                <button className={styles.button} onClick={this.pause}>
-                                    <FontAwesomeIcon icon={faPause} />
-                                </button> 
-                                : 
-                                <button className={styles.button} onClick={this.play}>
-                                    <FontAwesomeIcon icon={faPlay} />
-                                </button>
-                            }
+                            <button className={styles.button}>
+                            {this.play = this.slider ?
+                                    <FontAwesomeIcon icon={this.pause ? faPause : faPlay} onClick={this.pause}/>
+                                    : 
+                                    <FontAwesomeIcon icon={this.play ? faPlay : faPause} onClick={this.play}/>
+                             }
+                             </button> 
                         </div>
                     </ul>
                 </div>

@@ -1,15 +1,25 @@
 import React from 'react'
 import styles from './alert.module.scss'
 
-const Alert = ({content, url}) => {
+const Alert = ({ content, url }) => {
     return (
         <div className={styles.alert}>
-            <div className={styles.content}>
-                {content}
+            <div className={styles.head}>
+                <div className={styles.chip}>
+                    Nuevo
+                </div>
+                <div className={styles.title}>
+                    Telecabinas Kueláp
+                </div>
             </div>
-            <a className={styles.info} href={url} target="_blank" rel="noopener noreferrer">
-                Más información >
-            </a>
+            <div className={styles.footer}>
+                <div className={styles.content}>
+                    {content}
+                </div>
+                <a className={styles.info} href={url} target="_blank" rel="noopener noreferrer">
+                    Más información >
+                </a>
+            </div>
         </div>
     )
 }

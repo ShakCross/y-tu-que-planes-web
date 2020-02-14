@@ -50,6 +50,7 @@ const Ofertas = () => {
                     />
                 )}
             </CardSlider>
+            <Button yellow title="Ver todas las Ofertas" xclassname="ofertas_button_mobile" url="https://www.ytuqueplanes.com/ofertas"/>
         </MainContent>
     )
 }

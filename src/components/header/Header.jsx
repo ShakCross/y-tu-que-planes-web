@@ -3,14 +3,16 @@ import styles from './header.module.scss';
 import Logo from 'assets/img/ytqp-2.png'
 import NewsIcon from 'assets/img/news.png'
 import BellIcon from 'assets/img/campana.svg'
-import { faSearch, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import BellIconGrey from 'assets/img/campana-gris.svg'
+import SearchIcon from 'assets/img/lupa.svg'
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import HeaderResponsive from 'components/header/header-responsive/HeaderResponsive'
 import HeaderBuscador from 'components/header/header-buscador/HeaderBuscador';
 import HeaderNoticias from 'components/header/header-noticias/HeaderNoticias';
 import HeaderNotificaciones from 'components/header/header-notificaciones/HeaderNotificaciones';
 
-const Header = () => {
+const Header = ({empty, count}) => {
 
     const [toggle, setToggle] = useState(true);
     const handleToggle = () => setToggle(!toggle) & setSearch(true) & setNews(true) & setAlert(true)
@@ -48,27 +50,23 @@ const Header = () => {
                 </div>
                 <div className={styles.icons}>
                     <div className={` ${news ? styles.newsIcon : styles.newsIconClicked} `}>
-                        <img src={NewsIcon} alt="" onClick={handleNews} />
+                        <img src={NewsIcon} alt="noticias-icon" onClick={handleNews} />
                     </div>
                     <div className={` ${search ? styles.searchIcon : styles.searchIconClicked} `} onClick={handleSearch}>
-                        <FontAwesomeIcon icon={faSearch} />
+                        <img src={SearchIcon} alt="buscar-icon"/>
                     </div>
                     <div className={styles.bellContainer} onClick={handleAlert}>
-                        <span className={styles.circle}>
-                            <span className={styles.circle__tick}>2</span>
+                        <span className={`${empty ? styles.circle__none : styles.circle}`}>
+                            <span className={styles.circle__tick}>{count}</span>
                         </span>
-                        <img src={BellIcon} alt="" />
+                        <img src={`${empty ? BellIconGrey : BellIcon}`} alt="alertas-icon" />
                     </div>
                     <div className={styles.hamburguer} onClick={handleToggle}>
-
                         {(toggle) ?
                             (<div className={styles.hamburguer__icon}><FontAwesomeIcon icon={faBars} /></div>)
                             :
                             (<div className={styles.times__icon}><FontAwesomeIcon className={styles.times} icon={faTimes} /></div>)
                         }
-
-
-
                     </div>
                 </div>
             </nav>
@@ -76,17 +74,22 @@ const Header = () => {
                 <HeaderResponsive />
             )}
             {search ? (<HeaderBuscador xclassname="wrapper-none" />) : (
-                <HeaderBuscador />
+                <HeaderBuscador clicked={handleSearch}/>
             )}
-            {news ? (<HeaderNoticias xclassname="wrapper-none" />) : (
-                <HeaderNoticias />
+            {news ? (<HeaderNoticias xclassname="wrapper-none"/>) : (
+                <HeaderNoticias clicked={handleNews}/>
             )}
             {alert ? (<HeaderNotificaciones xclassname="wrapper-none" />) : (
-                <HeaderNotificaciones />
+                <HeaderNotificaciones clicked={handleAlert}/>
             )}
         </>
 
     )
 }
+
+Header.defaultProps = {
+    empty: false,
+    count: '2'
+};
 
 export default Header

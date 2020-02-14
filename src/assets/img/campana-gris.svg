@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="23.0863377" cy="22.8881397" r="22.5"></circle>
+        <filter x="-10.0%" y="-10.0%" width="120.0%" height="120.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.727638134   0 0 0 0 0.727638134   0 0 0 0 0.727638134  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="0 0.146338235 18.9676136 0.146338235 18.9676136 19.9460441 0 19.9460441"></polygon>
+        <polygon id="path-5" points="0 0 5 0 5 2 0 2"></polygon>
+    </defs>
+    <g id="DS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1318.000000, -4796.000000)">
+            <g id="HEADER_desk_news" transform="translate(0.000000, 4794.000000)">
+                <g id="Group-7" transform="translate(1344.218185, 28.517836) rotate(-374.000000) translate(-1344.218185, -28.517836) translate(1321.218185, 5.517836)">
+                    <g id="Oval-Copy-3">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-3" transform="translate(13.303010, 11.387835)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M9.48422424,0.146338235 C8.59554242,0.146338235 7.87541364,0.882073529 7.87541364,1.78942647 L7.87541364,3.83060294 C4.32860303,4.58854412 1.66428485,7.80119118 1.66428485,11.6503088 L1.06794394,16.9081029 C0.438209091,17.2178088 -8.63636364e-05,17.87075 -8.63636364e-05,18.63325 L-8.63636364e-05,18.8158971 C-8.63636364e-05,19.8761912 0.840231818,19.9460441 1.87774697,19.9460441 L17.0888303,19.9460441 C18.1257697,19.9460441 18.9669515,19.8761912 18.9669515,18.8158971 L18.9669515,18.8160441 L18.9676712,18.8160441 L18.9676712,18.63325 C18.9676712,17.8708971 18.5296636,17.2191324 17.8999288,16.9089853 L17.3035879,11.6504559 C17.3035879,7.80089706 14.6392697,4.58854412 11.0924591,3.83075 L11.0924591,1.78942647 C11.0924591,0.882073529 10.3723303,0.146338235 9.48422424,0.146338235" id="Fill-1" fill="#787878" mask="url(#mask-4)"></path>
+                    </g>
+                    <g id="Group-6" transform="translate(20.303010, 32.387835)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <path d="M2.50019231,2 C3.88075391,2 5.0002564,1.10497974 5,0 L0,0 C0,1.10497974 1.11975893,2 2.50019231,2" id="Fill-4" fill="#787878" mask="url(#mask-6)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

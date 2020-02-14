@@ -3,22 +3,13 @@
 .wrapper {
     width: 205px;
     height: 329px;
-    -webkit-box-shadow: 7px 8px 10px 0 rgba(51, 171, 160, 0.21);
     box-shadow: 7px 8px 10px 0 rgba(51, 171, 160, 0.21);
     background-color: white;
     border-bottom-right-radius: 24px;
-    padding-right: 20px;
+    padding: 5px 20px;
     margin-left: 0px;
-    padding-left: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     padding: 5px 15px 0px 15px;
     margin: 0px 10px 50px 10px;
@@ -26,18 +17,12 @@
 }
 
 .wrapper:hover {
-    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.25), 0 15px 12px rgba(0, 0, 0, 0.25);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.25), 0 15px 12px rgba(0, 0, 0, 0.1);
     transition: all 450ms ease-in-out;
 }
 
 .inner__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
 }
 
 @include respond-to('xs') {

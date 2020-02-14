@@ -1,17 +1,17 @@
 .wrapper {
-    box-shadow: 0 0 14px 0 #d7d7d7;
     height: 395px;
     position: fixed;
     z-index: 9;
     width: 100%;
     top: 75px;
-    background-color: #d7d7d7;
     -webkit-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #edeeee;
 }
 
 .wrapper-none {
@@ -22,7 +22,7 @@
 
 .background {
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.23;
     height: 1200px;
     top: 75px;
     position: fixed;

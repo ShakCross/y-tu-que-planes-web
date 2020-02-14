@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './header-buscador.module.scss'
 
-const HeaderBuscador = ({ xclassname }) => {
+const HeaderBuscador = ({ xclassname, clicked }) => {
     return (
         <>
             <div className={`${styles.wrapper}  ${styles[xclassname]}`}>
@@ -9,7 +9,7 @@ const HeaderBuscador = ({ xclassname }) => {
                     
                 </div>
             </div>
-            <div className={`${styles.background}  ${styles[xclassname]}`}></div>
+            <div className={`${styles.background}  ${styles[xclassname]}`} onClick={clicked}></div>
         </>
     )
 }
