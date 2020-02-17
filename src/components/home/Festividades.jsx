@@ -45,14 +45,14 @@ const Festividades = () => {
                     <WrapperFest key={post.id}>
                         <Date day={post.dia} month={post.mes} />
                         <div className={styles.wrapper_content}>
-                            <a href={post.festividades[0].url} target="_blank" rel="noopener noreferrer">
+                            <a className={styles.content} href={post.festividades[0].url} target="_blank" rel="noopener noreferrer">
                                 <Chip title={post.festividades[0].provincia} />
                                 <EventTitle title={post.festividades[0].titulo} />
                             </a>
                             {post.festividades[1].provincia === "" ?
                                 ''
                                 :
-                                (<a href={post.festividades[1].url} target="_blank" rel="noopener noreferrer">
+                                (<a className={styles.content} href={post.festividades[1].url} target="_blank" rel="noopener noreferrer">
                                     <Chip title={post.festividades[1].provincia} />
                                     <EventTitle title={post.festividades[1].titulo} />
                                 </a>)
@@ -67,14 +67,14 @@ const Festividades = () => {
                     {data.map(post =>
                         <WrapperFest key={post.id}>
                             <Date day={post.dia} month={post.mes} />
-                            <a href={post.festividades[0].url} target="_blank" rel="noopener noreferrer">
+                            <a className={styles.content} href={post.festividades[0].url} target="_blank" rel="noopener noreferrer">
                                 <Chip title={post.festividades[0].provincia} />
                                 <EventTitle title={post.festividades[0].titulo} />
                             </a>
                             {post.festividades[1].provincia === "" ?
                                 ''
                                 :
-                                (<a href={post.festividades[1].url} target="_blank" rel="noopener noreferrer">
+                                (<a className={styles.content} href={post.festividades[1].url} target="_blank" rel="noopener noreferrer">
                                     <Chip title={post.festividades[1].provincia} />
                                     <EventTitle title={post.festividades[1].titulo} />
                                 </a>)

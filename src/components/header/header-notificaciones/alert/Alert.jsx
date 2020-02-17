@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './alert.module.scss'
 
-const Alert = ({ content, url }) => {
+const Alert = ({ content, url, title }) => {
     return (
         <div className={styles.alert}>
             <div className={styles.head}>
@@ -9,7 +9,7 @@ const Alert = ({ content, url }) => {
                     Nuevo
                 </div>
                 <div className={styles.title}>
-                    Telecabinas Kueláp
+                    {title}
                 </div>
             </div>
             <div className={styles.footer}>
@@ -24,6 +24,7 @@ const Alert = ({ content, url }) => {
     )
 }
 Alert.defaultProps = {
+    title: "Revisa la lista completa de Feriados 2020",
     content: 'Nuevo horario de atención hasta las 05:00 p.m.',
     url: '#'
 };

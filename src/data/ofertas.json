@@ -5,7 +5,8 @@
         "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/caral-full-day.jpg",
         "precio": "299",
         "antes": "359",
-        "url": "https://www.ytuqueplanes.com/oferta/6615_full-day-caral-cuna-de-la-civilizacion"
+        "url": "https://www.ytuqueplanes.com/oferta/6615_full-day-caral-cuna-de-la-civilizacion",
+        "alt": "ofertas-caral"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
         "precio": "300",
         "antes": "435",
-        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso"
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
+        "alt": "ofertas-cusco"
     },
     {
         "id": 3,
@@ -21,6 +23,7 @@
         "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/vichayito.jpg",
         "precio": "204",
         "antes": "340",
-        "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito"
+        "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito",
+        "alt": "ofertas-vichayito"
     }
 ]

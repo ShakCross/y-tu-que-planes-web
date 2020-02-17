@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './card.module.scss'
 import Chip from 'components/general/chip/Chip'
+import Rating from 'components/general/rating/Rating'
 
 
-const Card = ({ shadow, header, image, price, before, location, duration, title, url, alt }) => {
+const Card = ({ shadow, header, image, price, before, location, duration, title, url, alt, stars }) => {
     return (
             <a href={url} target="_blank" rel="noopener noreferrer">
                 {
@@ -17,14 +18,15 @@ const Card = ({ shadow, header, image, price, before, location, duration, title,
                          >
                             <div className={styles.header_data}>
                                 <div className={styles.content}>
-                                    <div className={styles.wrapper__chip}>
-                                        <Chip title={location} />
+                                    <div className={styles.wrapper_rating}>
+                                        <Rating stars={stars} />
                                     </div>
                                     <div className={styles.wrapper__span}>
-                                        <span className={styles.span}> {title} </span>
+                                        <span className={styles.header_span}> {title} </span>
                                     </div>
                                 </div>
-                            </div>
+                                Fecha
+                            </div>                                 
                         </div>) :
                     shadow ?
                         (<div 
@@ -90,7 +92,8 @@ Card.defaultProps = {
     location: 'Amazonas', 
     duration: 'Full Day', 
     title: 'Déjate tentar por el sabor del cuy moqueguano',
-    url: '#'
+    url: '#',
+    number: '4'
 };
 
 export default Card

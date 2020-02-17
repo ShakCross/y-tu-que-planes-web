@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './header-notificaciones.module.scss'
 import Alert from 'components/header/header-notificaciones/alert/Alert';
+import data from 'data/alertas.json'
 
 const HeaderNotificaciones = ({ xclassname, clicked }) => {
     return (
         <>
-            <div className={`${styles.wrapper}  ${styles[xclassname]}`}>
+            <div className={`${styles[xclassname]} ${styles.wrapper}`}>
                 <div className={styles.inner__wrapper}>
                     <div className={styles.date_wrapper}>
                         <div className={styles.date}>Última publicación: 13 de Noviembre 2019</div>
@@ -13,9 +14,9 @@ const HeaderNotificaciones = ({ xclassname, clicked }) => {
                     </div>
                     <div className={styles.content_wrapper}>
                         <div className={styles.alert_wrapper}>
-                            <Alert />
-                            <Alert />
-                            <Alert />
+                            {data.map(post =>
+                                <Alert key={post.id} title={post.titulo} content={post.desc} url={post.url} />
+                            )}
                         </div>
                     </div>
                     <a href="#" target="_blank" rel="noopener noreferrer" className={styles.holiday_wrapper}>
