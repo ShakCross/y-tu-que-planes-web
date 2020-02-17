@@ -1,13 +1,27 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import styles from './blog.module.scss'
 import Card from 'components/general/card/Card'
 import H2 from 'components/general/h2/H2'
 import Button from 'components/general/button/Button'
 import MainContent from 'components/home/main-content/MainContent'
 import CardSlider from 'components/general/card-slider/CardSlider'
-import data from 'data/blog.json'
+
+const url = 'http://localhost:1337'
 
 const Blog = () => {
+
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+          const result = await axios(
+            'http://localhost:1337/blogs/',
+          );
+          setData(result.data);
+        };
+        fetchData();
+      }, []);
 
     return (
         <MainContent>
@@ -25,11 +39,11 @@ const Blog = () => {
                     {data.map(post =>
                         <Card 
                             key={post.id} 
-                            image={post.imagen} 
+                            image={url + post.imagen.url} 
                             title={post.titulo} 
-                            location={post.localia} 
+                            location={post.localia}
                             url={post.url} 
-                            alt={post.alt}
+                            alt={post.alt} 
                         />
                     )}
                 </div>
@@ -38,7 +52,7 @@ const Blog = () => {
                 {data.map(post =>
                     <Card 
                         key={post.id} 
-                        image={post.imagen} 
+                        image={url + post.imagen.url} 
                         title={post.titulo} 
                         location={post.localia} 
                         url={post.url} 

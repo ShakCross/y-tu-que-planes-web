@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios';
 import styles from './header-notificaciones.module.scss'
 import Alert from 'components/header/header-notificaciones/alert/Alert';
 
+const url = 'http://localhost:1337'
+
 const HeaderNotificaciones = ({ xclassname, clicked }) => {
+
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const result = await axios(
+                'http://localhost:1337/alertas/',
+            );
+            setData(result.data);
+        };
+        fetchData();
+    }, []);
+
     return (
         <>
             <div className={`${styles.wrapper}  ${styles[xclassname]}`}>
@@ -13,9 +29,9 @@ const HeaderNotificaciones = ({ xclassname, clicked }) => {
                     </div>
                     <div className={styles.content_wrapper}>
                         <div className={styles.alert_wrapper}>
-                            <Alert />
-                            <Alert />
-                            <Alert />
+                        {data.map(post =>
+                            <Alert title={post.titulo} content={post.desc} url={post.url} />
+                        )}
                         </div>
                     </div>
                     <a href="#" target="_blank" rel="noopener noreferrer" className={styles.holiday_wrapper}>
