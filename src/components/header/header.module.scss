@@ -1,222 +1,145 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
-.wrapper {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 1 auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: white;
-    height: 75px;
+.header_nav{ 
+    width: inherit;
+    height: 65px;
+    background-color: rgba(52,171,160,.8);
+    border-bottom-right-radius: 20px;
+    margin-top: 30px;
     position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 0px 1px 0;
-    padding: 0px 5%;
-}
-
-.logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    z-index: 999999999;
+    margin-bottom: -50px;
+    max-width: 912px;
     display: flex;
-    -ms-flex-preferred-size: 14%;
-    flex-basis: 14%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-}
-
-.main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-preferred-size: 49%;
-    flex-basis: 49%;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
-
-.icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-preferred-size: 22%;
-    flex-basis: 22%;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+.header_row{
+    width: inherit;
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: center;
 }
-
-.main__link {
-    font-family: ClanOffcNews;
-    font-size: 14px;
-    letter-spacing: 0.5px;
+.menu_item{
+    width: 14%;
+    height: 65px;
     text-align: center;
-    color: $grey;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+    align-items: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+    color: $white;
+    font-family: BreePeruLight;
+}
+.menu_item > a{
+    color: $white;   
+}
+.menu_item > a{
+    text-decoration: none;   
+}
+.menu-item-mobile > a{
+    color: $white;   
+}
+.menu_item-mobile > a{
+    text-decoration: none;   
+}
+.menu_item:hover {
+    background: #2e998f;
+    cursor: pointer;
+}
+.menu_item_icons{
+    width: 14%;
+    height: 65px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: $white;
+}
+.menu_item_icons > img {
+    margin-left: 8px;
+}
+.header_icon_bg{
+    background-color: #f0b127;
+    padding: 4px;
+}
+
+.menu_responsive{
+    display: none;
     align-items: center;
 }
-
-.main__link::after {
-    transition: all 250ms ease-in-out;
-    content: '';
-    position: absolute;
-    z-index: -1;
-}
-
-.main__link:hover::after {
-    width: 120px;
+.hidden-collapse{
+    margin: 0px 20px 0px 0px;
+    border-color: #fff!important;
+    border-radius: 100px;
+    width: 30px;
     height: 30px;
-    border-radius: 12px;
-    box-shadow: 3px 2px 4px 0 rgba(0, 0, 0, 0.12);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    
+    border: solid 2px;
 }
-
-.searchIcon {
-    font-size: 28px;
-    color: $grey;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 51px;
-    height: 51px;
+.hidden-collapse:hover{
+    text-decoration: none;
 }
-
-.hamburguer {
-    display: none;
-    border: solid 1px;
-    font-size: 24px;
-    border-radius: 43px;
-    width: 45px;
-    height: 45px;
-    background-color: white;
-    border-color: $transparent-dark-grey;
-    color: $grey;
-    cursor: pointer;
-}
-
-.hamburguer__icon {
-    position: relative;
-    top: 8px;
-    left: 11px;
-}
-
-.circle {
-    position: absolute;
-    top: 3px;
-    right: 0px;
-    left: auto;
-    margin: auto;
-    font-size: 9px;
-    font-family: ClanOffc;
-    width: 19px;
-    height: 19px;
-    border-radius: 50%;
-    background-color: red;
+a.hidden-collapse > i {
     color: white;
-    border: solid 1px white;
+    position: relative;
+    top: 4px;
+    left: 6px;
 }
-
-.circle__none{
+div.menu_responsive > a {
+    margin-left: 10px;
+}
+div.menu_responsive > a > i{
+    color: $white
+}
+.toggle_menu{
+    z-index: 10;
+    position: fixed;
+    top: 45px;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 34px;
     display: none;
 }
-
-.circle__tick {
-    position: absolute;
-    top: 5px;
-    left: 5px;
+.menu-item-mobile{
+    border-top: solid 1px $grey;
+    color: $white;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: BreePeru;
 }
-
-.bellContainer {
-    position: relative;
-    cursor: pointer;
+.search{
+    margin-left: 11px !important;
 }
-
-.newsIcon{
-    cursor: pointer;
-}
-
-.newsIcon::after, .searchIcon::after {
-    transition: all 250ms ease-in-out;
-    content: '';
-    position: absolute;
-    z-index: -1;
-    bottom: 12px;
-    width: 51px;
-    height: 51px;
-}
-
-.newsIcon:hover::after, .newsIconClicked {
-    border: solid 1px rgba(0,0,0,0.1);
-    border-radius: 100px;
-    background-color: white;
-    cursor: pointer;
-}
-
-.searchIcon:hover::after, .searchIconClicked{
-    border: solid 1px rgba(0,0,0,0.1);
-    border-radius: 100px;
-    background-color: white;
-    cursor: pointer;
-    font-size: 28px;
-    color: $grey;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 51px;
-    height: 51px;
-
-}
-
-.times__icon {
-    position: relative;
-    top: 8px;
-    left: 13px;
-}
-
-@include respond-to('sm') {
-    .main {
+@media only screen and (max-width: 991px)
+{
+    .toggle_menu{
+        display: flex;
+        background-color: #2e998f; 
+    }
+    .menu_responsive{
+        display: flex;
+    }
+    .menu_logo{
+        order: -1;
+        margin-left: 20px;
+    }
+    .menu_logo > a > img{
+        width: 40px;
+        height: auto;
+    }
+    .menu-item, .menu_item_icons{
         display: none;
     }
-    .logo {
-        -ms-flex-preferred-size: 40%;
-        flex-basis: 20%;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
+    .hidden-collapse{
+        display: flex;
     }
-    .logo>img {
-        width: 50px;
+    .header-nav{
+        height: 45px;
     }
-    .icons {
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 220px;
-    }
-    .hamburguer {
-        display: inline-block;
+    .header-nav{
+        margin: 0px;
+        border-radius: 0px;
+        background-color: $pale-green;
+        max-width: 100%;
     }
 }
