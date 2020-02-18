@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "titulo": "Turismo comunitario en Tingana",
+        "imagen": "",
+        "subtitulo": "Navega por los aguajales y renacales de Tingana",
+        "desc": "Tingana, un asombroso paraíso que alberga una gran variedad de especies de flora y fauna silvestre, en su mayoría aves y primates, es ideal para realizar estudios de investigación y observación. En este particular ecosistema, hábitat de especies en peligro de extinción y en situación vulnerable, los pobladores juegan un rol importante al protegerlas y cuidarlas para poder mostrarlas al mundo.",
+        "alt": "turismo-tingana",
+        "precio": "70",
+        "horario": "2D/1N",
+        "llegar": {
+            "ruta1": "Aéreo",
+            "ciudad1": "De Lima a Juliaca",
+            "tiempo1": "01:30",
+            "distancia1": "1309",
+            "ruta2": "Terrestre",
+            "ciudad2": "De Juliaca a Puno",
+            "tiempo2": "01:00",
+            "distancia2": "45",
+            "ruta3": "Puno a Ccotos",
+            "ciudad3": "Puno a Ccotos",
+            "tiempo3": "01:15",
+            "distancia3": "66"
+        },
+        "hacer": {
+            "li1": "Paseos en canoa.",
+            "li2": "Caminatas ecológicas.",
+            "li3": "Observación de fauna.",
+            "li4": "Avistamiento de aves.",
+            "li5": "Visita a chacras ecológicas.",
+            "li6": "Visita a parcelas de plantas medicinales.",
+            "li7": "Visita a vivero de plantas forestales.",
+            "li8": "Pesca artesanal."
+        },
+        "servicios": {
+            "li1": "Transporte fluvial.",
+            "li2": "Alojamiento en bungalows.",
+            "li3": "Alimentación (tradicional y vegetariana).",
+            "li4": "Orientación turística."
+        },
+        "clima": "Máx. 20°C Mín. 5°C",
+        "tips": {
+            "li1": "Zapatillas para trekking.",
+            "li2": "Protector solar.",
+            "li3": "Gorro y lentes de sol.",
+            "li4": "Ropa abrigadora sobretoso para la tarde y noche."
+        },
+        "agencia" : {
+            "nombre": "Asociación Turismo Rural Inca Samana",
+            "email1": "alfonsotrc.ccotos@gmail.com",
+            "lenguaje1": "(español)",
+            "email2": "qoniwasiccotos@gmail.com",
+            "lenguaje2": "(quechua)",
+            "telf1": "(+51) 951856462",
+            "telf2": "(+51) 940850930"    
+        },
+        "mas": ""      
+    }
+]

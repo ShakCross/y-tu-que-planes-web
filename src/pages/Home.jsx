@@ -7,9 +7,10 @@ import Ofertas from 'components/home/Ofertas'
 import Hero from 'components/home/Hero'
 
 const Home = () => {
+
     return (
             <Layout>
-                
+
             </Layout>
     )
 }
