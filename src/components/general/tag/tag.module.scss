@@ -10,5 +10,32 @@
     font-family: ClanOffc;
     font-size: 16px;
     font-weight: 500;
-
+    cursor: pointer;
 }
+.wrapper_inactive{
+    width: 166px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: $grey;
+    border-radius: 0px 0px 24px 0px;
+    font-family: ClanOffc;
+    font-size: 16px;
+    font-weight: 500;
+    border: solid 1px $grey;
+    cursor: pointer;
+}
+
+@include respond-to('md') {
+    .wrapper, .wrapper_inactive {
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .wrapper, .wrapper_inactive {
+        margin: 15px -45px;
+    }
+ }

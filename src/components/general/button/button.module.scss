@@ -50,7 +50,9 @@
 .wrapper_purple:hover{
     border: solid 2px $purple;
     border-radius: 28px;
+    background-color: white;
     color: $purple;
+    transition: all 200ms ease-in-out;
 }
 
 

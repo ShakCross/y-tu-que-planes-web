@@ -5,6 +5,15 @@
     align-items: flex-end;
     border-radius:0px 0px 24px 0px;
     margin: 10px;
+    background: left center/cover no-repeat;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.14), 0 15px 12px rgba(0,0,0,0.1);
+    transition: all 1s;
+}
+
+.wrapper:hover{
+    background: center/cover no-repeat;
+    transition: all 1s;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.4), 0 15px 12px rgba(0,0,0,0.1);
 }
 
 .content{
@@ -14,10 +23,11 @@
     border-radius:0px 0px 24px 0px;
     color: white;
     font-family: BreePeru;
-    font-size: 26px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .chip{
@@ -33,6 +43,9 @@
     justify-content: center;
     align-items: center;
     bottom: 325px;
+    text-align: center;
+    padding: 0px 20px 0px 15px;
+    min-width: max-content;
 }
 
 .icon {

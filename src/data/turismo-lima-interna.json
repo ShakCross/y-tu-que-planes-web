@@ -6,7 +6,12 @@
         "subtitulo": "Navega por los aguajales y renacales de Tingana",
         "desc": "Tingana, un asombroso paraíso que alberga una gran variedad de especies de flora y fauna silvestre, en su mayoría aves y primates, es ideal para realizar estudios de investigación y observación. En este particular ecosistema, hábitat de especies en peligro de extinción y en situación vulnerable, los pobladores juegan un rol importante al protegerlas y cuidarlas para poder mostrarlas al mundo.",
         "alt": "turismo-tingana",
-        "precio": "70",
+        "precio": {
+            "li1": "Desde S/.50",
+            "li2": "Desde S/.50",
+            "li3": "Desde S/.50",
+            "li4": "Desde S/.50"
+        },
         "horario": "2D/1N",
         "llegar": {
             "ruta1": "Aéreo",

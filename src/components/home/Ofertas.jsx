@@ -1,40 +1,115 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './ofertas.module.scss'
-// import Card from 'components/general/card/Card'
 import H2 from 'components/general/h2/H2'
 import Tag from 'components/general/tag/Tag'
 import Button from 'components/general/button/Button'
 import Card from 'components/general/card/Card'
+import Slider from "react-slick";
+import data from 'data/turismo-lima.json'
 
 const tags = [
-    { name: "Mostrar Todo"},
-    { name: "Naturaleza"},
-    { name: "Gastronomía"},
-    { name: "Caminatas"},
-    { name: "Cultural"},
-    { name: "Música y danza"},
+    { id: "1", name: "Mostrar Todo", state: '' },
+    { id: "2", name: "Naturaleza", state: '' },
+    { id: "3", name: "Gastronomía", state: '' },
+    { id: "4", name: "Caminatas", state: '' },
+    { id: "5", name: "Cultural", state: '' },
+    { id: "6", name: "Música y danza", state: '' },
 ]
 
 const Ofertas = () => {
+    const settings = {
+        responsive: [
+            {
+                breakpoint: 9999,
+                settings: 'unslick',
+            },
+            {
+                breakpoint: 577,
+                settings: {
+                    className: "center",
+                    centerMode: true,
+                    infinite: true,
+                    centerPadding: "30%",
+                    slidesToShow: 1,
+                    speed: 500,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 441,
+                settings: {
+                    className: "center",
+                    centerMode: true,
+                    infinite: true,
+                    centerPadding: "20%",
+                    slidesToShow: 1,
+                    speed: 500,
+                    arrows: false,
+                    autoplay: 2000
+                }
+            },
+        ]
+    }
+
+    const [filled, setFilled] = useState(true);
+    const handleFilled = () => setFilled(!filled)
+
+    const [showMore, setShowMore] = useState(false)
+    const handleShowMore = () => setShowMore({showMore: true})
+
+    let showed = 8
+    const numberOfItems = showMore ?  8 + showed  : showed
+
     return (
         <div>
             <H2 title="Conoce nuevas experiencias" />
             <div className={styles.tag}>
-                {tags.map( tags =>
-                    <Tag title={tags.name} />
-                )}
+                {/* {tags.map(tags =>
+                    <Tag
+                        key={tags.id}
+                        title={tags.name}
+                        active={filled ? tags.id : !filled}
+                        click={handleFilled}
+                    />
+                )} */}
+                <Tag active={filled} click={handleFilled} title="Mostrar Todo" />
+                <Tag title="Naturaleza" />
+                <Tag title="Gastronomía" />
+                <Tag title="Caminatas" />
+                <Tag title="Cultural" />
+                <Tag title="Música y danza" />
+            </div>
+            <div className={styles.tag_mobile}>
+                <Slider {...settings}>
+                    {/* {tags.map(tags =>
+                        <Tag
+                            key={tags.id}
+                            title={tags.name}
+                            active={tags.state = filled}
+                            click={handleFilled}
+                        />
+                    )} */}
+                    <Tag active={filled} click={handleFilled} title="Mostrar Todo" />
+                    <Tag title="Naturaleza" />
+                    <Tag title="Gastronomía" />
+                    <Tag title="Caminatas" />
+                    <Tag title="Cultural" />
+                    <Tag title="Música y danza" />
+                </Slider>
             </div>
             <div className={styles.card_wrapper}>
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                {data.map(post =>
+                    <Card
+                        key={post.id}
+                        image={post.imagen}
+                        location={post.localia}
+                        title={post.titulo}
+                        url={post.url}
+                        alt={post.alt}
+                    />
+                ).slice(0, numberOfItems)}
             </div>
-            <Button/>
+            <Button click={handleShowMore} />
         </div>
     )
 }
