@@ -1,3 +1,34 @@
+.header_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .header_container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header_container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .header_container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .header_container {
+      max-width: 1140px;
+    }
+  }
 .header_nav{ 
     width: inherit;
     height: 65px;
@@ -14,9 +45,9 @@
 }
 .header_row{
     width: inherit;
-    margin-right: 0px;
-    margin-left: 0px;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .menu_item{
     width: 14%;
@@ -32,12 +63,17 @@
     color: $white;   
 }
 .menu_item > a{
-    text-decoration: none;   
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
 }
-.menu-item-mobile > a{
+.menu_item_mobile > a{
     color: $white;   
 }
-.menu_item-mobile > a{
+.menu_item_mobile > a{
     text-decoration: none;   
 }
 .menu_item:hover {
@@ -65,7 +101,13 @@
     display: none;
     align-items: center;
 }
-.hidden-collapse{
+.bars{
+    color: white;
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
+.hidden_collapse{
     margin: 0px 20px 0px 0px;
     border-color: #fff!important;
     border-radius: 100px;
@@ -73,10 +115,10 @@
     height: 30px;
     border: solid 2px;
 }
-.hidden-collapse:hover{
+.hidden_collapse:hover{
     text-decoration: none;
 }
-a.hidden-collapse > i {
+a.hidden_collapse > i {
     color: white;
     position: relative;
     top: 4px;
@@ -98,7 +140,7 @@ div.menu_responsive > a > i{
     padding-top: 34px;
     display: none;
 }
-.menu-item-mobile{
+.menu_item_mobile{
     border-top: solid 1px $grey;
     color: $white;
     padding-top: 15px;
@@ -127,16 +169,16 @@ div.menu_responsive > a > i{
         width: 40px;
         height: auto;
     }
-    .menu-item, .menu_item_icons{
+    .menu_item, .menu_item_icons{
         display: none;
     }
-    .hidden-collapse{
+    .hidden_collapse{
         display: flex;
     }
-    .header-nav{
+    .header_nav{
         height: 45px;
     }
-    .header-nav{
+    .header_nav{
         margin: 0px;
         border-radius: 0px;
         background-color: $pale-green;
