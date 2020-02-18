@@ -1,16 +1,14 @@
 import React from 'react'
 import styles from './button.module.scss'
 
-const Button = ({ title, green, yellow, purple, xclassname, url }) => {
+const Button = ({ title, yellow, purple, xclassname, url }) => {
     return (
         <div className={styles.container_button}>
             <a href={url} target="_blank" rel="noopener noreferrer">
                 <button
                 className={`
-                    ${green ? styles.wrapper_green : styles.wrapper} 
                     ${yellow ? styles.wrapper_yellow : styles.wrapper}
                     ${purple ? styles.wrapper_purple : styles.wrapper} 
-                    ${styles[xclassname]}
                 `}
                 >
                     {title}
@@ -21,11 +19,8 @@ const Button = ({ title, green, yellow, purple, xclassname, url }) => {
 }
 
 Button.defaultProps = {
-    title: 'Más Información',
-    green: false,
-    yellow: false,
+    title: 'Ver más ofertas',
     purple: false,
-    xclassname: 'null',
     url: '#'
 };
 

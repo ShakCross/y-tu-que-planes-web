@@ -8,15 +8,17 @@
     min-height: 53px;
     border-radius: 24px;
     cursor: pointer;
-    border: solid 2px $pale-green;
-    background-color: $pale-green;
+    border: solid 2px $yellow;
+    background-color: $yellow;
     transition: all 300ms ease-in-out;
+    border-radius: 24px 0px 24px 0px;
 }
 
 .wrapper:hover{
     background-color: transparent;
-    border: solid 2px $pale-green;
-    color: $pale-green;
+    border: solid 2px $yellow;
+    background-color: white;
+    color: $yellow;
     transition: all 200ms ease-in-out;
 }
 
@@ -29,44 +31,6 @@
     justify-content: center;
     align-items: center;
     height: 100px;
-}
-
-.wrapper_green {
-    font-family: ClanOffc;
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-    border: none;
-    min-width: 217px;
-    min-height: 53px;
-    border-radius: 24px;
-    cursor: pointer;
-    background-color: $green;
-    border: solid 2px $green;
-}
-
-.wrapper_green:hover{
-    border: solid 2px $green;
-    color: $green;
-}
-
-.wrapper_yellow {
-    font-family: ClanOffc;
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-    border: none;
-    min-width: 217px;
-    min-height: 53px;
-    border-radius: 28px;
-    cursor: pointer;
-    border: solid 2px $yellow;
-    background-color: $yellow;
-}
-
-.wrapper_yellow:hover{
-    border: solid 2px $yellow;
-    color: $yellow;
 }
 
 .wrapper_purple{
@@ -89,45 +53,12 @@
     color: $purple;
 }
 
-.ofertas_button, .ofertas_button_mobile  {
-    padding: 19px 35px;
-}
-
-.ofertas_button_mobile, .blog_button_mobile{
-    display: none;
-}
-
-.slider_button{
-    padding: 16px 35px 16px 35px;
-}
-
-.slider_button:hover{
-    color: white;
-}
-
-.calendar_button{
-    padding: 0px 20px;
-}
 
 @include respond-to('xs') {
-    .calendar_button {
-        padding: 18px 17px 16px 17px;
-    }
-    .ofertas_button, .blog_button {
-        display: none;
-    }
-    .ofertas_button_mobile, .blog_button_mobile{
-        display: block;
-    }
+
 }
 
 @include respond-to('md') {
-    .ofertas_button {
-        padding: 19px 0;
-        font-size: 16px;
-    }
+
 }
 
-.null{
-    visibility: visible;
-}

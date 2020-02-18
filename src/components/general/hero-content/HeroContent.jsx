@@ -1,21 +1,26 @@
-import React from 'react'
+import React from "react";
 import styles from './hero-content.module.scss'
-import Chip from 'components/general/chip/Chip'
-import Button from 'components/general/button/Button'
-import H1 from 'components/general/h1/H1'
+import slide from 'assets/img/slider.jpeg'
 
-const HeroContent = ({desc, title, chip, url, to}) => {
+
+const HeroContent = () => {
+
     return (
-        <a className={styles.heading__wrapper} href={to}>
-            <div className={styles.heading__inner_wrapper}>
-                <Chip filled title={chip}/>
-                <H1 title={title} />
-                <span className={styles.span}>
-                    {desc}
-                </span>
-                <Button title="Más Información" xclassname="slider_button" url={url}/>
+        <div>
+            <div className={styles.wrapper}>
+                <div className={styles.heading__wrapper}>
+                    <div className={styles.heading__inner_wrapper}>
+                        <h1 className={styles.h1} >
+                            Turismo Comunitario
+                        </h1>
+                        <span className={styles.span}>
+                            Un Perú no solo debes conocerlo sino también vivirlo, recorriendo paisajes naturales que son capaces de hablar por si solos
+                        </span>
+                    </div>
+                </div>
+                <img className={styles.slides} src={slide} alt="" />
             </div>
-        </a>
+        </div>
     )
 }
 

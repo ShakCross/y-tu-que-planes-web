@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './hero.module.scss'
-import MainSlider from 'components/general/main-slider/MainSlider'
+import HeroContent from 'components/general/hero-content/HeroContent'
 
 const Hero = () => {
     return (
         <div className={styles.wrapper}>
-            <MainSlider/>
+            <div className={styles.shadow}></div>
+            <HeroContent/>
         </div>
     )
 }
