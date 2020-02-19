@@ -92,7 +92,7 @@ const Footer = () => {
                             </div>
                             {/* <SubscribeInput /> */}
                             <div className={styles.sub_button}>
-                                <Button purple title="Suscríbete" url="https://www.ytuqueplanes.com/suscribete.aspx"/>
+                                <Button title="Suscríbete" url="https://www.ytuqueplanes.com/suscribete.aspx"/>
                             </div>
                             <div className={styles.wrapper__perulogos}>
                                 <div className={styles.inner_wrapper__perulogos}>

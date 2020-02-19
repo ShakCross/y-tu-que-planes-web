@@ -56,19 +56,19 @@ const Header = () => {
                     {toggle ? ('') :
                         (<div className={styles.toggle_menu}>
                             <div className={styles.menu_item_mobile} >
-                                <a href="https://www.ytuqueplanes.com/destinos">Destinos</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/destinos">Destinos</a>
                             </div>
                             <div className={styles.menu_item_mobile}>
-                                <a href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                             </div>
                             <div className={styles.menu_item_mobile}>
-                                <a href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/actividades/1_aventura">Experiencias</a>
                             </div>
                             <div className={styles.menu_item_mobile}>
-                                <a href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
                             </div>
                             <div className={styles.menu_item_mobile}>
-                                <a href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
                             </div>
                         </div>)}
                 </div>

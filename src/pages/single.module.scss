@@ -1,0 +1,59 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.wrapper_mobile{
+    display: none;
+    margin: 30px 0px;
+}
+
+.desc{
+    max-width: 945px;
+    font-family: ClanOffcNews;
+    font-size: 16px;
+    color: #636363;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 945px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
+
+@include respond-to('md') {
+    .desc{
+        margin: 50px 35px;
+    }
+    .panel{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 945px;
+        margin: 0px auto;
+    }
+}
+
+@include respond-to('xs') {
+    .wrapper{
+        display: none;
+    }
+
+    .wrapper_mobile{
+        display: block;
+    }
+    
+}
+
+

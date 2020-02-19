@@ -4,14 +4,23 @@ import styles from './button.module.scss'
 const Button = ({ title, yellow, purple, xclassname, url, click }) => {
     return (
         <div className={styles.container_button}>
-            <a target="_blank" rel="noopener noreferrer">
+            {yellow ?
                 <button
                     onClick={click}
-                    className={yellow ? styles.wrapper_yellow : purple ? styles.wrapper_purple : styles.wrapper}
+                    className={styles.wrapper}
                 >
                     {title}
-                </button>
-            </a>
+                </button> : 
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                    <button
+                        onClick={click}
+                        className={styles.wrapper_purple}
+                    >
+                        {title}
+                    </button>
+                </a>
+            }
+
         </div>
     )
 }

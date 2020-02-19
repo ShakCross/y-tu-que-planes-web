@@ -1,0 +1,77 @@
+.wrapper{
+    width: 177px;
+    height: 264px;
+    border-radius: 0px 24px 0px 24px;
+    margin: 10px 6px;
+    background-color: white;
+    box-shadow: 0 0 8px 0 rgba(202, 202, 202, 0.5);
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@include respond-to('xs') {
+    .wrapper{
+        margin: 10px 55px;
+    }
+    
+}
+
+@media only screen and (max-width: 420px) {
+    .wrapper {
+        margin: 10px -27px;
+    }
+ }
+
+.wrapper:hover{
+    transition: all 1s;
+    box-shadow: 3px 1px 7px rgba(0, 0, 0, 0.4), 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.content{
+    width: 256px;
+    height: 56px;
+    background-color: $purple;
+    border-radius:0px 0px 24px 0px;
+    color: white;
+    font-family: BreePeru;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img{
+    margin: 20px 0px;
+    height: 54px;
+}
+
+.chip{
+    font-family: ClanOffcNews;
+    font-size: 13px;
+    color: white;
+    background-color: $yellow;
+    border-radius: 0px 24px 24px 0px;
+    width: 84px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 325px;
+    text-align: center;
+    padding: 0px 20px 0px 15px;
+    min-width: max-content;
+}
+
+.icon {
+    margin: 0px 5px 5px 0px;
+}
+
+.wrapper_chip{
+    display: flex;
+    position: relative;
+}

@@ -1,0 +1,35 @@
+.content {
+    font-family: ClanOffcNews;
+    font-size: 10px;
+    color: $dark-grey;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    line-height: 2.5;
+}
+
+.ruta{
+    font-family: ClanOffc;
+    font-size: 10px;
+    font-weight: bold;
+    color: #787878;
+}
+
+.ruta_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 87%;
+    margin: 0px auto;
+
+}
+
+.ruta_content {
+    font-family: ClanOffcNews;
+    font-size: 10px;
+    color: $dark-grey;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

@@ -10,7 +10,8 @@ module.exports = {
     entry: 'src/index.js',
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'script.js'
+        filename: 'script.js',
+        publicPath: '/'
     },
     module: {
         rules: [
@@ -93,6 +94,9 @@ module.exports = {
                   ]
             },
         ]
+    },
+    devServer: {
+        historyApiFallback: true,
     },
     resolve: {
         modules: [__dirname, 'src', 'node_modules'],

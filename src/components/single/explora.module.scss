@@ -1,0 +1,38 @@
+.card_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    margin: -10px auto 0px auto;
+}
+
+.tag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1085px;
+    margin: 0px auto;
+}
+
+.tag_mobile{
+    display: none;
+}
+
+@include respond-to('md') {
+    .tag {
+        flex-wrap: wrap;
+        max-width: 850px;
+        margin: 0px auto;
+        justify-content: center;
+    }
+}
+
+@include respond-to('xs') {
+    .tag {
+        display: none;
+    }
+    .tag_mobile{
+        display: block;
+    }
+}

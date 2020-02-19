@@ -121,7 +121,7 @@ const Ofertas = () => {
             </div>
             {
                 !hideButton &&
-                <Button click={handleShowMore} />
+                <Button yellow click={handleShowMore}/>
             }
 
 

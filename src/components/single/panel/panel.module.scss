@@ -1,0 +1,86 @@
+.wrapper_left{
+    width: 461px;
+    height: 329px;
+    border-radius: 0px 40px 0px 40px;
+    background: url("http://localhost:8080/src/assets/img/left-lg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.wrapper_content_left{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: flex-start;
+    height: 70%;
+    justify-content: flex-start;
+}
+
+.title{
+    font-family: BreePeru;
+    font-size: 27px;
+    color: white;
+    margin-bottom:15px
+}
+
+.ul{
+    color: white;
+    font-family: BreePeruLight;
+    font-size: 17px;
+    line-height: 1.35;
+}
+
+.wrapper_right{
+    width: 461px;
+    height: 329px;
+    border-radius: 0px 40px 0px 40px;
+    background: url("http://localhost:8080/src/assets/img/right-lg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.wrapper_content_right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: flex-end;
+    height: 70%;
+    justify-content: flex-start;
+}
+
+@include respond-to('md') {
+    .wrapper_left{
+        width: 339px;
+        height: 329px;
+        border-radius: 0px 40px 0px 40px;
+        background: url("http://localhost:8080/src/assets/img/left-sm.png");
+        margin: 15px;
+    }
+
+    .wrapper_right{
+        width: 339px;
+        height: 329px;
+        border-radius: 0px 40px 0px 40px;
+        background: url("http://localhost:8080/src/assets/img/right-sm.png");
+        margin: 15px;
+    }
+
+    .wrapper_content_right, .wrapper_content_left{
+        align-items: center;
+        width: 90%;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .ul{
+        text-align: center;
+    }
+}

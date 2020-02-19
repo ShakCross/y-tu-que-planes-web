@@ -1,64 +1,69 @@
 [
     {
         "id": 1,
-        "titulo": "Turismo comunitario en Tingana",
+        "provincia": "San Martín",
+        "titulo": "Acopalca",
         "imagen": "",
-        "subtitulo": "Navega por los aguajales y renacales de Tingana",
-        "desc": "Tingana, un asombroso paraíso que alberga una gran variedad de especies de flora y fauna silvestre, en su mayoría aves y primates, es ideal para realizar estudios de investigación y observación. En este particular ecosistema, hábitat de especies en peligro de extinción y en situación vulnerable, los pobladores juegan un rol importante al protegerlas y cuidarlas para poder mostrarlas al mundo.",
-        "alt": "turismo-tingana",
-        "precio": {
-            "li1": "Desde S/.50",
-            "li2": "Desde S/.50",
-            "li3": "Desde S/.50",
-            "li4": "Desde S/.50"
-        },
-        "horario": "2D/1N",
-        "llegar": {
-            "ruta1": "Aéreo",
-            "ciudad1": "De Lima a Juliaca",
-            "tiempo1": "01:30",
-            "distancia1": "1309",
-            "ruta2": "Terrestre",
-            "ciudad2": "De Juliaca a Puno",
-            "tiempo2": "01:00",
-            "distancia2": "45",
-            "ruta3": "Puno a Ccotos",
-            "ciudad3": "Puno a Ccotos",
-            "tiempo3": "01:15",
-            "distancia3": "66"
-        },
-        "hacer": {
-            "li1": "Paseos en canoa.",
-            "li2": "Caminatas ecológicas.",
-            "li3": "Observación de fauna.",
-            "li4": "Avistamiento de aves.",
-            "li5": "Visita a chacras ecológicas.",
-            "li6": "Visita a parcelas de plantas medicinales.",
-            "li7": "Visita a vivero de plantas forestales.",
-            "li8": "Pesca artesanal."
-        },
-        "servicios": {
-            "li1": "Transporte fluvial.",
-            "li2": "Alojamiento en bungalows.",
-            "li3": "Alimentación (tradicional y vegetariana).",
-            "li4": "Orientación turística."
-        },
-        "clima": "Máx. 20°C Mín. 5°C",
-        "tips": {
-            "li1": "Zapatillas para trekking.",
-            "li2": "Protector solar.",
-            "li3": "Gorro y lentes de sol.",
-            "li4": "Ropa abrigadora sobretoso para la tarde y noche."
-        },
-        "agencia" : {
-            "nombre": "Asociación Turismo Rural Inca Samana",
-            "email1": "alfonsotrc.ccotos@gmail.com",
-            "lenguaje1": "(español)",
-            "email2": "qoniwasiccotos@gmail.com",
-            "lenguaje2": "(quechua)",
-            "telf1": "(+51) 951856462",
-            "telf2": "(+51) 940850930"    
-        },
-        "mas": ""      
+        "subtitulo": "Deléitate con hermosos paisajes andinos y aprende más de las costumbres locales.",
+        "desc": "En los Andes de la región Áncash, en la zona de amortiguamiento del Parque Nacional Huascarán, encontrarás el emprendimiento Acopalca, un lugar ideal para que realices caminatas hacia la extensa laguna Purhuay y la majestuosa catarata María Jiray, donde compartirás con los pobladores sus tradiciones, costumbres y deliciosa gastronomía; que permitirán que sea una visita inolvidable.",
+        "alt": "turismo-acopalta",
+        "hacer": [
+            {"id": "1", "li": "Trekking a la Laguna Purhuay."},
+            {"id": "2", "li": "Paseo en bote y/o Kayak-Laguna Purhuay."},
+            {"id": "3", "li": "Caminata a la Catarata María Jiray."},
+            {"id": "4", "li": "Participación en el biohuerto."},
+            {"id": "5", "li": "Visita guiada en el Centro de Interpretación."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· 1 a 20 pax: S/ 50.00"},
+            {"id": "2","li": "· 21-30 pax: S/ 40.00"},
+            {"id": "3","li": "· 31 a más pax: S/ 35. 00"},
+            {"id": "4","li": "· Full day 2D/1N"}
+        ],
+        "horario": "Full day 2D/1N",
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 27°C Mín. 4°C"},
+            {"id": "2","li": "Desde 3,100 m s. n. m. hasta 35,800 m s. n. m. "}
+        ],
+        "altura": "Desde 3,100 m s. n. m. hasta 35,800 m s. n. m. ",
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."}
+        ],
+        "agencia": {
+            "nombre": "Asociación Integral de Turismo Rural Comunitario de Acopalca",
+            "facebook1": "Turismo Rural",
+            "telf1": "(+51) 944865008."
+        }
     }
 ]

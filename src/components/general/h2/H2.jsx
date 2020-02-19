@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './h2.module.scss'
 
-const H2 = ({ title }) => {
+const H2 = ({ title, bree }) => {
     return (
         <div className={styles.inner__wrapper}>
-            <h2 className={styles.wrapper}>
+            <h2 className={ bree ? styles.wrapper_bree : styles.wrapper}>
                 {title}
             </h2>
         </div>

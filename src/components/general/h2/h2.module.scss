@@ -7,19 +7,26 @@
 }
 
 .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     height: 100px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center;
     font-size: 25px;
 }
+
+.wrapper_bree {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    font-family: BreePeru;
+    font-weight: bold;
+    color: $dark-grey;
+    font-size: 30px;
+}
+
 
 @include respond-to('xs') {
     .wrapper {
