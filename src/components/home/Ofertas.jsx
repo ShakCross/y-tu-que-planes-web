@@ -53,12 +53,22 @@ const Ofertas = () => {
 
     const [filled, setFilled] = useState(true);
     const handleFilled = () => setFilled(!filled)
+    const [numberOfItems, setNumberOfItems] = useState(8);
+    const [hideButton, setHideButton] = useState(false)
 
-    const [showMore, setShowMore] = useState(false)
-    const handleShowMore = () => setShowMore({showMore: true})
+    const handleShowMore = () => {
 
-    let showed = 8
-    const numberOfItems = showMore ?  8 + showed  : showed
+        numberOfItems < 30 ? setNumberOfItems(numberOfItems + 8) : '';
+        numberOfItems == 24 ? setHideButton(true) : '';
+
+        // if (numberOfItems < 30) {
+        //     setNumberOfItems(numberOfItems + 8);
+        //     console.log(numberOfItems);
+        // }
+        // if (numberOfItems == 24) {
+        //     setHideButton(true)
+        // }
+    }
 
     return (
         <div>
@@ -109,7 +119,12 @@ const Ofertas = () => {
                     />
                 ).slice(0, numberOfItems)}
             </div>
-            <Button click={handleShowMore} />
+            {
+                !hideButton &&
+                <Button click={handleShowMore} />
+            }
+
+
         </div>
     )
 }
