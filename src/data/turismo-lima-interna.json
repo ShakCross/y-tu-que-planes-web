@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "provincia": "San Martín",
+        "slug": "acopalca",
+        "provincia": "Ancash",
         "titulo": "Acopalca",
         "imagen": "",
         "subtitulo": "Deléitate con hermosos paisajes andinos y aprende más de las costumbres locales.",
@@ -25,7 +26,6 @@
             {"id": "3","li": "· 31 a más pax: S/ 35. 00"},
             {"id": "4","li": "· Full day 2D/1N"}
         ],
-        "horario": "Full day 2D/1N",
         "llegar": [
             {
                 "via": "Terrestre",
@@ -54,16 +54,2063 @@
             {"id": "1","li": "Máx. 27°C Mín. 4°C"},
             {"id": "2","li": "Desde 3,100 m s. n. m. hasta 35,800 m s. n. m. "}
         ],
-        "altura": "Desde 3,100 m s. n. m. hasta 35,800 m s. n. m. ",
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking."},
             {"id": "2", "li": "Protector solar."},
             {"id": "3", "li": "Gorro y lentes de sol."}
         ],
-        "agencia": {
-            "nombre": "Asociación Integral de Turismo Rural Comunitario de Acopalca",
-            "facebook1": "Turismo Rural",
-            "telf1": "(+51) 944865008."
-        }
+        "contacto": [
+            {
+                "agencia": "Asociación Integral de Turismo Rural Comunitario de Acopalca",
+                "datos": [           
+                    {"id": "1", "li": "Turismo Rural"},
+                    {"id": "2", "li": "(+51) 944865008."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "slug": "amantani",
+        "provincia": "Puno",
+        "titulo": "Amantaní",
+        "imagen": "",
+        "subtitulo": "Déjate atrapar por la magia y misticismo andino de una de islas del Lago Titicaca.",
+        "desc": "En Amantaní, isla del lago Titicaca, la vida parece transcurrir de manera apacible. Cientos de flores de cantuta despertarán en sus campos para recibirte, aquí podrás aprender de los lugareños ¡Los mejores anfitriones! El misticismo que encierra la isla se siente en cada rincón a través de sus ceremonias ancestrales o solo observando el paisaje, tu energía se renovará preparándote para volver a casa.",
+        "alt": "turismo-amantani",
+        "hacer": [
+            {"id": "1", "li": "Exposición participativa de textiles."},
+            {"id": "2", "li": "Participación en faenas agrícolas-ganaderas."},
+            {"id": "3", "li": "Caminata hacia los centros ceremoniales Pachatata y Pachamama."},
+            {"id": "4", "li": "Paseo en botes."},
+            {"id": "5", "li": "Pesca artesanal."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 60.00"},
+            {"id": "2","li": "· 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Juliaca a Puno."},
+                    {"id": "2","li": "01 hora (45 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 5°C"},
+            {"id": "2","li": "3,950 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de Turismo Rural Sumaq Wiñari Lampayuni",
+                "datos": [           
+                    {"id": "1", "li": "nene.amantani@gmail.com (español e inglés)"},
+                    {"id": "2", "li": "(+51) 959169871"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "slug": "atuncolla",
+        "provincia": "Puno",
+        "titulo": "Atuncolla",
+        "imagen": "",
+        "subtitulo": "Explora Sillustani y una exquisita gastronomía novoandina en el altiplano.",
+        "desc": "A pocos minutos de Juliaca encontrarás Atuncolla, un pueblo encantador y perfecto para relajarse. Hatun qolla, su nombre original, significa pueblo grande, y refleja la herencia de las culturas Tiwanaku, Qolla e Inca. En la actualidad ese legado se fusiona con la calidez de su gente, quienes te recomendarán ir al complejo arqueológico de Sillustani, caminar acompañado de llamas o remar en las tranquilas aguas de la laguna Umayo para contemplar desde otra perspectiva las grandiosas tumbas del señorío Inca, las Chullpas.",
+        "alt": "turismo-atuncolla",
+        "hacer": [
+            {"id": "1", "li": "Participación en actividades Agrícolas."},
+            {"id": "2", "li": "Exposición participativa de textiles en telar."},
+            {"id": "3", "li": "Observación e interpretación de estrellas."},
+            {"id": "4", "li": "Visita al complejo arqueológico de Sillustani."},
+            {"id": "5", "li": "Paseo en bote en la laguna Umayo."},
+            {"id": "6", "li": "Avistamiento de Vicuñas."},
+            {"id": "7", "li": "Caminatas con llamas."},
+            {"id": "8", "li": "Ritual para la salud y buenaventura de los visitantes y familiares (opcional)."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."},
+            {"id": "3","li": "Arrieraje de llamas."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 30.00"},
+            {"id": "2","li": "· Half day-full day 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Juliaca a Puno"},
+                    {"id": "2","li": "01 hora (45 km.)"},
+                    {"id": "3","li": "De Puno a Atuncolla"},
+                    {"id": "4","li": "30 min. (28 km.)"},
+                    {"id": "5","li": "De Lima a Puno"},
+                    {"id": "6","li": "7 horas (1,309 km.)"},
+                    {"id": "7","li": "De Puno a Atuncolla"},
+                    {"id": "8","li": "30 min. (28 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 19°C Mín. 13°C"},
+            {"id": "2","li": "3,822 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación De Turismo Comunitario Hatunqolla",
+                "datos": [           
+                    {"id": "1", "li": "qollawasi@hotmail.com"},
+                    {"id": "2", "li": "(+51) 952555705."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "slug": "ccotos-ticonata",
+        "provincia": "Puno",
+        "titulo": "Ccotos-Ticonata",
+        "imagen": "",
+        "subtitulo": "Disfruta de la naturaleza y cultura viva de un pueblo ancestral.",
+        "desc": "El poblado de Ccotos y su pequeña isla Ticonata, a 66 km al noreste de Puno, tienen una ubicación ideal para disfrutar de imponentes paisajes, descansar y contemplar un atardecer apacible. Las comunidades te ofrecen una experiencia única de convivencia con las familias, podrás gozar de una estadía inolvidable en sus acogedoras casas tradicionales.",
+        "alt": "turismo-ccotos-ticonata",
+        "hacer": [
+            {"id": "1", "li": "Participación en faenas agrícolas."},
+            {"id": "2", "li": "Danzas folklóricas."},
+            {"id": "3", "li": "Exposiciones participativas de textiles y bordados."},
+            {"id": "4", "li": "Visitas guiadas al centro artesanal."},
+            {"id": "5", "li": "Visitas guiadas al museo local."},
+            {"id": "6", "li": "Paseos en bote y veleros."},
+            {"id": "7", "li": "Pesca artesanal."},
+            {"id": "8", "li": "Fogatas."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 70.00"},
+            {"id": "2","li": "· 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Juliaca a Puno"},
+                    {"id": "2","li": "01 hora (45 km.)"},
+                    {"id": "3","li": "De Puno a Ccotos"},
+                    {"id": "4","li": "01 hora y 15 min. (66 km.)"},
+                    {"id": "5","li": "De Lima a Puno"},
+                    {"id": "6","li": "17 horas (1,309 km.)"},
+                    {"id": "7","li": "De Puno a Ccotos"},
+                    {"id": "8","li": "01 hora y 15 min. (66 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 19°C Mín. 13°C"},
+            {"id": "2","li": "3,822 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "3", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación De Turismo Comunitario Hatunqolla",
+                "datos": [           
+                    {"id": "1", "li": "qollawasi@hotmail.com"},
+                    {"id": "2", "li": "(+51) 952555705."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "chaparri",
+        "provincia": "Lambayeque",
+        "titulo": "Chaparrí",
+        "imagen": "",
+        "subtitulo": "Explora los bosques secos y descubre el hogar de singulares especies endémicas.",
+        "desc": "La Reserva de Chaparrí es el hogar de especies endémicas y amenazadas, como el oso de anteojos, la pava aliblanca, el pitajo de Tumbes, el guanaco y el cóndor andino. Este mágico lugar es el emblema de la conservación de los recursos naturales a través del turismo, que conjugado con la calidad de los servicios y la hospitalidad de sus pobladores hacen que el bosque lambayecano se convierta en un paraíso de experiencias enriquecedoras y memorables.",
+        "alt": "turismo-chaparri",
+        "hacer": [
+            {"id": "1", "li": "Visitas guiadas al centro de interpretación local, la bibliobotella, la Huerta Encantada."},
+            {"id": "2", "li": "Visita de vivero/biohuerto, herpetario, mirador, zona de Osos de Anteojos (Tremarctos ornatus)."},
+            {"id": "3", "li": "Visita a la zona de la Pava Aliblanca (Penelope Albipensis)."},
+            {"id": "4", "li": "Rituales chamánicos."},
+            {"id": "5", "li": "Avistamiento de aves."},
+            {"id": "6", "li": "Narración de cuentos, mitos y leyendas."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Transporte."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Alojamiento"},
+            {"id": "4","li": "Orientación turística."},
+            {"id": "5","li": "Orientación turística especializada en observación de aves."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· S/ 70.00 (guiado S/60.00 y S/10.00 ingreso)"},
+            {"id": "2","li": "· Half day-full day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Chiclayo a Chaparrí"},
+                    {"id": "2","li": "01 hora y media (74 km.)"},
+                    {"id": "3","li": "De Lima a Chiclayo"},
+                    {"id": "4","li": "12 horas (763 km.)"},
+                    {"id": "5","li": "Chiclayo a Chaparrí"},
+                    {"id": "6","li": "01 hora y media. (74 km)."}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 34°C Mín. 18°C"},
+            {"id": "2","li": "209 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Repelente"},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Ropa deportiva y zapatillas comodos para caminar, gorro, lentes de sol."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación para la Conservación de la Naturaleza y el Turismo Sostenible Chaparrí",
+                "datos": [           
+                    {"id": "1", "li": "Acoturch Chaparri"},
+                    {"id": "2", "li": "mariela_chaparri@hotmail.com"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "slug": "chichubamba",
+        "provincia": "Cusco",
+        "titulo": "Chichubamba",
+        "imagen": "",
+        "subtitulo": "Explora las costumbres y tradiciones del poblador del Valle de Urubamba.",
+        "desc": "Compuesta por acogedores poblados rodeados de una frondosa campiña verde, donde podrás aprender con facilidad el arte cerámico, experimentar el proceso de producción de miel, saborear el delicioso chocolate casero y disfrutar de la frescura de una atrevida chicha de jora.",
+        "alt": "turismo-chichubamba",
+        "hacer": [
+            {"id": "1", "li": "Chocolatería."},
+            {"id": "2", "li": "Apicultura."},
+            {"id": "3", "li": "Cerámica."},
+            {"id": "4", "li": "Preparación de chicha."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· S/ 55.00"},
+            {"id": "2","li": "· Full day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cusco a Urubamba"},
+                    {"id": "2","li": "01 hora (76 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 02°C"},
+            {"id": "2","li": "2,687 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación Agroturismo  Chichubamba",
+                "datos": [           
+                    {"id": "1", "li": "chichubambatrc@gmail.com"},
+                    {"id": "2", "li": "(+51) 973861786."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "slug": "chifron-paramis",
+        "provincia": "Puno",
+        "titulo": "Chifrón-Paramis",
+        "imagen": "",
+        "subtitulo": "Descubre plantas medicinales de la isla y llénate de energía en las hermosas playas del Lago.",
+        "desc": "Participa del trabajo del campo, cabalga al atardecer, pasea y pesca en el lago Titicaca y practica antiguas tradiciones de medicina incaica, utilizando plantas circundantes con fines medicinales. Hacer todo esto es experimentar la vida en las dos comunidades amigas: Chifrón y Paramis.",
+        "alt": "turismo-chifron-paramis",
+        "hacer": [
+            {"id": "1", "li": "Participación en actividades agrícolas y ganaderas."},
+            {"id": "2", "li": "Fogata y música local."},
+            {"id": "3", "li": "Paseo en botes y veleros."},
+            {"id": "4", "li": "Pesca artesanal."},
+            {"id": "5", "li": "Caminatas a las playas."},
+            {"id": "6", "li": "Exposición participativa de textiles y bordados."},
+            {"id": "7", "li": "Participación en faenas agrícolas."},
+            {"id": "8", "li": "Participación en la preparación de platos típicos de quinua."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 100.00"},
+            {"id": "2","li": "· 2D/1N  3D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Juliaca a Puno"},
+                    {"id": "2","li": "01 hora (45 km.)"},
+                    {"id": "3","li": "De Puno a Capachica"},
+                    {"id": "4","li": "01 hora y 15 min. (60 km.)"},
+                    {"id": "5","li": "De Juliaca a Capachica"},
+                    {"id": "6","li": "45 min. (37 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 05°C"},
+            {"id": "2","li": "3,867 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de Turismo Comunitario Quillapata-Chifron",
+                "datos": [           
+                    {"id": "1", "li": "www.quillapatalodge.com"},
+                    {"id": "2", "li": "reservas@quillapatalodge.com"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "slug": "coporaque",
+        "provincia": "Arequipa",
+        "titulo": "Coporaque",
+        "imagen": "",
+        "subtitulo": "Cabalga a través de senderos y campiñas y descubre sus tradiciones textiles.",
+        "desc": "Coporaque, la siempre verde villa, es un apacible pueblo como para llegar en familia.  Sus senderos y campiñas son ideales para disfrutar de la intimidad y una locación perfecta para grabar los más bellos recuerdos. Empieza visitando el centro cultural, luego pasea por el antiguo Coporaque, el Complejo Arqueológico de Llactapampa, su iglesia y capilla de San Sebastián, y termina con un baño termal. Este es un destino para disfrutar sin prisa.",
+        "alt": "turismo-coporaque",
+        "hacer": [
+            {"id": "1", "li": "Trekking a las ruinas arqueológicas de San Antonio."},
+            {"id": "2", "li": "Participación en faenas agrícolas y ganaderas."},
+            {"id": "3", "li": "Aguas termomedicinales de Sallihua."},
+            {"id": "4", "li": "Exposiciones participativas de tejidos ancestrales."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."},
+            {"id": "4","li": "Transporte."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde $60"},
+            {"id": "2","li": "· 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Arequipa a Chivay"},
+                    {"id": "2","li": "03 horas (151 km.)"},
+                    {"id": "3","li": "De Chivay a Coporaque"},
+                    {"id": "4","li": "15 min. (6 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Desde 3,300 m s. n. m. hasta 3,575 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación Fortaleza San Antonio Turismo Rural-Coporaque",
+                "datos": [           
+                    {"id": "1", "li": "coporaquefortaleza@gmail.com (español)"},
+                    {"id": "2", "li": "(+51) 949683755-955840287."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "slug": "cuevas-de-palestina",
+        "provincia": "San Martín",
+        "titulo": "Cuevas de Palestina",
+        "imagen": "",
+        "subtitulo": "Explora el silencio y oscuridad del mundo subterráneo de la Cueva de Palestina.",
+        "desc": "En la comunidad campesina de Palestina podrás conocer el interior de la cueva del mismo nombre, considerada la segunda más profunda del Perú. También tendrás la chance de conocer el innovador mariposario Morfo Azul, donde aprenderás sobre la metamorfosis de estos insectos, así como la importancia de más de 20 especies que se reproducen en este espacio eco amigable.",
+        "alt": "turismo-cuevas-de-palestina",
+        "hacer": [
+            {"id": "1", "li": "Caminata hacia la Cueva de Palestina."},
+            {"id": "2", "li": "Exploración dentro de la Cueva de Palestina."},
+            {"id": "3", "li": "Visitas interpretativas al mariposario."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alimentación (tradicional y vegetariana)."},
+            {"id": "2","li": "Orientación turística (cueva y mariposario)."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Half day S/ 10.00 Full day S/ 5.00"},
+            {"id": "2","li": "· Half day-Full day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Tarapoto a Moyobamba"},
+                    {"id": "2","li": "02 horas"},
+                    {"id": "3","li": "De Moyobamba a Nueva Cajamarca"},
+                    {"id": "4","li": "45 min."},
+                    {"id": "5","li": "De Nueva Cajamarca a Cuevas de Palestina"},
+                    {"id": "6","li": "15 min."}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 30°C Mín. 18°C"},
+            {"id": "2","li": "Desde 740 m s. n. m. hasta 875 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Ponerse el el casco y las botas que le proporcionarán a la entrada."},
+            {"id": "2", "li": "Cargar bien sus equipos fotográficos."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de Desarrollo Económico Sostenible “Unidos por Palestina”.",
+                "datos": [           
+                    {"id": "1", "li": "Cuevas de Palestina y Mariposario Morpho Azul"},
+                    {"id": "2", "li": "adesup.palestina@gmail.com (español)"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "slug": "cuyuni",
+        "provincia": "Cusco",
+        "titulo": "Cuyuni",
+        "imagen": "",
+        "subtitulo": "Conoce la legendaria cosmovisión andina frente al nevado Ausangate.",
+        "desc": "Ubicado en la carretera Interoceánica, que une Cusco con Puerto Maldonado, Cuyuni y su hermoso restaurante te ofrecen un lugar de descanso y alimentación con una gran vista al Apu Ausangate.",
+        "alt": "turismo-cuyuni",
+        "hacer": [
+            {"id": "1", "li": "Rituales andinos."},
+            {"id": "2", "li": "Demostración del arado de la tierra."},
+            {"id": "3", "li": "Demostración de la selección y almacenamiento de la papa."},
+            {"id": "4", "li": "Recorrido por la Comunidad de Cuyuni con guías locales."},
+            {"id": "5", "li": "Degustación de la Huatia Andina."},
+            {"id": "6", "li": "Visita a los bosques reforestados de la Comunidad."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alimentación."},
+            {"id": "2","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· $41.00 c/u (7-13 personas)-$36.00 c/u (14-24 personas)"},
+            {"id": "2","li": "· 5 horas"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cusco a Urcos y Cuyuni"},
+                    {"id": "2","li": "01 hora (70 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 17°C Mín. 4°C"},
+            {"id": "2","li": "3,800 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."} 
+        ],
+        "contacto": [
+            {
+                "agencia": "Empresa comunal mirador de cuyuni ausangatec hatun pukaran",
+                "datos": [           
+                    {"id": "1", "li": "miradordecuyuni@hotmail.com"},
+                    {"id": "2", "li": "(+51) 942846125-971713829"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "slug": "granja-porcon",
+        "provincia": "Cajamarca",
+        "titulo": "Granja Porcón",
+        "imagen": "",
+        "subtitulo": "Camina en un bosque de pinos y disfruta de la vida en el campo.",
+        "desc": "La Granja Porcón es un ejemplo exitoso de una cooperativa comunal dedicada al agroturismo. Sus miembros abren puertas para compartir su manera de vivir, así podrás experimentar las labores agrícolas y ganaderas del lugar. Además, disfrutarás largas cabalgatas y apacibles caminatas por el bosque, la floresta, el Qapac-Ñan y Cerro Grande.",
+        "alt": "turismo-granja-porcon",
+        "hacer": [
+            {"id": "1", "li": "Participación en faenas agrícolas y ganaderas."},
+            {"id": "2", "li": "Exposición participativa de textiles."},
+            {"id": "3", "li": "Exposición participativa de tallado en madera."},
+            {"id": "4", "li": "Paseo en bote."},
+            {"id": "5", "li": "Paseo a caballo."},
+            {"id": "6", "li": "Pesca artesanal."},
+            {"id": "7", "li": "Caminata."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."},
+            {"id": "4","li": "Transporte"}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 430.00 a partir de 2 pax"},
+            {"id": "2","li": "· 3D/2N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cajamarca a Porcón"},
+                    {"id": "2","li": "01 hora (30 km.)"},
+                    {"id": "3","li": "De Lima a Cajamarca"},
+                    {"id": "4","li": "13 horas (897 km.)"},
+                    {"id": "5","li": "De Lima a la carretera Kuntur Wasi"},
+                    {"id": "6","li": "10 horas (531 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 21°C Mín. 4°C"},
+            {"id": "2","li": "3,100 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Cooperativa Agraria Atahualpa Jerusalén de Trabajadores Ltda",
+                "datos": [           
+                    {"id": "1", "li": "Granja Porcón Cajamarca"},
+                    {"id": "2", "li": "turismo@granjaporcon.org.pe"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "slug": "huilloc",
+        "provincia": "Cusco",
+        "titulo": "Huilloc",
+        "imagen": "",
+        "subtitulo": "Comparte junto con los herederos de los incas que viven en comunidad.",
+        "desc": "Tan cerca del corazón del Valle Sagrado de los Incas que podrías oírlo latir. Esta comunidad quechua mantiene vivas sus costumbres y tradiciones para ofrecerte una experiencia inolvidable e intensa. Sus pobladores, representantes orgullosos de su legado ancestral, están encantados de compartir contigo sus vivencias. Lo que te espera en Huilloc es un producto turístico único, como no hay otro en todo el Valle Sagrado.",
+        "alt": "turismo-huilloc",
+        "hacer": [
+            {"id": "1", "li": "Caminata: Chaskiq."},
+            {"id": "2", "li": "Trabajo colectivo, denominado minka: Yanapanakuy"},
+            {"id": "3", "li": "Trabajo agrícola en la chakra: Kusiruna"},
+            {"id": "4", "li": "Proceso de elaboración de prendas de vestir: Allin Pachakuy"},
+            {"id": "5", "li": "Prácticas rituales ancestrales: Willaq Uma"},
+            {"id": "6", "li": "Compartir el proceso educativo con los niños de la comunidad: Yachayhuasi."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· S/ 209.45"},
+            {"id": "2","li": "· Half day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cusco a Ollantaytambo-Huilloc"},
+                    {"id": "2","li": "02 horas (98 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 19°C Mín. 0°C"},
+            {"id": "2","li": "3,400 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación Huilloc Ayllu Inka",
+                "datos": [           
+                    {"id": "1", "li": "huillochomestays@gmail.com"},
+                    {"id": "2", "li": "(+51) 990048152-993502889."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "slug": "humacchuco",
+        "provincia": "Ancash",
+        "titulo": "Humacchuco-Unidos Venceremos",
+        "imagen": "",
+        "subtitulo": "Déjate cautivar por la belleza paisajística de la Cordillera Blanca y conéctate de cerca con nevado Huascarán.",
+        "desc": "Sorpréndete con la belleza de los paisajes naturales y hermosas lagunas color turquesa que nacen de los nevados de la Cordillera Blanca, disfruta de un almuerzo con una vista privilegiada y descubre el majestuoso Parque Nacional del Huascarán. Desde esta comunidad también podrás emprender diversas caminatas hacia los principales atractivos del parque: Laguna 69 y las muy conocidas lagunas de la quebrada Llanganuco: Chinancocha y Orconcocha.",
+        "alt": "turismo-humacchuco",
+        "hacer": [
+            {"id": "1", "li": "Trekking mirador Portachuelo."},
+            {"id": "2", "li": "Trekking Laguna 69."},
+            {"id": "3", "li": "Trekking Sendero María Josefa."},
+            {"id": "4", "li": "Caminata a la Laguna y Resto Arqueológico Queushu."},
+            {"id": "5", "li": "Paseo en bote-Laguna Chinancocha."},
+            {"id": "6", "li": "Faenas agrícolas."},
+            {"id": "7", "li": "Ceremonia ancestral."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística.."},
+            {"id": "4","li": "Paseos en bote."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· S/ 160 (1-4 personas)-S/ 150 (5-8)-S/ 140 (9 a más)"},
+            {"id": "2","li": "· Full day 2D/1N 3D/1N 4D/3N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Humacchuco"},
+                    {"id": "4","li": "01 hora y 40 min. (72 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 27°C Mín. 4°C"},
+            {"id": "2","li": "Desde 3,300 m s. n. m. hasta 4,600 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de Turismo Rural Comunitario Huascar y Huandy",
+                "datos": [           
+                    {"id": "1", "li": "Turismo Rural Comunitario Humacchuco"},
+                    {"id": "2", "li": "trchumacchuco.org"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "slug": "inkas-vivientes",
+        "provincia": "Cusco",
+        "titulo": "Inkas Vivientes",
+        "imagen": "",
+        "subtitulo": "Atrévete a vivir con los incas vivientes en armonía con la naturaleza.",
+        "desc": "Patacancha o los Incas vivientes, son los herederos de una tradición milenaria. Este mágico y colorido lugar te invita a conocer su cultura expresada en su artesanía y actividades agrícolas y ganaderas; pero, sobre todo a través de la sonrisa y el calor de su gente.",
+        "alt": "turismo-inkas-vivientes",
+        "hacer": [
+            {"id": "1", "li": "Visitar la comunidad (Huilloc, Patacancha, Rumira Sondormayor y Challwaccocha)."},
+            {"id": "2", "li": "Visitar las lagunas de Challwaccocha."},
+            {"id": "3", "li": "Aprender a tejer."},
+            {"id": "4", "li": "Pumamarka y Markaccocha."},
+            {"id": "5", "li": "Agricultura orgánica."},
+            {"id": "6", "li": "Medicina inca con plantas."},
+            {"id": "7", "li": "Vivir con los incas."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· S/ 209.45"},
+            {"id": "2","li": "· Half day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cusco a Ollantaytambo"},
+                    {"id": "2","li": "01 hora y 40 min. (80 km)"},
+                    {"id": "3","li": "Ollantaytambo a Patacancha"},
+                    {"id": "4","li": "02 horas y 15 min. (20 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 19°C Mín. 0°C"},
+            {"id": "2","li": "Desde 3,400 m s. n. m. hasta 4,500 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de Jóvenes Indígenas Inkas Vivientes",
+                "datos": [           
+                    {"id": "1", "li": "inkasvivienteshprc@gmail.com"},
+                    {"id": "2", "li": "(+51) 990048152."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "slug": "yachaqs",
+        "provincia": "Cusco",
+        "titulo": "La Tierra de los Yachaqs",
+        "imagen": "",
+        "subtitulo": "Sumérgete en la vida local de comunidades que buscan conservar su cultura ancestral.",
+        "desc": "Con ocho ayllus ubicados a lo largo del Valle Sagrado de los Incas, la Tierra de los Yachaqs comparte la sabiduría legada por sus antepasados. Tradición, historia y cultura se reflejan potentemente en sus actividades agrícolas, ganaderas y artesanales, así como también en sus ceremonias y rituales. Toda una experiencia que se quedará grabada en tu memoria.",
+        "alt": "turismo-yachaqs",
+        "hacer": [
+            {"id": "1", "li": "Taller de textilería."},
+            {"id": "2", "li": "Medicina tradicional."},
+            {"id": "3", "li": "Taller de gastronomía andina."},
+            {"id": "4", "li": "Actividades de agroturismo."},
+            {"id": "5", "li": "Caminata por la ruta de la Achupalla."},
+            {"id": "6", "li": "Ceremonias andinas."},
+            {"id": "7", "li": "Manifestaciones culturales."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Guías locales."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 35.00"},
+            {"id": "2","li": "· Full day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cusco a Pisaq"},
+                    {"id": "2","li": "45 min. (35 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 2°C"},
+            {"id": "2","li": "Desde 2,600 m s. n. m. hasta 3,700 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación Tierra de los Yachaqs",
+                "datos": [           
+                    {"id": "1", "li": "https://www.yachaqs.com/"},
+                    {"id": "2", "li": "(+51) 979424265-920086666."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "slug": "laraos",
+        "provincia": "Yauyos Cochas",
+        "titulo": "Laraos-Vilca",
+        "imagen": "",
+        "subtitulo": "Déjate envolver por bellos paisajes y descubre más sobre la Andenería milenaria.",
+        "desc": "Los paisajes cordilleranos entre Lima y Junín son ideales para una caminata o un suave paseo en bote. La reserva paisajística Nor Yauyos Cochas es el lugar perfecto para los viajes en días feriados, y por qué no durante todo el año, y es que los distritos de Huancaya, Vilca y Laraos tienen la fórmula ideal: clima, calidez de gente y una historia tan viva que será imposible olvidar.",
+        "alt": "turismo-laraos",
+        "hacer": [
+            {"id": "1", "li": "Siembra/cosecha en andenería."},
+            {"id": "2", "li": "Pachamanca al aire libre."},
+            {"id": "3", "li": "Caminata."},
+            {"id": "4", "li": "Artesanía textil."},
+            {"id": "5", "li": "Pesca artesanal."},
+            {"id": "6", "li": "Ciclismo de Montaña."},
+            {"id": "7", "li": "Paseo a caballo."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."},
+            {"id": "3","li": "Casas Hospedaje."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 115.00 (4 personas)"},
+            {"id": "2","li": "· Full day 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Laraos"},
+                    {"id": "2","li": "06 horas (314 km.)"},                    
+                    {"id": "3","li": "De Lima a Huancaya"},
+                    {"id": "4","li": "08 horas (320 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 2°C"},
+            {"id": "2","li": "Desde 3,550 m s. n. m. hasta 3,800 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación Turística Sinchimarka Laraos Yauyos Perú",
+                "datos": [           
+                    {"id": "1", "li": "turismolaraos"},
+                    {"id": "2", "li": "www.turismolaraos.com"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "slug": "llachon",
+        "provincia": "Puno",
+        "titulo": "Llachón",
+        "imagen": "",
+        "subtitulo": "Conéctate con la naturaleza navegando en el lago más alto del mundo en kayak.",
+        "desc": "Desde Llachón los límites del lago Titicaca se ven más cerca. Este destino se encuentra en la península de Capachica, de ahí puedes seguir la aventura hacia Amantaní o Taquile. Déjate cautivar por estos hermosos parajes, navegando por el lago puneño en un velero o un kayak bajo el sol del altiplano.",
+        "alt": "turismo-llachon",
+        "hacer": [
+            {"id": "1", "li": "Paseo en veleros artesanales."},
+            {"id": "2", "li": "Faenas agrícolas."},
+            {"id": "3", "li": "Pesca artesanal."},
+            {"id": "4", "li": "Exposición de textiles."},
+            {"id": "5", "li": "Kayak."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 70"},
+            {"id": "2","li": "· 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Juliaca a Puno"},
+                    {"id": "2","li": "01 hora (45 km.)"},                    
+                    {"id": "3","li": "De Puno a Llachón"},
+                    {"id": "4","li": "01 hora y 45 min. (75 km.)"},
+                    {"id": "5","li": "De Juliaca a Llachón"},
+                    {"id": "6","li": "01 hora y 20 min. (59 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 5°C"},
+            {"id": "2","li": "3,820 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación Turística Santa María II",
+                "datos": [           
+                    {"id": "1", "li": "www.santamariaturismo.com"},
+                    {"id": "2", "li": "(+51) 951664828-966385317."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "slug": "lucumo",
+        "provincia": "Lima",
+        "titulo": "Lomas de Lúcumo",
+        "imagen": "",
+        "subtitulo": "Descubre un oasis invernal a las afueras de la ciudad.",
+        "desc": "Entre junio y octubre el color verde llena de vida los parajes desérticos del sur de Lima. El circuito ecoturístico Lomas de Lucumo, ubicado en el valle verde de Pachacamac, es una iniciativa exitosa de conservación de las lomas costeras de Lima y abre sus puertas para que vivas la experiencia de una caminata, como no hay otra, entre formaciones rocosas, pinturas rupestres y flores de Amancaes que son uno de los símbolos de Lima.",
+        "alt": "turismo-lucumo",
+        "hacer": [
+            {"id": "1", "li": "Caminata."},
+            {"id": "2", "li": "Rapel."},
+            {"id": "3", "li": "Campamento."},
+            {"id": "4", "li": "Avistamiento de aves."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Venta de artesanía."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Adultos S/ 8.00 y con orientador turístico desde S/ 40.00"},
+            {"id": "2","li": "· Half day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Lima al distrito de Pachacamac"},
+                    {"id": "2","li": "40 min. (31 km.)"},                    
+                    {"id": "3","li": "De Pachacámac al Centro Poblado Rural Quebrada Verde"},
+                    {"id": "4","li": "10 min."}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 29°C Mín. 10°C"},
+            {"id": "2","li": "Desde 87 m s. n. m. hasta 1,200 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa deportiva y ligera."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación Circuito Ecoturístico Lomas de Lúcumo",
+                "datos": [           
+                    {"id": "1", "li": "lomasdelucumo"},
+                    {"id": "2", "li": "(+51) 997944148–971305078"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "slug": "luquina",
+        "provincia": "Puno",
+        "titulo": "Luquina",
+        "imagen": "",
+        "subtitulo": "Despierta con una maravillosa vista del Lago Titicaca y comparte vivencias con la comunidad.",
+        "desc": "Luquina es un pueblo apacible y encantador, una combinación perfecta de belleza natural y grandes expresiones culturales. Gracias a su cálida gente sentirás que el lugar te abraza y te invita a contemplar, desde sus pintorescas viviendas, las más asombrosas vistas del lago Titicaca. Luquina es ideal para relajarse, inspirarse, escribir, pintar o tomar una guitarra para componer las melodías más hermosas y preciadas que guardas en tu corazón.",
+        "alt": "turismo-luquina",
+        "hacer": [
+            {"id": "1", "li": "Participación en faenas agrícolas-ganaderas."},
+            {"id": "2", "li": "Participación en la preparación de platos típicos."},
+            {"id": "3", "li": "Interpretación de plantas medicinales."},
+            {"id": "4", "li": "Caminata al mirador natural."},
+            {"id": "5", "li": "Fogata y música local."},
+            {"id": "6", "li": "Paseo en bote."},
+            {"id": "7", "li": "Pesca artesanal."},
+            {"id": "8", "li": "Kayak."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 50.00"},
+            {"id": "2","li": "· Full day 2D/1N 3D/2N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Juliaca a Puno"},
+                    {"id": "2","li": "01 hora (45 km.)"},                    
+                    {"id": "3","li": "De Puno a Chucuito"},
+                    {"id": "4","li": "20 min. (18 km.)"},
+                    {"id": "5","li": "De Chucuito a Luquina-Karina"},
+                    {"id": "6","li": "01 hora y media (63 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 5°C"},
+            {"id": "2","li": "3,856 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de Turismo Vivencial Comunitario Luquina Chico",
+                "datos": [           
+                    {"id": "1", "li": "turismoluquinachico@gmail.com"},
+                    {"id": "2", "li": "(+51) 913058368– 982378850."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "slug": "maras",
+        "provincia": "Cusco",
+        "titulo": "Maras",
+        "imagen": "",
+        "subtitulo": "Descubre este pueblo de acuarela, detenido en el tiempo, cargado de aroma campesino.",
+        "desc": "Maras es un pueblo de acuarela, detenido en el tiempo, cargado de aromas campesinos. Sus puertas talladas en piedras, un paseo en burrito por el pueblo y las escenificaciones teatrales en quechua son solo algunas de las experiencias que te maravillarán. En Maras crearás vínculos para toda la vida.",
+        "alt": "turismo-maras",
+        "hacer": [
+            {"id": "1", "li": "Teatro en quechua."},
+            {"id": "2", "li": "Música."},
+            {"id": "3", "li": "Talleres de cerámica."},
+            {"id": "4", "li": "Paseo en burrito por las calles de Maras."},
+            {"id": "5", "li": "Taller de pankas."},
+            {"id": "6", "li": "Elaboración de máscaras."},
+            {"id": "7", "li": "Pesca artesanal."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· S/ 130.00"},
+            {"id": "2","li": "· Full day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cusco a Maras"},
+                    {"id": "2","li": "50 min. (48 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 0°C"},
+            {"id": "2","li": "3,028 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación Sol Naciente de Maras",
+                "datos": [           
+                    {"id": "1", "li": "turismoluquinachico@gmail.com"},
+                    {"id": "2", "li": "andeamilcar@yahoo.com"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "slug": "misminay",
+        "provincia": "Cusco",
+        "titulo": "Mullak’s Misminay",
+        "imagen": "",
+        "subtitulo": "Visita el mirador de Moray y conoce las tradiciones de la comunidad local.",
+        "desc": "Mullak’s Misminay o el Lugar de Humedales, por su nombre en quechua, fue el sitio que acogió a grandes colcas y sede del centro experimental agrícola de Moray. Es ideal para observar las estrellas, aprender sobre la cosmovisión andina y disfrutar junto a sus pobladores de actividades agrícolas y textiles.",
+        "alt": "turismo-misminay",
+        "hacer": [
+            {"id": "1", "li": "Caminatas al mirador de Moray."},
+            {"id": "2", "li": "Etnobotánica."},
+            {"id": "3", "li": "Paseos en caballo y burro."},
+            {"id": "4", "li": "Demostración de actividades agrícolas y textiles."},
+            {"id": "5", "li": "Pastoreo."},
+            {"id": "6", "li": "Elaboración de adobes."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· S/ 130.00"},
+            {"id": "2","li": "· Full day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cusco a Misminay"},
+                    {"id": "2","li": "01 hora (51 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 0°C"},
+            {"id": "2","li": "3,700 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de Turismo Vivencial Misminay Moray/Waninmarca",
+                "datos": [           
+                    {"id": "1", "li": "vivemisminay.trc@gmail.com"},
+                    {"id": "2", "li": "(+51) 975524264"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "slug": "parque-de-la-papa",
+        "provincia": "Cusco",
+        "titulo": "Parque de la Papa",
+        "imagen": "",
+        "subtitulo": "Descubre las tradiciones y creatividad culinaria en base a la papa nativa.",
+        "desc": "Sumérgete y aprende las ancestrales técnicas agrícolas que los incas alcanzaron para conservar y preservar su mayor patrimonio alimentario: la papa. Sorpréndete con sus más de mil variedades de papas nativas y degusta sus sabores a través de una diversa oferta gastronómica elaborada por la propia comunidad.",
+        "alt": "turismo-parque-de-la-papa",
+        "hacer": [
+            {"id": "1", "li": "Visita a la laguna Azulccocha y Kinsaccochcco."},
+            {"id": "2", "li": "Visita al banco de semillas y centro de interpretación del Parque de la Papa."},
+            {"id": "3", "li": "Gastronomía Típica."},
+            {"id": "4", "li": "Preparación y venta de medicina andina."},
+            {"id": "5", "li": "Exposición y venta de textiles."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."} 
+        ],
+        "precio": [           
+            {"id": "1","li": "· S/ 120.00"},
+            {"id": "2","li": "· Full day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cusco a Pisac"},
+                    {"id": "2","li": "01 hora (37 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 0°C"},
+            {"id": "2","li": "3,600 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Parque de la Papa",
+                "datos": [           
+                    {"id": "1", "li": "Potato Park"},
+                    {"id": "2", "li": "pdp@andes.org.pe"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "slug": "raqchi",
+        "provincia": "Cusco",
+        "titulo": "Raqchi",
+        "imagen": "",
+        "subtitulo": "Sorpréndete de la arquitectura  y tradición milenaria de los incas.",
+        "desc": "Siente el espíritu inca de Raqchi, una comunidad milenaria que mantiene intacta sus tradiciones culturales, y sé parte de su historia aprendiendo su cosmovisión andina, sus conocimientos artesanales y agrícolas, junto al imponente Templo de Wiracocha.",
+        "alt": "turismo-raqchi",
+        "hacer": [
+            {"id": "1", "li": "Visitas guiadas al Templo de Wiracocha y al mirador de la comunidad."},
+            {"id": "2", "li": "Caminata por el Qhapac Ñan."},
+            {"id": "3", "li": "Caminata al volcán Kinsa Chata."},
+            {"id": "4", "li": "Taller demostrativo de cerámica."},
+            {"id": "5", "li": "Chala a los Apus y Pachamama."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."} 
+        ],
+        "precio": [           
+            {"id": "1","li": "· $ 20.00"},
+            {"id": "2","li": "· Full day 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Cusco a Raqchi"},
+                    {"id": "2","li": "02 horas y media (125 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 0°C"},
+            {"id": "2","li": "3,500 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de turismo vivencial de Raqchi",
+                "datos": [           
+                    {"id": "1", "li": "raíces.inka.raqchi@hotmail.com"},
+                    {"id": "2", "li": "(+51) 925375163"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "slug": "cocachimba",
+        "provincia": "Amazonas",
+        "titulo": "San Pablo - Cocachimba",
+        "imagen": "",
+        "subtitulo": "Recorre un camino rodeado de naturaleza y descubre una de las cataratas más altas del mundo.",
+        "desc": "Caminando hacia el interior de la Catarata, podrás descubrir distintos escenarios naturales y conectarte plenamente con la fauna y flora local de una manera entretenida y espiritual, donde el funcionamiento del ecosistema y la importancia del agua como fuente de vida serán una gran revelación.",
+        "alt": "turismo-cocachimba",
+        "hacer": [
+            {"id": "1", "li": "Excursiones a la catarata Gocta."},
+            {"id": "2", "li": "Paseo a caballo."},
+            {"id": "3", "li": "Participación en faenas agrícolas: cosecha de caña de azúcar y piña."},
+            {"id": "4", "li": "Participación en la molienda de la caña de azúcar, elaboración de la chancaca y la panela."},
+            {"id": "5", "li": "Apicultura (en San Pablo)"},
+            {"id": "6", "li": "Faenas agrícolas."},
+            {"id": "7", "li": "Camping."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."},
+            {"id": "4","li": "Alquiler de acémilas (arrieraje)."},
+            {"id": "5","li": "Alquiler de equipos de viaje (botas, ponchos impermeables, carpas, frazadas y colchones)."} 
+        ],
+        "precio": [           
+            {"id": "1","li": "· San Pablo desde S/ 10.00 y con orientador desde S/ 30.00, Cocachimba desde S/ 20.00"},
+            {"id": "2","li": "· San Pablo full day 2D/1N, Cocachimba full day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Tarapoto a San Pablo"},
+                    {"id": "2","li": "06 horas (330 km.)"},
+                    {"id": "3","li": "De San Pablo a la catarata Gocta"},
+                    {"id": "4","li": "02 horas y media (5.9 km.)"},
+                    {"id": "5","li": "De Tarapoto a Cocachimba"},
+                    {"id": "6","li": "06 horas (330 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 23°C Mín. 13°C"},
+            {"id": "2","li": "Desde 1,800 m s. n. m. hasta 2,340 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación Comunal de Turismo San Pablo-Gocta",
+                "datos": [           
+                    {"id": "1", "li": "asoturgocta@gmail.com"},
+                    {"id": "2", "li": "(+51) 993596980"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "slug": "santa-elena",
+        "provincia": "San Martín",
+        "titulo": "Santa Elena",
+        "imagen": "",
+        "subtitulo": "Siente de cerca el sonido de la fauna que habita en esta encantadora Reserva Ecológica.",
+        "desc": "Siente de cerca el sonido de la fauna que habita en esta encantadora reserva ecológica. Recorre sus humedales junto con los pobladores de la comunidad que están organizados para custodiar el ecosistema. Con más de diez años de trabajo en conservación del medio ambiente, hoy Santa Elena es en uno de los principales referentes del Alto Mayo para la práctica del ecoturismo.",
+        "alt": "turismo-santa-elena",
+        "hacer": [
+            {"id": "1", "li": "Caminatas en aguajales y renacales."},
+            {"id": "2", "li": "Paseos en canoa."},
+            {"id": "3", "li": "Observación de fauna."},
+            {"id": "4", "li": "Pesca artesanal."},
+            {"id": "5", "li": "Camping."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alimentación (tradicional y vegetariana)."},
+            {"id": "2","li": "Alojamiento en bungalows."},
+            {"id": "3","li": "Transporte fluvial."},
+            {"id": "4","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Half day desde S/ 100.00 y full day desde S/ 200.00"},
+            {"id": "2","li": "· Half day y full day"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Tarapoto a Moyobamba"},
+                    {"id": "2","li": "02 horas (116 km.)"},
+                    {"id": "3","li": "De Moyobamba a Rioja"},
+                    {"id": "4","li": "30 min."},
+                    {"id": "5","li": "De Rioja a Santa Elena"},
+                    {"id": "6","li": "15 min. (04 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 28°C Mín. 16°C"},
+            {"id": "2","li": "Desde 740 m s. n. m. hasta 830 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Llevar repelente, bloqueador solar"},
+            {"id": "2", "li": "Gorra, agua, calzado cómodo, mochila pequeña"},
+            {"id": "3", "li": "Medicamentos personales"}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación para la Conservación del Aguajal Renacal Río Romero-ADECARR",
+                "datos": [           
+                    {"id": "1", "li": "Reserva Ecológica Santa Elena"},
+                    {"id": "2", "li": "(+51) 793361-964779537"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "slug": "sibayo",
+        "provincia": "Arequipa",
+        "titulo": "Sibayo",
+        "imagen": "",
+        "subtitulo": "Siente el encanto de su pueblo de piedra y disfruta del trekking con llamas.",
+        "desc": "En uno de los cañones más profundos del mundo y hábitat del cóndor andino se encuentra Sibayo, una comunidad que se caracteriza por sus majestuosas construcciones de piedra y barro, y que se mantiene así desde 1776. Allí podrás ser parte de sus tradiciones y costumbres, como presenciar la crianza de llamas, el cultivo de la tierra, el bordado de tejidos, entre otras actividades.",
+        "alt": "turismo-sibayo",
+        "hacer": [
+            {"id": "1", "li": "Trekking con llamas."},
+            {"id": "2", "li": "Exposición de textiles."},
+            {"id": "3", "li": "Faena agrícolas."},
+            {"id": "4", "li": "Pesca artesanal."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alimentación (tradicional y vegetariana)."},
+            {"id": "2","li": "Alojamiento en bungalows."},
+            {"id": "3","li": "Transporte fluvial."},
+            {"id": "4","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 170.00"},
+            {"id": "2","li": "· 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Arequipa a Chivay"},
+                    {"id": "2","li": "03 horas (151 km.)"},
+                    {"id": "3","li": "De Chivay a Sibayo"},
+                    {"id": "4","li": "01 hora (36 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 21°C Mín. 5°C"},
+            {"id": "2","li": "Desde 3,300 m s. n. m. hasta 3,800 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de servicios turísticos Rumillacta Sibayo - ASETUR",
+                "datos": [           
+                    {"id": "1", "li": "asetur_rumillacta@hotmail.com"},
+                    {"id": "2", "li": "(+51) 956069932"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "slug": "taquile",
+        "provincia": "Puno",
+        "titulo": "Taquile",
+        "imagen": "",
+        "subtitulo": "Conoce y aprende las costumbres de esta mágica isla llena de color.",
+        "desc": "El lago Titicaca conserva sus encantos en islas como Taquile. Allí las leyendas se mantienen vivas en el imaginario de su gente y en los coloridos tejidos que lucen con orgullo. A lo largo de la geografía insular están desperdigados mágicos senderos que te llevarán hacia andenes agrícolas y lugares ceremoniales como el Quinuapata. El textil tradicional de Taquile tiene reconocimiento mundial, aprende este arte para sumarle valor a tu vida, será como aprender a tejer nuestros sueños con mil colores.",
+        "alt": "turismo-taquile",
+        "hacer": [
+            {"id": "1", "li": "Demostración de artesanía textil ancestral."},
+            {"id": "2", "li": "Participación en actividades agrícolas."},
+            {"id": "3", "li": "Participación en actividades ganaderas."},
+            {"id": "4", "li": "Fogata y música local."},
+            {"id": "5", "li": "Paseo en botes."},
+            {"id": "6", "li": "Caminatas a las playas."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Tours y transporte lacustre."},
+            {"id": "2","li": "Alojamiento."},
+            {"id": "3","li": "Alimentación."},
+            {"id": "4","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· S/ 215.00"},
+            {"id": "2","li": "· 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Juliaca a Puno"},
+                    {"id": "2","li": "01 hora (45 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 5°C"},
+            {"id": "2","li": "3,950 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Empresa comunal Munay Taquile",
+                "datos": [           
+                    {"id": "1", "li": "info@taquile.net"},
+                    {"id": "2", "li": "(+51) 995090992"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "slug": "tingana",
+        "provincia": "San Martín",
+        "titulo": "Tingana",
+        "imagen": "",
+        "subtitulo": "Envuélvete de la naturaleza navegando por los aguajales y renacales de Tingana.",
+        "desc": "Tingana, un asombroso paraíso que alberga una gran variedad de especies de flora y fauna silvestre, en su mayoría aves y primates, es ideal para realizar estudios de investigación y observación. En este particular ecosistema, hábitat de especies en peligro de extinción y en situación vulnerable, los pobladores juegan un rol importante al protegerlas y cuidarlas para poder mostrarlas al mundo.",
+        "alt": "turismo-tingana",
+        "hacer": [
+            {"id": "1", "li": "Paseos en canoa."},
+            {"id": "2", "li": "Caminatas ecológicas."},
+            {"id": "3", "li": "Observación de fauna."},
+            {"id": "4", "li": "Visita a chacras ecológicas."},
+            {"id": "5", "li": "Visita a parcelas de plantas medicinales."},
+            {"id": "6", "li": "Visitas a vivero de plantas forestales."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Transporte fluvial."},
+            {"id": "2","li": "Alojamiento en bungalows."},
+            {"id": "3","li": "Alimentación (tradicional y vegetariana)."},
+            {"id": "4","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Full day S/ 75.00 (6 personas)"},
+            {"id": "2","li": "· Full day 2D/1N 3D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Tarapoto a Moyobamba"},
+                    {"id": "2","li": "02 horas (116 km.)"},
+                    {"id": "3","li": "De Moyobamba a Yantalo"},
+                    {"id": "4","li": "30 min. (15 km.)"},
+                    {"id": "5","li": "De Yantalo a Puerto Boca del Río Huascayacu"},
+                    {"id": "6","li": "15 min."}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 30°C Mín. 10°C"},
+            {"id": "2","li": "860 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Llevar repelente, bloqueador solar"},
+            {"id": "2", "li": "Gorra, agua, calzado cómodo, mochila pequeña"},
+            {"id": "3", "li": "Medicamentos personales"}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de Conservación de los Aguajales y Renacales del Alto Mayo-ADECARAM",
+                "datos": [           
+                    {"id": "1", "li": "Tingana"},
+                    {"id": "2", "li": "(+51) 942958538."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "slug": "uros",
+        "provincia": "Puno",
+        "titulo": "Uros",
+        "imagen": "",
+        "subtitulo": "Sumérgete en las tradiciones y estilo de vida en las islas flotantes del Lago Titicaca.",
+        "desc": "El suave vaivén de las aguas del lago Titicaca, el lago navegable más alto del mundo, te invitan a explorar sus islas con casas construidas con totora. Descubre este místico archipiélago, situado en la bahía de Puno, disfruta de sus costumbres y alegrías. Sin duda, Uros es el mejor recuerdo que podrás llevar en el corazón.",
+        "alt": "turismo-uros",
+        "hacer": [
+            {"id": "1", "li": "Paseo en balsas de totora."},
+            {"id": "2", "li": "Demostración del manejo de totora."},
+            {"id": "3", "li": "Pesca artesanal."},
+            {"id": "4", "li": "Vestido de traje típico de los uros."},
+            {"id": "5", "li": "Explicación de cómo hacer una isla flotante con una maqueta."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "4","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde S/ 180.00"},
+            {"id": "2","li": "· Full day 2D/1N 3D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Juliaca a Puno"},
+                    {"id": "2","li": "01 hora (45 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 20°C Mín. 13.3°C"},
+            {"id": "2","li": "3,810 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "UROS KHANTATI",
+                "datos": [           
+                    {"id": "1", "li": "uroskhantati@hotmail.com"},
+                    {"id": "2", "li": "(+51) 951695121-951472355."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "slug": "vicos",
+        "provincia": "Ancash",
+        "titulo": "Vicos",
+        "imagen": "",
+        "subtitulo": "Disfruta de la vida en el campo, participando de la fiesta de la Pachamanca.",
+        "desc": "En Vicos descubrirás una experiencia genuina de la vida en el campo, ayudarás en la preparación de alimentos y serás parte de la Fiesta de la Pachamanca. Podrás vivir las costumbres de una familia marcada por la presencia de la montaña y hacer caminatas hacia las lagunas Lejiacocha y Rocotuyoc, conociendo de primera mano las propieda.",
+        "alt": "turismo-vicos",
+        "hacer": [
+            {"id": "1", "li": "Trekking Laguna Lejiacocha y/o Rocotuyoc."},
+            {"id": "2", "li": "Participación en la preparación de pachamanca."},
+            {"id": "3", "li": "Faenas agrícolas."},
+            {"id": "4", "li": "Ceremonia ancestral."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Full day desde S/ 660.00 (2 personas)"},
+            {"id": "2","li": "· Full day 2D/1N 3D/1N 4D/3N 5D/3N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Marcará"},
+                    {"id": "4","li": "35 min. (23.5 km.)"},
+                    {"id": "5","li": "De Marcará a Vicos"},
+                    {"id": "6","li": "20 min. (07 km.)"}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 27°C Mín. 4°C"},
+            {"id": "2","li": "Desde 3,100 m s. n. m. hasta 4,328 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Asociación de Turismo Rural Comunitario Cuyaqui Wayi",
+                "datos": [           
+                    {"id": "1", "li": "trcvicos@gmail.com"},
+                    {"id": "2", "li": "(+51) 975181717."}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "slug": "yanque",
+        "provincia": "Arequipa",
+        "titulo": "Yanque",
+        "imagen": "",
+        "subtitulo": "Conoce las tradiciones de un mágico Pueblo a través de su textilería.",
+        "desc": "Yanque, situado a 15 minutos de Chivay, fue residencia habitual de caciques Collaguas hasta convertirse, durante la Colonia, en una urbe de estilo barroco mestizo. Su gran plaza, en la que danzantes aparecen fugazmente lo evidencia, además de la expresión viva de su textilería.",
+        "alt": "turismo-yanque",
+        "hacer": [
+            {"id": "1", "li": "Faenas agrícolas y ganaderas."},
+            {"id": "2", "li": "Visitas guiadas al Complejo Arqueológico de Uyo Uyo"},
+            {"id": "3", "li": "Termalismo."},
+            {"id": "4", "li": "Paseos a caballo."},
+            {"id": "5", "li": "Exposiciones participativas de bordado."},
+            {"id": "6", "li": "Danzas folklóricas."},
+            {"id": "7", "li": "Ciclismo."},
+            {"id": "8", "li": "Narración de cuentos, mitos y leyendas."}
+        ],
+        "servicios": [           
+            {"id": "1","li": "Alojamiento."},
+            {"id": "2","li": "Alimentación."},
+            {"id": "3","li": "Orientación turística."},
+            {"id": "4","li": "Transporte."}
+        ],
+        "precio": [           
+            {"id": "1","li": "· Desde $60"},
+            {"id": "2","li": "· 2D/1N"}
+        ],
+        "llegar": [
+            {
+                "via": "Terrestre",
+                "rutas": [           
+                    {"id": "1","li": "De Arequipa a Chivay"},
+                    {"id": "2","li": "03 horas (151 km.)"},
+                    {"id": "3","li": "De Chivay a Yanque"},
+                    {"id": "4","li": "15 min. (06 km.)."}
+                ]
+            },
+            {
+                "via": "Aéreo",
+                "rutas": [           
+                    {"id": "1","li": "De Lima a Huaraz"},
+                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "3","li": "De Huaraz a Huari"},
+                    {"id": "4","li": "04 horas"},
+                    {"id": "5","li": "De Huari a Acopalca"},
+                    {"id": "6","li": "15 min"}
+                ]
+            }
+        ],
+        "clima": [
+            {"id": "1","li": "Máx. 21°C Mín. 8°C"},
+            {"id": "2","li": "Desde 3,300 m s. n. m. hasta 3,400 m s. n. m."}
+        ],
+        "tips": [           
+            {"id": "1", "li": "Zapatillas para trekking."},
+            {"id": "2", "li": "Protector solar."},
+            {"id": "3", "li": "Gorro y lentes de sol."},
+            {"id": "4", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+        ],
+        "contacto": [
+            {
+                "agencia": "Patronato de Turismo Yanque",
+                "datos": [           
+                    {"id": "1", "li": "patronatoturismo@gmail.com"},
+                    {"id": "2", "li": "(+51) 959803551"}
+                ]
+            }
+        ]
     }
 ]

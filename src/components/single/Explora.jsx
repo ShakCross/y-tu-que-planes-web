@@ -10,17 +10,17 @@ const Explora = ({province, title}) => {
         <>
             <H2 title={title} bree/>
             <div className={styles.card_wrapper}>
-                {data.map(post =>
+                {data.slice(15).map(post =>
                     post.localia === province ?
                     <Card
                         key={post.id}
                         image={post.imagen}
                         location={post.localia}
                         title={post.titulo}
-                        url={post.url}
+                        slug={post.slug}
                         alt={post.alt}
                     /> : ''
-                ).slice(15)}
+                )}
             </div>
         </>
     )

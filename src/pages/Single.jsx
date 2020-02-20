@@ -13,6 +13,7 @@ import styles from './single.module.scss'
 import Slider from "react-slick";
 import Panel from 'components/single/panel/Panel'
 import data from 'data/turismo-lima-interna.json'
+import { Route } from 'react-router-dom'
 
 const Single = () => {
 
@@ -48,113 +49,122 @@ const Single = () => {
     }
 
     return (
+
         <Layout>
-            <Hero title={data[0].titulo} desc={data[0].subtitulo} image={image} />
-            <div className={styles.desc}>
-                {data[0].desc}
-            </div>
-            <div className={styles.panel}>
-                <Panel left li_left={data[0].hacer.map(post =>
-                    <li key={post.id}>{post.li}</li>
-                )} />
-                <Panel right li_right={data[0].servicios.map(post =>
-                    <li key={post.id}>{post.li}</li>
-                )} />
-            </div>
-            <div className={styles.wrapper}>
-                <Card
-                    title="Precio y Horario"
-                    yellow
-                    image={clock}
-                    content={data[0].precio.map(post =>
-                        <li key={post.id}>{post.li}</li>
-                    )}
-                />
-                <Card
-                    title="¿Cómo llegar?"
-                    skyblue
-                    ruta
-                    via={data[0].llegar[0].via}
-                    image={pin}
-                    content={data[0].llegar[0].rutas.map(post =>
-                        <li key={post.id}>{post.li}</li>
-                    )}
-                />
-                <Card
-                    title="Clima y Altura"
-                    pale_green
-                    image={sun}
-                    content={data[0].clima.map(post =>
-                        <li key={post.id}>{post.li}</li>
-                    )}
-                />
-                <Card
-                    title="Tips de viaje"
-                    purple
-                    image={bulb}
-                    content={data[0].tips.map(post =>
-                        <li key={post.id}>{post.li}</li>
-                    )}
-                />
-                <Card
-                    title="Contactar con agencias"
-                    green
-                    contacto
-                    image={phone}
-                    via="Terrestre"
-                    content={data[0].llegar[0].rutas.map(post =>
-                        <li key={post.id}>{post.li}</li>
-                    )}
-                />
-            </div>
-            <div className={styles.wrapper_mobile}>
-                <Slider {...settings}>
-                    <Card
-                        title="Precio y Horario"
-                        yellow
-                        image={clock}
-                        content={data[0].precio.map(post =>
+            {data.map(post =>
+                <Route key={post.id} exact path={'/' + post.slug}>
+                    <Hero title={post.titulo} desc={post.subtitulo} image={image} />
+                    <div className={styles.desc}>
+                        {post.desc}
+                    </div>
+                    <div className={styles.panel}>
+                        <Panel left li_left={post.hacer.map(post =>
                             <li key={post.id}>{post.li}</li>
-                        )}
-                    />
-                    <Card
-                        title="¿Cómo llegar?"
-                        skyblue
-                        ruta
-                        via="Terrestre"
-                        image={pin}
-                        content={data[0].llegar[0].rutas.map(post =>
+                        )} />
+                        <Panel right li_right={post.servicios.map(post =>
                             <li key={post.id}>{post.li}</li>
-                        )}
+                        )} />
+                    </div>
+                    <div className={styles.wrapper}>
+                        <Card
+                            title="Precio y Horario"
+                            yellow
+                            image={clock}
+                            content={post.precio.map(post =>
+                                <li key={post.id}>{post.li}</li>
+                            )}
+                        />
+                        <Card
+                            title="¿Cómo llegar?"
+                            skyblue
+                            ruta
+                            via={post.llegar[0].via}
+                            image={pin}
+                            content={post.llegar[0].rutas.map(post =>
+                                <li key={post.id}>{post.li}</li>
+                            )}
+                        />
+                        <Card
+                            title="Clima y Altura"
+                            pale_green
+                            image={sun}
+                            content={post.clima.map(post =>
+                                <li key={post.id}>{post.li}</li>
+                            )}
+                        />
+                        <Card
+                            title="Tips de viaje"
+                            purple
+                            image={bulb}
+                            content={post.tips.map(post =>
+                                <li key={post.id}>{post.li}</li>
+                            )}
+                        />
+                        <Card
+                            title="Contactar con agencias"
+                            green
+                            contacto
+                            via={post.contacto[0].agencia}
+                            image={phone}
+                            content={post.contacto[0].datos.map(post =>
+                                <li key={post.id}>{post.li}</li>
+                            )}
+                        />
+                    </div>
+                    <div className={styles.wrapper_mobile}>
+                        <Slider {...settings}>
+                            <Card
+                                title="Precio y Horario"
+                                yellow
+                                image={clock}
+                                content={post.precio.map(post =>
+                                    <li key={post.id}>{post.li}</li>
+                                )}
+                            />
+                            <Card
+                                title="¿Cómo llegar?"
+                                skyblue
+                                ruta
+                                via={post.llegar[0].via}
+                                image={pin}
+                                content={post.llegar[0].rutas.map(post =>
+                                    <li key={post.id}>{post.li}</li>
+                                )}
+                            />
+                            <Card
+                                title="Clima y Altura"
+                                pale_green
+                                image={sun}
+                                content={post.clima.map(post =>
+                                    <li key={post.id}>{post.li}</li>
+                                )}
+                            />
+                            <Card
+                                title="Tips de viaje"
+                                purple
+                                image={bulb}
+                                content={post.tips.map(post =>
+                                    <li key={post.id}>{post.li}</li>
+                                )}
+                            />
+                            <Card
+                                title="Contactar con agencias"
+                                green
+                                contacto
+                                via={post.contacto[0].agencia}
+                                image={phone}
+                                content={post.contacto[0].datos.map(post =>
+                                    <li key={post.id}>{post.li}</li>
+                                )}
+                            />
+                        </Slider>
+                    </div>
+                    <Explora
+                        title={'Explora otros lugares turísticos ' + post.provincia}
+                        province={post.provincia}
                     />
-                    <Card
-                        title="Clima y Altura"
-                        pale_green
-                        image={sun}
-                        content={data[0].clima.map(post =>
-                            <li key={post.id}>{post.li}</li>
-                        )}
-                    />
-                    <Card
-                        title="Tips de viaje"
-                        purple
-                        image={bulb}
-                        content={data[0].tips.map(post =>
-                            <li key={post.id}>{post.li}</li>
-                        )}
-                    />
-                    <Card
-                        title="Contactar con agencias"
-                        green
-                        contacto
-                        image={phone}
-                    />
-                </Slider>
-            </div>
-            <Explora
-                title={'Explora otros lugares turísticos ' + data[0].provincia}
-                province={data[0].provincia}
-            />
+                </Route>
+            )}
         </Layout>
     )
 }

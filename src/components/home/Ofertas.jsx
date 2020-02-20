@@ -114,7 +114,7 @@ const Ofertas = () => {
                         image={post.imagen}
                         location={post.localia}
                         title={post.titulo}
-                        url={post.url}
+                        slug={post.slug}
                         alt={post.alt}
                     />
                 ).slice(0, numberOfItems)}
