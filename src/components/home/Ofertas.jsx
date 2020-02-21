@@ -51,47 +51,103 @@ const Ofertas = () => {
         numberOfItems == 24 ? setHideButton(true) : '';
     }
 
-    const prov = ["Amazonas", "Cajamarca", "Cerro de Pasco", "Cusco", "Huánuco", "Junín", "Piura"]
 
-    const [tags, setTags] = useState(null)
-    const [filterTags, setFilterTags] = useState(null)
+    const [filter, setFilter] = useState(false)
+    let [active, setActive] = useState(true)
 
-    const filtered = filterTags
-    
-    let naturaleza = data.filter(e => e.experience[0] === "Naturaleza")
-    let gastronomia = data.filter(e => e.experience[0] === "Gastronomía")
-    let caminatas = data.filter(e => e.experience[0] === "Caminatas")
-    let cultural = data.filter(e => e.experience[0] === "Cultural")
-    let musica = data.filter(e => e.experience[0] === "Música y danza")
 
-    function showNaturaleza () {
-        console.log(naturaleza);
+    let [filterGastro, setFilterGastro] = useState(false)
+    let [filterCult, setFilterCult] = useState(false)
+    let [filterNatu, setFilterNatu] = useState(false)
+    let [filterCami, setFilterCami] = useState(false)
+    let [filterMusic, setFilterMusic] = useState(false)
+
+    const handleFilter = () => {
+        setActive({active:true})
+        setFilter({filter:true})
+        setFilterCult(filterCult = false)
+        setFilterNatu(filterNatu = false)
+        setFilterCami(filterCami = false)
+        setFilterNatu(filterNatu = false)
+        setFilterMusic(filterMusic = false)
+        setFilterGastro(filterGastro = false)
     }
-    function showGastronomia () {
-        console.log(gastronomia);
+
+    const handleFilterGastro = () => {
+        setFilterGastro({filterGastro:true})
+        setFilter({filter:true})
+        setFilterCult(filterCult = false)
+        setFilterNatu(filterNatu = false)
+        setFilterCami(filterCami = false)
+        setFilterMusic(filterMusic = false)
+        setActive(active = false)
     }
-    function showCaminatas () {
-        console.log(caminatas);
+
+    const handleFilterCultura = () => {
+        setFilterCult({filterCult:true})
+        setFilter({filter:true})
+        setFilterGastro(filterGastro = false)
+        setFilterNatu(filterNatu = false)
+        setFilterCami(filterCami = false)
+        setFilterMusic(filterMusic = false)
+        setActive(active = false)
     }
-    function showCultural () {
-        console.log(cultural);
+
+    const handleFilterNaturaleza = () => {
+        setFilterNatu({filterNatu:true})
+        setFilter({filter:true})
+        setFilterGastro(filterGastro = false)
+        setFilterCult(filterCult = false)
+        setFilterCami(filterCami = false)
+        setFilterMusic(filterMusic = false)
+        setActive(active = false)
     }
-    function showMusica () {
-        console.log(musica);
+
+    const handleFilterCamina = () => {
+        setFilterCami({filterCami:true})
+        setFilter({filter:true})
+        setFilterGastro(filterGastro = false)
+        setFilterCult(filterCult = false)
+        setFilterNatu(filterNatu = false)
+        setFilterMusic(filterMusic = false)
+        setActive(active = false)
     }
-    
+
+    const handleFilterMusica = () => {
+        setFilterMusic({filterMusic:true})
+        setFilter({filter:true})
+        setFilterGastro(filterGastro = false)
+        setFilterCult(filterCult = false)
+        setFilterNatu(filterNatu = false)
+        setFilterCami( filterCami = false)
+        setActive(active = false)
+    }
+
+    const todos = filter ? name => name.experience : name => name.experience
+    const gastronomia = filter ? name => name.experience.includes('Gastronomía') : name => name.experience 
+    const cultural = filter ? name => name.experience.includes('Cultural') : name => name.experience 
+    const naturaleza = filter ? name => name.experience.includes('Naturaleza') : name => name.experience
+    const caminatas = filter ? name => name.experience.includes('Caminatas') : name => name.experience 
+    const musica = filter ? name => name.experience.includes('Música y danza') : name => name.experience   
+
+    let tags = 
+        filterGastro ? gastronomia : 
+        filterCult ? cultural : 
+        filterNatu ? naturaleza : 
+        filterCami ? caminatas : 
+        filterMusic ? musica :
+        todos
 
     return (
         <div>
             <H2 title="Conoce nuevas experiencias" />
             <div className={styles.tag}>
-                <div>Mostrar Todo</div>
-                <Tag title="Mostrar Todo" />
-                <Tag click={showNaturaleza} title="Naturaleza" />
-                <Tag click={showGastronomia} title="Gastronomía" />
-                <Tag click={showCaminatas} title="Caminatas" />
-                <Tag click={showCultural} title="Cultural" />
-                <Tag click={showMusica} title="Música y danza" />
+                <Tag click={handleFilter} active={active} title="Mostrar Todo" />
+                <Tag click={handleFilterGastro} active={filterGastro} title="Gastronomía"/>
+                <Tag click={handleFilterCultura} active={filterCult} title="Cultural"/>
+                <Tag click={handleFilterNaturaleza} active={filterNatu} title="Naturaleza"/>
+                <Tag click={handleFilterCamina} active={filterCami} title="Caminatas"/>
+                <Tag click={handleFilterMusica} active={filterMusic} title="Música y danza"/>
             </div>
             <div className={styles.tag_mobile}>
                 <Slider {...settings}>
@@ -104,7 +160,7 @@ const Ofertas = () => {
                 </Slider>
             </div>
             <div className={styles.card_wrapper}>
-                {data.map(post =>
+                {data.filter(tags).slice(0, numberOfItems).map(post =>
                     <Card
                         key={post.id}
                         image={post.imagen}
@@ -113,11 +169,11 @@ const Ofertas = () => {
                         slug={post.slug}
                         alt={post.alt}
                     />
-                ).slice(0, numberOfItems)}
+                )}
             </div>
             {
                 !hideButton &&
-                <Button yellow click={handleShowMore}/>
+                <Button yellow click={handleShowMore} />
             }
         </div>
     )

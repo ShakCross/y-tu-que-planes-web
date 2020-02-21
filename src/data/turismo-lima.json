@@ -24,7 +24,7 @@
         "localia": "Puno",
         "slug": "/atuncolla",
         "alt": "turismo-atuncolla",
-        "experience": ["Cultural"]
+        "experience": ["Caminatas", "Cultural", "Gastronomía"]
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "localia": "Puno",
         "slug": "/ccotos-ticonata",
         "alt": "turismo-ticonata",
-        "experience": ["Caminatas"]
+        "experience": ["Caminatas", "Cultural", "Música y danza"]
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "localia": "Lambayeque",
         "slug": "/chaparri",
         "alt": "turismo-chaparri",
-        "experience": ""
+        "experience": ["Caminatas", "Naturaleza"]
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "localia": "Cusco",
         "slug": "/chichubamba",
         "alt": "turismo-chichubamba",
-        "experience": ""
+        "experience": ["Cultural", "Naturaleza"]
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "localia": "Puno",
         "slug": "/chifron-paramis",
         "alt": "turismo-paramis",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural", "Música y danza"]
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "localia": "Arequipa",
         "slug": "/coporaque",
         "alt": "turismo-coporaque",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural"]
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "localia": "San Martín",
         "slug": "/cuevas-de-palestina",
         "alt": "turismo-palestina",
-        "experience": ""
+        "experience": ["Caminatas", "Naturaleza"]
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "localia": "Cusco",
         "slug": "/cuyuni",
         "alt": "turismo-cuyun",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural", "Gastronomía"]
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "localia": "Cajamarca",
         "slug": "/granja-porcon",
         "alt": "turismo-porcon",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural"]
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "localia": "Cusco",
         "slug": "/huilloc",
         "alt": "turismo-huilloc",
-        "experience": ""
+        "experience": ["Cultural"]
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "localia": "Ancash",
         "slug": "/humacchuco",
         "alt": "turismo-humacchuco",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural"]
     },
     {
         "id": 14,
@@ -123,7 +123,7 @@
         "localia": "Cusco",
         "slug": "/inkas-vivientes",
         "alt": "turismo-inkas",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural"]
     },
     {
         "id": 15,
@@ -132,7 +132,7 @@
         "localia": "Cusco",
         "slug": "/yachaqs",
         "alt": "turismo-yachaqs",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural", "Gastronomía"]
     },
     {
         "id": 16,
@@ -141,7 +141,7 @@
         "localia": "Yauyos Cochas",
         "slug": "/laraos",
         "alt": "turismo-laraos",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural", "Gastronomía"]
     },
     {
         "id": 17,
@@ -150,7 +150,7 @@
         "localia": "Puno",
         "slug": "/llachon",
         "alt": "turismo-llachon",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural"]
     },
     {
         "id": 18,
@@ -159,7 +159,7 @@
         "localia": "Lima",
         "slug": "/lucumo",
         "alt": "turismo-lucumo",
-        "experience": ""
+        "experience": ["Caminatas", "Naturaleza"]
     },
     {
         "id": 19,
@@ -168,7 +168,7 @@
         "localia": "Puno",
         "slug": "/luquina",
         "alt": "turismo-luquina",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural", "Gastronomía", "Música y danza"]
     },
     {
         "id": 20,
@@ -177,7 +177,7 @@
         "localia": "Cusco",
         "slug": "/maras",
         "alt": "turismo-maras",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural", "Música y danza"]
     },
     {
         "id": 21,
@@ -186,7 +186,7 @@
         "localia": "Cusco",
         "slug": "/misminay",
         "alt": "turismo-misminay",
-        "experience": ""
+        "experience": ["Cultural"]
     },
     {
         "id": 22,
@@ -195,7 +195,7 @@
         "localia": "Cusco",
         "slug": "/parque-de-la-papa",
         "alt": "turismo-papa",
-        "experience": ""
+        "experience": ["Cultural", "Gastronomía"]
     },
     {
         "id": 23,
@@ -204,7 +204,7 @@
         "localia": "Cusco",
         "slug": "/raqchi",
         "alt": "turismo-raqchi",
-        "experience": ""
+        "experience": ["Cultural", "Música y danza"]
     },
     {
         "id": 24,
@@ -213,7 +213,7 @@
         "localia": "Amazonas",
         "slug": "/cocachimba",
         "alt": "turismo-cocachimba",
-        "experience": ""
+        "experience": ["Caminatas", "Naturaleza"]
     },
     {
         "id": 25,
@@ -222,7 +222,7 @@
         "localia": "San Martín",
         "slug": "/santa-elena",
         "alt": "turismo-santa-elena",
-        "experience": ""
+        "experience": ["Naturaleza"]
     },
     {
         "id": 26,
@@ -231,7 +231,7 @@
         "localia": "Arequipa",
         "slug": "/sibayo",
         "alt": "turismo-sibayo",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural"]
     },
     {
         "id": 27,
@@ -240,7 +240,7 @@
         "localia": "Puno",
         "slug": "/taquile",
         "alt": "turismo-taquile",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural", "Música y danza"]
     },
     {
         "id": 28,
@@ -249,7 +249,7 @@
         "localia": "San Martín",
         "slug": "/tingana",
         "alt": "turismo-tingana",
-        "experience": ""
+        "experience": ["Naturaleza"]
     },
     {
         "id": 29,
@@ -258,7 +258,7 @@
         "localia": "Puno",
         "slug": "/uros",
         "alt": "turismo-uros",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural"]
     },
     {
         "id": 30,
@@ -267,7 +267,7 @@
         "localia": "Ancash",
         "slug": "/vicos",
         "alt": "turismo-vicos",
-        "experience": ""
+        "experience": ["Cultural", "Gastronomía"]
     },
     {
         "id": 31,
@@ -276,6 +276,6 @@
         "localia": "Arequipa",
         "slug": "/yanque",
         "alt": "turismo-yanque",
-        "experience": ""
+        "experience": ["Caminatas", "Cultural", "Música y danza"]
     }
 ]
