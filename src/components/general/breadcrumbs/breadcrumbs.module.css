@@ -1,0 +1,14 @@
+.wrapper {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  bottom: 120px;
+}
+.inner_wrapper {
+  position: relative;
+}
+.content {
+  color: white;
+}

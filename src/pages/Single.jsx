@@ -53,7 +53,7 @@ const Single = () => {
         <Layout>
             {data.map(post =>
                 <Route key={post.id} exact path={'/' + post.slug}>
-                    <Hero title={post.titulo} desc={post.subtitulo} image={image} />
+                    <Hero title={post.titulo} desc={post.subtitulo} image={image} breadcrumbs content={post.titulo} slug={post.slug}/>
                     <div className={styles.desc}>
                         {post.desc}
                     </div>

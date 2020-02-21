@@ -1,8 +1,9 @@
 import React from "react";
 import styles from './hero-content.module.scss'
+import Breadcrumbs from 'components/general/breadcrumbs/Breadcrumbs'
 
 
-const HeroContent = ({title, desc, image}) => {
+const HeroContent = ({title, desc, image, breadcrumbs, content, slug}) => {
 
     return (
         <div>
@@ -15,6 +16,11 @@ const HeroContent = ({title, desc, image}) => {
                         <span className={styles.span}>
                             {desc}
                         </span>
+                        {
+                            breadcrumbs ? 
+                            <Breadcrumbs content={content} slug={slug} />
+                            : ''
+                        }
                     </div>
                 </div>
                 <img className={styles.slides} src={image} alt="" />

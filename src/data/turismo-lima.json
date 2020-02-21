@@ -6,7 +6,7 @@
         "localia": "Ancash",
         "slug": "/acopalca",
         "alt": "turismo-acopalca",
-        "experience": "Caminatas"
+        "experience": ["Caminatas", "Cultural"]
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "localia": "Puno",
         "slug": "/amantani",
         "alt": "turismo-amantani",
-        "experience": "Caminatas"
+        "experience": ["Caminatas", "Cultural"]
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "localia": "Puno",
         "slug": "/atuncolla",
         "alt": "turismo-atuncolla",
-        "experience": "Cultural"
+        "experience": ["Cultural"]
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "localia": "Puno",
         "slug": "/ccotos-ticonata",
         "alt": "turismo-ticonata",
-        "experience": "Cultural"
+        "experience": ["Caminatas"]
     },
     {
         "id": 5,
