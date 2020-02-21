@@ -5,7 +5,8 @@
         "imagen": "./src/assets/img/acopalca.jpg",
         "localia": "Ancash",
         "slug": "/acopalca",
-        "alt": "turismo-acopalca"
+        "alt": "turismo-acopalca",
+        "experience": "Caminatas"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "imagen": "./src/assets/img/amantani.jpg",
         "localia": "Puno",
         "slug": "/amantani",
-        "alt": "turismo-amantani"
+        "alt": "turismo-amantani",
+        "experience": "Caminatas"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "imagen": "./src/assets/img/atuncolla.jpg",
         "localia": "Puno",
         "slug": "/atuncolla",
-        "alt": "turismo-atuncolla"
+        "alt": "turismo-atuncolla",
+        "experience": "Cultural"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "imagen": "./src/assets/img/ticonata.jpg",
         "localia": "Puno",
         "slug": "/ccotos-ticonata",
-        "alt": "turismo-ticonata"
+        "alt": "turismo-ticonata",
+        "experience": "Cultural"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "imagen": "./src/assets/img/chaparri-conservacion.jpg",
         "localia": "Lambayeque",
         "slug": "/chaparri",
-        "alt": "turismo-chaparri"
+        "alt": "turismo-chaparri",
+        "experience": ""
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "imagen": "./src/assets/img/chichubamba.jpg",
         "localia": "Cusco",
         "slug": "/chichubamba",
-        "alt": "turismo-chichubamba"
+        "alt": "turismo-chichubamba",
+        "experience": ""
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "imagen": "./src/assets/img/paramis.jpg",
         "localia": "Puno",
         "slug": "/chifron-paramis",
-        "alt": "turismo-paramis"
+        "alt": "turismo-paramis",
+        "experience": ""
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "imagen": "./src/assets/img/coporaque.jpg",
         "localia": "Arequipa",
         "slug": "/coporaque",
-        "alt": "turismo-coporaque"
+        "alt": "turismo-coporaque",
+        "experience": ""
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "imagen": "./src/assets/img/palestinas-cuevas.jpg",
         "localia": "San Martín",
         "slug": "/cuevas-de-palestina",
-        "alt": "turismo-palestina"
+        "alt": "turismo-palestina",
+        "experience": ""
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "imagen": "./src/assets/img/cuyuni.jpg",
         "localia": "Cusco",
         "slug": "/cuyuni",
-        "alt": "turismo-cuyun"
+        "alt": "turismo-cuyun",
+        "experience": ""
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "imagen": "./src/assets/img/granja-porcon.jpg",
         "localia": "Cajamarca",
         "slug": "/granja-porcon",
-        "alt": "turismo-porcon"
+        "alt": "turismo-porcon",
+        "experience": ""
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "imagen": "./src/assets/img/huilloc.jpg",
         "localia": "Cusco",
         "slug": "/huilloc",
-        "alt": "turismo-huilloc"
+        "alt": "turismo-huilloc",
+        "experience": ""
     },
     {
         "id": 13,
@@ -101,7 +113,8 @@
         "imagen": "./src/assets/img/humacchuco.jpg",
         "localia": "Ancash",
         "slug": "/humacchuco",
-        "alt": "turismo-humacchuco"
+        "alt": "turismo-humacchuco",
+        "experience": ""
     },
     {
         "id": 14,
@@ -109,7 +122,8 @@
         "imagen": "./src/assets/img/inkas-vivientes.jpg",
         "localia": "Cusco",
         "slug": "/inkas-vivientes",
-        "alt": "turismo-inkas"
+        "alt": "turismo-inkas",
+        "experience": ""
     },
     {
         "id": 15,
@@ -117,7 +131,8 @@
         "imagen": "./src/assets/img/yachaqs.jpg",
         "localia": "Cusco",
         "slug": "/yachaqs",
-        "alt": "turismo-yachaqs"
+        "alt": "turismo-yachaqs",
+        "experience": ""
     },
     {
         "id": 16,
@@ -125,7 +140,8 @@
         "imagen": "./src/assets/img/laraos-vilca.jpg",
         "localia": "Yauyos Cochas",
         "slug": "/laraos",
-        "alt": "turismo-laraos"
+        "alt": "turismo-laraos",
+        "experience": ""
     },
     {
         "id": 17,
@@ -133,7 +149,8 @@
         "imagen": "./src/assets/img/llachon.jpg",
         "localia": "Puno",
         "slug": "/llachon",
-        "alt": "turismo-llachon"
+        "alt": "turismo-llachon",
+        "experience": ""
     },
     {
         "id": 18,
@@ -141,7 +158,8 @@
         "imagen": "./src/assets/img/lomas-lucumo.jpg",
         "localia": "Lima",
         "slug": "/lucumo",
-        "alt": "turismo-lucumo"
+        "alt": "turismo-lucumo",
+        "experience": ""
     },
     {
         "id": 19,
@@ -149,7 +167,8 @@
         "imagen": "./src/assets/img/luquina.jpg",
         "localia": "Puno",
         "slug": "/luquina",
-        "alt": "turismo-luquina"
+        "alt": "turismo-luquina",
+        "experience": ""
     },
     {
         "id": 20,
@@ -157,7 +176,8 @@
         "imagen": "./src/assets/img/maras-artesana.jpg",
         "localia": "Cusco",
         "slug": "/maras",
-        "alt": "turismo-maras"
+        "alt": "turismo-maras",
+        "experience": ""
     },
     {
         "id": 21,
@@ -165,7 +185,8 @@
         "imagen": "./src/assets/img/misminay.jpg",
         "localia": "Cusco",
         "slug": "/misminay",
-        "alt": "turismo-misminay"
+        "alt": "turismo-misminay",
+        "experience": ""
     },
     {
         "id": 22,
@@ -173,7 +194,8 @@
         "imagen": "./src/assets/img/parque-de-la-papa.jpg",
         "localia": "Cusco",
         "slug": "/parque-de-la-papa",
-        "alt": "turismo-papa"
+        "alt": "turismo-papa",
+        "experience": ""
     },
     {
         "id": 23,
@@ -181,7 +203,8 @@
         "imagen": "./src/assets/img/raqchi-pueblo.jpg",
         "localia": "Cusco",
         "slug": "/raqchi",
-        "alt": "turismo-raqchi"
+        "alt": "turismo-raqchi",
+        "experience": ""
     },
     {
         "id": 24,
@@ -189,7 +212,8 @@
         "imagen": "./src/assets/img/cocachimba-amazonas.jpg",
         "localia": "Amazonas",
         "slug": "/cocachimba",
-        "alt": "turismo-cocachimba"
+        "alt": "turismo-cocachimba",
+        "experience": ""
     },
     {
         "id": 25,
@@ -197,7 +221,8 @@
         "imagen": "./src/assets/img/santa-elena-reserva.jpg",
         "localia": "San Martín",
         "slug": "/santa-elena",
-        "alt": "turismo-santa-elena"
+        "alt": "turismo-santa-elena",
+        "experience": ""
     },
     {
         "id": 26,
@@ -205,7 +230,8 @@
         "imagen": "./src/assets/img/sibayo.jpg",
         "localia": "Arequipa",
         "slug": "/sibayo",
-        "alt": "turismo-sibayo"
+        "alt": "turismo-sibayo",
+        "experience": ""
     },
     {
         "id": 27,
@@ -213,7 +239,8 @@
         "imagen": "./src/assets/img/taquile-tejedores.jpg",
         "localia": "Puno",
         "slug": "/taquile",
-        "alt": "turismo-taquile"
+        "alt": "turismo-taquile",
+        "experience": ""
     },
     {
         "id": 28,
@@ -221,7 +248,8 @@
         "imagen": "./src/assets/img/tingana.jpg",
         "localia": "San Martín",
         "slug": "/tingana",
-        "alt": "turismo-tingana"
+        "alt": "turismo-tingana",
+        "experience": ""
     },
     {
         "id": 29,
@@ -229,7 +257,8 @@
         "imagen": "./src/assets/img/uros.jpg",
         "localia": "Puno",
         "slug": "/uros",
-        "alt": "turismo-uros"
+        "alt": "turismo-uros",
+        "experience": ""
     },
     {
         "id": 30,
@@ -237,7 +266,8 @@
         "imagen": "./src/assets/img/vicos.jpg",
         "localia": "Ancash",
         "slug": "/vicos",
-        "alt": "turismo-vicos"
+        "alt": "turismo-vicos",
+        "experience": ""
     },
     {
         "id": 31,
@@ -245,6 +275,7 @@
         "imagen": "./src/assets/img/yanque-trajes.jpg",
         "localia": "Arequipa",
         "slug": "/yanque",
-        "alt": "turismo-yanque"
+        "alt": "turismo-yanque",
+        "experience": ""
     }
 ]

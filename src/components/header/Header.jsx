@@ -36,7 +36,7 @@ const Header = () => {
                         <div className={styles.menu_item}>
                             <a href="https://www.ytuqueplanes.com/novedades" target="_blank" rel="noopener noreferrer">Guía Viajera</a>
                         </div>
-                        <div style={{ cursor: "not-allowed" }} className={styles.menu_item_icons}>
+                        <div style={{ cursor: "not-allowed"}} className={styles.menu_item_icons}>
                             <img className={styles.header_icon_bg} src={Alert} alt="icono-alerta" />
                             <img src={User} alt="icono-usuario" />
                             <img className={styles.search} src={Search} alt="icono-buscar" />

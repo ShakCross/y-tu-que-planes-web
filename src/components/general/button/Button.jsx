@@ -26,7 +26,7 @@ const Button = ({ title, yellow, purple, xclassname, url, click }) => {
 }
 
 Button.defaultProps = {
-    title: 'Ver más ofertas',
+    title: 'Ver más experiencias',
     purple: false,
     url: ''
 };
