@@ -4,7 +4,7 @@
         "slug": "acopalca",
         "provincia": "Ancash",
         "titulo": "Acopalca",
-        "imagen": "./images/acopalca-interna.jpg",
+        "imagen": "src/assets/img/acopalca-interna.jpg",
         "subtitulo": "Deléitate con hermosos paisajes andinos y aprende más de las costumbres locales.",
         "desc": "En los Andes de la región Áncash, en la zona de amortiguamiento del Parque Nacional Huascarán, encontrarás el emprendimiento Acopalca, un lugar ideal para que realices caminatas hacia la extensa laguna Purhuay y la majestuosa catarata María Jiray, donde compartirás con los pobladores sus tradiciones, costumbres y deliciosa gastronomía; que permitirán que sea una visita inolvidable.",
         "alt": "turismo-acopalta",
@@ -21,10 +21,10 @@
             {"id": "3","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· 1 a 20 pax: S/ 50.00"},
-            {"id": "2","li": "· 21-30 pax: S/ 40.00"},
-            {"id": "3","li": "· 31 a más pax: S/ 35. 00"},
-            {"id": "4","li": "· Full day 2D/1N"}
+            {"id": "1","li": "1 a 20 pax: S/ 50.00"},
+            {"id": "2","li": "21-30 pax: S/ 40.00"},
+            {"id": "3","li": "31 a más pax: S/ 35. 00"},
+            {"id": "4","li": "Full day 2D/1N"}
         ],
         "llegar": [
             {
@@ -74,7 +74,7 @@
         "slug": "amantani",
         "provincia": "Puno",
         "titulo": "Amantaní",
-        "imagen": "./images/amantani-interna.jpg",
+        "imagen": "src/assets/img/amantani-interna.jpg",
         "subtitulo": "Déjate atrapar por la magia y misticismo andino de una de islas del Lago Titicaca.",
         "desc": "En Amantaní, isla del lago Titicaca, la vida parece transcurrir de manera apacible. Cientos de flores de cantuta despertarán en sus campos para recibirte, aquí podrás aprender de los lugareños ¡Los mejores anfitriones! El misticismo que encierra la isla se siente en cada rincón a través de sus ceremonias ancestrales o solo observando el paisaje, tu energía se renovará preparándote para volver a casa.",
         "alt": "turismo-amantani",
@@ -91,8 +91,8 @@
             {"id": "3","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 60.00"},
-            {"id": "2","li": "· 2D/1N"}
+            {"id": "1","li": "Desde S/ 60.00"},
+            {"id": "2","li": "2D/1N"}
         ],
         "llegar": [
             {
@@ -139,7 +139,7 @@
         "slug": "atuncolla",
         "provincia": "Puno",
         "titulo": "Atuncolla",
-        "imagen": "./images/atuncolla-interna.jpg",
+        "imagen": "src/assets/img/atuncolla-interna.jpg",
         "subtitulo": "Explora Sillustani y una exquisita gastronomía novoandina en el altiplano.",
         "desc": "A pocos minutos de Juliaca encontrarás Atuncolla, un pueblo encantador y perfecto para relajarse. Hatun qolla, su nombre original, significa pueblo grande, y refleja la herencia de las culturas Tiwanaku, Qolla e Inca. En la actualidad ese legado se fusiona con la calidez de su gente, quienes te recomendarán ir al complejo arqueológico de Sillustani, caminar acompañado de llamas o remar en las tranquilas aguas de la laguna Umayo para contemplar desde otra perspectiva las grandiosas tumbas del señorío Inca, las Chullpas.",
         "alt": "turismo-atuncolla",
@@ -160,8 +160,8 @@
             {"id": "3","li": "Arrieraje de llamas."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 30.00"},
-            {"id": "2","li": "· Half day-full day 2D/1N"}
+            {"id": "1","li": "Desde S/ 30.00"},
+            {"id": "2","li": "Half day-full day 2D/1N"}
         ],
         "llegar": [
             {
@@ -214,7 +214,7 @@
         "slug": "ccotos-ticonata",
         "provincia": "Puno",
         "titulo": "Ccotos-Ticonata",
-        "imagen": "./images/ticonata-interna.jpg",
+        "imagen": "src/assets/img/ticonata-interna.jpg",
         "subtitulo": "Disfruta de la naturaleza y cultura viva de un pueblo ancestral.",
         "desc": "El poblado de Ccotos y su pequeña isla Ticonata, a 66 km al noreste de Puno, tienen una ubicación ideal para disfrutar de imponentes paisajes, descansar y contemplar un atardecer apacible. Las comunidades te ofrecen una experiencia única de convivencia con las familias, podrás gozar de una estadía inolvidable en sus acogedoras casas tradicionales.",
         "alt": "turismo-ccotos-ticonata",
@@ -234,8 +234,8 @@
             {"id": "3","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 70.00"},
-            {"id": "2","li": "· 2D/1N"}
+            {"id": "1","li": "Desde S/ 70.00"},
+            {"id": "2","li": "2D/1N"}
         ],
         "llegar": [
             {
@@ -288,7 +288,7 @@
         "slug": "chaparri",
         "provincia": "Lambayeque",
         "titulo": "Chaparrí",
-        "imagen": "./images/chaparri-interna.jpg",
+        "imagen": "src/assets/img/chaparri-interna.jpg",
         "subtitulo": "Explora los bosques secos y descubre el hogar de singulares especies endémicas.",
         "desc": "La Reserva de Chaparrí es el hogar de especies endémicas y amenazadas, como el oso de anteojos, la pava aliblanca, el pitajo de Tumbes, el guanaco y el cóndor andino. Este mágico lugar es el emblema de la conservación de los recursos naturales a través del turismo, que conjugado con la calidad de los servicios y la hospitalidad de sus pobladores hacen que el bosque lambayecano se convierta en un paraíso de experiencias enriquecedoras y memorables.",
         "alt": "turismo-chaparri",
@@ -308,8 +308,8 @@
             {"id": "5","li": "Orientación turística especializada en observación de aves."}
         ],
         "precio": [           
-            {"id": "1","li": "· S/ 70.00 (guiado S/60.00 y S/10.00 ingreso)"},
-            {"id": "2","li": "· Half day-full day"}
+            {"id": "1","li": "S/ 70.00 (guiado S/60.00 y S/10.00 ingreso)"},
+            {"id": "2","li": "Half day-full day"}
         ],
         "llegar": [
             {
@@ -359,7 +359,7 @@
         "slug": "chichubamba",
         "provincia": "Cusco",
         "titulo": "Chichubamba",
-        "imagen": "./images/chichubamba-interna.jpg",
+        "imagen": "src/assets/img/chichubamba-interna.jpg",
         "subtitulo": "Explora las costumbres y tradiciones del poblador del Valle de Urubamba.",
         "desc": "Compuesta por acogedores poblados rodeados de una frondosa campiña verde, donde podrás aprender con facilidad el arte cerámico, experimentar el proceso de producción de miel, saborear el delicioso chocolate casero y disfrutar de la frescura de una atrevida chicha de jora.",
         "alt": "turismo-chichubamba",
@@ -374,8 +374,8 @@
             {"id": "2","li": "Alimentación."}
         ],
         "precio": [           
-            {"id": "1","li": "· S/ 55.00"},
-            {"id": "2","li": "· Full day"}
+            {"id": "1","li": "S/ 55.00"},
+            {"id": "2","li": "Full day"}
         ],
         "llegar": [
             {
@@ -422,7 +422,7 @@
         "slug": "chifron-paramis",
         "provincia": "Puno",
         "titulo": "Chifrón-Paramis",
-        "imagen": "./images/paramis-interna.jpg",
+        "imagen": "src/assets/img/paramis-interna.jpg",
         "subtitulo": "Descubre plantas medicinales de la isla y llénate de energía en las hermosas playas del Lago.",
         "desc": "Participa del trabajo del campo, cabalga al atardecer, pasea y pesca en el lago Titicaca y practica antiguas tradiciones de medicina incaica, utilizando plantas circundantes con fines medicinales. Hacer todo esto es experimentar la vida en las dos comunidades amigas: Chifrón y Paramis.",
         "alt": "turismo-chifron-paramis",
@@ -442,8 +442,8 @@
             {"id": "3","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 100.00"},
-            {"id": "2","li": "· 2D/1N  3D/1N"}
+            {"id": "1","li": "Desde S/ 100.00"},
+            {"id": "2","li": "2D/1N  3D/1N"}
         ],
         "llegar": [
             {
@@ -494,7 +494,7 @@
         "slug": "coporaque",
         "provincia": "Arequipa",
         "titulo": "Coporaque",
-        "imagen": "./images/coporaque-interna.jpg",
+        "imagen": "src/assets/img/coporaque-interna.jpg",
         "subtitulo": "Cabalga a través de senderos y campiñas y descubre sus tradiciones textiles.",
         "desc": "Coporaque, la siempre verde villa, es un apacible pueblo como para llegar en familia.  Sus senderos y campiñas son ideales para disfrutar de la intimidad y una locación perfecta para grabar los más bellos recuerdos. Empieza visitando el centro cultural, luego pasea por el antiguo Coporaque, el Complejo Arqueológico de Llactapampa, su iglesia y capilla de San Sebastián, y termina con un baño termal. Este es un destino para disfrutar sin prisa.",
         "alt": "turismo-coporaque",
@@ -511,8 +511,8 @@
             {"id": "4","li": "Transporte."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde $60"},
-            {"id": "2","li": "· 2D/1N"}
+            {"id": "1","li": "Desde $60"},
+            {"id": "2","li": "2D/1N"}
         ],
         "llegar": [
             {
@@ -560,7 +560,7 @@
         "slug": "cuevas-de-palestina",
         "provincia": "San Martín",
         "titulo": "Cuevas de Palestina",
-        "imagen": "./images/cuevas-palestinas-interna.jpg",
+        "imagen": "src/assets/img/cuevas-palestinas-interna.jpg",
         "subtitulo": "Explora el silencio y oscuridad del mundo subterráneo de la Cueva de Palestina.",
         "desc": "En la comunidad campesina de Palestina podrás conocer el interior de la cueva del mismo nombre, considerada la segunda más profunda del Perú. También tendrás la chance de conocer el innovador mariposario Morfo Azul, donde aprenderás sobre la metamorfosis de estos insectos, así como la importancia de más de 20 especies que se reproducen en este espacio eco amigable.",
         "alt": "turismo-cuevas-de-palestina",
@@ -574,8 +574,8 @@
             {"id": "2","li": "Orientación turística (cueva y mariposario)."}
         ],
         "precio": [           
-            {"id": "1","li": "· Half day S/ 10.00 Full day S/ 5.00"},
-            {"id": "2","li": "· Half day-Full day"}
+            {"id": "1","li": "Half day S/ 10.00 Full day S/ 5.00"},
+            {"id": "2","li": "Half day-Full day"}
         ],
         "llegar": [
             {
@@ -624,7 +624,7 @@
         "slug": "cuyuni",
         "provincia": "Cusco",
         "titulo": "Cuyuni",
-        "imagen": "./images/cuyuni-interna.jpg",
+        "imagen": "src/assets/img/cuyuni-interna.jpg",
         "subtitulo": "Conoce la legendaria cosmovisión andina frente al nevado Ausangate.",
         "desc": "Ubicado en la carretera Interoceánica, que une Cusco con Puerto Maldonado, Cuyuni y su hermoso restaurante te ofrecen un lugar de descanso y alimentación con una gran vista al Apu Ausangate.",
         "alt": "turismo-cuyuni",
@@ -641,8 +641,8 @@
             {"id": "2","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· $41.00 c/u (7-13 personas)-$36.00 c/u (14-24 personas)"},
-            {"id": "2","li": "· 5 horas"}
+            {"id": "1","li": "$41.00 c/u (7-13 personas)-$36.00 c/u (14-24 personas)"},
+            {"id": "2","li": "5 horas"}
         ],
         "llegar": [
             {
@@ -689,7 +689,7 @@
         "slug": "granja-porcon",
         "provincia": "Cajamarca",
         "titulo": "Granja Porcón",
-        "imagen": "./images/granja-porcon-interna.jpg",
+        "imagen": "src/assets/img/granja-porcon-interna.jpg",
         "subtitulo": "Camina en un bosque de pinos y disfruta de la vida en el campo.",
         "desc": "La Granja Porcón es un ejemplo exitoso de una cooperativa comunal dedicada al agroturismo. Sus miembros abren puertas para compartir su manera de vivir, así podrás experimentar las labores agrícolas y ganaderas del lugar. Además, disfrutarás largas cabalgatas y apacibles caminatas por el bosque, la floresta, el Qapac-Ñan y Cerro Grande.",
         "alt": "turismo-granja-porcon",
@@ -709,8 +709,8 @@
             {"id": "4","li": "Transporte"}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 430.00 a partir de 2 pax"},
-            {"id": "2","li": "· 3D/2N"}
+            {"id": "1","li": "Desde S/ 430.00 a partir de 2 pax"},
+            {"id": "2","li": "3D/2N"}
         ],
         "llegar": [
             {
@@ -761,7 +761,7 @@
         "slug": "huilloc",
         "provincia": "Cusco",
         "titulo": "Huilloc",
-        "imagen": "./images/huilloc-interna.jpg",
+        "imagen": "src/assets/img/huilloc-interna.jpg",
         "subtitulo": "Comparte junto con los herederos de los incas que viven en comunidad.",
         "desc": "Tan cerca del corazón del Valle Sagrado de los Incas que podrías oírlo latir. Esta comunidad quechua mantiene vivas sus costumbres y tradiciones para ofrecerte una experiencia inolvidable e intensa. Sus pobladores, representantes orgullosos de su legado ancestral, están encantados de compartir contigo sus vivencias. Lo que te espera en Huilloc es un producto turístico único, como no hay otro en todo el Valle Sagrado.",
         "alt": "turismo-huilloc",
@@ -778,8 +778,8 @@
             {"id": "2","li": "Alimentación."}
         ],
         "precio": [           
-            {"id": "1","li": "· S/ 209.45"},
-            {"id": "2","li": "· Half day"}
+            {"id": "1","li": "S/ 209.45"},
+            {"id": "2","li": "Half day"}
         ],
         "llegar": [
             {
@@ -826,7 +826,7 @@
         "slug": "humacchuco",
         "provincia": "Ancash",
         "titulo": "Humacchuco-Unidos Venceremos",
-        "imagen": "./images/humacchuco-interna.jpg",
+        "imagen": "src/assets/img/humacchuco-interna.jpg",
         "subtitulo": "Déjate cautivar por la belleza paisajística de la Cordillera Blanca y conéctate de cerca con nevado Huascarán.",
         "desc": "Sorpréndete con la belleza de los paisajes naturales y hermosas lagunas color turquesa que nacen de los nevados de la Cordillera Blanca, disfruta de un almuerzo con una vista privilegiada y descubre el majestuoso Parque Nacional del Huascarán. Desde esta comunidad también podrás emprender diversas caminatas hacia los principales atractivos del parque: Laguna 69 y las muy conocidas lagunas de la quebrada Llanganuco: Chinancocha y Orconcocha.",
         "alt": "turismo-humacchuco",
@@ -846,8 +846,8 @@
             {"id": "4","li": "Paseos en bote."}
         ],
         "precio": [           
-            {"id": "1","li": "· S/ 160 (1-4 personas)-S/ 150 (5-8)-S/ 140 (9 a más)"},
-            {"id": "2","li": "· Full day 2D/1N 3D/1N 4D/3N"}
+            {"id": "1","li": "S/ 160 (1-4 personas)-S/ 150 (5-8)-S/ 140 (9 a más)"},
+            {"id": "2","li": "Full day 2D/1N 3D/1N 4D/3N"}
         ],
         "llegar": [
             {
@@ -896,7 +896,7 @@
         "slug": "inkas-vivientes",
         "provincia": "Cusco",
         "titulo": "Inkas Vivientes",
-        "imagen": "./images/inkas-vivientes-interna.jpg",
+        "imagen": "src/assets/img/inkas-vivientes-interna.jpg",
         "subtitulo": "Atrévete a vivir con los incas vivientes en armonía con la naturaleza.",
         "desc": "Patacancha o los Incas vivientes, son los herederos de una tradición milenaria. Este mágico y colorido lugar te invita a conocer su cultura expresada en su artesanía y actividades agrícolas y ganaderas; pero, sobre todo a través de la sonrisa y el calor de su gente.",
         "alt": "turismo-inkas-vivientes",
@@ -914,8 +914,8 @@
             {"id": "2","li": "Alimentación."}
         ],
         "precio": [           
-            {"id": "1","li": "· S/ 209.45"},
-            {"id": "2","li": "· Half day"}
+            {"id": "1","li": "S/ 209.45"},
+            {"id": "2","li": "Half day"}
         ],
         "llegar": [
             {
@@ -964,7 +964,7 @@
         "slug": "yachaqs",
         "provincia": "Cusco",
         "titulo": "La Tierra de los Yachaqs",
-        "imagen": "./images/yachaqs-interna.jpg",
+        "imagen": "src/assets/img/yachaqs-interna.jpg",
         "subtitulo": "Sumérgete en la vida local de comunidades que buscan conservar su cultura ancestral.",
         "desc": "Con ocho ayllus ubicados a lo largo del Valle Sagrado de los Incas, la Tierra de los Yachaqs comparte la sabiduría legada por sus antepasados. Tradición, historia y cultura se reflejan potentemente en sus actividades agrícolas, ganaderas y artesanales, así como también en sus ceremonias y rituales. Toda una experiencia que se quedará grabada en tu memoria.",
         "alt": "turismo-yachaqs",
@@ -983,8 +983,8 @@
             {"id": "3","li": "Guías locales."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 35.00"},
-            {"id": "2","li": "· Full day"}
+            {"id": "1","li": "Desde S/ 35.00"},
+            {"id": "2","li": "Full day"}
         ],
         "llegar": [
             {
@@ -1031,7 +1031,7 @@
         "slug": "laraos",
         "provincia": "Yauyos Cochas",
         "titulo": "Laraos-Vilca",
-        "imagen": "./images/laraos-interna.jpg",
+        "imagen": "src/assets/img/laraos-interna.jpg",
         "subtitulo": "Déjate envolver por bellos paisajes y descubre más sobre la Andenería milenaria.",
         "desc": "Los paisajes cordilleranos entre Lima y Junín son ideales para una caminata o un suave paseo en bote. La reserva paisajística Nor Yauyos Cochas es el lugar perfecto para los viajes en días feriados, y por qué no durante todo el año, y es que los distritos de Huancaya, Vilca y Laraos tienen la fórmula ideal: clima, calidez de gente y una historia tan viva que será imposible olvidar.",
         "alt": "turismo-laraos",
@@ -1051,8 +1051,8 @@
             {"id": "3","li": "Casas Hospedaje."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 115.00 (4 personas)"},
-            {"id": "2","li": "· Full day 2D/1N"}
+            {"id": "1","li": "Desde S/ 115.00 (4 personas)"},
+            {"id": "2","li": "Full day 2D/1N"}
         ],
         "llegar": [
             {
@@ -1101,7 +1101,7 @@
         "slug": "llachon",
         "provincia": "Puno",
         "titulo": "Llachón",
-        "imagen": "./images/llachon-interna.jpg",
+        "imagen": "src/assets/img/llachon-interna.jpg",
         "subtitulo": "Conéctate con la naturaleza navegando en el lago más alto del mundo en kayak.",
         "desc": "Desde Llachón los límites del lago Titicaca se ven más cerca. Este destino se encuentra en la península de Capachica, de ahí puedes seguir la aventura hacia Amantaní o Taquile. Déjate cautivar por estos hermosos parajes, navegando por el lago puneño en un velero o un kayak bajo el sol del altiplano.",
         "alt": "turismo-llachon",
@@ -1118,8 +1118,8 @@
             {"id": "3","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 70"},
-            {"id": "2","li": "· 2D/1N"}
+            {"id": "1","li": "Desde S/ 70"},
+            {"id": "2","li": "2D/1N"}
         ],
         "llegar": [
             {
@@ -1170,7 +1170,7 @@
         "slug": "lucumo",
         "provincia": "Lima",
         "titulo": "Lomas de Lúcumo",
-        "imagen": "./images/lomas-lucumo-interna.jpg",
+        "imagen": "src/assets/img/lomas-lucumo-interna.jpg",
         "subtitulo": "Descubre un oasis invernal a las afueras de la ciudad.",
         "desc": "Entre junio y octubre el color verde llena de vida los parajes desérticos del sur de Lima. El circuito ecoturístico Lomas de Lucumo, ubicado en el valle verde de Pachacamac, es una iniciativa exitosa de conservación de las lomas costeras de Lima y abre sus puertas para que vivas la experiencia de una caminata, como no hay otra, entre formaciones rocosas, pinturas rupestres y flores de Amancaes que son uno de los símbolos de Lima.",
         "alt": "turismo-lucumo",
@@ -1186,8 +1186,8 @@
             {"id": "3","li": "Venta de artesanía."}
         ],
         "precio": [           
-            {"id": "1","li": "· Adultos S/ 8.00 y con orientador turístico desde S/ 40.00"},
-            {"id": "2","li": "· Half day"}
+            {"id": "1","li": "Adultos S/ 8.00 y con orientador turístico desde S/ 40.00"},
+            {"id": "2","li": "Half day"}
         ],
         "llegar": [
             {
@@ -1236,7 +1236,7 @@
         "slug": "luquina",
         "provincia": "Puno",
         "titulo": "Luquina",
-        "imagen": "./images/luquina-interna.jpg",
+        "imagen": "src/assets/img/luquina-interna.jpg",
         "subtitulo": "Despierta con una maravillosa vista del Lago Titicaca y comparte vivencias con la comunidad.",
         "desc": "Luquina es un pueblo apacible y encantador, una combinación perfecta de belleza natural y grandes expresiones culturales. Gracias a su cálida gente sentirás que el lugar te abraza y te invita a contemplar, desde sus pintorescas viviendas, las más asombrosas vistas del lago Titicaca. Luquina es ideal para relajarse, inspirarse, escribir, pintar o tomar una guitarra para componer las melodías más hermosas y preciadas que guardas en tu corazón.",
         "alt": "turismo-luquina",
@@ -1256,8 +1256,8 @@
             {"id": "3","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 50.00"},
-            {"id": "2","li": "· Full day 2D/1N 3D/2N"}
+            {"id": "1","li": "Desde S/ 50.00"},
+            {"id": "2","li": "Full day 2D/1N 3D/2N"}
         ],
         "llegar": [
             {
@@ -1308,7 +1308,7 @@
         "slug": "maras",
         "provincia": "Cusco",
         "titulo": "Maras",
-        "imagen": "./images/maras-interna.jpg",
+        "imagen": "src/assets/img/maras-interna.jpg",
         "subtitulo": "Descubre este pueblo de acuarela, detenido en el tiempo, cargado de aroma campesino.",
         "desc": "Maras es un pueblo de acuarela, detenido en el tiempo, cargado de aromas campesinos. Sus puertas talladas en piedras, un paseo en burrito por el pueblo y las escenificaciones teatrales en quechua son solo algunas de las experiencias que te maravillarán. En Maras crearás vínculos para toda la vida.",
         "alt": "turismo-maras",
@@ -1326,8 +1326,8 @@
             {"id": "2","li": "Alimentación."}
         ],
         "precio": [           
-            {"id": "1","li": "· S/ 130.00"},
-            {"id": "2","li": "· Full day"}
+            {"id": "1","li": "S/ 130.00"},
+            {"id": "2","li": "Full day"}
         ],
         "llegar": [
             {
@@ -1374,7 +1374,7 @@
         "slug": "misminay",
         "provincia": "Cusco",
         "titulo": "Mullak’s Misminay",
-        "imagen": "./images/misminay-interna.jpg",
+        "imagen": "src/assets/img/misminay-interna.jpg",
         "subtitulo": "Visita el mirador de Moray y conoce las tradiciones de la comunidad local.",
         "desc": "Mullak’s Misminay o el Lugar de Humedales, por su nombre en quechua, fue el sitio que acogió a grandes colcas y sede del centro experimental agrícola de Moray. Es ideal para observar las estrellas, aprender sobre la cosmovisión andina y disfrutar junto a sus pobladores de actividades agrícolas y textiles.",
         "alt": "turismo-misminay",
@@ -1391,8 +1391,8 @@
             {"id": "2","li": "Alimentación."}
         ],
         "precio": [           
-            {"id": "1","li": "· S/ 130.00"},
-            {"id": "2","li": "· Full day"}
+            {"id": "1","li": "S/ 130.00"},
+            {"id": "2","li": "Full day"}
         ],
         "llegar": [
             {
@@ -1439,7 +1439,7 @@
         "slug": "parque-de-la-papa",
         "provincia": "Cusco",
         "titulo": "Parque de la Papa",
-        "imagen": "./images/parque-papa-interna.jpg",
+        "imagen": "src/assets/img/parque-papa-interna.jpg",
         "subtitulo": "Descubre las tradiciones y creatividad culinaria en base a la papa nativa.",
         "desc": "Sumérgete y aprende las ancestrales técnicas agrícolas que los incas alcanzaron para conservar y preservar su mayor patrimonio alimentario: la papa. Sorpréndete con sus más de mil variedades de papas nativas y degusta sus sabores a través de una diversa oferta gastronómica elaborada por la propia comunidad.",
         "alt": "turismo-parque-de-la-papa",
@@ -1456,8 +1456,8 @@
             {"id": "3","li": "Orientación turística."} 
         ],
         "precio": [           
-            {"id": "1","li": "· S/ 120.00"},
-            {"id": "2","li": "· Full day"}
+            {"id": "1","li": "S/ 120.00"},
+            {"id": "2","li": "Full day"}
         ],
         "llegar": [
             {
@@ -1504,7 +1504,7 @@
         "slug": "raqchi",
         "provincia": "Cusco",
         "titulo": "Raqchi",
-        "imagen": "./images/raqchi-interna.jpg",
+        "imagen": "src/assets/img/raqchi-interna.jpg",
         "subtitulo": "Sorpréndete de la arquitectura  y tradición milenaria de los incas.",
         "desc": "Siente el espíritu inca de Raqchi, una comunidad milenaria que mantiene intacta sus tradiciones culturales, y sé parte de su historia aprendiendo su cosmovisión andina, sus conocimientos artesanales y agrícolas, junto al imponente Templo de Wiracocha.",
         "alt": "turismo-raqchi",
@@ -1521,8 +1521,8 @@
             {"id": "3","li": "Orientación turística."} 
         ],
         "precio": [           
-            {"id": "1","li": "· $ 20.00"},
-            {"id": "2","li": "· Full day 2D/1N"}
+            {"id": "1","li": "$ 20.00"},
+            {"id": "2","li": "Full day 2D/1N"}
         ],
         "llegar": [
             {
@@ -1569,7 +1569,7 @@
         "slug": "cocachimba",
         "provincia": "Amazonas",
         "titulo": "San Pablo - Cocachimba",
-        "imagen": "./images/cocachimba-interna.jpg",
+        "imagen": "src/assets/img/cocachimba-interna.jpg",
         "subtitulo": "Recorre un camino rodeado de naturaleza y descubre una de las cataratas más altas del mundo.",
         "desc": "Caminando hacia el interior de la Catarata, podrás descubrir distintos escenarios naturales y conectarte plenamente con la fauna y flora local de una manera entretenida y espiritual, donde el funcionamiento del ecosistema y la importancia del agua como fuente de vida serán una gran revelación.",
         "alt": "turismo-cocachimba",
@@ -1590,8 +1590,8 @@
             {"id": "5","li": "Alquiler de equipos de viaje (botas, ponchos impermeables, carpas, frazadas y colchones)."} 
         ],
         "precio": [           
-            {"id": "1","li": "· San Pablo desde S/ 10.00 y con orientador desde S/ 30.00, Cocachimba desde S/ 20.00"},
-            {"id": "2","li": "· San Pablo full day 2D/1N, Cocachimba full day"}
+            {"id": "1","li": "San Pablo desde S/ 10.00 y con orientador desde S/ 30.00, Cocachimba desde S/ 20.00"},
+            {"id": "2","li": "San Pablo full day 2D/1N, Cocachimba full day"}
         ],
         "llegar": [
             {
@@ -1641,7 +1641,7 @@
         "slug": "santa-elena",
         "provincia": "San Martín",
         "titulo": "Santa Elena",
-        "imagen": "./images/santa-elena-interna.jpg",
+        "imagen": "src/assets/img/santa-elena-interna.jpg",
         "subtitulo": "Siente de cerca el sonido de la fauna que habita en esta encantadora Reserva Ecológica.",
         "desc": "Siente de cerca el sonido de la fauna que habita en esta encantadora reserva ecológica. Recorre sus humedales junto con los pobladores de la comunidad que están organizados para custodiar el ecosistema. Con más de diez años de trabajo en conservación del medio ambiente, hoy Santa Elena es en uno de los principales referentes del Alto Mayo para la práctica del ecoturismo.",
         "alt": "turismo-santa-elena",
@@ -1659,8 +1659,8 @@
             {"id": "4","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Half day desde S/ 100.00 y full day desde S/ 200.00"},
-            {"id": "2","li": "· Half day y full day"}
+            {"id": "1","li": "Half day desde S/ 100.00 y full day desde S/ 200.00"},
+            {"id": "2","li": "Half day y full day"}
         ],
         "llegar": [
             {
@@ -1710,7 +1710,7 @@
         "slug": "sibayo",
         "provincia": "Arequipa",
         "titulo": "Sibayo",
-        "imagen": "./images/sibayo-interna.jpg",
+        "imagen": "src/assets/img/sibayo-interna.jpg",
         "subtitulo": "Siente el encanto de su pueblo de piedra y disfruta del trekking con llamas.",
         "desc": "En uno de los cañones más profundos del mundo y hábitat del cóndor andino se encuentra Sibayo, una comunidad que se caracteriza por sus majestuosas construcciones de piedra y barro, y que se mantiene así desde 1776. Allí podrás ser parte de sus tradiciones y costumbres, como presenciar la crianza de llamas, el cultivo de la tierra, el bordado de tejidos, entre otras actividades.",
         "alt": "turismo-sibayo",
@@ -1727,8 +1727,8 @@
             {"id": "4","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 170.00"},
-            {"id": "2","li": "· 2D/1N"}
+            {"id": "1","li": "Desde S/ 170.00"},
+            {"id": "2","li": "2D/1N"}
         ],
         "llegar": [
             {
@@ -1777,7 +1777,7 @@
         "slug": "taquile",
         "provincia": "Puno",
         "titulo": "Taquile",
-        "imagen": "./images/taquile-interna.jpg",
+        "imagen": "src/assets/img/taquile-interna.jpg",
         "subtitulo": "Conoce y aprende las costumbres de esta mágica isla llena de color.",
         "desc": "El lago Titicaca conserva sus encantos en islas como Taquile. Allí las leyendas se mantienen vivas en el imaginario de su gente y en los coloridos tejidos que lucen con orgullo. A lo largo de la geografía insular están desperdigados mágicos senderos que te llevarán hacia andenes agrícolas y lugares ceremoniales como el Quinuapata. El textil tradicional de Taquile tiene reconocimiento mundial, aprende este arte para sumarle valor a tu vida, será como aprender a tejer nuestros sueños con mil colores.",
         "alt": "turismo-taquile",
@@ -1796,8 +1796,8 @@
             {"id": "4","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· S/ 215.00"},
-            {"id": "2","li": "· 2D/1N"}
+            {"id": "1","li": "S/ 215.00"},
+            {"id": "2","li": "2D/1N"}
         ],
         "llegar": [
             {
@@ -1844,7 +1844,7 @@
         "slug": "tingana",
         "provincia": "San Martín",
         "titulo": "Tingana",
-        "imagen": "./images/tingana-interna.jpg",
+        "imagen": "src/assets/img/tingana-interna.jpg",
         "subtitulo": "Envuélvete de la naturaleza navegando por los aguajales y renacales de Tingana.",
         "desc": "Tingana, un asombroso paraíso que alberga una gran variedad de especies de flora y fauna silvestre, en su mayoría aves y primates, es ideal para realizar estudios de investigación y observación. En este particular ecosistema, hábitat de especies en peligro de extinción y en situación vulnerable, los pobladores juegan un rol importante al protegerlas y cuidarlas para poder mostrarlas al mundo.",
         "alt": "turismo-tingana",
@@ -1863,8 +1863,8 @@
             {"id": "4","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Full day S/ 75.00 (6 personas)"},
-            {"id": "2","li": "· Full day 2D/1N 3D/1N"}
+            {"id": "1","li": "Full day S/ 75.00 (6 personas)"},
+            {"id": "2","li": "Full day 2D/1N 3D/1N"}
         ],
         "llegar": [
             {
@@ -1914,7 +1914,7 @@
         "slug": "uros",
         "provincia": "Puno",
         "titulo": "Uros",
-        "imagen": "./images/uros-interna.jpg",
+        "imagen": "src/assets/img/uros-interna.jpg",
         "subtitulo": "Sumérgete en las tradiciones y estilo de vida en las islas flotantes del Lago Titicaca.",
         "desc": "El suave vaivén de las aguas del lago Titicaca, el lago navegable más alto del mundo, te invitan a explorar sus islas con casas construidas con totora. Descubre este místico archipiélago, situado en la bahía de Puno, disfruta de sus costumbres y alegrías. Sin duda, Uros es el mejor recuerdo que podrás llevar en el corazón.",
         "alt": "turismo-uros",
@@ -1931,8 +1931,8 @@
             {"id": "4","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde S/ 180.00"},
-            {"id": "2","li": "· Full day 2D/1N 3D/1N"}
+            {"id": "1","li": "Desde S/ 180.00"},
+            {"id": "2","li": "Full day 2D/1N 3D/1N"}
         ],
         "llegar": [
             {
@@ -1979,7 +1979,7 @@
         "slug": "vicos",
         "provincia": "Ancash",
         "titulo": "Vicos",
-        "imagen": "./images/vicos-interna.jpg",
+        "imagen": "src/assets/img/vicos-interna.jpg",
         "subtitulo": "Disfruta de la vida en el campo, participando de la fiesta de la Pachamanca.",
         "desc": "En Vicos descubrirás una experiencia genuina de la vida en el campo, ayudarás en la preparación de alimentos y serás parte de la Fiesta de la Pachamanca. Podrás vivir las costumbres de una familia marcada por la presencia de la montaña y hacer caminatas hacia las lagunas Lejiacocha y Rocotuyoc, conociendo de primera mano las propieda.",
         "alt": "turismo-vicos",
@@ -1995,8 +1995,8 @@
             {"id": "3","li": "Orientación turística."}
         ],
         "precio": [           
-            {"id": "1","li": "· Full day desde S/ 660.00 (2 personas)"},
-            {"id": "2","li": "· Full day 2D/1N 3D/1N 4D/3N 5D/3N"}
+            {"id": "1","li": "Full day desde S/ 660.00 (2 personas)"},
+            {"id": "2","li": "Full day 2D/1N 3D/1N 4D/3N 5D/3N"}
         ],
         "llegar": [
             {
@@ -2047,7 +2047,7 @@
         "slug": "yanque",
         "provincia": "Arequipa",
         "titulo": "Yanque",
-        "imagen": "./images/yanque-interna.jpg",
+        "imagen": "src/assets/img/yanque-interna.jpg",
         "subtitulo": "Conoce las tradiciones de un mágico Pueblo a través de su textilería.",
         "desc": "Yanque, situado a 15 minutos de Chivay, fue residencia habitual de caciques Collaguas hasta convertirse, durante la Colonia, en una urbe de estilo barroco mestizo. Su gran plaza, en la que danzantes aparecen fugazmente lo evidencia, además de la expresión viva de su textilería.",
         "alt": "turismo-yanque",
@@ -2068,8 +2068,8 @@
             {"id": "4","li": "Transporte."}
         ],
         "precio": [           
-            {"id": "1","li": "· Desde $60"},
-            {"id": "2","li": "· 2D/1N"}
+            {"id": "1","li": "Desde $60"},
+            {"id": "2","li": "2D/1N"}
         ],
         "llegar": [
             {

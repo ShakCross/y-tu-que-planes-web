@@ -11,7 +11,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'script.js',
-        publicPath: '/'
+        publicPath: isDevelopment === 'production' ? './' : '/'
     },
     module: {
         rules: [
@@ -82,13 +82,13 @@ module.exports = {
             },
             
             {
-                test: /\.(gif|png|jpe?g|svg|md)$/i,
+                test: /\.(gif|png|jpe?g|svg)$/i,
                 use: [
                     {
                       loader: 'file-loader',
                       options: {
                         name: '[name].[ext]',
-                        outputPath: 'images',
+                        outputPath: 'src/assets/img',
                       },
                     }
                   ]

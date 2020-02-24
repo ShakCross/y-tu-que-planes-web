@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Acopalca",
-        "imagen": "./images/acopalca.jpg",
+        "imagen": "src/assets/img/acopalca.jpg",
         "localia": "Áncash",
         "slug": "/acopalca",
         "alt": "turismo-acopalca",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "titulo": "Amantaní",
-        "imagen": "./images/amantani.jpg",
+        "imagen": "src/assets/img/amantani.jpg",
         "localia": "Puno",
         "slug": "/amantani",
         "alt": "turismo-amantani",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "titulo": "Atuncolla",
-        "imagen": "./images/atuncolla.jpg",
+        "imagen": "src/assets/img/atuncolla.jpg",
         "localia": "Puno",
         "slug": "/atuncolla",
         "alt": "turismo-atuncolla",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "titulo": "Ccotos-Ticonata",
-        "imagen": "./images/ticonata.jpg",
+        "imagen": "src/assets/img/ticonata.jpg",
         "localia": "Puno",
         "slug": "/ccotos-ticonata",
         "alt": "turismo-ticonata",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "titulo": "Chaparrí",
-        "imagen": "./images/chaparri-conservacion.jpg",
+        "imagen": "src/assets/img/chaparri-conservacion.jpg",
         "localia": "Lambayeque",
         "slug": "/chaparri",
         "alt": "turismo-chaparri",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "titulo": "Chichubamba",
-        "imagen": "./images/chichubamba.jpg",
+        "imagen": "src/assets/img/chichubamba.jpg",
         "localia": "Cusco",
         "slug": "/chichubamba",
         "alt": "turismo-chichubamba",
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "titulo": "Chifrón-Paramis",
-        "imagen": "./images/paramis.jpg",
+        "imagen": "src/assets/img/paramis.jpg",
         "localia": "Puno",
         "slug": "/chifron-paramis",
         "alt": "turismo-paramis",
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "titulo": "Coporaque",
-        "imagen": "./images/coporaque.jpg",
+        "imagen": "src/assets/img/coporaque.jpg",
         "localia": "Arequipa",
         "slug": "/coporaque",
         "alt": "turismo-coporaque",
@@ -74,7 +74,7 @@
     {
         "id": 9,
         "titulo": "Cuevas De Palestina",
-        "imagen": "./images/palestinas-cuevas.jpg",
+        "imagen": "src/assets/img/palestinas-cuevas.jpg",
         "localia": "San Martín",
         "slug": "/cuevas-de-palestina",
         "alt": "turismo-palestina",
@@ -83,7 +83,7 @@
     {
         "id": 10,
         "titulo": "Cuyuni",
-        "imagen": "./images/cuyuni.jpg",
+        "imagen": "src/assets/img/cuyuni.jpg",
         "localia": "Cusco",
         "slug": "/cuyuni",
         "alt": "turismo-cuyun",
@@ -92,7 +92,7 @@
     {
         "id": 11,
         "titulo": "Granja Porcón",
-        "imagen": "./images/granja-porcon.jpg",
+        "imagen": "src/assets/img/granja-porcon.jpg",
         "localia": "Cajamarca",
         "slug": "/granja-porcon",
         "alt": "turismo-porcon",
@@ -101,7 +101,7 @@
     {
         "id": 12,
         "titulo": "Huilloc",
-        "imagen": "./images/huilloc.jpg",
+        "imagen": "src/assets/img/huilloc.jpg",
         "localia": "Cusco",
         "slug": "/huilloc",
         "alt": "turismo-huilloc",
@@ -110,7 +110,7 @@
     {
         "id": 13,
         "titulo": "Humacchuco-Unidos Venceremos",
-        "imagen": "./images/humacchuco.jpg",
+        "imagen": "src/assets/img/humacchuco.jpg",
         "localia": "Áncash",
         "slug": "/humacchuco",
         "alt": "turismo-humacchuco",
@@ -119,7 +119,7 @@
     {
         "id": 14,
         "titulo": "Inkas Vivientes",
-        "imagen": "./images/inkas-vivientes.jpg",
+        "imagen": "src/assets/img/inkas-vivientes.jpg",
         "localia": "Cusco",
         "slug": "/inkas-vivientes",
         "alt": "turismo-inkas",
@@ -128,7 +128,7 @@
     {
         "id": 15,
         "titulo": "La Tierra de los Yachaqs",
-        "imagen": "./images/yachaqs.jpg",
+        "imagen": "src/assets/img/yachaqs.jpg",
         "localia": "Cusco",
         "slug": "/yachaqs",
         "alt": "turismo-yachaqs",
@@ -137,7 +137,7 @@
     {
         "id": 16,
         "titulo": "Laraos-Vilca",
-        "imagen": "./images/laraos-vilca.jpg",
+        "imagen": "src/assets/img/laraos-vilca.jpg",
         "localia": "Lima",
         "slug": "/laraos",
         "alt": "turismo-laraos",
@@ -146,7 +146,7 @@
     {
         "id": 17,
         "titulo": "Llachón",
-        "imagen": "./images/llachon.jpg",
+        "imagen": "src/assets/img/llachon.jpg",
         "localia": "Puno",
         "slug": "/llachon",
         "alt": "turismo-llachon",
@@ -155,7 +155,7 @@
     {
         "id": 18,
         "titulo": "Lomas de Lúcumo",
-        "imagen": "./images/lomas-lucumo.jpg",
+        "imagen": "src/assets/img/lomas-lucumo.jpg",
         "localia": "Lima",
         "slug": "/lucumo",
         "alt": "turismo-lucumo",
@@ -164,7 +164,7 @@
     {
         "id": 19,
         "titulo": "Luquina",
-        "imagen": "./images/luquina.jpg",
+        "imagen": "src/assets/img/luquina.jpg",
         "localia": "Puno",
         "slug": "/luquina",
         "alt": "turismo-luquina",
@@ -173,7 +173,7 @@
     {
         "id": 20,
         "titulo": "Maras",
-        "imagen": "./images/maras-artesana.jpg",
+        "imagen": "src/assets/img/maras-artesana.jpg",
         "localia": "Cusco",
         "slug": "/maras",
         "alt": "turismo-maras",
@@ -182,7 +182,7 @@
     {
         "id": 21,
         "titulo": "Mullak’S Misminay",
-        "imagen": "./images/misminay.jpg",
+        "imagen": "src/assets/img/misminay.jpg",
         "localia": "Cusco",
         "slug": "/misminay",
         "alt": "turismo-misminay",
@@ -191,7 +191,7 @@
     {
         "id": 22,
         "titulo": "Parque de la Papa",
-        "imagen": "./images/parque-de-la-papa.jpg",
+        "imagen": "src/assets/img/parque-de-la-papa.jpg",
         "localia": "Cusco",
         "slug": "/parque-de-la-papa",
         "alt": "turismo-papa",
@@ -200,7 +200,7 @@
     {
         "id": 23,
         "titulo": "Raqchi",
-        "imagen": "./images/raqchi-pueblo.jpg",
+        "imagen": "src/assets/img/raqchi-pueblo.jpg",
         "localia": "Cusco",
         "slug": "/raqchi",
         "alt": "turismo-raqchi",
@@ -209,7 +209,7 @@
     {
         "id": 24,
         "titulo": "San Pablo-Cocachimba",
-        "imagen": "./images/cocachimba-amazonas.jpg",
+        "imagen": "src/assets/img/cocachimba-amazonas.jpg",
         "localia": "Amazonas",
         "slug": "/cocachimba",
         "alt": "turismo-cocachimba",
@@ -218,7 +218,7 @@
     {
         "id": 25,
         "titulo": "Santa Elena",
-        "imagen": "./images/santa-elena-reserva.jpg",
+        "imagen": "src/assets/img/santa-elena-reserva.jpg",
         "localia": "San Martín",
         "slug": "/santa-elena",
         "alt": "turismo-santa-elena",
@@ -227,7 +227,7 @@
     {
         "id": 26,
         "titulo": "Sibayo",
-        "imagen": "./images/sibayo.jpg",
+        "imagen": "src/assets/img/sibayo.jpg",
         "localia": "Arequipa",
         "slug": "/sibayo",
         "alt": "turismo-sibayo",
@@ -236,7 +236,7 @@
     {
         "id": 27,
         "titulo": "Taquile",
-        "imagen": "./images/taquile-tejedores.jpg",
+        "imagen": "src/assets/img/taquile-tejedores.jpg",
         "localia": "Puno",
         "slug": "/taquile",
         "alt": "turismo-taquile",
@@ -245,7 +245,7 @@
     {
         "id": 28,
         "titulo": "Tingana",
-        "imagen": "./images/tingana.jpg",
+        "imagen": "src/assets/img/tingana.jpg",
         "localia": "San Martín",
         "slug": "/tingana",
         "alt": "turismo-tingana",
@@ -254,7 +254,7 @@
     {
         "id": 29,
         "titulo": "Uros",
-        "imagen": "./images/uros.jpg",
+        "imagen": "src/assets/img/uros.jpg",
         "localia": "Puno",
         "slug": "/uros",
         "alt": "turismo-uros",
@@ -263,7 +263,7 @@
     {
         "id": 30,
         "titulo": "Vicos",
-        "imagen": "./images/vicos.jpg",
+        "imagen": "src/assets/img/vicos.jpg",
         "localia": "Áncash",
         "slug": "/vicos",
         "alt": "turismo-vicos",
@@ -272,7 +272,7 @@
     {
         "id": 31,
         "titulo": "Yanque",
-        "imagen": "./images/yanque-trajes.jpg",
+        "imagen": "src/assets/img/yanque-trajes.jpg",
         "localia": "Arequipa",
         "slug": "/yanque",
         "alt": "turismo-yanque",

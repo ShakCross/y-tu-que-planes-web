@@ -1,4 +1,4 @@
-.content {
+.content, .content_price {
     font-family: ClanOffcNews;
     font-size: 10px;
     color: $dark-grey;
@@ -7,6 +7,12 @@
     flex-direction: column;
     height: 100%;
     line-height: 2.5;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_price{
+    background-color: $yellow;
 }
 
 .ruta{
@@ -14,24 +20,89 @@
     font-size: 10px;
     font-weight: bold;
     color: #787878;
+    width: 100%;
+    height: 100%;
 }
 
-.ruta_wrapper{
+.wrapper_yellow{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 87%;
-    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    width: 489px;
+    height: 370px;
+    margin: auto;
     flex-direction: column;
-
+    background-color: $yellow;
+    border-radius: 0px 0px 30px 0px;
 }
 
-.ruta_content {
+.content_yellow, .content_palegreen, .content_purple {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin-top:5px;
     font-family: ClanOffcNews;
-    font-size: 10px;
-    color: $dark-grey;
+    font-size: 14px;
+}
+
+.wrapper_skyblue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 489px;
+    height: 370px;
+    margin: auto;
+    flex-direction: column;
+    background-color: $sky-blue;
+    border-radius: 0px 0px 30px 0px;
+}
+
+.content_skyblue {
+    color: white;
     display: flex;
     flex-direction: column;
     height: 100%;
-    margin-top:5px
+    margin-top:5px;
+    font-family: ClanOffcNews;
+    font-size: 14px;
+}
+
+.wrapper_palegreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 489px;
+    height: 370px;
+    margin: auto;
+    flex-direction: column;
+    background-color: $pale-green;
+    border-radius: 0px 0px 30px 0px;
+}
+
+.wrapper_purple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 489px;
+    height: 370px;
+    margin: auto;
+    flex-direction: column;
+    background-color: $purple;
+    border-radius: 0px 0px 30px 0px;
+}
+
+.title{
+    color: white;
+    font-family: BreePeru;
+    font-size: 26px;
+    font-weight: bold;
+    height: 18%;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    height: 25%;
+    width: 91px;
 }

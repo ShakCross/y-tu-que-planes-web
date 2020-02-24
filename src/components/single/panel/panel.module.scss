@@ -29,7 +29,7 @@
 .ul{
     color: white;
     font-family: BreePeruLight;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.35;
 }
 
@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: right;
+    text-align: left;
 }
 
 .wrapper_content_right{
@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    align-items: flex-end;
+    align-items: flex-start;
     height: 70%;
     justify-content: flex-start;
 }
@@ -72,15 +72,9 @@
     }
 
     .wrapper_content_right, .wrapper_content_left{
-        align-items: center;
-        width: 90%;
+        width: 86%;
     }
-
-    .title{
-        text-align: center;
-    }
-
     .ul{
-        text-align: center;
+        font-size: 14.5px;
     }
 }

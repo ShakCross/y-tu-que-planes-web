@@ -3,7 +3,7 @@ import styles from './hero-content.module.scss'
 import Breadcrumbs from 'components/general/breadcrumbs/Breadcrumbs'
 
 
-const HeroContent = ({title, desc, image, breadcrumbs, content, slug}) => {
+const HeroContent = ({ title, desc, responsive, image, image_lg, image_sm, breadcrumbs, content, slug, logo }) => {
 
     return (
         <div>
@@ -16,14 +16,24 @@ const HeroContent = ({title, desc, image, breadcrumbs, content, slug}) => {
                         <span className={styles.span}>
                             {desc}
                         </span>
+                        <div className={styles.logo_wrapper}>
+                            <img className={styles.logo} src={logo} alt="" srcSet=""/>
+                        </div>
                         {
-                            breadcrumbs ? 
-                            <Breadcrumbs content={content} slug={slug} />
-                            : ''
+                            breadcrumbs ?
+                                <Breadcrumbs content={content} slug={slug} />
+                                : ''
                         }
                     </div>
                 </div>
-                <img className={styles.slides} src={image} alt="" />
+                {responsive ?
+                    <>
+                        <img className={styles.slides_lg} src={image_lg} alt="" />
+                        <img className={styles.slides_sm} src={image_sm} alt="" />
+                    </>
+                    :
+                    <img className={styles.slides} src={image} alt="" />
+                }
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from 'components/layout/Layout'
 import Hero from 'components/home/Hero'
 import Explora from 'components/single/Explora'
@@ -7,8 +7,8 @@ import clock from 'assets/img/clock.svg'
 import bulb from 'assets/img/bulb.svg'
 import sun from 'assets/img/sun.svg'
 import pin from 'assets/img/pin.svg'
+import pinwhite from 'assets/img/pinwhite.svg'
 import phone from 'assets/img/phone.svg'
-import image from 'assets/img/img.png'
 import styles from './single.module.scss'
 import Slider from "react-slick";
 import Panel from 'components/single/panel/Panel'
@@ -38,7 +38,7 @@ const Single = () => {
                     className: "center",
                     centerMode: true,
                     infinite: true,
-                    centerPadding: "17%",
+                    centerPadding: "20%",
                     slidesToShow: 1,
                     speed: 500,
                     arrows: false,
@@ -53,16 +53,17 @@ const Single = () => {
         <Layout>
             {data.map(post =>
                 <Route key={post.id} exact path={'/' + post.slug}>
-                    <Hero title={post.titulo} desc={post.subtitulo} image={post.imagen} breadcrumbs content={post.titulo} slug={post.slug}/>
+
+                    <Hero title={post.titulo} desc={post.subtitulo} image={post.imagen} breadcrumbs content={post.titulo} slug={post.slug} />
                     <div className={styles.desc}>
                         {post.desc}
                     </div>
                     <div className={styles.panel}>
                         <Panel left li_left={post.hacer.map(post =>
-                            <li key={post.id}>{post.li}</li>
+                            <li key={post.id}>{'- ' + post.li}</li>
                         )} />
                         <Panel right li_right={post.servicios.map(post =>
-                            <li key={post.id}>{post.li}</li>
+                            <li key={post.id}>{'- ' + post.li}</li>
                         )} />
                     </div>
                     <div className={styles.wrapper}>
@@ -70,42 +71,45 @@ const Single = () => {
                             title="Precio y Horario"
                             yellow
                             image={clock}
+                            modalImage={pinwhite}
                             content={post.precio.map(post =>
-                                <li key={post.id}>{post.li}</li>
+                                <li key={post.id}>{'• ' + post.li}</li>
                             )}
                         />
                         <Card
                             title="¿Cómo llegar?"
                             skyblue
-                            ruta
-                            via={post.llegar[0].via}
+                            // via={post.llegar[0].via}
                             image={pin}
+                            modalImage={pinwhite}
                             content={post.llegar[0].rutas.map(post =>
                                 <li key={post.id}>{post.li}</li>
                             )}
                         />
                         <Card
                             title="Clima y Altura"
-                            pale_green
+                            palegreen
                             image={sun}
+                            modalImage={pinwhite}
                             content={post.clima.map(post =>
-                                <li key={post.id}>{post.li}</li>
+                                <li key={post.id}>{'• ' + post.li}</li>
                             )}
                         />
                         <Card
                             title="Tips de viaje"
                             purple
                             image={bulb}
+                            modalImage={pinwhite}
                             content={post.tips.map(post =>
-                                <li key={post.id}>{post.li}</li>
+                                <li key={post.id}>{'• ' + post.li}</li>
                             )}
                         />
                         <Card
                             title="Contactar con agencias"
                             green
-                            contacto
-                            via={post.contacto[0].agencia}
+                            // via={post.contacto[0].agencia}
                             image={phone}
+                            modalImage={pinwhite}
                             content={post.contacto[0].datos.map(post =>
                                 <li key={post.id}>{post.li}</li>
                             )}
@@ -117,42 +121,45 @@ const Single = () => {
                                 title="Precio y Horario"
                                 yellow
                                 image={clock}
+                                modalImage={pinwhite}
                                 content={post.precio.map(post =>
-                                    <li key={post.id}>{post.li}</li>
+                                    <li key={post.id}>{'• ' + post.li}</li>
                                 )}
                             />
                             <Card
                                 title="¿Cómo llegar?"
                                 skyblue
-                                ruta
-                                via={post.llegar[0].via}
+                                // via={post.llegar[0].via}
                                 image={pin}
+                                modalImage={pinwhite}
                                 content={post.llegar[0].rutas.map(post =>
                                     <li key={post.id}>{post.li}</li>
                                 )}
                             />
                             <Card
                                 title="Clima y Altura"
-                                pale_green
+                                palegreen
                                 image={sun}
+                                modalImage={pinwhite}
                                 content={post.clima.map(post =>
-                                    <li key={post.id}>{post.li}</li>
+                                    <li key={post.id}>{'• ' + post.li}</li>
                                 )}
                             />
                             <Card
                                 title="Tips de viaje"
                                 purple
                                 image={bulb}
+                                modalImage={pinwhite}
                                 content={post.tips.map(post =>
-                                    <li key={post.id}>{post.li}</li>
+                                    <li key={post.id}>{'• ' + post.li}</li>
                                 )}
                             />
                             <Card
                                 title="Contactar con agencias"
                                 green
-                                contacto
-                                via={post.contacto[0].agencia}
+                                // via={post.contacto[0].agencia}
                                 image={phone}
+                                modalImage={pinwhite}
                                 content={post.contacto[0].datos.map(post =>
                                     <li key={post.id}>{post.li}</li>
                                 )}
@@ -160,7 +167,7 @@ const Single = () => {
                         </Slider>
                     </div>
                     <Explora
-                        title={'Explora otros lugares turísticos ' + post.provincia}
+                        title={'Explora otros lugares turísticos en ' + post.provincia}
                         province={post.provincia}
                     />
                 </Route>

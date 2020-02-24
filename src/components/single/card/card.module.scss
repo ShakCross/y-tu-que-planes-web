@@ -1,6 +1,6 @@
 .wrapper{
     width: 177px;
-    height: 264px;
+    height: 172px;
     border-radius: 0px 24px 0px 24px;
     margin: 10px 6px;
     background-color: white;
@@ -14,14 +14,14 @@
 
 @include respond-to('xs') {
     .wrapper{
-        margin: 10px 55px;
+        margin: 10px 30px;
     }
     
 }
 
 @media only screen and (max-width: 420px) {
     .wrapper {
-        margin: 10px -27px;
+        margin: 10px -50px;
     }
  }
 

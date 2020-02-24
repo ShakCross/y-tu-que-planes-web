@@ -11,6 +11,22 @@
     width: 100%;
     height: 477px;
     object-fit: cover;
+    object-position: bottom;
+}
+
+.slides_lg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.slides_sm {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    object-position: bottom;
 }
 
 .heading__wrapper {
@@ -28,6 +44,18 @@
     top: 30px;
     width: 75%;
     max-width: 912px;
+}
+
+.logo_wrapper{
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    width: 43%;
 }
 
 .h1{
@@ -51,12 +79,22 @@
     .slides {
         height: 470px;
     }
+    .slides_lg{
+        display: none;
+    }
+    .slides_sm{
+        display: block;
+    }
     .span {
         max-width: 327px;
     }
     .heading__inner_wrapper{
         top: 80px;
         width: 83%;
+    }
+    .logo_wrapper{
+        bottom: 80%;
+        justify-content: flex-start;
     }
 }
 

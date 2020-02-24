@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper, .wrapper_yellow, .wrapper_skyblue, .wrapper_palegreen, .wrapper_purple, .wrapper_green  {
     font-family: ClanOffc;
     font-size: 18px;
     font-weight: 500;
@@ -8,13 +8,13 @@
     min-height: 53px;
     border-radius: 24px;
     cursor: pointer;
-    border: solid 2px $yellow;
-    background-color: $yellow;
+    border: solid 2px grey;
+    background-color: grey;
     transition: all 300ms ease-in-out;
     border-radius: 24px 0px 24px 0px;
 }
 
-.wrapper:hover{
+.wrapper:hover, .wrapper_yellow:hover, .wrapper_skyblue:hover, .wrapper_palegreen:hover, .wrapper_purple:hover, .wrapper_green:hover{
     background-color: transparent;
     border: solid 2px $yellow;
     background-color: white;
@@ -22,18 +22,61 @@
     transition: all 200ms ease-in-out;
 }
 
-.wrapper:focus{
+.wrapper:focus, .wrapper_yellow:focus, .wrapper_skyblue:focus, .wrapper_palegreen:focus, .wrapper_purple:focus, .wrapper_green:focus{
     outline: none;
 }
 
-.container_button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+.wrapper_yellow {
+    border: solid 2px $yellow;
+    background-color: $yellow;
 }
 
-.wrapper_purple{
+.wrapper_yellow:hover{
+    border: solid 2px $yellow;
+    color: $yellow;
+}
+
+.wrapper_skyblue {
+    border: solid 2px $sky-blue;
+    background-color: $sky-blue;
+}
+
+.wrapper_skyblue:hover{
+    border: solid 2px $sky-blue;
+    color: $sky-blue;
+}
+
+.wrapper_palegreen {
+    border: solid 2px $pale-green;
+    background-color: $pale-green;
+}
+
+.wrapper_palegreen:hover{
+    border: solid 2px $pale-green;
+    color: $pale-green;
+}
+
+.wrapper_purple {
+    border: solid 2px $purple;
+    background-color: $purple;
+}
+
+.wrapper_purple:hover{
+    border: solid 2px $purple;
+    color: $purple;
+}
+
+.wrapper_green {
+    border: solid 2px $green;
+    background-color: $green;
+}
+
+.wrapper_green:hover{
+    border: solid 2px $green;
+    color: $green;
+}
+
+.wrapper_round{
     font-family: ClanOffc;
     font-size: 18px;
     font-weight: 500;
@@ -47,7 +90,7 @@
     border: solid 2px $purple;
 }
 
-.wrapper_purple:hover{
+.wrapper_round:hover{
     border: solid 2px $purple;
     border-radius: 28px;
     background-color: white;
@@ -55,6 +98,24 @@
     transition: all 200ms ease-in-out;
 }
 
+.wrapper_single_card {
+    width: 94px;
+    height: 26px;
+    min-width: 94px;
+    min-height: 26px;
+    font-family: ClanOffc;
+    font-size: 12px;
+    border-radius: 10px 0px 10px 0px;
+    padding-top: 4px;
+    margin-top: -10px;
+}
+
+.container_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
 
 @include respond-to('xs') {
 
