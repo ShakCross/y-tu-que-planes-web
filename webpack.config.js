@@ -82,7 +82,7 @@ module.exports = {
             },
             
             {
-                test: /\.(gif|png|jpe?g|svg)$/i,
+                test: /\.(gif|png|jpe?g|svg|md)$/i,
                 use: [
                     {
                       loader: 'file-loader',

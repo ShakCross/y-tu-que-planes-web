@@ -25,6 +25,7 @@ const Ofertas = () => {
                     slidesToShow: 1,
                     speed: 500,
                     arrows: false,
+                    autoplay: false
                 }
             },
             {
@@ -37,7 +38,7 @@ const Ofertas = () => {
                     slidesToShow: 1,
                     speed: 500,
                     arrows: false,
-                    autoplay: 2000
+                    autoplay: false
                 }
             },
         ]
@@ -63,8 +64,8 @@ const Ofertas = () => {
     let [filterMusic, setFilterMusic] = useState(false)
 
     const handleFilter = () => {
-        setActive({active:true})
-        setFilter({filter:true})
+        setActive({ active: true })
+        setFilter({ filter: true })
         setFilterCult(filterCult = false)
         setFilterNatu(filterNatu = false)
         setFilterCami(filterCami = false)
@@ -74,8 +75,8 @@ const Ofertas = () => {
     }
 
     const handleFilterGastro = () => {
-        setFilterGastro({filterGastro:true})
-        setFilter({filter:true})
+        setFilterGastro({ filterGastro: true })
+        setFilter({ filter: true })
         setFilterCult(filterCult = false)
         setFilterNatu(filterNatu = false)
         setFilterCami(filterCami = false)
@@ -84,8 +85,8 @@ const Ofertas = () => {
     }
 
     const handleFilterCultura = () => {
-        setFilterCult({filterCult:true})
-        setFilter({filter:true})
+        setFilterCult({ filterCult: true })
+        setFilter({ filter: true })
         setFilterGastro(filterGastro = false)
         setFilterNatu(filterNatu = false)
         setFilterCami(filterCami = false)
@@ -94,8 +95,8 @@ const Ofertas = () => {
     }
 
     const handleFilterNaturaleza = () => {
-        setFilterNatu({filterNatu:true})
-        setFilter({filter:true})
+        setFilterNatu({ filterNatu: true })
+        setFilter({ filter: true })
         setFilterGastro(filterGastro = false)
         setFilterCult(filterCult = false)
         setFilterCami(filterCami = false)
@@ -104,8 +105,8 @@ const Ofertas = () => {
     }
 
     const handleFilterCamina = () => {
-        setFilterCami({filterCami:true})
-        setFilter({filter:true})
+        setFilterCami({ filterCami: true })
+        setFilter({ filter: true })
         setFilterGastro(filterGastro = false)
         setFilterCult(filterCult = false)
         setFilterNatu(filterNatu = false)
@@ -114,49 +115,49 @@ const Ofertas = () => {
     }
 
     const handleFilterMusica = () => {
-        setFilterMusic({filterMusic:true})
-        setFilter({filter:true})
+        setFilterMusic({ filterMusic: true })
+        setFilter({ filter: true })
         setFilterGastro(filterGastro = false)
         setFilterCult(filterCult = false)
         setFilterNatu(filterNatu = false)
-        setFilterCami( filterCami = false)
+        setFilterCami(filterCami = false)
         setActive(active = false)
     }
 
     const todos = filter ? name => name.experience : name => name.experience
-    const gastronomia = filter ? name => name.experience.includes('Gastronomía') : name => name.experience 
-    const cultural = filter ? name => name.experience.includes('Cultural') : name => name.experience 
+    const gastronomia = filter ? name => name.experience.includes('Gastronomía') : name => name.experience
+    const cultural = filter ? name => name.experience.includes('Cultural') : name => name.experience
     const naturaleza = filter ? name => name.experience.includes('Naturaleza') : name => name.experience
-    const caminatas = filter ? name => name.experience.includes('Caminatas') : name => name.experience 
-    const musica = filter ? name => name.experience.includes('Música y danza') : name => name.experience   
+    const caminatas = filter ? name => name.experience.includes('Caminatas') : name => name.experience
+    const musica = filter ? name => name.experience.includes('Música y danza') : name => name.experience
 
-    let tags = 
-        filterGastro ? gastronomia : 
-        filterCult ? cultural : 
-        filterNatu ? naturaleza : 
-        filterCami ? caminatas : 
-        filterMusic ? musica :
-        todos
+    let tags =
+        filterGastro ? gastronomia :
+            filterCult ? cultural :
+                filterNatu ? naturaleza :
+                    filterCami ? caminatas :
+                        filterMusic ? musica :
+                            todos
 
     return (
         <div>
             <H2 title="Conoce nuevas experiencias" />
             <div className={styles.tag}>
                 <Tag click={handleFilter} active={active} title="Mostrar Todo" />
-                <Tag click={handleFilterGastro} active={filterGastro} title="Gastronomía"/>
-                <Tag click={handleFilterCultura} active={filterCult} title="Cultural"/>
-                <Tag click={handleFilterNaturaleza} active={filterNatu} title="Naturaleza"/>
-                <Tag click={handleFilterCamina} active={filterCami} title="Caminatas"/>
-                <Tag click={handleFilterMusica} active={filterMusic} title="Música y danza"/>
+                <Tag click={handleFilterGastro} active={filterGastro} title="Gastronomía" />
+                <Tag click={handleFilterCultura} active={filterCult} title="Cultural" />
+                <Tag click={handleFilterNaturaleza} active={filterNatu} title="Naturaleza" />
+                <Tag click={handleFilterCamina} active={filterCami} title="Caminatas" />
+                <Tag click={handleFilterMusica} active={filterMusic} title="Música y danza" />
             </div>
             <div className={styles.tag_mobile}>
                 <Slider {...settings}>
-                    <Tag active click title="Mostrar Todo" />
-                    <Tag title="Naturaleza" />
-                    <Tag title="Gastronomía" />
-                    <Tag title="Caminatas" />
-                    <Tag title="Cultural" />
-                    <Tag title="Música y danza" />
+                    <Tag click={handleFilter} active={active} title="Mostrar Todo" />
+                    <Tag click={handleFilterGastro} active={filterGastro} title="Gastronomía" />
+                    <Tag click={handleFilterCultura} active={filterCult} title="Cultural" />
+                    <Tag click={handleFilterNaturaleza} active={filterNatu} title="Naturaleza" />
+                    <Tag click={handleFilterCamina} active={filterCami} title="Caminatas" />
+                    <Tag click={handleFilterMusica} active={filterMusic} title="Música y danza" />
                 </Slider>
             </div>
             <div className={styles.card_wrapper}>
