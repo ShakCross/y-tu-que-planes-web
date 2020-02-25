@@ -6,7 +6,7 @@ import Button from 'components/general/button/Button'
 import Modal from 'components/single/modal/Modal'
 
 
-const Card = ({ image, title, yellow, skyblue, palegreen, purple, green, modalImage, click, content, ruta, contacto, via}) => {
+const Card = ({ image, title, yellow, skyblue, palegreen, purple, green, modalImage, content, click, responsive }) => {
     
     let [showModal, setShowModal] = useState(false);
     const handleShowModal = () => setShowModal(!showModal)
@@ -23,6 +23,19 @@ const Card = ({ image, title, yellow, skyblue, palegreen, purple, green, modalIm
                         green={green} 
                         title={title} 
                     />
+                    {
+                    responsive ?
+                    <Button 
+                        action 
+                        yellow={yellow} 
+                        skyblue={skyblue} 
+                        palegreen={palegreen} 
+                        purple={purple} 
+                        green={green} 
+                        title='Más info'
+                        click={click} 
+                        xclassname='wrapper_single_card'
+                    />:
                     <Button 
                         action 
                         yellow={yellow} 
@@ -34,10 +47,20 @@ const Card = ({ image, title, yellow, skyblue, palegreen, purple, green, modalIm
                         click={handleShowModal} 
                         xclassname='wrapper_single_card'
                     />
+                    }
                </div>
                 { showModal ?
                 <Modal click={handleShowModal}>
-                    <CardContent click={null} title={title} content={content} yellow={yellow} palegreen={palegreen} purple={purple} image={modalImage} via={via}/>
+                    <CardContent 
+                        title={title} 
+                        content={content} 
+                        yellow={yellow} 
+                        palegreen={palegreen} 
+                        purple={purple}
+                        skyblue={skyblue}
+                        green={green}
+                        image={modalImage} 
+                    />
                 </Modal>:
                 ''}
             </div>

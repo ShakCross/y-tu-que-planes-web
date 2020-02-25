@@ -32,6 +32,23 @@
     flex-wrap: wrap;
 }
 
+.subtitle{
+    font-family: ClanOffc;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.rutas_wrapper{
+    flex: 1;
+}
+
+.contacto_wrapper{
+    margin-bottom: 15px;
+}
+
+
 @include respond-to('md') {
     .desc{
         margin: 50px 35px;

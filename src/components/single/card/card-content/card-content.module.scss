@@ -1,4 +1,4 @@
-.content, .content_price {
+.content {
     font-family: ClanOffcNews;
     font-size: 10px;
     color: $dark-grey;
@@ -11,42 +11,37 @@
     justify-content: center;
 }
 
-.content_price{
-    background-color: $yellow;
-}
-
-.ruta{
-    font-family: ClanOffc;
-    font-size: 10px;
-    font-weight: bold;
-    color: #787878;
-    width: 100%;
-    height: 100%;
-}
-
-.wrapper_yellow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 489px;
-    height: 370px;
-    margin: auto;
-    flex-direction: column;
-    background-color: $yellow;
-    border-radius: 0px 0px 30px 0px;
-}
-
 .content_yellow, .content_palegreen, .content_purple {
     color: white;
     display: flex;
     flex-direction: column;
     height: 30%;
-    margin-top:5px;
+    margin:5px auto;
     font-family: ClanOffcNews;
     font-size: 14px;
+    text-align: center;
+    line-height: 1.7;
+    width: 95%;
+    overflow-y: auto;
 }
 
-.wrapper_skyblue{
+.content_skyblue, .content_green{
+    color: white;
+    display: flex;
+    height: 30%;
+    margin:5px auto;
+    font-family: ClanOffcNews;
+    font-size: 12.5px;
+    justify-content: space-around;
+    width: 95%;
+    text-align: center;
+    line-height: 1.4;
+    flex-wrap: wrap;
+    overflow-y: auto;
+
+}
+
+.wrapper_yellow, .wrapper_palegreen, .wrapper_purple, .wrapper_skyblue, .wrapper_green{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,42 +49,27 @@
     height: 370px;
     margin: auto;
     flex-direction: column;
-    background-color: $sky-blue;
     border-radius: 0px 0px 30px 0px;
 }
 
-.content_skyblue {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin-top:5px;
-    font-family: ClanOffcNews;
-    font-size: 14px;
+.wrapper_yellow{
+    background-color: $yellow;
 }
 
 .wrapper_palegreen{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 489px;
-    height: 370px;
-    margin: auto;
-    flex-direction: column;
     background-color: $pale-green;
-    border-radius: 0px 0px 30px 0px;
 }
 
 .wrapper_purple{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 489px;
-    height: 370px;
-    margin: auto;
-    flex-direction: column;
     background-color: $purple;
-    border-radius: 0px 0px 30px 0px;
+}
+
+.wrapper_skyblue{
+    background-color: $sky-blue;
+}
+
+.wrapper_green{
+    background-color: $green;
 }
 
 .title{
@@ -106,3 +86,11 @@
     height: 25%;
     width: 91px;
 }
+
+@include respond-to('xs') {
+    .wrapper_yellow, .wrapper_palegreen, .wrapper_purple, .wrapper_skyblue, .wrapper_green{
+        max-width: 300px;
+        height: 430px;
+    } 
+}
+

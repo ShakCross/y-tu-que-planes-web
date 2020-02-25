@@ -2,7 +2,7 @@
     {
         "id": 1,
         "slug": "acopalca",
-        "provincia": "Ancash",
+        "provincia": "Áncash",
         "titulo": "Acopalca",
         "imagen": "src/assets/img/acopalca-interna.jpg",
         "subtitulo": "Deléitate con hermosos paisajes andinos y aprende más de las costumbres locales.",
@@ -105,12 +105,15 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Juliaca (Puno)"},
+                    {"id": "2","li": "01 hora y media (1,309 km.)"}
+                ]
+            },
+            {
+                "via": "Lacustre",
+                "rutas": [           
+                    {"id": "1","li": "Del Puerto de Puno a Amantaní."},
+                    {"id": "2","li": "01 hora y 45 min. (37 km.)"}
                 ]
             }
         ],
@@ -130,6 +133,32 @@
                 "datos": [           
                     {"id": "1", "li": "nene.amantani@gmail.com (español e inglés)"},
                     {"id": "2", "li": "(+51) 959169871"}
+                ]
+            },
+            {
+                "agencia": "Asociación de Hospedaje Jatari",
+                "datos": [           
+                    {"id": "1", "li": "titicacajatari@hotmail.com (español)"},
+                    {"id": "2", "li": "(+51) 950993308-951664577"}
+                ]
+            },
+            {
+                "agencia": "Asociación de Artesanía y Turismo Inkatiana Tikary",
+                "datos": [           
+                    {"id": "1", "li": "(+51) 951068420 (español)"}
+                ]
+            },
+            {
+                "agencia": "Asociación de Turismo Rural Vivencial Urpichay Wasi Villa",
+                "datos": [           
+                    {"id": "1", "li": "(+51) 951548481-958196885"}
+                ]
+            },
+            {
+                "agencia": "Asociación de Turismo Vivencial Rijchary Wasi Lodge",
+                "datos": [           
+                    {"id": "1", "li": "yanarico_@yahoo.es (español)"},
+                    {"id": "2", "li": "(+51) 976419873-958162356"}
                 ]
             }
         ]
@@ -157,7 +186,7 @@
             {"id": "1","li": "Alojamiento."},
             {"id": "2","li": "Alimentación."},
             {"id": "3","li": "Orientación turística."},
-            {"id": "3","li": "Arrieraje de llamas."}
+            {"id": "4","li": "Arrieraje de llamas."}
         ],
         "precio": [           
             {"id": "1","li": "Desde S/ 30.00"},
@@ -180,12 +209,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Juliaca (Puno)"},
+                    {"id": "2","li": "01 hora y media (1,309 km.)"}
                 ]
             }
         ],
@@ -254,12 +279,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Juliaca (Puno)"},
+                    {"id": "2","li": "01 hora y media (1,309 km.)"}
                 ]
             }
         ],
@@ -271,7 +292,7 @@
             {"id": "1", "li": "Zapatillas para trekking."},
             {"id": "2", "li": "Protector solar."},
             {"id": "3", "li": "Gorro y lentes de sol."},
-            {"id": "3", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
+            {"id": "4", "li": "Ropa abrigadora sobre todo para la tarde y noche."}
         ],
         "contacto": [
             {
@@ -326,12 +347,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Chiclayo"},
+                    {"id": "2","li": "01 hora"}
                 ]
             }
         ],
@@ -349,7 +366,9 @@
                 "agencia": "Asociación para la Conservación de la Naturaleza y el Turismo Sostenible Chaparrí",
                 "datos": [           
                     {"id": "1", "li": "Acoturch Chaparri"},
-                    {"id": "2", "li": "mariela_chaparri@hotmail.com"}
+                    {"id": "2", "li": "mariela_chaparri@hotmail.com"},
+                    {"id": "3", "li": "acoturch_chaparri@hotmail.com"},
+                    {"id": "4", "li": "(+51) 956550145-978131527"}
                 ]
             }
         ]
@@ -388,12 +407,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cusco"},
+                    {"id": "2","li": "01 hora"}
                 ]
             }
         ],
@@ -454,18 +469,18 @@
                     {"id": "3","li": "De Puno a Capachica"},
                     {"id": "4","li": "01 hora y 15 min. (60 km.)"},
                     {"id": "5","li": "De Juliaca a Capachica"},
-                    {"id": "6","li": "45 min. (37 km.)"}
+                    {"id": "6","li": "45 min. (37 km.)"},
+                    {"id": "7","li": "Capachica a Chifrón"},
+                    {"id": "8","li": "7 min. (2 km.)"}
                 ]
             },
             {
-                "via": "Aéreo",
+                "via": "Lacustre",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Juliaca a Puno"},
+                    {"id": "2","li": "01 hora (45 km.)"},
+                    {"id": "3","li": "Del Puerto de Puno a Chifrón"},
+                    {"id": "4","li": "3 horas y 50 min. (48 km.)"}
                 ]
             }
         ],
@@ -484,7 +499,29 @@
                 "agencia": "Asociación de Turismo Comunitario Quillapata-Chifron",
                 "datos": [           
                     {"id": "1", "li": "www.quillapatalodge.com"},
-                    {"id": "2", "li": "reservas@quillapatalodge.com"}
+                    {"id": "2", "li": "reservas@quillapatalodge.com"},
+                    {"id": "3", "li": "(+51) 951919652"}
+                ]
+            },
+            {
+                "agencia": "Asociación Inti Wasi Lodge",
+                "datos": [           
+                    {"id": "1", "li": "www.lodgeintiwasi.co"},
+                    {"id": "2", "li": "intiwasilodge@gmail.com"},
+                    {"id": "3", "li": "(+51) 950936611"}
+                ]
+            },
+            {
+                "agencia": "Asociación de Turismo Rural Paramis",
+                "datos": [           
+                    {"id": "1", "li": "(+51) 950949705"}
+                ]
+            },
+            {
+                "agencia": "Asociación de Turismo Vivencial Comunitario Roca Eterna",
+                "datos": [           
+                    {"id": "1", "li": "paramis.turismo@gmail.com"},
+                    {"id": "2", "li": "(+51) 983374722"}
                 ]
             }
         ]
@@ -527,12 +564,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Arequipa"},
+                    {"id": "2","li": "01 hora y 15 min. (1,025 km.)"}
                 ]
             }
         ],
@@ -551,6 +584,13 @@
                 "datos": [           
                     {"id": "1", "li": "coporaquefortaleza@gmail.com (español)"},
                     {"id": "2", "li": "(+51) 949683755-955840287."}
+                ]
+            },
+            {
+                "agencia": "Asociación Grupo Pumachiri-Coporaque",
+                "datos": [           
+                    {"id": "1", "li": "pumachiricoporaque@gmail.com (español)"},
+                    {"id": "2", "li": "(+51) 945831716"}
                 ]
             }
         ]
@@ -586,18 +626,16 @@
                     {"id": "3","li": "De Moyobamba a Nueva Cajamarca"},
                     {"id": "4","li": "45 min."},
                     {"id": "5","li": "De Nueva Cajamarca a Cuevas de Palestina"},
-                    {"id": "6","li": "15 min."}
+                    {"id": "6","li": "15 min."},
+                    {"id": "7","li": "Lima-Chiclayo-Bagua-Nueva Cajamarca-Palestina"},
+                    {"id": "8","li": "23 horas"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Tarapoto"},
+                    {"id": "2","li": "01 hora y media"}
                 ]
             }
         ],
@@ -614,7 +652,8 @@
                 "agencia": "Asociación de Desarrollo Económico Sostenible “Unidos por Palestina”.",
                 "datos": [           
                     {"id": "1", "li": "Cuevas de Palestina y Mariposario Morpho Azul"},
-                    {"id": "2", "li": "adesup.palestina@gmail.com (español)"}
+                    {"id": "2", "li": "adesup.palestina@gmail.com (español)"},
+                    {"id": "3", "li": "(+51) 951581485-971989508"}
                 ]
             }
         ]
@@ -655,12 +694,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cusco"},
+                    {"id": "2","li": "01 hora"}
                 ]
             }
         ],
@@ -678,8 +713,9 @@
             {
                 "agencia": "Empresa comunal mirador de cuyuni ausangatec hatun pukaran",
                 "datos": [           
-                    {"id": "1", "li": "miradordecuyuni@hotmail.com"},
-                    {"id": "2", "li": "(+51) 942846125-971713829"}
+                    {"id": "1", "li": "miradordecuyuni@hotmail.com/antenorpercca@gmail.com"},
+                    {"id": "2", "li": "(+51) 942846125-971713829"},
+                    {"id": "3", "li": "miradorcuyuni"}
                 ]
             }
         ]
@@ -721,18 +757,16 @@
                     {"id": "3","li": "De Lima a Cajamarca"},
                     {"id": "4","li": "13 horas (897 km.)"},
                     {"id": "5","li": "De Lima a la carretera Kuntur Wasi"},
-                    {"id": "6","li": "10 horas (531 km.)"}
+                    {"id": "6","li": "10 horas (531 km.)"},
+                    {"id": "7","li": "De la carretera Kuntur Wasi a Porcón"},
+                    {"id": "8","li": "03 horas (71 km.)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cajamarca"},
+                    {"id": "2","li": "01 hora"}
                 ]
             }
         ],
@@ -751,7 +785,9 @@
                 "agencia": "Cooperativa Agraria Atahualpa Jerusalén de Trabajadores Ltda",
                 "datos": [           
                     {"id": "1", "li": "Granja Porcón Cajamarca"},
-                    {"id": "2", "li": "turismo@granjaporcon.org.pe"}
+                    {"id": "2", "li": "http://www.granjaporcon.org.pe/"},
+                    {"id": "3", "li": "turismo@granjaporcon.org.pe"},
+                    {"id": "4", "li": "(+51) 921752531"}
                 ]
             }
         ]
@@ -792,12 +828,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cusco"},
+                    {"id": "2","li": "01 hora"}
                 ]
             }
         ],
@@ -815,7 +847,7 @@
             {
                 "agencia": "Asociación Huilloc Ayllu Inka",
                 "datos": [           
-                    {"id": "1", "li": "huillochomestays@gmail.com"},
+                    {"id": "1", "li": "huillochomestays@gmail.com (español e inglés)"},
                     {"id": "2", "li": "(+51) 990048152-993502889."}
                 ]
             }
@@ -824,7 +856,7 @@
     {
         "id": 13,
         "slug": "humacchuco",
-        "provincia": "Ancash",
+        "provincia": "Áncash",
         "titulo": "Humacchuco-Unidos Venceremos",
         "imagen": "src/assets/img/humacchuco-interna.jpg",
         "subtitulo": "Déjate cautivar por la belleza paisajística de la Cordillera Blanca y conéctate de cerca con nevado Huascarán.",
@@ -858,17 +890,6 @@
                     {"id": "3","li": "De Huaraz a Humacchuco"},
                     {"id": "4","li": "01 hora y 40 min. (72 km.)"}
                 ]
-            },
-            {
-                "via": "Aéreo",
-                "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
-                ]
             }
         ],
         "clima": [
@@ -886,7 +907,16 @@
                 "agencia": "Asociación de Turismo Rural Comunitario Huascar y Huandy",
                 "datos": [           
                     {"id": "1", "li": "Turismo Rural Comunitario Humacchuco"},
-                    {"id": "2", "li": "trchumacchuco.org"}
+                    {"id": "2", "li": "trchumacchuco.org"},
+                    {"id": "3", "li": "(+51) 910959585"}
+                ]
+            },
+            {
+                "agencia": "Comunidad Campesina Unidos Venceremos",
+                "datos": [           
+                    {"id": "1", "li": "Turismo Rural Comunitario Unidos Venceremos"},
+                    {"id": "2", "li": "trcunidosvenceremos@gmail.com"},
+                    {"id": "3", "li": "(+51) 964649695"}
                 ]
             }
         ]
@@ -930,12 +960,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cusco"},
+                    {"id": "2","li": "01 hora (1,037 km.)"}
                 ]
             }
         ],
@@ -997,12 +1023,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cusco"},
+                    {"id": "2","li": "01 hora"}
                 ]
             }
         ],
@@ -1020,8 +1042,9 @@
             {
                 "agencia": "Asociación Tierra de los Yachaqs",
                 "datos": [           
-                    {"id": "1", "li": "https://www.yachaqs.com/"},
-                    {"id": "2", "li": "(+51) 979424265-920086666."}
+                    {"id": "1", "li": "https://www.yachaqs.com/ (español e inglés)"},
+                    {"id": "2", "li": "yachaqs@gmail.com (español e inglés)."},
+                    {"id": "3", "li": "(+51) 979424265-920086666"}
                 ]
             }
         ]
@@ -1048,7 +1071,7 @@
             {"id": "1","li": "Alojamiento."},
             {"id": "2","li": "Alimentación."},
             {"id": "3","li": "Orientación turística."},
-            {"id": "3","li": "Casas Hospedaje."}
+            {"id": "4","li": "Casas Hospedaje."}
         ],
         "precio": [           
             {"id": "1","li": "Desde S/ 115.00 (4 personas)"},
@@ -1062,17 +1085,6 @@
                     {"id": "2","li": "06 horas (314 km.)"},                    
                     {"id": "3","li": "De Lima a Huancaya"},
                     {"id": "4","li": "08 horas (320 km.)"}
-                ]
-            },
-            {
-                "via": "Aéreo",
-                "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
                 ]
             }
         ],
@@ -1091,7 +1103,18 @@
                 "agencia": "Asociación Turística Sinchimarka Laraos Yauyos Perú",
                 "datos": [           
                     {"id": "1", "li": "turismolaraos"},
-                    {"id": "2", "li": "www.turismolaraos.com"}
+                    {"id": "2", "li": "www.turismolaraos.com"},
+                    {"id": "3", "li": "asturlaraos@gmail.com"},
+                    {"id": "4", "li": "(+51) 9964266598"}
+                ]
+            },
+            {
+                "agencia": "Asociación Ecoturístico Artesanal Vilca Yauyos",
+                "datos": [           
+                    {"id": "1", "li": "asoc.vilca"},
+                    {"id": "2", "li": "http://vivevilca.com/"},
+                    {"id": "3", "li": "info@vivevilca.com.pe"},
+                    {"id": "4", "li": "(+51) 941807970"}
                 ]
             }
         ]
@@ -1136,12 +1159,15 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Juliaca (Puno)"},
+                    {"id": "2","li": "01 hora y media"}
+                ]
+            },
+            {
+                "via": "Lacustre",
+                "rutas": [           
+                    {"id": "1","li": "Del Puerto de Puno a Llachón"},
+                    {"id": "2","li": "01 y 45 min. (33 km.)"}
                 ]
             }
         ],
@@ -1159,8 +1185,52 @@
             {
                 "agencia": "Asociación Turística Santa María II",
                 "datos": [           
-                    {"id": "1", "li": "www.santamariaturismo.com"},
-                    {"id": "2", "li": "(+51) 951664828-966385317."}
+                    {"id": "1", "li": "www.santamariaturismo.com (español e inglés)"},
+                    {"id": "2", "li": "(+51) 951664828-966385317"},
+                    {"id": "3", "li": "hospedajesamary@hotmail.com (español e inglés)"}
+                ]
+            },
+            {
+                "agencia": "Asociación Turismo Sumaq Hillary Santa María Llachon",
+                "datos": [           
+                    {"id": "1", "li": "hillary_tours@hotmail.com (español)"},
+                    {"id": "2", "li": "(+51) 951613779-941292811"}
+                ]
+            },
+            {
+                "agencia": "Asociación Turística Rural Kantuta Llachon",
+                "datos": [           
+                    {"id": "1", "li": "www.kantutallachon.com (español)"},
+                    {"id": "2", "li": "kantutatoursllachon@gmail.com (español e inglés)"},
+                    {"id": "3", "li": "(+51) 951671062-938165615"}
+                ]
+            },
+            {
+                "agencia": "Asociación Turística Sumaq Wasi Tours",
+                "datos": [           
+                    {"id": "1", "li": "sumaqwuasi@hotmail.com  (español)"},
+                    {"id": "2", "li": "(+51) 951925188"}
+                ]
+            },
+            {
+                "agencia": "Asociación Turismo Central Llachon",
+                "datos": [           
+                    {"id": "1", "li": "nataliopuno@gmail.com (español)"},
+                    {"id": "2", "li": "(+51) 940806378"}
+                ]
+            },
+            {
+                "agencia": "Asociación Turística Llachon Tur",
+                "datos": [           
+                    {"id": "1", "li": "llachon@yahoo.com (español e inglés)"},
+                    {"id": "2", "li": "(+51) 951821392-953282656"}
+                ]
+            },
+            {
+                "agencia": "Asociación de Turismo Inca Samana Tour Collpa Llachon",
+                "datos": [           
+                    {"id": "1", "li": "turismocahui@gmail.com (español e inglés)"},
+                    {"id": "2", "li": "(+51) 951017232-951643190"}
                 ]
             }
         ]
@@ -1198,17 +1268,6 @@
                     {"id": "3","li": "De Pachacámac al Centro Poblado Rural Quebrada Verde"},
                     {"id": "4","li": "10 min."}
                 ]
-            },
-            {
-                "via": "Aéreo",
-                "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
-                ]
             }
         ],
         "clima": [
@@ -1226,7 +1285,8 @@
                 "agencia": "Asociación Circuito Ecoturístico Lomas de Lúcumo",
                 "datos": [           
                     {"id": "1", "li": "lomasdelucumo"},
-                    {"id": "2", "li": "(+51) 997944148–971305078"}
+                    {"id": "2", "li": "(+51) 997944148–971305078"},
+                    {"id": "3", "li": "jonathan.retes@lomasdelucumo.org.pe"}
                 ]
             }
         ]
@@ -1274,12 +1334,17 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Juliaca (Puno)"},
+                    {"id": "2","li": "01 hora y media"}
+                ]
+            },
+            {
+                "via": "Lacustre",
+                "rutas": [           
+                    {"id": "1","li": "Del Puerto de Puno a Luquina"},
+                    {"id": "2","li": "02 horas y media (30 km.)"},
+                    {"id": "3","li": "Del Puerto de Puno a Karina"},
+                    {"id": "4","li": "02 horas y 40 min. (33 km.)"}
                 ]
             }
         ],
@@ -1297,8 +1362,8 @@
             {
                 "agencia": "Asociación de Turismo Vivencial Comunitario Luquina Chico",
                 "datos": [           
-                    {"id": "1", "li": "turismoluquinachico@gmail.com"},
-                    {"id": "2", "li": "(+51) 913058368– 982378850."}
+                    {"id": "1", "li": "turismoluquinachico@gmail.com/info@luquinaadventures.com (español e inglés)"},
+                    {"id": "2", "li": "(+51) 913058368– 982378850"}
                 ]
             }
         ]
@@ -1340,12 +1405,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cusco"},
+                    {"id": "2","li": "01 hora (1,037 km.)"}
                 ]
             }
         ],
@@ -1364,7 +1425,8 @@
                 "agencia": "Asociación Sol Naciente de Maras",
                 "datos": [           
                     {"id": "1", "li": "turismoluquinachico@gmail.com"},
-                    {"id": "2", "li": "andeamilcar@yahoo.com"}
+                    {"id": "2", "li": "andeamilcar@yahoo.com"},
+                    {"id": "3", "li": "(+51) 984654047"}
                 ]
             }
         ]
@@ -1405,12 +1467,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cusco"},
+                    {"id": "2","li": "01 hora"}
                 ]
             }
         ],
@@ -1470,12 +1528,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cusco"},
+                    {"id": "2","li": "01 hora"}
                 ]
             }
         ],
@@ -1494,7 +1548,8 @@
                 "agencia": "Parque de la Papa",
                 "datos": [           
                     {"id": "1", "li": "Potato Park"},
-                    {"id": "2", "li": "pdp@andes.org.pe"}
+                    {"id": "2", "li": "pdp@andes.org.pe"},
+                    {"id": "3", "li": "(+51) 937384997"}
                 ]
             }
         ]
@@ -1535,12 +1590,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Cusco"},
+                    {"id": "2","li": "01 hora"}
                 ]
             }
         ],
@@ -1559,7 +1610,10 @@
                 "agencia": "Asociación de turismo vivencial de Raqchi",
                 "datos": [           
                     {"id": "1", "li": "raíces.inka.raqchi@hotmail.com"},
-                    {"id": "2", "li": "(+51) 925375163"}
+                    {"id": "2", "li": "(+51) 925375163"},
+                    {"id": "3", "li": "raíces.inka.raqchi@hotmail.com (español)"},
+                    {"id": "4", "li": "www.turismovivencialraqchi.com (español)"},
+                    {"id": "5", "li": "Turismo Vivencial Raqchi-Raíces Inka"}
                 ]
             }
         ]
@@ -1602,18 +1656,16 @@
                     {"id": "3","li": "De San Pablo a la catarata Gocta"},
                     {"id": "4","li": "02 horas y media (5.9 km.)"},
                     {"id": "5","li": "De Tarapoto a Cocachimba"},
-                    {"id": "6","li": "06 horas (330 km.)"}
+                    {"id": "6","li": "06 horas (330 km.)"},
+                    {"id": "7","li": "De Cocachimba a la catarata Gocta"},
+                    {"id": "8","li": "02 horas y media (5.5 km.)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Tarapoto"},
+                    {"id": "2","li": "01 hora y 30 min"}
                 ]
             }
         ],
@@ -1632,6 +1684,13 @@
                 "datos": [           
                     {"id": "1", "li": "asoturgocta@gmail.com"},
                     {"id": "2", "li": "(+51) 993596980"}
+                ]
+            },
+            {
+                "agencia": "Asociación Comunal de Turismo Cocachimba",
+                "datos": [           
+                    {"id": "1", "li": "actcgocta@hotmail.com"},
+                    {"id": "2", "li": "(+51) 947990274-971206797"}
                 ]
             }
         ]
@@ -1671,18 +1730,16 @@
                     {"id": "3","li": "De Moyobamba a Rioja"},
                     {"id": "4","li": "30 min."},
                     {"id": "5","li": "De Rioja a Santa Elena"},
-                    {"id": "6","li": "15 min. (04 km.)"}
+                    {"id": "6","li": "15 min. (04 km.)"},
+                    {"id": "7","li": "Lima-Chiclayo-Bagua-Rioja–Posic-Santa Elena"},
+                    {"id": "8","li": "24 horas"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Tarapoto"},
+                    {"id": "2","li": "01 hora y media"}
                 ]
             }
         ],
@@ -1700,7 +1757,8 @@
                 "agencia": "Asociación para la Conservación del Aguajal Renacal Río Romero-ADECARR",
                 "datos": [           
                     {"id": "1", "li": "Reserva Ecológica Santa Elena"},
-                    {"id": "2", "li": "(+51) 793361-964779537"}
+                    {"id": "2", "li": "(+51) 793361-964779537"},
+                    {"id": "3", "li": "santa.elena.ecoturismo@gmail.com"}
                 ]
             }
         ]
@@ -1743,12 +1801,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Arequipa"},
+                    {"id": "2","li": "01 hora y 15 min. (1,025 km.)"}
                 ]
             }
         ],
@@ -1810,12 +1864,15 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Juliaca (Puno)"},
+                    {"id": "2","li": "01 hora y media"}
+                ]
+            },
+            {
+                "via": "Lacustre",
+                "rutas": [           
+                    {"id": "1","li": "Del Puerto de Puno a Taquile"},
+                    {"id": "2","li": "03 horas (37 km.)"}
                 ]
             }
         ],
@@ -1834,7 +1891,16 @@
                 "agencia": "Empresa comunal Munay Taquile",
                 "datos": [           
                     {"id": "1", "li": "info@taquile.net"},
-                    {"id": "2", "li": "(+51) 995090992"}
+                    {"id": "2", "li": "http://www.taquile.net"},
+                    {"id": "3", "li": "(+51) 995090992"}
+
+                ]
+            },
+            {
+                "agencia": "Asociación de Restaurantes Turismo Rural Vivencial",
+                "datos": [           
+                    {"id": "1", "li": "(+51) 966808038"}
+
                 ]
             }
         ]
@@ -1881,12 +1947,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Tarapoto"},
+                    {"id": "2","li": "01 hora y media"}
                 ]
             }
         ],
@@ -1904,7 +1966,9 @@
                 "agencia": "Asociación de Conservación de los Aguajales y Renacales del Alto Mayo-ADECARAM",
                 "datos": [           
                     {"id": "1", "li": "Tingana"},
-                    {"id": "2", "li": "(+51) 942958538."}
+                    {"id": "2", "li": "(+51) 942958538."},
+                    {"id": "3", "li": "www.tingana.org"},
+                    {"id": "4", "li": "adecaramtingana@gmail.com"}
                 ]
             }
         ]
@@ -1928,7 +1992,7 @@
         "servicios": [           
             {"id": "1","li": "Alojamiento."},
             {"id": "2","li": "Alimentación."},
-            {"id": "4","li": "Orientación turística."}
+            {"id": "3","li": "Orientación turística."}
         ],
         "precio": [           
             {"id": "1","li": "Desde S/ 180.00"},
@@ -1945,12 +2009,15 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Juliaca (Puno)"},
+                    {"id": "2","li": "01 hora y media"}
+                ]
+            },
+            {
+                "via": "Lacustre",
+                "rutas": [           
+                    {"id": "1","li": "Del puerto de Puno a Isla de los Uros"},
+                    {"id": "2","li": "40 min"}
                 ]
             }
         ],
@@ -1971,13 +2038,21 @@
                     {"id": "1", "li": "uroskhantati@hotmail.com"},
                     {"id": "2", "li": "(+51) 951695121-951472355."}
                 ]
+            },
+            {
+                "agencia": "ASOCIACIÓN ARUMA URO",
+                "datos": [           
+                    {"id": "1", "li": "www.urosarumauro.com"},
+                    {"id": "2", "li": "arumauro@hotmail.com (español e inglés)"},
+                    {"id": "3", "li": "(+51) 951607147-910839130"}
+                ]
             }
         ]
     },
     {
         "id": 30,
         "slug": "vicos",
-        "provincia": "Ancash",
+        "provincia": "Áncash",
         "titulo": "Vicos",
         "imagen": "src/assets/img/vicos-interna.jpg",
         "subtitulo": "Disfruta de la vida en el campo, participando de la fiesta de la Pachamanca.",
@@ -2008,17 +2083,6 @@
                     {"id": "4","li": "35 min. (23.5 km.)"},
                     {"id": "5","li": "De Marcará a Vicos"},
                     {"id": "6","li": "20 min. (07 km.)"}
-                ]
-            },
-            {
-                "via": "Aéreo",
-                "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
                 ]
             }
         ],
@@ -2084,12 +2148,8 @@
             {
                 "via": "Aéreo",
                 "rutas": [           
-                    {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
-                    {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
-                    {"id": "5","li": "De Huari a Acopalca"},
-                    {"id": "6","li": "15 min"}
+                    {"id": "1","li": "De Lima a Arequipa"},
+                    {"id": "2","li": "01 hora y 15 min"}
                 ]
             }
         ],
@@ -2109,6 +2169,13 @@
                 "datos": [           
                     {"id": "1", "li": "patronatoturismo@gmail.com"},
                     {"id": "2", "li": "(+51) 959803551"}
+                ]
+            },
+            {
+                "agencia": "Asociación los ayllus de Yanque",
+                "datos": [           
+                    {"id": "1", "li": "losayllusdeyanque@gmail.com/qoyllurwasyanque@hotmail.com"},
+                    {"id": "2", "li": "(+51) 9589091001"}
                 ]
             }
         ]

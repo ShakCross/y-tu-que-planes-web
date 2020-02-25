@@ -28,3 +28,10 @@
     border: solid 2px white;
     border-radius: 100px;
 }
+
+@include respond-to('xs') {
+.img{
+    bottom: 215px;
+    left: 145px;
+}
+}

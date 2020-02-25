@@ -14,9 +14,15 @@ const CardContent = ({ content, yellow, skyblue, palegreen, purple, green, title
                             </ul>
                         </div> :
                     skyblue ?
-                        <ul className={styles.content}>
-                            {content}
-                        </ul> :
+                        <div className={styles.wrapper_skyblue}>
+                            <img className={styles.img} src={image} alt=""/>
+                            <div className={styles.title}>
+                                {title}
+                            </div>
+                            <div className={styles.content_skyblue}>
+                                {content}    
+                            </div>
+                        </div> :
                     palegreen ?
                         <div className={styles.wrapper_palegreen}>
                             <img className={styles.img} src={image} alt=""/>
@@ -34,35 +40,19 @@ const CardContent = ({ content, yellow, skyblue, palegreen, purple, green, title
                             </ul>
                         </div> :
                     green ?
-                        <ul className={styles.content}>
-                            {content}
-                        </ul> :
+                        <div className={styles.wrapper_green}>
+                            <img className={styles.img} src={image} alt=""/>
+                            <div className={styles.title}>
+                                {title}
+                            </div>
+                            <div className={styles.content_green}>
+                                {content}    
+                            </div>
+                        </div> :
                     <ul className={styles.content}>
                         {content}
                     </ul>
             }
-            {/* ruta ?
-                <div onClick={click} className={styles.ruta_wrapper}>
-                    <img className={styles.img} src={image} alt=""/>
-                    <div className={styles.title}>
-                        {title}
-                    </div>
-                    <div className={styles.ruta}>
-                        {via}
-                    </div>
-                    <ul className={styles.ruta_content}>
-                        {content}
-                    </ul>
-                </div> :
-             contacto ?
-                <div onClick={click} className={styles.ruta_wrapper}>
-                    <div className={styles.ruta}>
-                        {via}
-                    </div>
-                    <ul className={styles.ruta_content}>
-                        {content}
-                    </ul>
-                </div> : */}
         </>
     )
 }

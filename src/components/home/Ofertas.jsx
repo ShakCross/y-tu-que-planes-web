@@ -34,7 +34,7 @@ const Ofertas = () => {
                     className: "center",
                     centerMode: true,
                     infinite: true,
-                    centerPadding: "20%",
+                    centerPadding: "23%",
                     slidesToShow: 1,
                     speed: 500,
                     arrows: false,
@@ -52,10 +52,8 @@ const Ofertas = () => {
         numberOfItems == 24 ? setHideButton(true) : '';
     }
 
-
     const [filter, setFilter] = useState(false)
     let [active, setActive] = useState(true)
-
 
     let [filterGastro, setFilterGastro] = useState(false)
     let [filterCult, setFilterCult] = useState(false)

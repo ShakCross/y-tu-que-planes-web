@@ -4,8 +4,11 @@ import Hero from 'components/home/Hero'
 import Explora from 'components/single/Explora'
 import Card from 'components/single/card/Card'
 import clock from 'assets/img/clock.svg'
+import clockwhite from 'assets/img/clockwhite.svg'
 import bulb from 'assets/img/bulb.svg'
+import bulbwhite from 'assets/img/bulbwhite.svg'
 import sun from 'assets/img/sun.svg'
+import sunwhite from 'assets/img/sunwhite.svg'
 import pin from 'assets/img/pin.svg'
 import pinwhite from 'assets/img/pinwhite.svg'
 import phone from 'assets/img/phone.svg'
@@ -13,6 +16,8 @@ import styles from './single.module.scss'
 import Slider from "react-slick";
 import Panel from 'components/single/panel/Panel'
 import data from 'data/turismo-lima-interna.json'
+import Modal from 'components/single/modal/Modal'
+import CardContent from 'components/single/card/card-content/CardContent'
 import { Route } from 'react-router-dom'
 
 const Single = () => {
@@ -48,6 +53,21 @@ const Single = () => {
         ]
     }
 
+    let [showYellow, setShowYellow] = useState(false);
+    const handleShowYellow = () => setShowYellow(!showYellow)
+
+    let [showSkyBlue, setShowSkyBlue] = useState(false);
+    const handleShowSkyBlue = () => setShowSkyBlue(!showSkyBlue)
+
+    let [showPaleGreen, setShowPaleGreen] = useState(false);
+    const handleShowPaleGreen = () => setShowPaleGreen(!showPaleGreen)
+
+    let [showPurple, setShowPurple] = useState(false);
+    const handleShowPurple = () => setShowPurple(!showPurple)
+
+    let [showGreen, setShowGreen] = useState(false);
+    const handleShowGreen = () => setShowGreen(!showGreen)
+
     return (
 
         <Layout>
@@ -71,7 +91,7 @@ const Single = () => {
                             title="Precio y Horario"
                             yellow
                             image={clock}
-                            modalImage={pinwhite}
+                            modalImage={clockwhite}
                             content={post.precio.map(post =>
                                 <li key={post.id}>{'• ' + post.li}</li>
                             )}
@@ -79,18 +99,22 @@ const Single = () => {
                         <Card
                             title="¿Cómo llegar?"
                             skyblue
-                            // via={post.llegar[0].via}
                             image={pin}
                             modalImage={pinwhite}
-                            content={post.llegar[0].rutas.map(post =>
-                                <li key={post.id}>{post.li}</li>
+                            content={post.llegar.map(transporte => 
+                                <div className={styles.rutas_wrapper} key={transporte.via}>
+                                    <div className={styles.subtitle}>{transporte.via}</div>
+                                    <ul>{transporte.rutas.map(rutas => 
+                                        <li key={rutas.id} >{rutas.li}</li>
+                                    )}</ul>
+                                </div>
                             )}
                         />
                         <Card
                             title="Clima y Altura"
                             palegreen
                             image={sun}
-                            modalImage={pinwhite}
+                            modalImage={sunwhite}
                             content={post.clima.map(post =>
                                 <li key={post.id}>{'• ' + post.li}</li>
                             )}
@@ -99,7 +123,7 @@ const Single = () => {
                             title="Tips de viaje"
                             purple
                             image={bulb}
-                            modalImage={pinwhite}
+                            modalImage={bulbwhite}
                             content={post.tips.map(post =>
                                 <li key={post.id}>{'• ' + post.li}</li>
                             )}
@@ -107,64 +131,125 @@ const Single = () => {
                         <Card
                             title="Contactar con agencias"
                             green
-                            // via={post.contacto[0].agencia}
                             image={phone}
                             modalImage={pinwhite}
-                            content={post.contacto[0].datos.map(post =>
-                                <li key={post.id}>{post.li}</li>
+                            content={post.contacto.map(transporte => 
+                                <div className={styles.contacto_wrapper} key={transporte.agencia}>
+                                    <div className={styles.subtitle}>{transporte.agencia}</div>
+                                    <ul>{transporte.datos.map(rutas => 
+                                        <li key={rutas.id} >{rutas.li}</li>
+                                    )}</ul>
+                                </div>
                             )}
                         />
                     </div>
                     <div className={styles.wrapper_mobile}>
                         <Slider {...settings}>
                             <Card
+                                responsive
+                                click={handleShowYellow}
                                 title="Precio y Horario"
                                 yellow
                                 image={clock}
-                                modalImage={pinwhite}
-                                content={post.precio.map(post =>
-                                    <li key={post.id}>{'• ' + post.li}</li>
-                                )}
                             />
                             <Card
+                                responsive
+                                click={handleShowSkyBlue}
                                 title="¿Cómo llegar?"
                                 skyblue
-                                // via={post.llegar[0].via}
                                 image={pin}
-                                modalImage={pinwhite}
-                                content={post.llegar[0].rutas.map(post =>
-                                    <li key={post.id}>{post.li}</li>
-                                )}
                             />
                             <Card
+                                responsive
+                                click={handleShowPaleGreen}
                                 title="Clima y Altura"
                                 palegreen
                                 image={sun}
                                 modalImage={pinwhite}
-                                content={post.clima.map(post =>
-                                    <li key={post.id}>{'• ' + post.li}</li>
-                                )}
                             />
                             <Card
+                                responsive
+                                click={handleShowPurple}
                                 title="Tips de viaje"
                                 purple
                                 image={bulb}
-                                modalImage={pinwhite}
-                                content={post.tips.map(post =>
-                                    <li key={post.id}>{'• ' + post.li}</li>
-                                )}
                             />
                             <Card
+                                responsive
+                                click={handleShowGreen}
                                 title="Contactar con agencias"
                                 green
-                                // via={post.contacto[0].agencia}
                                 image={phone}
                                 modalImage={pinwhite}
-                                content={post.contacto[0].datos.map(post =>
-                                    <li key={post.id}>{post.li}</li>
-                                )}
                             />
                         </Slider>
+                        { 
+                         showYellow ?
+                            <Modal click={handleShowYellow}>
+                                <CardContent 
+                                    title="Precio y Horario"
+                                    yellow
+                                    image={clockwhite}
+                                    content={post.precio.map(post =>
+                                        <li key={post.id}>{'• ' + post.li}</li>
+                                    )}
+                                />
+                            </Modal>: 
+                         showSkyBlue ?
+                            <Modal click={handleShowSkyBlue}>
+                                <CardContent 
+                                    title="¿Cómo llegar?"
+                                    skyblue
+                                    image={pinwhite}
+                                    content={post.llegar.map(transporte => 
+                                        <div className={styles.rutas_wrapper} key={transporte.via}>
+                                            <div className={styles.subtitle}>{transporte.via}</div>
+                                            <ul>{transporte.rutas.map(rutas => 
+                                                <li key={rutas.id} >{rutas.li}</li>
+                                            )}</ul>
+                                        </div>
+                                    )}
+                                />
+                            </Modal>:
+                          showPaleGreen ?
+                            <Modal click={handleShowPaleGreen}>
+                                <CardContent 
+                                    title="Clima y Altura"
+                                    palegreen
+                                    image={sunwhite}
+                                    content={post.clima.map(post =>
+                                        <li key={post.id}>{'• ' + post.li}</li>
+                                    )}
+                                />
+                            </Modal>:
+                         showPurple ?
+                            <Modal click={handleShowPurple}>
+                                <CardContent 
+                                    title="Tips de viaje"
+                                    purple
+                                    image={bulbwhite}
+                                    content={post.tips.map(post =>
+                                        <li key={post.id}>{'• ' + post.li}</li>
+                                    )}
+                                />
+                            </Modal>:
+                         showGreen ?
+                            <Modal click={handleShowGreen}>
+                                <CardContent 
+                                    title="Contactar con agencias"
+                                    green
+                                    image={pinwhite}
+                                    content={post.contacto.map(transporte => 
+                                        <div className={styles.contacto_wrapper} key={transporte.agencia}>
+                                            <div className={styles.subtitle}>{transporte.agencia}</div>
+                                            <ul>{transporte.datos.map(rutas => 
+                                                <li key={rutas.id} >{rutas.li}</li>
+                                            )}</ul>
+                                        </div>
+                                    )}
+                                />
+                            </Modal>: ''
+                        }
                     </div>
                     <Explora
                         title={'Explora otros lugares turísticos en ' + post.provincia}
