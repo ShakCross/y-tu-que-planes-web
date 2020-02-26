@@ -13,9 +13,9 @@ const HeroContent = ({ title, desc, responsive, image, image_lg, image_sm, bread
                         <h1 className={styles.h1} >
                             {title}
                         </h1>
-                        <span className={styles.span}>
+                        <h2 className={styles.span}>
                             {desc}
-                        </span>
+                        </h2>
                         <div className={styles.logo_wrapper}>
                             <img className={styles.logo} src={logo} alt="" srcSet=""/>
                         </div>

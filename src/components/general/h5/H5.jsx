@@ -3,9 +3,9 @@ import styles from './h5.module.scss'
 
 const H5 = ({ title }) => {
     return (
-        <h5 className={styles.wrapper}>
+        <h4 className={styles.wrapper}>
             {title}
-        </h5>
+        </h4>
     )
 }
 H5.defaultProps = {

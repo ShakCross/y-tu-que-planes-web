@@ -5,9 +5,9 @@ import styles from './tag.module.scss'
 const Tag = ({ title, active, click, ref }) => {
     
     return (
-        <div className={ active ? styles.wrapper : styles.wrapper_inactive } onClick={click}>
+        <h3 className={ active ? styles.wrapper : styles.wrapper_inactive } onClick={click}>
             {title}
-        </div>
+        </h3>
     )
 }
 

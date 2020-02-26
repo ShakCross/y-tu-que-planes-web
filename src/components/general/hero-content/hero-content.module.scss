@@ -89,12 +89,16 @@
         max-width: 327px;
     }
     .heading__inner_wrapper{
-        top: 80px;
+        top: 100px;
         width: 83%;
     }
     .logo_wrapper{
-        bottom: 80%;
-        justify-content: flex-start;
+        bottom: 95%;
+        justify-content: flex-end;
+    }
+    .logo{
+        width: 160px;
+        height: 50px;
     }
 }
 

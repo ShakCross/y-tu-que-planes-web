@@ -21,8 +21,8 @@
     font-size: 14px;
     text-align: center;
     line-height: 1.7;
-    width: 95%;
-    overflow-y: auto;
+    width: 80%;
+    overflow-y: overlay;
 }
 
 .content_skyblue, .content_green{
@@ -33,13 +33,24 @@
     font-family: ClanOffcNews;
     font-size: 12.5px;
     justify-content: space-around;
-    width: 95%;
+    width: 80%;
     text-align: center;
     line-height: 1.4;
     flex-wrap: wrap;
-    overflow-y: auto;
+    overflow-y: overlay;
 
 }
+
+
+.content_skyblue::-webkit-scrollbar, .content_green::-webkit-scrollbar {
+	width: 4px;
+}
+
+.content_skyblue::-webkit-scrollbar-thumb, .content_green::-webkit-scrollbar-thumb {
+    background: white;
+  }
+
+
 
 .wrapper_yellow, .wrapper_palegreen, .wrapper_purple, .wrapper_skyblue, .wrapper_green{
     display: flex;

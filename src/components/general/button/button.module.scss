@@ -117,11 +117,16 @@
     height: 100px;
 }
 
-@include respond-to('xs') {
-
+.h3{
+    font-size: 18px;
+    font-weight: 500;
 }
 
-@include respond-to('md') {
-
+.wrapper_exp{
+    padding: 0 25px;
 }
 
+.wrapper_yellow.wrapper_single_card > .h3, .wrapper_skyblue.wrapper_single_card > .h3, .wrapper_palegreen.wrapper_single_card > .h3, .wrapper_purple.wrapper_single_card > .h3, .wrapper_green.wrapper_single_card > .h3{
+    font-size: 12px;
+    font-weight: normal;
+}

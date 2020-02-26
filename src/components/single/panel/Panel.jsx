@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './panel.module.scss'
-// import right_lg from 'assets/img/right-lg.png'
-// import left_lg from 'assets/img/left-lg.png'
 
 const Panel = ({left, right, li_left, li_right}) => {
     return (

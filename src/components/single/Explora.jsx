@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from './explora.module.scss'
 import H2 from 'components/general/h2/H2'
 import Card from 'components/general/card/Card'

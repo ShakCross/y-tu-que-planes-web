@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { Route } from 'react-router-dom'
+import { Helmet } from "react-helmet";
 import Layout from 'components/layout/Layout'
 import Hero from 'components/home/Hero'
 import Explora from 'components/single/Explora'
@@ -18,7 +20,7 @@ import Panel from 'components/single/panel/Panel'
 import data from 'data/turismo-lima-interna.json'
 import Modal from 'components/single/modal/Modal'
 import CardContent from 'components/single/card/card-content/CardContent'
-import { Route } from 'react-router-dom'
+
 
 const Single = () => {
 
@@ -68,196 +70,221 @@ const Single = () => {
     let [showGreen, setShowGreen] = useState(false);
     const handleShowGreen = () => setShowGreen(!showGreen)
 
+    const some = "some"
+
     return (
+        <>
+            <Layout>
+                {data.map(post =>
+                    <Route key={post.id} exact path={'/' + post.slug}>
+                    <Helmet>
+                        <meta name="description" 
+                            content={`Experiencias que trascienden este 2020. Turismo comunitario en el Perú gracias a Y tú qué planes. Conoce ${post.titulo}, nuevas experiencias y tradiciones.`}/>
+                        
+                        <meta property="og:title" content={`${post.titulo} | Turismo Comunitario 2020 | Y tú qué planes?`}/>
+                        <meta property="og:type" content="website" />
+                        <meta property="og:url" content={`https://ytuqueplanes.com/turismo-comunitario/#/${post.slug}`} />
+                        <meta property="og:image" content="https://ytuqueplanes.com/turismo-comunitario/src/assets/img/turismo-comunitario.jpg"/>
+                        <meta property="og:site_name" content="Y tú qué planes?" />
+                        <meta property="og:description"
+                            content={`Experiencias que trascienden este 2020. Turismo comunitario en el Perú gracias a Y tú qué planes. Conoce ${post.titulo}, nuevas experiencias y tradiciones.`} />
+                        <meta name="twitter:card" content="summary_large_image" />
+                        <meta name="twitter:site" content="summary_large_image" />
+                        <meta name="twitter:title" content={`${post.titulo} | Turismo Comunitario 2020 | Y tú qué planes?`}/> 
+                        <meta name="twitter:description"
+                            content={`Experiencias que trascienden este 2020. Turismo comunitario en el Perú gracias a Y tú qué planes. Conoce ${post.titulo}, nuevas experiencias y tradiciones.`}/>
+                        <meta name="twitter:image" content="https://ytuqueplanes.com/turismo-comunitario/src/assets/img/turismo-comunitario.jpg" />
 
-        <Layout>
-            {data.map(post =>
-                <Route key={post.id} exact path={'/' + post.slug}>
+                        <link href={`https://www.ytuqueplanes.com/turismo-comunitario/#/${post.slug}`} rel="canonical"></link> 
 
-                    <Hero title={post.titulo} desc={post.subtitulo} image={post.imagen} breadcrumbs content={post.titulo} slug={post.slug} />
-                    <div className={styles.desc}>
-                        {post.desc}
-                    </div>
-                    <div className={styles.panel}>
-                        <Panel left li_left={post.hacer.map(post =>
-                            <li key={post.id}>{'- ' + post.li}</li>
-                        )} />
-                        <Panel right li_right={post.servicios.map(post =>
-                            <li key={post.id}>{'- ' + post.li}</li>
-                        )} />
-                    </div>
-                    <div className={styles.wrapper}>
-                        <Card
-                            title="Precio y Horario"
-                            yellow
-                            image={clock}
-                            modalImage={clockwhite}
-                            content={post.precio.map(post =>
+                        <title>{ `${post.titulo} | Turismo Comunitario en el Perú 2020✈🇵🇪 | Y tú qué planes` }</title>
+                        
+                    </Helmet>
+                        <Hero title={post.titulo} desc={post.subtitulo} image={post.imagen} breadcrumbs content={post.titulo} slug={post.slug} />
+                        <div className={styles.desc}>
+                            {post.desc}
+                        </div>
+                        <div className={styles.panel}>
+                            <Panel left li_left={post.hacer.map(post =>
                                 <li key={post.id}>{'• ' + post.li}</li>
-                            )}
-                        />
-                        <Card
-                            title="¿Cómo llegar?"
-                            skyblue
-                            image={pin}
-                            modalImage={pinwhite}
-                            content={post.llegar.map(transporte => 
-                                <div className={styles.rutas_wrapper} key={transporte.via}>
-                                    <div className={styles.subtitle}>{transporte.via}</div>
-                                    <ul>{transporte.rutas.map(rutas => 
-                                        <li key={rutas.id} >{rutas.li}</li>
-                                    )}</ul>
-                                </div>
-                            )}
-                        />
-                        <Card
-                            title="Clima y Altura"
-                            palegreen
-                            image={sun}
-                            modalImage={sunwhite}
-                            content={post.clima.map(post =>
+                            )} />
+                            <Panel right li_right={post.servicios.map(post =>
                                 <li key={post.id}>{'• ' + post.li}</li>
-                            )}
-                        />
-                        <Card
-                            title="Tips de viaje"
-                            purple
-                            image={bulb}
-                            modalImage={bulbwhite}
-                            content={post.tips.map(post =>
-                                <li key={post.id}>{'• ' + post.li}</li>
-                            )}
-                        />
-                        <Card
-                            title="Contactar con agencias"
-                            green
-                            image={phone}
-                            modalImage={pinwhite}
-                            content={post.contacto.map(transporte => 
-                                <div className={styles.contacto_wrapper} key={transporte.agencia}>
-                                    <div className={styles.subtitle}>{transporte.agencia}</div>
-                                    <ul>{transporte.datos.map(rutas => 
-                                        <li key={rutas.id} >{rutas.li}</li>
-                                    )}</ul>
-                                </div>
-                            )}
-                        />
-                    </div>
-                    <div className={styles.wrapper_mobile}>
-                        <Slider {...settings}>
+                            )} />
+                        </div>
+                        <div className={styles.wrapper}>
                             <Card
-                                responsive
-                                click={handleShowYellow}
                                 title="Precio y Horario"
                                 yellow
                                 image={clock}
+                                modalImage={clockwhite}
+                                content={post.precio.map(post =>
+                                    <li key={post.id}>{'• ' + post.li}</li>
+                                )}
                             />
                             <Card
-                                responsive
-                                click={handleShowSkyBlue}
                                 title="¿Cómo llegar?"
                                 skyblue
                                 image={pin}
+                                modalImage={pinwhite}
+                                content={post.llegar.map(transporte =>
+                                    <div className={styles.rutas_wrapper} key={transporte.via}>
+                                        <div className={styles.subtitle}>{transporte.via}</div>
+                                        <ul>{transporte.rutas.map(rutas =>
+                                            <li key={rutas.id} >{rutas.li}</li>
+                                        )}</ul>
+                                    </div>
+                                )}
                             />
                             <Card
-                                responsive
-                                click={handleShowPaleGreen}
                                 title="Clima y Altura"
                                 palegreen
                                 image={sun}
-                                modalImage={pinwhite}
+                                modalImage={sunwhite}
+                                content={post.clima.map(post =>
+                                    <li key={post.id}>{'• ' + post.li}</li>
+                                )}
                             />
                             <Card
-                                responsive
-                                click={handleShowPurple}
                                 title="Tips de viaje"
                                 purple
                                 image={bulb}
+                                modalImage={bulbwhite}
+                                content={post.tips.map(post =>
+                                    <li key={post.id}>{'• ' + post.li}</li>
+                                )}
                             />
                             <Card
-                                responsive
-                                click={handleShowGreen}
                                 title="Contactar con agencias"
                                 green
                                 image={phone}
                                 modalImage={pinwhite}
+                                content={post.contacto.map(transporte =>
+                                    <div className={styles.contacto_wrapper} key={transporte.agencia}>
+                                        <div className={styles.subtitle}>{transporte.agencia}</div>
+                                        <ul>{transporte.datos.map(rutas =>
+                                            <li key={rutas.id} >{rutas.li}</li>
+                                        )}</ul>
+                                    </div>
+                                )}
                             />
-                        </Slider>
-                        { 
-                         showYellow ?
-                            <Modal click={handleShowYellow}>
-                                <CardContent 
+                        </div>
+                        <div className={styles.wrapper_mobile}>
+                            <Slider {...settings}>
+                                <Card
+                                    responsive
+                                    click={handleShowYellow}
                                     title="Precio y Horario"
                                     yellow
-                                    image={clockwhite}
-                                    content={post.precio.map(post =>
-                                        <li key={post.id}>{'• ' + post.li}</li>
-                                    )}
+                                    image={clock}
                                 />
-                            </Modal>: 
-                         showSkyBlue ?
-                            <Modal click={handleShowSkyBlue}>
-                                <CardContent 
+                                <Card
+                                    responsive
+                                    click={handleShowSkyBlue}
                                     title="¿Cómo llegar?"
                                     skyblue
-                                    image={pinwhite}
-                                    content={post.llegar.map(transporte => 
-                                        <div className={styles.rutas_wrapper} key={transporte.via}>
-                                            <div className={styles.subtitle}>{transporte.via}</div>
-                                            <ul>{transporte.rutas.map(rutas => 
-                                                <li key={rutas.id} >{rutas.li}</li>
-                                            )}</ul>
-                                        </div>
-                                    )}
+                                    image={pin}
                                 />
-                            </Modal>:
-                          showPaleGreen ?
-                            <Modal click={handleShowPaleGreen}>
-                                <CardContent 
+                                <Card
+                                    responsive
+                                    click={handleShowPaleGreen}
                                     title="Clima y Altura"
                                     palegreen
-                                    image={sunwhite}
-                                    content={post.clima.map(post =>
-                                        <li key={post.id}>{'• ' + post.li}</li>
-                                    )}
+                                    image={sun}
+                                    modalImage={pinwhite}
                                 />
-                            </Modal>:
-                         showPurple ?
-                            <Modal click={handleShowPurple}>
-                                <CardContent 
+                                <Card
+                                    responsive
+                                    click={handleShowPurple}
                                     title="Tips de viaje"
                                     purple
-                                    image={bulbwhite}
-                                    content={post.tips.map(post =>
-                                        <li key={post.id}>{'• ' + post.li}</li>
-                                    )}
+                                    image={bulb}
                                 />
-                            </Modal>:
-                         showGreen ?
-                            <Modal click={handleShowGreen}>
-                                <CardContent 
+                                <Card
+                                    responsive
+                                    click={handleShowGreen}
                                     title="Contactar con agencias"
                                     green
-                                    image={pinwhite}
-                                    content={post.contacto.map(transporte => 
-                                        <div className={styles.contacto_wrapper} key={transporte.agencia}>
-                                            <div className={styles.subtitle}>{transporte.agencia}</div>
-                                            <ul>{transporte.datos.map(rutas => 
-                                                <li key={rutas.id} >{rutas.li}</li>
-                                            )}</ul>
-                                        </div>
-                                    )}
+                                    image={phone}
+                                    modalImage={pinwhite}
                                 />
-                            </Modal>: ''
-                        }
-                    </div>
-                    <Explora
-                        title={'Explora otros lugares turísticos en ' + post.provincia}
-                        province={post.provincia}
-                    />
-                </Route>
-            )}
-        </Layout>
+                            </Slider>
+                            {
+                                showYellow ?
+                                    <Modal click={handleShowYellow}>
+                                        <CardContent
+                                            title="Precio y Horario"
+                                            yellow
+                                            image={clockwhite}
+                                            content={post.precio.map(post =>
+                                                <li key={post.id}>{'• ' + post.li}</li>
+                                            )}
+                                        />
+                                    </Modal> :
+                                    showSkyBlue ?
+                                        <Modal click={handleShowSkyBlue}>
+                                            <CardContent
+                                                title="¿Cómo llegar?"
+                                                skyblue
+                                                image={pinwhite}
+                                                content={post.llegar.map(transporte =>
+                                                    <div className={styles.rutas_wrapper} key={transporte.via}>
+                                                        <div className={styles.subtitle}>{transporte.via}</div>
+                                                        <ul>{transporte.rutas.map(rutas =>
+                                                            <li key={rutas.id} >{rutas.li}</li>
+                                                        )}</ul>
+                                                    </div>
+                                                )}
+                                            />
+                                        </Modal> :
+                                        showPaleGreen ?
+                                            <Modal click={handleShowPaleGreen}>
+                                                <CardContent
+                                                    title="Clima y Altura"
+                                                    palegreen
+                                                    image={sunwhite}
+                                                    content={post.clima.map(post =>
+                                                        <li key={post.id}>{'• ' + post.li}</li>
+                                                    )}
+                                                />
+                                            </Modal> :
+                                            showPurple ?
+                                                <Modal click={handleShowPurple}>
+                                                    <CardContent
+                                                        title="Tips de viaje"
+                                                        purple
+                                                        image={bulbwhite}
+                                                        content={post.tips.map(post =>
+                                                            <li key={post.id}>{'• ' + post.li}</li>
+                                                        )}
+                                                    />
+                                                </Modal> :
+                                                showGreen ?
+                                                    <Modal click={handleShowGreen}>
+                                                        <CardContent
+                                                            title="Contactar con agencias"
+                                                            green
+                                                            image={pinwhite}
+                                                            content={post.contacto.map(transporte =>
+                                                                <div className={styles.contacto_wrapper} key={transporte.agencia}>
+                                                                    <div className={styles.subtitle}>{transporte.agencia}</div>
+                                                                    <ul>{transporte.datos.map(rutas =>
+                                                                        <li key={rutas.id} >{rutas.li}</li>
+                                                                    )}</ul>
+                                                                </div>
+                                                            )}
+                                                        />
+                                                    </Modal> : ''
+                            }
+                        </div>
+                        <Explora
+                            title={'Explora otros lugares turísticos en ' + post.provincia}
+                            province={post.provincia}
+                        />
+                    </Route>
+                )}
+            </Layout>
+        </>
     )
 }
 

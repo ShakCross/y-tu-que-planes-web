@@ -37,9 +37,9 @@ const Footer = () => {
                                 <H5 title="Información para tu viaje" />
                             </div>
                             <ul className={styles.list}>
-                                <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="http://export.promperu.gob.pe/emailing/2019/feb/pdf/feriados_2019.pdf"><li>Lista de Feriados</li></a>
-                                <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="https://www.senamhi.gob.pe/"><li>Clima y Pronóstico del Tiempo</li></a>
-                                <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="http://www.sernanp.gob.pe/"><li>Áreas Naturales Protegidas</li></a>
+                                <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="http://export.promperu.gob.pe/emailing/2019/feb/pdf/feriados_2019.pdf"><h5 className={styles.h5}>Lista de Feriados</h5></a>
+                                <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="https://www.senamhi.gob.pe/"><h5 className={styles.h5}>Clima y Pronóstico del Tiempo</h5></a>
+                                <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="http://www.sernanp.gob.pe/"><h5 className={styles.h5}>Áreas Naturales Protegidas</h5></a>
                             </ul>
                         </div>
                     </div>

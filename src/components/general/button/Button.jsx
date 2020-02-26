@@ -28,14 +28,18 @@ const Button = ({ title, action, yellow, skyblue, palegreen, purple, green, xcla
                     }
                     
                 >
-                    {title}
+                    <h3 className={styles.h3}>
+                        {title}
+                    </h3>
                 </button> : 
                 <a href={url} target="_blank" rel="noopener noreferrer">
                     <button
                         onClick={click}
                         className={styles.wrapper_round}
                     >
-                        {title}
+                        <h3 className={styles.h3}>
+                            {title}
+                        </h3>
                     </button>
                 </a>
             }
@@ -46,12 +50,15 @@ const Button = ({ title, action, yellow, skyblue, palegreen, purple, green, xcla
 
 Button.defaultProps = {
     title: 'Ver más experiencias',
+    yellow: false, 
+    skyblue: false,
+    palegreen: false,
     purple: false,
+    green: false,
+    action: false,
     url: '',
     xclassname: '',
-    click: null,
-    yellow: false, 
-    skyblue: ''
+    click: null
 };
 
 export default Button

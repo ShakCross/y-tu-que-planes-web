@@ -13,7 +13,7 @@
 
 .desc{
     max-width: 945px;
-    font-family: ClanOffcNews;
+    font-family: ClanOffcBook;
     font-size: 16px;
     color: #636363;
     display: flex;
@@ -40,12 +40,8 @@
     margin-bottom: 10px;
 }
 
-.rutas_wrapper{
-    flex: 1;
-}
-
-.contacto_wrapper{
-    margin-bottom: 15px;
+.rutas_wrapper, .contacto_wrapper{
+    margin-bottom: 25px;
 }
 
 

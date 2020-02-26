@@ -194,6 +194,10 @@
     object-fit: contain;
 }
 
+.h5{
+    font-size: 12px;
+}
+
 @include respond-to('lg') {
     .wrapper__links,
     .wrapper__help {

@@ -34,7 +34,7 @@ const Ofertas = () => {
                     className: "center",
                     centerMode: true,
                     infinite: true,
-                    centerPadding: "23%",
+                    centerPadding: "24.5%",
                     slidesToShow: 1,
                     speed: 500,
                     arrows: false,
@@ -172,7 +172,7 @@ const Ofertas = () => {
             </div>
             {
                 !hideButton &&
-                <Button action yellow click={handleShowMore} />
+                <Button action yellow click={handleShowMore} xclassname="wrapper_exp"/>
             }
         </div>
     )
