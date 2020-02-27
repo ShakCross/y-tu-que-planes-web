@@ -4,7 +4,7 @@ import Chip from 'components/general/chip/Chip'
 import Rating from 'components/general/rating/Rating'
 
 
-const Card = ({ shadow, header, image, price, before, location, duration, title, url, alt, stars }) => {
+const Card = ({ shadow, header, image, price, before, location, duration, title, url, alt, stars, date }) => {
     return (
             <a href={url} target="_blank" rel="noopener noreferrer">
                 {
@@ -21,11 +21,13 @@ const Card = ({ shadow, header, image, price, before, location, duration, title,
                                     <div className={styles.wrapper_rating}>
                                         <Rating stars={stars} />
                                     </div>
-                                    <div className={styles.wrapper__span}>
+                                    <div className={styles.header_wrapper_span}>
                                         <span className={styles.header_span}> {title} </span>
                                     </div>
+                                    <div className={styles.header_wrapper_date}>
+                                        <span> {date} </span>
+                                    </div>
                                 </div>
-                                Fecha
                             </div>                                 
                         </div>) :
                     shadow ?
@@ -93,7 +95,8 @@ Card.defaultProps = {
     duration: 'Full Day', 
     title: 'Déjate tentar por el sabor del cuy moqueguano',
     url: '#',
-    number: '4'
+    number: '4',
+    date: '10 noviembre, 2019'
 };
 
 export default Card

@@ -40,6 +40,11 @@ const Festividades = () => {
             <div>
                 <H2 title="Próximas Festividades" />
             </div>
+            <Slider {...settings}>
+                            <div>some</div>
+                            <div>some20</div>
+                            <div>some30</div>
+                    </Slider>
             <div className={styles.inner_wrapper}>
                 {data.map(post =>
                     <WrapperFest key={post.id}>

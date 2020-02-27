@@ -6,21 +6,52 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Rating = ({ stars }) => {
 
-    let arr = [1, 2, 3, 4, 5]
+    const icons = []
+
+    let iconEmpty
+    for (iconEmpty = 0; iconEmpty < stars; iconEmpty++) {
+        icons.push(<FontAwesomeIcon key={icons} className={styles.icon} icon={fasFaStar}/>)
+    }
+    
+    let iconFilled
+    for (iconFilled = 0; iconFilled < 5-stars; iconFilled++) {
+        icons.push(<FontAwesomeIcon key={icons} className={styles.icon} icon={farFaStar}/>)
+    }
 
     return (
         <div className={styles.wrapper}>
-            {arr.map(post =>
-                <>
-                    <FontAwesomeIcon key={post} className={styles.icon} icon={stars === '2' ? fasFaStar * 2 : farFaStar} />
-                </>
-            )}
+            {icons}
         </div>
     )
 }
 
 Rating.defaultProps = {
-
+    stars: '5'
 };
 
 export default Rating
+
+// const Rating = ({ stars }) => {
+
+//     const icons = []
+
+//     let iconEmpty
+//     for (iconEmpty = 0; iconEmpty < stars; iconEmpty++) {
+//         icons.push(<FontAwesomeIcon key={iconEmpty++} className={styles.icon} icon={fasFaStar}/>)
+//       }
+
+//     let iconFilled
+//     for (iconFilled = 0; iconFilled < 5-stars; iconFilled++) {
+//         icons.push(<FontAwesomeIcon key={iconEmpty++} className={styles.icon} icon={farFaStar}/>)
+//       }
+
+//     return (
+//         <div className={styles.wrapper}>
+//             {icons}
+//         </div>
+//     )
+// }
+
+// Rating.defaultProps = {
+//     stars: 5
+// };
