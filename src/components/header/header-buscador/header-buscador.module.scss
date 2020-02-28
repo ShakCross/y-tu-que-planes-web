@@ -37,6 +37,33 @@
     border-radius: 31.5px;
     border: solid 1px #979797;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_wrapper{
+    width: 90%;
+    height: 75%;
+}
+
+.title {
+    font-family: ClanOffc;
+    font-size: 14px;
+    color: $dark-grey;
+    font-weight: 600;
+}
+
+.content {
+    font-family: ClanOffcNews;
+    font-size: 14px;
+    color: $dark-grey;
+    margin-bottom: 10px;
+}
+
+.hr{
+    margin: 10px auto;
 }
 
 @include respond-to('sm') {

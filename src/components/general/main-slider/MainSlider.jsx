@@ -67,7 +67,7 @@ export default class MainSlider extends Component {
                     <Slider ref={slider => (this.slider = slider)} {...settings}>
                         <div>
                             <HeroContent to="https://ytuqueplanes.com/carnavales-del-peru/" url="https://ytuqueplanes.com/carnavales-del-peru/" chip="Varios" desc="Recorre el Perú y conoce sus carnavales de fiesta en fiesta" title="Carnavales del Perú"/>
-                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-bailarina-ayacucho.jpg" alt="" />
+                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-bailarina-ayacucho.jpg" alt="bailarina-ayacucho" />
                         </div>
                         <div>
                             <HeroContent to="https://www.ytuqueplanes.com/rutas-cortas" url="https://www.ytuqueplanes.com/rutas-cortas" chip="Lima" desc="Visita estos destinos con los nuevos mapas interactivos" title="Rutas Cortas"/>

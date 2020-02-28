@@ -40,11 +40,6 @@ const Festividades = () => {
             <div>
                 <H2 title="Próximas Festividades" />
             </div>
-            <Slider {...settings}>
-                            <div>some</div>
-                            <div>some20</div>
-                            <div>some30</div>
-                    </Slider>
             <div className={styles.inner_wrapper}>
                 {data.map(post =>
                     <WrapperFest key={post.id}>
@@ -69,9 +64,10 @@ const Festividades = () => {
             </div>
             <div className={styles.show_slider}>
                 <Slider {...settings}>
-                    {data.map(post =>
-                        <WrapperFest key={post.id}>
-                            <Date day={post.dia} month={post.mes} />
+                {data.map(post =>
+                    <WrapperFest key={post.id}>
+                        <Date day={post.dia} month={post.mes} />
+                        <div className={styles.wrapper_content}>
                             <a className={styles.content} href={post.festividades[0].url} target="_blank" rel="noopener noreferrer">
                                 <Chip title={post.festividades[0].provincia} />
                                 <EventTitle title={post.festividades[0].titulo} />
@@ -84,9 +80,10 @@ const Festividades = () => {
                                     <EventTitle title={post.festividades[1].titulo} />
                                 </a>)
                             }
-                            <PlusLink url={post.url} lenght={post.more} />
-                        </WrapperFest>
-                    )}
+                        </div>
+                        <PlusLink url={post.url} lenght={post.more} />
+                    </WrapperFest>
+                )}
                 </Slider>
             </div>
             <Button title="Ver calendario de festividades" xclassname="calendar_button" url="https://www.ytuqueplanes.com/festividades" />

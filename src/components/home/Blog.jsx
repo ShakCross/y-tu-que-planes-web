@@ -29,7 +29,6 @@ const Blog = () => {
                             title={post.titulo} 
                             location={post.localia} 
                             url={post.url} 
-                            alt={post.alt}
                         />
                     )}
                 </div>
@@ -41,8 +40,7 @@ const Blog = () => {
                         image={post.imagen} 
                         title={post.titulo} 
                         location={post.localia} 
-                        url={post.url} 
-                        alt={post.alt}
+                        url={post.url}
                     />
                 )}
             </CardSlider>

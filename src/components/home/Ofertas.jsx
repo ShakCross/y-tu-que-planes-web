@@ -31,7 +31,6 @@ const Ofertas = () => {
                             price={post.precio} 
                             before={post.antes}
                             url={post.url}  
-                            alt={post.alt}
                         />
                     )}
                 </div>
@@ -45,8 +44,7 @@ const Ofertas = () => {
                         title={post.titulo} 
                         price={post.precio} 
                         before={post.antes}
-                        url={post.url}  
-                        alt={post.alt}
+                        url={post.url} 
                     />
                 )}
             </CardSlider>

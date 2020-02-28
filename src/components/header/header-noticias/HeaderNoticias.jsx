@@ -65,7 +65,6 @@ const HeaderNoticias = ({ xclassname, clicked }) => {
                             key={post.id}
                             image={post.imagen}
                             title={post.titulo.substr(0, 50) + "..."}
-                            alt={post.alt}
                             stars={post.rating}
                             date={post.fecha}
                         />
@@ -78,8 +77,7 @@ const HeaderNoticias = ({ xclassname, clicked }) => {
                                     header
                                     key={post.id}
                                     image={post.imagen}
-                                    title={post.titulo.substr(0, 50) + "..."}
-                                    alt={post.alt}
+                                    title={post.titulo.substr(0, 50) + "..."}   
                                     stars={post.rating}
                                     date={post.fecha}
                                 />

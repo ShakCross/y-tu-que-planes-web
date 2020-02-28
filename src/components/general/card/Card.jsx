@@ -4,40 +4,29 @@ import Chip from 'components/general/chip/Chip'
 import Rating from 'components/general/rating/Rating'
 
 
-const Card = ({ shadow, header, image, price, before, location, duration, title, url, alt, stars, date }) => {
+const Card = ({ shadow, header, image, price, before, location, duration, title, url, stars, date, alt }) => {
     return (
-            <a href={url} target="_blank" rel="noopener noreferrer">
-                {
-                    header ?
-                        (<div 
-                            className={styles.header_wrapper} 
-                            style={{ backgroundImage: `url(${image})` }}
-                            role="img" 
-                            alt={alt} 
-                            aria-labelledby={alt}
-                         >
-                            <div className={styles.header_data}>
-                                <div className={styles.content}>
-                                    <div className={styles.wrapper_rating}>
-                                        <Rating stars={stars} />
-                                    </div>
-                                    <div className={styles.header_wrapper_span}>
-                                        <span className={styles.header_span}> {title} </span>
-                                    </div>
-                                    <div className={styles.header_wrapper_date}>
-                                        <span> {date} </span>
-                                    </div>
+        <a href={url} target="_blank" rel="noopener noreferrer">
+            {
+                header ?
+                    (<div className={styles.header_wrapper}>
+                        <img className={styles.imgHeader} src={image} alt={alt} />
+                        <div className={styles.header_data_header}>
+                            <div className={styles.content}>
+                                <div className={styles.wrapper_rating}>
+                                    <Rating stars={stars} />
                                 </div>
-                            </div>                                 
-                        </div>) :
+                                <div className={styles.header_wrapper_span}>
+                                    <span className={styles.header_span}> {title} </span>
+                                </div>
+                                <div className={styles.header_wrapper_date}>
+                                    <span> {date} </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>) :
                     shadow ?
-                        (<div 
-                            className={styles.wrapper_full} 
-                            style={{ backgroundImage: `url(${image})` }}                            
-                            role="img"
-                            alt={alt} 
-                            aria-labelledby={alt}
-                        >
+                        (<div className={styles.wrapper_full}>
                             <div className={styles.date}>
                                 <div className={styles.date__wrapper}>
                                     <span className={styles.date__price}>
@@ -60,14 +49,9 @@ const Card = ({ shadow, header, image, price, before, location, duration, title,
                                     </div>
                                 </div>
                             </div>
+                            <img className={styles.imgShadow} src={image} alt={alt} />
                         </div>) :
-                        (<div 
-                            className={styles.wrapper} 
-                            style={{ backgroundImage: `url(${image})` }} 
-                            role="img" 
-                            alt={alt} 
-                            aria-labelledby={alt}
-                         >
+                        (<div className={styles.wrapper}>
                             <div className={styles.header_data}>
                                 <div className={styles.content}>
                                     <div className={styles.wrapper__chip}>
@@ -78,9 +62,10 @@ const Card = ({ shadow, header, image, price, before, location, duration, title,
                                     </div>
                                 </div>
                             </div>
+                            <img className={styles.img} src={image} alt={alt} />
                         </div>)
-                }
-            </a>
+            }
+        </a>
 
     )
 }
@@ -89,14 +74,15 @@ Card.defaultProps = {
     shadow: false,
     header: false,
     image: '',
-    price: '99', 
-    before: '130', 
-    location: 'Amazonas', 
-    duration: 'Full Day', 
+    price: '99',
+    before: '130',
+    location: 'Amazonas',
+    duration: 'Full Day',
     title: 'Déjate tentar por el sabor del cuy moqueguano',
     url: '#',
     number: '4',
-    date: '10 noviembre, 2019'
+    date: '10 noviembre, 2019',
+    alt: 'imageAlt'
 };
 
 export default Card
