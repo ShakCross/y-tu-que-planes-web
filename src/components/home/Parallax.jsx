@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from 'components/home/parallax.module.scss'
-import ico1 from 'assets/img/turismo-seguro.png'
+import ico1 from 'assets/img/turismo-seguro.webp'
 import H4 from 'components/general/h4/H4'
 
 const Parallax = () => {

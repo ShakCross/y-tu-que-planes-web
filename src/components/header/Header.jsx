@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from './header.module.scss';
-import Logo from 'assets/img/ytqp-2.png'
-import NewsIcon from 'assets/img/news.png'
+import Logo from 'assets/img/ytqp-2.webp'
+import NewsIcon from 'assets/img/news.webp'
 import BellIcon from 'assets/img/campana.svg'
 import BellIconGrey from 'assets/img/campana-gris.svg'
 import SearchIcon from 'assets/img/lupa.svg'
@@ -11,8 +11,10 @@ import HeaderResponsive from 'components/header/header-responsive/HeaderResponsi
 import HeaderBuscador from 'components/header/header-buscador/HeaderBuscador';
 import HeaderNoticias from 'components/header/header-noticias/HeaderNoticias';
 import HeaderNotificaciones from 'components/header/header-notificaciones/HeaderNotificaciones';
+import { Link } from 'react-router-dom';
 
-const Header = ({empty, count}) => {
+
+const Header = ({ empty, count }) => {
 
     const [toggle, setToggle] = useState(true);
     const handleToggle = () => setToggle(!toggle) & setSearch(true) & setNews(true) & setAlert(true)
@@ -30,17 +32,17 @@ const Header = ({empty, count}) => {
         <>
             <nav className={styles.wrapper}>
                 <div className={styles.logo}>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <Link to="/">
                         <img src={Logo} alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className={styles.main}>
                     <div>
                         <a className={styles.main__link} href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                     </div>
-                    <div>
-                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/destinos">Destinos</a>
-                    </div>
+                    <Link className={styles.main__link} to="/destinos">
+                        Destinos
+                    </Link>
                     <div>
                         <a className={styles.main__link} href="https://www.ytuqueplanes.com/rutas-cortas">Rutas cortas</a>
                     </div>

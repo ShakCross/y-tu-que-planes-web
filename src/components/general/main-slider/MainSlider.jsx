@@ -67,7 +67,7 @@ export default class MainSlider extends Component {
                     <Slider ref={slider => (this.slider = slider)} {...settings}>
                         <div>
                             <HeroContent to="https://ytuqueplanes.com/carnavales-del-peru/" url="https://ytuqueplanes.com/carnavales-del-peru/" chip="Varios" desc="Recorre el Perú y conoce sus carnavales de fiesta en fiesta" title="Carnavales del Perú"/>
-                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-bailarina-ayacucho.jpg" alt="bailarina-ayacucho" />
+                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-bailarina-ayacucho.jpg" alt="" />
                         </div>
                         <div>
                             <HeroContent to="https://www.ytuqueplanes.com/rutas-cortas" url="https://www.ytuqueplanes.com/rutas-cortas" chip="Lima" desc="Visita estos destinos con los nuevos mapas interactivos" title="Rutas Cortas"/>
@@ -81,10 +81,10 @@ export default class MainSlider extends Component {
                             <HeroContent to="https://www.ytuqueplanes.com/novedades/181_fiesta-de-la-candelaria-tres-danzas-que-te-cautivaran" url="https://www.ytuqueplanes.com/novedades/181_fiesta-de-la-candelaria-tres-danzas-que-te-cautivaran" chip="Puno" desc="Puno brilla con los bailes de la Fiesta de la Virgen de la Candelaria " title="Morenada en la Candelaria" />
                             <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-morenada-en-puno.jpg" alt="" />
                         </div>
-                        {/* <div>
-                            <HeroContent />
-                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-iperu.jpg" alt="" />
-                        </div> */}
+                        <div>
+                            <HeroContent to="https://www.ytuqueplanes.com/rutas-cortas" url="https://www.ytuqueplanes.com/rutas-cortas" chip="Lima" desc="Visita estos destinos con los nuevos mapas interactivos" title="Rutas Cortas"/>
+                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-castillo-chancay.jpg" alt="" />
+                        </div>
                     </Slider>
                     <div>
                    

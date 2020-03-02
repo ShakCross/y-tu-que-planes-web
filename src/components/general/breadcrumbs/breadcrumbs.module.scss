@@ -1,0 +1,36 @@
+.wrapper{
+    position: absolute;
+    max-width: 350px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    bottom: 120px;
+}
+
+.inner_wrapper{
+    position: relative;
+    margin-top: 50px;
+}
+
+.content{
+    color: white;
+    font-family: ClanOffcBold;
+    font-size: 13px;
+}
+
+.contenttwo{
+    color: $pale-green;
+    font-family: ClanOffcBold;
+    font-size: 13px;
+}
+
+@include respond-to('xs') {
+    .wrapper{
+        bottom: auto;
+        top: 100px;
+    }
+    .inner_wrapper{
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+}

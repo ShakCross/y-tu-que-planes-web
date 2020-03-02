@@ -1,25 +1,16 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 .wrapper {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 621px;
     padding: 20px 0px 20px 0px;
-    background: url('../../assets/img/bg-date.jpeg');
+    background: url('../../assets/img/bg-date.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .inner_wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-preferred-size: 78%;
     flex-basis: 78%;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 

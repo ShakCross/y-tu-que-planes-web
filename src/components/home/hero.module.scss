@@ -1,63 +1,127 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-.wrapper {
+.wrapper, .wrapper_home {
     width: 100%;
-    height: 720px;
-    background-color: brown;
+    height: 477px;
     overflow: hidden;
 }
 
-.slides {
+.shadow, .shadow_home{
+    position: absolute;
+    height: 477px;
     width: 100%;
-    height: 720px;
+    background: rgba(0,0,0,0.2);
+    z-index: 0;
 }
 
-.dots {
-    width: 31px;
-    height: 31px;
-    border: solid white 1px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+.inner_wrapper, .inner_wrapper_home {
+    width: 100%;
+    height: 477px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.slides, .slides_home {
+    width: 100%;
+    height: 477px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.slides_lg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.slides_sm {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    object-position: bottom;
+}
+
+.heading__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.heading__inner_wrapper, .heading__inner_wrapper_home {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 477px;
+    justify-content: center;
+    top: 30px;
+    width: 75%;
+    max-width: 912px;
+}
+
+.wrapper_home, .shadow_home, .inner_wrapper_home, .slides_home, .heading__inner_wrapper_home {
+    height: 720px
+}
+
+.logo_wrapper{
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+}
+
+.logo{
+    width: 43%;
+}
+
+.h1{
+    max-width: 100%;
+    font-family: ClanOffc;
+    font-size: 44px;
+    font-weight: bold;
     color: white;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-family: BreePeru;
+    margin: 10px 0px;
+}
+
+.span {
+    font-family: ClanOffc;
     font-size: 18px;
-}
-
-.dots__ul {
-    margin: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    width: 11%;
-}
-
-.dots__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    bottom: 25px;
+    color: white;
+    font-weight: 100;
+    max-width: 614px;
 }
 
 @include respond-to('xs') {
-    .wrapper {
+    .wrapper, .shadow {
         height: 550px;
     }
+    .slides {
+        height: 470px;
+    }
+    .slides_lg{
+        display: none;
+    }
+    .slides_sm{
+        display: block;
+    }
+    .span {
+        max-width: 327px;
+    }
+    .heading__inner_wrapper{
+        top: 100px;
+        width: 83%;
+    }
+    .logo_wrapper{
+        bottom: 95%;
+        justify-content: flex-end;
+    }
+    .logo{
+        width: 160px;
+        height: 50px;
+    }
 }
+
+
+

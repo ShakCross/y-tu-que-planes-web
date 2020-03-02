@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './footer.module.scss';
 import { faFacebookF, faWhatsapp, faTwitter, faInstagram, faYoutube, faSpotify } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import iperu from 'assets/img/iperu.png'
-import promperu from 'assets/img/promperu.png'
-import marcaperu from 'assets/img/perumarca.png'
-import SubscribeInput from 'components/footer/subscribe-input/SubscribeInput'
+import iperu from 'assets/img/iperu.webp'
+import promperu from 'assets/img/promperu.webp'
+import marcaperu from 'assets/img/perumarca.webp'
+// import SubscribeInput from 'components/footer/subscribe-input/SubscribeInput'
 import H5 from 'components/general/h5/H5';
 import SocialICon from 'components/footer/social-icon/SocialIcon'
 import SubFooter from 'components/footer/subfooter/SubFooter';
