@@ -16,13 +16,13 @@ const HeroContent = ({ title, desc, responsive, image, image_lg, image_sm, bread
                         <h2 className={styles.span}>
                             {desc}
                         </h2>
-                        <div className={styles.logo_wrapper}>
-                            <img className={styles.logo} src={logo} alt="" srcSet=""/>
-                        </div>
                         {
                             breadcrumbs ?
                                 <Breadcrumbs content={content} slug={slug} />
-                                : ''
+                                :                                 
+                                <div className={styles.logo_wrapper}>
+                                    <img className={styles.logo} src={logo} alt="" srcSet="" />
+                                </div>
                         }
                     </div>
                 </div>
@@ -41,7 +41,15 @@ const HeroContent = ({ title, desc, responsive, image, image_lg, image_sm, bread
 
 HeroContent.defaultProps = {
     title: 'Turismo Comunitario',
-    desc: 'Un Perú no solo debes conocerlo sino también vivirlo, recorriendo paisajes naturales que son capaces de hablar por si solos'
+    desc: 'Un Perú no solo debes conocerlo sino también vivirlo, recorriendo paisajes naturales que son capaces de hablar por si solos',
+    responsive: false,
+    image: '',
+    image_lg: '',
+    image_sm: '',
+    breadcrumbs: false,
+    content: '',
+    slug: '',
+    logo: ''
 };
 
 export default HeroContent

@@ -55,3 +55,8 @@
     display: flex;
     position: relative;
 }
+@include respond-to('xs') {
+    .wrapper:hover{
+        background: left center/cover no-repeat;
+    }
+}

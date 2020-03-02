@@ -11,7 +11,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'script.js',
-        publicPath: isDevelopment === 'production' ? './' : '/'
+        publicPath: './'
     },
     module: {
         rules: [
