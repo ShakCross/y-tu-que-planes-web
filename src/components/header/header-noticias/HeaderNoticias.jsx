@@ -59,29 +59,31 @@ const HeaderNoticias = ({ xclassname, clicked }) => {
                     </div>
                 </div>
                 <div className={styles.inner_wrapper}>
-                    {data.map(post =>
-                        <Card
-                            header
-                            key={post.id}
-                            image={post.imagen}
-                            title={post.titulo.substr(0, 50) + "..."}
-                            stars={post.rating}
-                            date={post.fecha}
-                        />
-                    )}
+                    <div className={styles.inner_wrapper_content}>
+                        {data.map(post =>
+                            <Card
+                                header
+                                key={post.id}
+                                image={post.imagen}
+                                title={post.titulo.substr(0, 50) + "..."}
+                                stars={post.rating}
+                                date={post.fecha}
+                            />
+                        )}
+                    </div>
                 </div>
                 <div className={styles.inner_wrapper_resp}>
                     <Slider {...settings}>
-                            {data.map(post =>
-                                <Card
-                                    header
-                                    key={post.id}
-                                    image={post.imagen}
-                                    title={post.titulo.substr(0, 50) + "..."}   
-                                    stars={post.rating}
-                                    date={post.fecha}
-                                />
-                            )}
+                        {data.map(post =>
+                            <Card
+                                header
+                                key={post.id}
+                                image={post.imagen}
+                                title={post.titulo.substr(0, 50) + "..."}
+                                stars={post.rating}
+                                date={post.fecha}
+                            />
+                        )}
                     </Slider>
                 </div>
 

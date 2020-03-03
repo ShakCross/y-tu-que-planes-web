@@ -6,12 +6,13 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 
+
 module.exports = {
     entry: 'src/index.js',
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'script.js',
-        publicPath: '/'
+        publicPath: './'
     },
     module: {
         rules: [
@@ -97,6 +98,7 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
+        publicPath: '/'
     },
     resolve: {
         modules: [__dirname, 'src', 'node_modules'],
@@ -109,7 +111,7 @@ module.exports = {
             ".jpg",
             ".jpeg",
             ".svg",
-            "webp",
+            ".webp",
             ".ttf",
             ".otf",
             ".json"

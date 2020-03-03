@@ -8,7 +8,7 @@ const Parallax = () => {
         <section>
             <a className={styles.wrapper} href="https://www.ytuqueplanes.com/novedades/172_el-secreto-de-viajar-sin-preocupaciones" target="_blank" rel="noopener noreferrer">
                 <div className={styles.ico_big}>
-                    <img src={ico1} alt="" />
+                    <img src={ico1} alt="turismo-seguro" />
                 </div>
                 <div className={styles.h4}>
                     <H4 title="Dile sí a lo formal y vive el turismo seguro por el Perú" />

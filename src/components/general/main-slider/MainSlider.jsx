@@ -67,24 +67,24 @@ export default class MainSlider extends Component {
                     <Slider ref={slider => (this.slider = slider)} {...settings}>
                         <div>
                             <HeroContent to="https://ytuqueplanes.com/carnavales-del-peru/" url="https://ytuqueplanes.com/carnavales-del-peru/" chip="Varios" desc="Recorre el Perú y conoce sus carnavales de fiesta en fiesta" title="Carnavales del Perú"/>
-                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-bailarina-ayacucho.jpg" alt="" />
+                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-bailarina-ayacucho.jpg" alt="bailarina-ayacucho" />
                         </div>
                         <div>
                             <HeroContent to="https://www.ytuqueplanes.com/rutas-cortas" url="https://www.ytuqueplanes.com/rutas-cortas" chip="Lima" desc="Visita estos destinos con los nuevos mapas interactivos" title="Rutas Cortas"/>
-                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-castillo-chancay.jpg" alt="" />
+                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-castillo-chancay.jpg" alt="castillo-chancay" />
                         </div>
                         <div>
                             <HeroContent to="https://www.ytuqueplanes.com/novedades/183_riete-con-las-ocurrencias-de-stefano-tosso-y-giacomo-benavides-en-cerro-azul" url="https://www.ytuqueplanes.com/novedades/183_riete-con-las-ocurrencias-de-stefano-tosso-y-giacomo-benavides-en-cerro-azul" chip="Lima" desc="Un día en Cerro Azul con Stefano Tosso y Giacomo Benavides" title="Cerro Azul" />
-                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-sunset-cerro-azul.jpg" alt="" />
+                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-sunset-cerro-azul.jpg" alt="sunset-cerro-azul" />
                         </div>
                         <div>
                             <HeroContent to="https://www.ytuqueplanes.com/novedades/181_fiesta-de-la-candelaria-tres-danzas-que-te-cautivaran" url="https://www.ytuqueplanes.com/novedades/181_fiesta-de-la-candelaria-tres-danzas-que-te-cautivaran" chip="Puno" desc="Puno brilla con los bailes de la Fiesta de la Virgen de la Candelaria " title="Morenada en la Candelaria" />
-                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-morenada-en-puno.jpg" alt="" />
+                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-morenada-en-puno.jpg" alt="morenada-en-puno" />
                         </div>
-                        <div>
+                        {/* <div>
                             <HeroContent to="https://www.ytuqueplanes.com/rutas-cortas" url="https://www.ytuqueplanes.com/rutas-cortas" chip="Lima" desc="Visita estos destinos con los nuevos mapas interactivos" title="Rutas Cortas"/>
-                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-castillo-chancay.jpg" alt="" />
-                        </div>
+                            <img className={styles.slides} src="https://www.ytuqueplanes.com/fotos/banners/d-castillo-chancay.jpg" alt="castillo-chancay" />
+                        </div> */}
                     </Slider>
                     <div>
                    

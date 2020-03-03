@@ -33,18 +33,27 @@ const Header = ({ empty, count }) => {
             <nav className={styles.wrapper}>
                 <div className={styles.logo}>
                     <Link to="/">
-                        <img src={Logo} alt="" />
+                        <img src={Logo} alt="ytuqueplanes-logo" />
                     </Link>
                 </div>
                 <div className={styles.main}>
                     <div>
                         <a className={styles.main__link} href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                     </div>
+                    {/* <Link className={styles.main__link} to="/ofertas">
+                        Ofertas
+                    </Link> */}
                     <Link className={styles.main__link} to="/destinos">
                         Destinos
                     </Link>
+                    {/* <Link className={styles.main__link} to="/rutas-cortas">
+                        Rutas Cortas
+                    </Link>
+                    <Link className={styles.main__link} to="/blog-viajero">
+                        Blog Viajero
+                    </Link> */}
                     <div>
-                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/rutas-cortas">Rutas cortas</a>
+                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
                     </div>
                     <div>
                         <a className={styles.main__link} href="https://www.ytuqueplanes.com/novedades">Blog Viajero</a>

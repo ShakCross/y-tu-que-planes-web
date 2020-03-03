@@ -6,7 +6,7 @@ import Rating from 'components/general/rating/Rating'
 
 const Card = ({ shadow, header, image, price, before, location, duration, title, url, stars, date, alt }) => {
     return (
-        <a href={url} target="_blank" rel="noopener noreferrer">
+        <a className={styles.a} href={url} target="_blank" rel="noopener noreferrer">
             {
                 header ?
                     (<div className={styles.header_wrapper}>
