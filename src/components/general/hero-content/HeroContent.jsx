@@ -1,15 +1,20 @@
 import React from "react";
 import styles from './hero-content.module.scss'
 import Breadcrumbs from 'components/general/breadcrumbs/Breadcrumbs'
+import Chip from "components/general/chip/Chip";
 
 
-const HeroContent = ({ title, desc, responsive, image, image_lg, image_sm, breadcrumbs, content, slug, logo }) => {
+const HeroContent = ({ title, desc, responsive, image, image_lg, image_sm, breadcrumbs, content, slug, logo, location, chip }) => {
 
     return (
         <div>
             <div className={styles.wrapper}>
                 <div className={styles.heading__wrapper}>
                     <div className={styles.heading__inner_wrapper}>
+                        {
+                            chip ? <Chip location={location} />
+                            :''
+                        }
                         <h1 className={styles.h1} >
                             {title}
                         </h1>
@@ -18,11 +23,16 @@ const HeroContent = ({ title, desc, responsive, image, image_lg, image_sm, bread
                         </h2>
                         {
                             breadcrumbs ?
-                                <Breadcrumbs content={content} slug={slug} />
-                                :                                 
-                                <div className={styles.logo_wrapper}>
+                                <>
+                                    <Breadcrumbs content={content} slug={slug} />
+                                    <div className={styles.logo_wrapper}>
+                                        <img className={styles.logo} src={logo} alt="" srcSet="" />
+                                    </div>
+                                </>
+                                : <div className={styles.logo_wrapper}>
                                     <img className={styles.logo} src={logo} alt="" srcSet="" />
                                 </div>
+
                         }
                     </div>
                 </div>
@@ -49,7 +59,9 @@ HeroContent.defaultProps = {
     breadcrumbs: false,
     content: '',
     slug: '',
-    logo: ''
+    logo: '',
+    chip: false
+
 };
 
 export default HeroContent

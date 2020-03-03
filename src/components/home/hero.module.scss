@@ -15,7 +15,7 @@
     position: absolute;
     height: 477px;
     width: 100%;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.25);
 }
 
 @include respond-to('xs') {

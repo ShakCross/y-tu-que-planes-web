@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './hero.module.scss'
 import HeroContent from 'components/general/hero-content/HeroContent'
 
-const Hero = ({title, desc, responsive, image, image_lg, image_sm, logo, breadcrumbs, content, slug}) => {
+const Hero = ({title, desc, responsive, image, image_lg, image_sm, logo, breadcrumbs, content, slug, location, chip}) => {
     return (
         <div className={styles.wrapper}>
             <div className={styles.shadow}></div>
@@ -17,9 +17,15 @@ const Hero = ({title, desc, responsive, image, image_lg, image_sm, logo, breadcr
                 breadcrumbs={breadcrumbs} 
                 content={content} 
                 slug={slug}
+                location={location}
+                chip={chip}
             />
         </div>
     )
 }
+
+Hero.defaultProps = {
+    location: 'Lima'
+};
 
 export default Hero

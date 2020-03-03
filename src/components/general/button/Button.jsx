@@ -32,7 +32,7 @@ const Button = ({ title, action, yellow, skyblue, palegreen, purple, green, xcla
                         {title}
                     </h3>
                 </button> : 
-                <a href={url} target="_blank" rel="noopener noreferrer">
+                <a href={url} rel="noopener noreferrer">
                     <button
                         onClick={click}
                         className={styles.wrapper_round}

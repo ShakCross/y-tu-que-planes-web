@@ -20,6 +20,7 @@ import Panel from 'components/single/panel/Panel'
 import data from 'data/turismo-lima-interna.json'
 import Modal from 'components/single/modal/Modal'
 import CardContent from 'components/single/card/card-content/CardContent'
+import logo from 'assets/img/tc-logo.png'
 
 
 const Single = () => {
@@ -70,8 +71,6 @@ const Single = () => {
     let [showGreen, setShowGreen] = useState(false);
     const handleShowGreen = () => setShowGreen(!showGreen)
 
-    const some = "some"
-
     return (
         <>
             <Layout>
@@ -100,7 +99,17 @@ const Single = () => {
                         <title>{ `${post.titulo} | Turismo Comunitario en el Perú 2020✈🇵🇪 | Y tú qué planes` }</title>
                         
                     </Helmet>
-                        <Hero title={post.titulo} desc={post.subtitulo} image={post.imagen} breadcrumbs content={post.titulo} slug={post.slug} />
+                        <Hero 
+                            title={post.titulo}
+                            desc={post.subtitulo}
+                            chip
+                            location={post.provincia}
+                            image={post.imagen}
+                            breadcrumbs
+                            content={post.titulo}
+                            slug={post.slug}
+                            logo={logo} 
+                        />
                         <div className={styles.desc}>
                             {post.desc}
                         </div>

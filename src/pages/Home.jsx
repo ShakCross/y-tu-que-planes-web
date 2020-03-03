@@ -6,8 +6,6 @@ import Ofertas from 'components/home/Ofertas'
 import image_lg from 'assets/img/slider.jpg'
 import image_sm from 'assets/img/slider_sm.png'
 import logo from 'assets/img/tc-logo.png'
-const input = '# This is a header\n\nAnd this is a paragraph'
-import ReactMarkdown from 'react-markdown'
 
 
 const Home = () => {
@@ -47,7 +45,6 @@ const Home = () => {
                 responsive
             />
             <Ofertas/>
-            {/* <ReactMarkdown source={data}/> */}
         </Layout>
      </>    
     )

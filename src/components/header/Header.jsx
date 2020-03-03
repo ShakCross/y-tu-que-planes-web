@@ -20,23 +20,23 @@ const Header = () => {
                 <div className={styles.header_row}>
                     <nav className={styles.header_nav}>
                         <div className={styles.menu_item} >
-                            <a href="https://www.ytuqueplanes.com/destinos" target="_blank" rel="noopener noreferrer">Destinos</a>
+                            <a href="https://www.ytuqueplanes.com/destinos" rel="noopener noreferrer">Destinos</a>
                         </div>
                         <div className={styles.menu_item}>
-                            <a href="https://www.ytuqueplanes.com/ofertas" target="_blank" rel="noopener noreferrer">Ofertas</a>
+                            <a href="https://www.ytuqueplanes.com/ofertas" rel="noopener noreferrer">Ofertas</a>
                         </div>
                         <div className={styles.menu_item}>
                             <Link to='/'>Experiencias</Link>
-                            {/* <a href="https://www.ytuqueplanes.com/actividades/1_aventura" target="_blank" rel="noopener noreferrer"></a> */}
+                            {/* <a href="https://www.ytuqueplanes.com/actividades/1_aventura" rel="noopener noreferrer"></a> */}
                         </div>
                         <div className={styles.menu_logo}>
-                            <a href="https://www.ytuqueplanes.com/" target="_blank" rel="noopener noreferrer"><img alt="Logo-Ytuqueplanes" src={Logo} /></a>
+                            <a href="https://www.ytuqueplanes.com/" rel="noopener noreferrer"><img alt="Logo-Ytuqueplanes" src={Logo} /></a>
                         </div>
                         <div className={styles.menu_item}>
-                            <a href="https://www.ytuqueplanes.com/rutas-cortas" target="_blank" rel="noopener noreferrer">Rutas Cortas</a>
+                            <a href="https://www.ytuqueplanes.com/rutas-cortas" rel="noopener noreferrer">Rutas Cortas</a>
                         </div>
                         <div className={styles.menu_item}>
-                            <a href="https://www.ytuqueplanes.com/novedades" target="_blank" rel="noopener noreferrer">Guía Viajera</a>
+                            <a href="https://www.ytuqueplanes.com/novedades" rel="noopener noreferrer">Guía Viajera</a>
                         </div>
                         <div style={{ cursor: "not-allowed" }} className={styles.menu_item_icons}>
                             <img className={styles.header_icon_bg} src={Alert} alt="icono-alerta" />
@@ -58,20 +58,20 @@ const Header = () => {
                     {toggle ? ('') :
                         (<div className={styles.toggle_menu}>
                             <div className={styles.menu_item_mobile} >
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/destinos">Destinos</a>
+                                <a rel="noopener noreferrer" href="https://www.ytuqueplanes.com/destinos">Destinos</a>
                             </div>
                             <div className={styles.menu_item_mobile}>
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
+                                <a rel="noopener noreferrer" href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                             </div>
                             <div className={styles.menu_item_mobile}>
                                 <Link to='/'>Experiencias</Link>
-                                {/* <a href="https://www.ytuqueplanes.com/actividades/1_aventura" target="_blank" rel="noopener noreferrer"></a> */}
+                                {/* <a href="https://www.ytuqueplanes.com/actividades/1_aventura" rel="noopener noreferrer"></a> */}
                             </div>
                             <div className={styles.menu_item_mobile}>
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
+                                <a rel="noopener noreferrer" href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
                             </div>
                             <div className={styles.menu_item_mobile}>
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
+                                <a rel="noopener noreferrer" href="https://www.ytuqueplanes.com/novedades">Guía Viajera</a>
                             </div>
                         </div>)}
                 </div>

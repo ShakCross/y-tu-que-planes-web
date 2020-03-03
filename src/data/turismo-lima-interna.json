@@ -2,6 +2,7 @@
     {
         "id": 1,
         "slug": "acopalca",
+        "region": "Centro",
         "provincia": "Áncash",
         "titulo": "Acopalca",
         "imagen": "src/assets/img/acopalca-interna.jpg",
@@ -72,6 +73,7 @@
     {
         "id": 2,
         "slug": "amantani",
+        "region": "Sur",
         "provincia": "Puno",
         "titulo": "Amantaní",
         "imagen": "src/assets/img/amantani-interna.jpg",
@@ -166,6 +168,7 @@
     {
         "id": 3,
         "slug": "atuncolla",
+        "region": "Sur",
         "provincia": "Puno",
         "titulo": "Atuncolla",
         "imagen": "src/assets/img/atuncolla-interna.jpg",
@@ -237,6 +240,7 @@
     {
         "id": 4,
         "slug": "ccotos-ticonata",
+        "region": "Sur",
         "provincia": "Puno",
         "titulo": "Ccotos-Ticonata",
         "imagen": "src/assets/img/ticonata-interna.jpg",
@@ -307,6 +311,7 @@
     {
         "id": 5,
         "slug": "chaparri",
+        "region": "Norte",
         "provincia": "Lambayeque",
         "titulo": "Chaparrí",
         "imagen": "src/assets/img/chaparri-interna.jpg",
@@ -376,6 +381,7 @@
     {
         "id": 6,
         "slug": "chichubamba",
+        "region": "Sur",
         "provincia": "Cusco",
         "titulo": "Chichubamba",
         "imagen": "src/assets/img/chichubamba-interna.jpg",
@@ -435,6 +441,7 @@
     {
         "id": 7,
         "slug": "chifron-paramis",
+        "region": "Sur",
         "provincia": "Puno",
         "titulo": "Chifrón-Paramis",
         "imagen": "src/assets/img/paramis-interna.jpg",
@@ -529,6 +536,7 @@
     {
         "id": 8,
         "slug": "coporaque",
+        "region": "Sur",
         "provincia": "Arequipa",
         "titulo": "Coporaque",
         "imagen": "src/assets/img/coporaque-interna.jpg",
@@ -598,6 +606,7 @@
     {
         "id": 9,
         "slug": "cuevas-de-palestina",
+        "region": "Norte",
         "provincia": "San Martín",
         "titulo": "Cuevas de Palestina",
         "imagen": "src/assets/img/cuevas-palestinas-interna.jpg",
@@ -661,6 +670,7 @@
     {
         "id": 10,
         "slug": "cuyuni",
+        "region": "Sur",
         "provincia": "Cusco",
         "titulo": "Cuyuni",
         "imagen": "src/assets/img/cuyuni-interna.jpg",
@@ -723,6 +733,7 @@
     {
         "id": 11,
         "slug": "granja-porcon",
+        "region": "Norte",
         "provincia": "Cajamarca",
         "titulo": "Granja Porcón",
         "imagen": "src/assets/img/granja-porcon-interna.jpg",
@@ -795,6 +806,7 @@
     {
         "id": 12,
         "slug": "huilloc",
+        "region": "Sur",
         "provincia": "Cusco",
         "titulo": "Huilloc",
         "imagen": "src/assets/img/huilloc-interna.jpg",
@@ -856,6 +868,7 @@
     {
         "id": 13,
         "slug": "humacchuco",
+        "region": "Centro",
         "provincia": "Áncash",
         "titulo": "Humacchuco-Unidos Venceremos",
         "imagen": "src/assets/img/humacchuco-interna.jpg",
@@ -924,6 +937,7 @@
     {
         "id": 14,
         "slug": "inkas-vivientes",
+        "region": "Sur",
         "provincia": "Cusco",
         "titulo": "Inkas Vivientes",
         "imagen": "src/assets/img/inkas-vivientes-interna.jpg",
@@ -988,6 +1002,7 @@
     {
         "id": 15,
         "slug": "yachaqs",
+        "region": "Sur",
         "provincia": "Cusco",
         "titulo": "La Tierra de los Yachaqs",
         "imagen": "src/assets/img/yachaqs-interna.jpg",
@@ -1052,7 +1067,8 @@
     {
         "id": 16,
         "slug": "laraos",
-        "provincia": "Yauyos Cochas",
+        "region": "Centro",
+        "provincia": "Lima",
         "titulo": "Laraos-Vilca",
         "imagen": "src/assets/img/laraos-interna.jpg",
         "subtitulo": "Déjate envolver por bellos paisajes y descubre más sobre la Andenería milenaria",
@@ -1122,6 +1138,7 @@
     {
         "id": 17,
         "slug": "llachon",
+        "region": "Sur",
         "provincia": "Puno",
         "titulo": "Llachón",
         "imagen": "src/assets/img/llachon-interna.jpg",
@@ -1238,6 +1255,7 @@
     {
         "id": 18,
         "slug": "lucumo",
+        "region": "Centro",
         "provincia": "Lima",
         "titulo": "Lomas de Lúcumo",
         "imagen": "src/assets/img/lomas-lucumo-interna.jpg",
@@ -1294,6 +1312,7 @@
     {
         "id": 19,
         "slug": "luquina",
+        "region": "Sur",
         "provincia": "Puno",
         "titulo": "Luquina",
         "imagen": "src/assets/img/luquina-interna.jpg",
@@ -1371,6 +1390,7 @@
     {
         "id": 20,
         "slug": "maras",
+        "region": "Sur",
         "provincia": "Cusco",
         "titulo": "Maras",
         "imagen": "src/assets/img/maras-interna.jpg",
@@ -1434,6 +1454,7 @@
     {
         "id": 21,
         "slug": "misminay",
+        "region": "Sur",
         "provincia": "Cusco",
         "titulo": "Mullak’s Misminay",
         "imagen": "src/assets/img/misminay-interna.jpg",
@@ -1495,6 +1516,7 @@
     {
         "id": 22,
         "slug": "parque-de-la-papa",
+        "region": "Sur",
         "provincia": "Cusco",
         "titulo": "Parque de la Papa",
         "imagen": "src/assets/img/parque-papa-interna.jpg",
@@ -1557,6 +1579,7 @@
     {
         "id": 23,
         "slug": "raqchi",
+        "region": "Sur",
         "provincia": "Cusco",
         "titulo": "Raqchi",
         "imagen": "src/assets/img/raqchi-interna.jpg",
@@ -1621,6 +1644,7 @@
     {
         "id": 24,
         "slug": "cocachimba",
+        "region": "Norte",
         "provincia": "Amazonas",
         "titulo": "San Pablo - Cocachimba",
         "imagen": "src/assets/img/cocachimba-interna.jpg",
@@ -1698,6 +1722,7 @@
     {
         "id": 25,
         "slug": "santa-elena",
+        "region": "Norte",
         "provincia": "San Martín",
         "titulo": "Santa Elena",
         "imagen": "src/assets/img/santa-elena-interna.jpg",
@@ -1766,6 +1791,7 @@
     {
         "id": 26,
         "slug": "sibayo",
+        "region": "Sur",
         "provincia": "Arequipa",
         "titulo": "Sibayo",
         "imagen": "src/assets/img/sibayo-interna.jpg",
@@ -1829,6 +1855,7 @@
     {
         "id": 27,
         "slug": "taquile",
+        "region": "Sur",
         "provincia": "Puno",
         "titulo": "Taquile",
         "imagen": "src/assets/img/taquile-interna.jpg",
@@ -1908,6 +1935,7 @@
     {
         "id": 28,
         "slug": "tingana",
+        "region": "Norte",
         "provincia": "San Martín",
         "titulo": "Tingana",
         "imagen": "src/assets/img/tingana-interna.jpg",
@@ -1976,6 +2004,7 @@
     {
         "id": 29,
         "slug": "uros",
+        "region": "Sur",
         "provincia": "Puno",
         "titulo": "Uros",
         "imagen": "src/assets/img/uros-interna.jpg",
@@ -2052,6 +2081,7 @@
     {
         "id": 30,
         "slug": "vicos",
+        "region": "Centro",
         "provincia": "Áncash",
         "titulo": "Vicos",
         "imagen": "src/assets/img/vicos-interna.jpg",
@@ -2109,6 +2139,7 @@
     {
         "id": 31,
         "slug": "yanque",
+        "region": "Sur",
         "provincia": "Arequipa",
         "titulo": "Yanque",
         "imagen": "src/assets/img/yanque-interna.jpg",
