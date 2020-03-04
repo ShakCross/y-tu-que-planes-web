@@ -11,7 +11,7 @@ import data from 'data/ofertas.json'
 const Ofertas = () => {
     return (
         <MainContent>
-            <div className={styles.wrapper__text}>
+            {/* <div className={styles.wrapper__text}>
                 <H2 title="¡No hay excusas!" />
                 <span className={styles.span}>
                     Encuentra las mejores ofertas para tu próximo viaje.
@@ -19,7 +19,7 @@ const Ofertas = () => {
                 <div>
                     <Button yellow title="Ver todas las Ofertas" xclassname="ofertas_button" url="https://www.ytuqueplanes.com/ofertas"/>
                 </div>
-            </div>
+            </div> */}
             <div className={styles.wrapper__content}>
                 <div className={styles.inner_wrapper__content}>
                     {data.map(post =>
@@ -35,7 +35,7 @@ const Ofertas = () => {
                     )}
                 </div>
             </div>
-            <CardSlider>
+            {/* <CardSlider>
                 {data.map(post =>
                     <Card 
                         shadow 
@@ -48,7 +48,7 @@ const Ofertas = () => {
                     />
                 )}
             </CardSlider>
-            <Button yellow title="Ver todas las Ofertas" xclassname="ofertas_button_mobile" url="https://www.ytuqueplanes.com/ofertas"/>
+            <Button yellow title="Ver todas las Ofertas" xclassname="ofertas_button_mobile" url="https://www.ytuqueplanes.com/ofertas"/> */}
         </MainContent>
     )
 }

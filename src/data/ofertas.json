@@ -25,5 +25,14 @@
         "antes": "340",
         "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito",
         "alt": "ofertas-vichayito"
+    },
+    {
+        "id": 4,
+        "titulo": "Cusco maravilloso",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
+        "precio": "300",
+        "antes": "435",
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
+        "alt": "ofertas-cusco"
     }
 ]

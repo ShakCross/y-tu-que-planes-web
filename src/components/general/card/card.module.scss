@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     height: inherit;
+    margin: 5px;
 }
 
 .content {
@@ -104,13 +105,13 @@
 .date {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: $dark-yellow;
     width: 85.2px;
     height: 62.4px;
     border-radius: 12px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
 
 .date__wrapper {

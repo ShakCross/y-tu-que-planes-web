@@ -1,15 +1,18 @@
 import React from 'react'
 import Seo from 'components/general/seo/Seo'
 import Layout from 'components/layout/Layout'
-import Ofertas from 'components/home/Ofertas'
+import Parallax from 'components/home/Parallax'
 import Festividades from 'components/home/Festividades'
+import Blog from 'components/home/Blog'
+import Ofertas from 'components/home/Ofertas'
 import Hero from 'components/home/Hero'
+import Text from 'components/general/text/Text'
 
 const Home = () => {
     return (
             <Layout>
                 <Seo
-                   title="Y tú qué planes? | Turismo y Viajes Perú" 
+                   title="Y tú qué planes?  | Turismo y Viajes Perú" 
                    desc="Turismo, ofertas de viaje por semana santa en Perú | Y tú qué planes? " 
                    canonical="https://www.ytuqueplanes.com" 
                    ogTitle="Y tú qué planes? - Turismo y Viajes Perú" 
@@ -19,17 +22,10 @@ const Home = () => {
                    hashTag="@ConoceelPeru" 
                 />
                 <Hero
-                    title="Turismo Comunitario" 
-                    desc="¡El Perú es mucho más que lindos paisajes! 
-                    Descubre tradiciones y costumbres milenarias."
-                    image_lg="" 
-                    image_sm=""
-                    logo=""
-                    responsive
-                    breadcrumbs
+                    title="Perú está de fiesta, Lorem ipsum dolor
+                    sit amet, consectetur adipiscing"
                 />
                 <Ofertas/>
-                <Festividades/>
             </Layout>
     )
 }

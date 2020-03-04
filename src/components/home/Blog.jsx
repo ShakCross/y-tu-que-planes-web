@@ -17,7 +17,7 @@ const Blog = () => {
                     de nuestros viajeros.
                     </span>
                 <div>
-                    <Button green title="Ir al Blog" xclassname="blog_button" url="https://www.ytuqueplanes.com/novedades" />
+                    <Button green title="Ver ofertas" xclassname="blog_button" url="https://www.ytuqueplanes.com/novedades" />
                 </div>
             </div>
             <div className={styles.wrapper__content}>

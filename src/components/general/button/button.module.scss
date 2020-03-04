@@ -109,6 +109,18 @@
     padding: 0px 20px;
 }
 
+.footer_wrapper{
+    width: 265px;
+    min-height: 45px;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.footer_wrapper:hover{
+    border-radius: 12px;
+    padding: 0;
+}
+
 @include respond-to('xs') {
     .calendar_button {
         padding: 18px 17px 16px 17px;
