@@ -20,8 +20,8 @@
 .a {
     display: flex;
     align-items: center;
-    height: inherit;
-    margin: 5px;
+    margin: 25px 5px 0px 5px;
+    height: 379px;
 }
 
 .content {
@@ -63,8 +63,8 @@
 
 .wrapper_full{
     background-color: #fff;
-    width: 231px;
-    height: 354px;
+    width: 253px;
+    height: 379px;
     border-radius: 12px;
     position: relative;
     overflow: hidden;
@@ -168,8 +168,9 @@
     display: flex;
     flex-direction: column;
     flex-basis: 87%;
-    justify-content: center;
-    height: 73%;
+    justify-content: flex-start;
+    height: 95%;
+    align-items: center;
 }
 
 .text_content {
@@ -179,7 +180,8 @@
     line-height: 1.11;
     color: white;
     text-transform: uppercase;
-    height: 50%;
+    height: 35%;
+    text-align: center;
 }
 
 .text_title {
@@ -188,6 +190,9 @@
     line-height: 1.14;
     color: white;
     height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (min-width: 577px) {
@@ -229,7 +234,7 @@
     position: absolute;
     bottom: 0;
     width: inherit;
-    height: 28%;
+    height: 35%;
 }
 
 .header_span{

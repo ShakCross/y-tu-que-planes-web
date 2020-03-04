@@ -13,7 +13,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.wrapper:hover{
+.wrapper:hover, .wrapper_green:hover, .wrapper_yellow:hover, .wrapper_darkyellow:hover, .wrapper_purple:hover {
     background-color: transparent;
     border: solid 2px $pale-green;
     color: $pale-green;
@@ -69,6 +69,26 @@
     color: $yellow;
 }
 
+.wrapper_darkyellow {
+    font-family: ClanOffc;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    min-width: 217px;
+    min-height: 53px;
+    border-radius: 28px;
+    cursor: pointer;
+    border: solid 2px $dark-yellow;
+    background-color: $dark-yellow;
+}
+
+.wrapper_darkyellow:hover{
+    border: solid 2px $dark-yellow;
+    color: $dark-yellow;
+}
+
+
 .wrapper_purple{
     font-family: ClanOffc;
     font-size: 18px;
@@ -119,6 +139,15 @@
 .footer_wrapper:hover{
     border-radius: 12px;
     padding: 0;
+}
+
+.ofertas_santa_wrapper{
+    width: 148px;
+    height: 31px;
+    min-width: auto;
+    min-height: auto;
+    font-family: ClanOffcNews;
+    font-size: 14px;
 }
 
 @include respond-to('xs') {

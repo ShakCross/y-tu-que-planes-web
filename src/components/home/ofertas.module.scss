@@ -1,19 +1,13 @@
  
 
-.wrapper__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
+.wrapper_text {
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -ms-flex-preferred-size: 35%;
-    flex-basis: 35%;
+    justify-content: space-between;
+    align-items: center;
+    height: 225px;
 }
+
 
 .wrapper__content {
     display: flex;
@@ -27,6 +21,7 @@
     justify-content: space-between;
     flex-basis: 100%;
     margin: 50px 0px;
+    flex-wrap: wrap;
 }
 
 .span {
@@ -38,6 +33,56 @@
     color: $dark-grey;
     max-width: 267px;
     margin-top: -10px;
+}
+
+.subheading_santa_ofertas{
+    font-family: ClanOffc;
+    font-size: 28px;
+    color: $dark-grey;
+}
+
+.heading_santa_ofertas{
+    font-family: ClanOffc;
+    font-size: 28px;
+    color: $purple;
+    text-align: center;
+}
+
+.select_santa_ofertas{
+    width: 332px;
+    height: 53px;
+    border-radius: 24px;
+    box-shadow: 2px 2px 5px 0 rgba(151, 151, 151, 0.3);
+    font-family: BreePeru;
+    font-size: 18px;
+    color: $purple;
+    border-color: aliceblue;
+    padding: 0px 15px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: whitesmoke;
+}
+
+.wrapper_select_santa_ofertas{
+    margin: 20px 0px 0px 0px;
+}
+.wrapper_select_santa_ofertas:after{
+    position: relative;
+    top: -3px;
+    right: 35px;
+    color: $blue;
+    content: '⯆';
+    cursor: pointer;
+}
+
+.option_santa_ofertas{
+    cursor: pointer;
+}
+
+.select_santa_ofertas:focus{
+    outline: none;
 }
 
 @media only screen and (max-width: 1350px) {
@@ -70,5 +115,15 @@
     }
     .wrapper__text{
         height: 185px;
+    }
+    .select_santa_ofertas{
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper_select_santa_ofertas:after{
+        top: -35px;
+        right: -235px;
     }
 }

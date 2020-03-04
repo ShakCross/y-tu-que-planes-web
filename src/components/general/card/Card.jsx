@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './card.module.scss'
 import Chip from 'components/general/chip/Chip'
 import Rating from 'components/general/rating/Rating'
+import Button from 'components/general/button/Button'
 
 
 const Card = ({ shadow, header, image, price, before, location, duration, title, url, stars, date, alt }) => {
@@ -40,12 +41,13 @@ const Card = ({ shadow, header, image, price, before, location, duration, title,
                             <div className={styles.header_data}>
                                 <div className={styles.gradient}>
                                     <div className={styles.text__wrapper}>
-                                        <span className={styles.text_title}>
-                                            {duration}
-                                        </span>
                                         <span className={styles.text_content}>
                                             {title}
                                         </span>
+                                        <span className={styles.text_title}>
+                                            {duration}
+                                        </span>
+                                        <Button darkyellow title="¿Qué incluye?" xclassname="ofertas_santa_wrapper" />
                                     </div>
                                 </div>
                             </div>

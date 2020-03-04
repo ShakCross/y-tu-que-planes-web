@@ -6,7 +6,9 @@
         "precio": "299",
         "antes": "359",
         "url": "https://www.ytuqueplanes.com/oferta/6615_full-day-caral-cuna-de-la-civilizacion",
-        "alt": "ofertas-caral"
+        "alt": "ofertas-caral",
+        "duration": "3 Días / 2 noches",
+        "provincia": "Piura"
     },
     {
         "id": 2,
@@ -15,7 +17,9 @@
         "precio": "300",
         "antes": "435",
         "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
-        "alt": "ofertas-cusco"
+        "alt": "ofertas-cusco",
+        "duration": "Full day",
+        "provincia": "Piura"
     },
     {
         "id": 3,
@@ -24,7 +28,9 @@
         "precio": "204",
         "antes": "340",
         "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito",
-        "alt": "ofertas-vichayito"
+        "alt": "ofertas-vichayito",
+        "duration": "3 Días / 2 noches",
+        "provincia": "Piura"
     },
     {
         "id": 4,
@@ -33,6 +39,142 @@
         "precio": "300",
         "antes": "435",
         "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
-        "alt": "ofertas-cusco"
+        "alt": "ofertas-cusco",
+        "duration": "Full day",
+        "provincia": "Amazonas"
+    },
+    {
+        "id": 5,
+        "titulo": "Full Day Caral Cuna de la Civilizacion",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/caral-full-day.jpg",
+        "precio": "299",
+        "antes": "359",
+        "url": "https://www.ytuqueplanes.com/oferta/6615_full-day-caral-cuna-de-la-civilizacion",
+        "alt": "ofertas-caral",
+        "duration": "3 Días / 2 noches",
+        "provincia": "Amazonas"
+    },
+    {
+        "id": 6,
+        "titulo": "Cusco maravilloso",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
+        "precio": "300",
+        "antes": "435",
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
+        "alt": "ofertas-cusco",
+        "duration": "Full day",
+        "provincia": "Amazonas"
+    },
+    {
+        "id": 7,
+        "titulo": "Vichayito",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/vichayito.jpg",
+        "precio": "204",
+        "antes": "340",
+        "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito",
+        "alt": "ofertas-vichayito",
+        "duration": "3 Días / 2 noches",
+        "provincia": "Cajamarca"
+    },
+    {
+        "id": 8,
+        "titulo": "Cusco maravilloso",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
+        "precio": "300",
+        "antes": "435",
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
+        "alt": "ofertas-cusco",
+        "duration": "Full day",
+        "provincia": "Cajamarca"
+    },
+    {
+        "id": 9,
+        "titulo": "Full Day Caral Cuna de la Civilizacion",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/caral-full-day.jpg",
+        "precio": "299",
+        "antes": "359",
+        "url": "https://www.ytuqueplanes.com/oferta/6615_full-day-caral-cuna-de-la-civilizacion",
+        "alt": "ofertas-caral",
+        "duration": "3 Días / 2 noches",
+        "provincia": "Cajamarca"
+    },
+    {
+        "id": 10,
+        "titulo": "Cusco maravilloso",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
+        "precio": "300",
+        "antes": "435",
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
+        "alt": "ofertas-cusco",
+        "duration": "Full day",
+        "provincia": "Cusco"
+    },
+    {
+        "id": 11,
+        "titulo": "Vichayito",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/vichayito.jpg",
+        "precio": "204",
+        "antes": "340",
+        "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito",
+        "alt": "ofertas-vichayito",
+        "duration": "3 Días / 2 noches",
+        "provincia": "Cusco"
+        
+    },
+    {
+        "id": 12,
+        "titulo": "Cusco maravilloso",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
+        "precio": "300",
+        "antes": "435",
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
+        "alt": "ofertas-cusco",
+        "duration": "Full day",
+        "provincia": "Cusco"
+    },
+    {
+        "id": 13,
+        "titulo": "Full Day Caral Cuna de la Civilizacion",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/caral-full-day.jpg",
+        "precio": "299",
+        "antes": "359",
+        "url": "https://www.ytuqueplanes.com/oferta/6615_full-day-caral-cuna-de-la-civilizacion",
+        "alt": "ofertas-caral",
+        "duration": "3 Días / 2 noches",
+        "provincia": "Junín"
+    },
+    {
+        "id": 14,
+        "titulo": "Cusco maravilloso",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
+        "precio": "300",
+        "antes": "435",
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
+        "alt": "ofertas-cusco",
+        "duration": "Full day",
+        "provincia": "Junín"
+    },
+    {
+        "id": 15,
+        "titulo": "Vichayito",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/vichayito.jpg",
+        "precio": "204",
+        "antes": "340",
+        "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito",
+        "alt": "ofertas-vichayito",
+        "duration": "3 Días / 2 noches"
+        ,
+        "provincia": "Junín"
+    },
+    {
+        "id": 16,
+        "titulo": "Cusco maravilloso",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
+        "precio": "300",
+        "antes": "435",
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
+        "alt": "ofertas-cusco",
+        "duration": "Full day",
+        "provincia": "Piura"
     }
 ]
