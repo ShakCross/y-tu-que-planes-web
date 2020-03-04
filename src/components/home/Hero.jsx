@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './hero.module.scss'
 import Breadcrumbs from 'components/general/breadcrumbs/Breadcrumbs'
 import MainSlider from 'components/general/main-slider/MainSlider'
-import EmblaCarousel from 'components/general/main-slider/EmblaCarousel'
+import HomeSlider from 'components/general/main-slider/HomeSlider'
 
 const Hero = ({ home, title, desc, responsive, image, image_lg, image_sm, breadcrumbs, content, slug, logo }) => {
     return (
@@ -11,13 +11,17 @@ const Hero = ({ home, title, desc, responsive, image, image_lg, image_sm, breadc
                 <div className={`${home ? styles.shadow_home : styles.shadow}`}></div>
                 {
                     home ?
-                        // <MainSlider/>
-                            <EmblaCarousel>
-                                <div>some</div>
-                                <div />
-                                <div />
-                                <div />
-                            </EmblaCarousel> :
+                        <HomeSlider
+                            autoplay
+                            delayLength={5000}
+                        >
+                            <div> Here it goes </div>
+                            <div> Here it goes </div>
+                            <div> Here it goes </div>
+                            <div> Here it goes </div>
+                            <div> Here it goes </div>
+                        </HomeSlider>
+                        :
                         <div className={styles.inner_wrapper}>
                             <div className={styles.heading__wrapper}>
                                 <div className={styles.heading__inner_wrapper}>
