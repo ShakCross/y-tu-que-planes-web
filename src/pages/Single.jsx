@@ -140,7 +140,7 @@ const Single = () => {
                                     <div className={styles.rutas_wrapper} key={transporte.via}>
                                         <div className={styles.subtitle}>{transporte.via}</div>
                                         <ul>{transporte.rutas.map(rutas =>
-                                            <li key={rutas.id} >{rutas.li}</li>
+                                            <li key={rutas.id} >{'• ' + rutas.li}</li>
                                         )}</ul>
                                     </div>
                                 )}
@@ -164,7 +164,7 @@ const Single = () => {
                                 )}
                             />
                             <Card
-                                title="Contactar con agencias"
+                                title="Contacto"
                                 green
                                 image={phone}
                                 modalImage={pinwhite}
@@ -172,7 +172,7 @@ const Single = () => {
                                     <div className={styles.contacto_wrapper} key={transporte.agencia}>
                                         <div className={styles.subtitle}>{transporte.agencia}</div>
                                         <ul>{transporte.datos.map(rutas =>
-                                            <li key={rutas.id} >{rutas.li}</li>
+                                            <li key={rutas.id} >{'• ' + rutas.li}</li>
                                         )}</ul>
                                     </div>
                                 )}
@@ -212,7 +212,7 @@ const Single = () => {
                                 <Card
                                     responsive
                                     click={handleShowGreen}
-                                    title="Contactar con agencias"
+                                    title="Contacto"
                                     green
                                     image={phone}
                                     modalImage={pinwhite}
@@ -240,7 +240,7 @@ const Single = () => {
                                                     <div className={styles.rutas_wrapper} key={transporte.via}>
                                                         <div className={styles.subtitle}>{transporte.via}</div>
                                                         <ul>{transporte.rutas.map(rutas =>
-                                                            <li key={rutas.id} >{rutas.li}</li>
+                                                            <li key={rutas.id} >{'• ' + rutas.li}</li>
                                                         )}</ul>
                                                     </div>
                                                 )}
@@ -271,14 +271,14 @@ const Single = () => {
                                                 showGreen ?
                                                     <Modal click={handleShowGreen}>
                                                         <CardContent
-                                                            title="Contactar con agencias"
+                                                            title="Contacto"
                                                             green
                                                             image={pinwhite}
                                                             content={post.contacto.map(transporte =>
                                                                 <div className={styles.contacto_wrapper} key={transporte.agencia}>
                                                                     <div className={styles.subtitle}>{transporte.agencia}</div>
                                                                     <ul>{transporte.datos.map(rutas =>
-                                                                        <li key={rutas.id} >{rutas.li}</li>
+                                                                        <li key={rutas.id} >{'• ' + rutas.li}</li>
                                                                     )}</ul>
                                                                 </div>
                                                             )}

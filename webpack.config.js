@@ -11,7 +11,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'script.js',
-        publicPath: '/'
+        publicPath: './'
     },
     module: {
         rules: [
@@ -97,6 +97,7 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
+        publicPath: '/'
     },
     resolve: {
         modules: [__dirname, 'src', 'node_modules'],
