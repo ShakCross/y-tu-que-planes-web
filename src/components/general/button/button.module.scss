@@ -20,7 +20,7 @@
     transition: all 200ms ease-in-out;
 }
 
-.wrapper:focus{
+.wrapper:focus, .wrapper_green:focus, .wrapper_yellow:focus, .wrapper_darkyellow:focus, .wrapper_purple:focus{
     outline: none;
 }
 

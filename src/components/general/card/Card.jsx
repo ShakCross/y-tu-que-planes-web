@@ -5,7 +5,7 @@ import Rating from 'components/general/rating/Rating'
 import Button from 'components/general/button/Button'
 
 
-const Card = ({ shadow, header, image, price, before, location, duration, title, url, stars, date, alt }) => {
+const Card = ({ shadow, header, destinos, image, price, before, location, duration, title, url, stars, date, alt }) => {
     return (
         <a className={styles.a} href={url} target="_blank" rel="noopener noreferrer">
             {
@@ -38,7 +38,7 @@ const Card = ({ shadow, header, image, price, before, location, duration, title,
                                     </span>
                                 </div>
                             </div>
-                            <div className={styles.header_data}>
+                            <div className={styles.ofertas_santa_data}>
                                 <div className={styles.gradient}>
                                     <div className={styles.text__wrapper}>
                                         <span className={styles.text_content}>
@@ -53,19 +53,49 @@ const Card = ({ shadow, header, image, price, before, location, duration, title,
                             </div>
                             <img className={styles.imgShadow} src={image} alt={alt} />
                         </div>) :
-                        (<div className={styles.wrapper}>
-                            <div className={styles.header_data}>
-                                <div className={styles.content}>
+                        destinos ?
+                            (<div className={styles.wrapper_destinos_santa}>
+                                <div className className={styles.wrapper_destinos_head_santa}>
                                     <div className={styles.wrapper__chip}>
+                                        <Chip color="white" title={location} />
+                                    </div>
+                                </div>
+                                <div className={styles.ofertas_santa_data}>
+                                    <div className={styles.gradient}>
+                                        <div className={styles.text_wrapper_destinos_santa}>
+                                            <span className={styles.text_content_destinos_santa}>
+                                                {title}
+                                            </span>
+                                            <div className={styles.link_content}>
+                                                [+] Ver programa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img className={styles.imgShadow} src={image} alt={alt} />
+                            </div>) :
+                            (<div className={styles.wrapper}>
+                                <div className={styles.blog_santa_inner_wrapper}>
+                                    <div className={styles.blog_santa_data}>
+                                        <div className={styles.blog_santa_title}>
+                                            Lorem ipsum dolor sit amet consectetur adipiscing
+                                    </div>
+                                        <div className={styles.blog_santa_content}>
+                                            Quisque quis semper dui, ut tempus tellus. Morbi dignissim, felis ut pulvinar pulvinar, mauris felis vehicula velit, at dictum orci mauris in enim.
+                                    </div>
+                                        <div className={styles.blog_santa_link}>
+                                            Ver más
+                                    </div>
+                                        {/* <div className={styles.wrapper__chip}>
                                         <Chip title={location} />
                                     </div>
                                     <div className={styles.wrapper__span}>
                                         <span className={styles.span}> {title} </span>
+                                    </div> */}
                                     </div>
                                 </div>
-                            </div>
-                            <img className={styles.img} src={image} alt={alt} />
-                        </div>)
+                                <img className={styles.img} src={image} alt={alt} />
+                            </div>)
             }
         </a>
 

@@ -3,9 +3,9 @@ import styles from './chip.module.scss'
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Chip = ({ title, filled }) => {
+const Chip = ({ title, filled, color }) => {
     return (
-        <div className={`${filled ? styles.wrapper : styles.wrapper_no_bg}`}>
+        <div className={`${filled ? styles.wrapper : styles.wrapper_no_bg} ${styles[color]}`}>
             <FontAwesomeIcon className={styles.icon} icon={faMapMarkerAlt} />
             <h6 className={styles.title}>{title}</h6>
         </div>
@@ -14,6 +14,7 @@ const Chip = ({ title, filled }) => {
 
 Chip.defaultProps = {
     title: 'Amazonas',
+    color: 'blue'
 };
 
 export default Chip

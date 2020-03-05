@@ -12,7 +12,6 @@
 .wrapper__content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
 }
 
@@ -110,9 +109,6 @@
 }
 
 @include respond-to('xs') {
-    .wrapper__content {
-        display: none;
-    }
     .wrapper__text{
         height: 185px;
     }

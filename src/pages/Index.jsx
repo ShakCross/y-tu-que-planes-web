@@ -1,12 +1,10 @@
 import React from 'react'
 import Seo from 'components/general/seo/Seo'
 import Layout from 'components/layout/Layout'
-import Parallax from 'components/home/Parallax'
-import Festividades from 'components/home/Festividades'
 import Blog from 'components/home/Blog'
 import Ofertas from 'components/home/Ofertas'
 import Hero from 'components/home/Hero'
-import Text from 'components/general/text/Text'
+import Destinos from 'components/home/Destinos'
 
 const Home = () => {
     return (
@@ -25,6 +23,8 @@ const Home = () => {
                     title="Perú está de fiesta, Lorem ipsum dolor
                     sit amet, consectetur adipiscing"
                 />
+                <Destinos/>
+                <Blog/>
                 <Ofertas/>
             </Layout>
     )
