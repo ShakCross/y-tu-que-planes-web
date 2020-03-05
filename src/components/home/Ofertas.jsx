@@ -66,7 +66,7 @@ const Ofertas = () => {
                 </div>
             </div>
             {!hideButton &&
-                <Button title="Ver más ofertas" purple click={handleShowMore} xclassname="wrapper_exp" />
+                <Button title="Ver más ofertas" purple click={handleShowMore}/>
             }
         </MainContent>
     )

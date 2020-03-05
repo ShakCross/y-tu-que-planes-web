@@ -78,20 +78,14 @@ const Card = ({ shadow, header, destinos, image, price, before, location, durati
                                 <div className={styles.blog_santa_inner_wrapper}>
                                     <div className={styles.blog_santa_data}>
                                         <div className={styles.blog_santa_title}>
-                                            Lorem ipsum dolor sit amet consectetur adipiscing
-                                    </div>
+                                            {title}
+                                        </div>
                                         <div className={styles.blog_santa_content}>
                                             Quisque quis semper dui, ut tempus tellus. Morbi dignissim, felis ut pulvinar pulvinar, mauris felis vehicula velit, at dictum orci mauris in enim.
-                                    </div>
+                                        </div>
                                         <div className={styles.blog_santa_link}>
                                             Ver más
-                                    </div>
-                                        {/* <div className={styles.wrapper__chip}>
-                                        <Chip title={location} />
-                                    </div>
-                                    <div className={styles.wrapper__span}>
-                                        <span className={styles.span}> {title} </span>
-                                    </div> */}
+                                        </div>
                                     </div>
                                 </div>
                                 <img className={styles.img} src={image} alt={alt} />
@@ -105,6 +99,7 @@ const Card = ({ shadow, header, destinos, image, price, before, location, durati
 Card.defaultProps = {
     shadow: false,
     header: false,
+    destinos: false,
     image: '',
     price: '99',
     before: '130',

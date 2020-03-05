@@ -20,13 +20,35 @@
 
 .wrapper_content{
     display: flex;
-    flex-direction: column;
-    height: 37%;
+    align-items: center;
+    width: 100%;
+}
+
+.inner_wrapper_content{
+    display: flex;
     justify-content: space-between;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin: 50px 0px;
 }
 
 .content{
     height: 50%;
+}
+
+.wrapper_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.heading_santa_destinos{
+    font-family: ClanOffc;
+    font-size: 28px;
+    color: $pale-green;
+    text-align: center;
 }
 
 @include respond-to('xs') {

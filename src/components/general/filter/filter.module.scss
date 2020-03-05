@@ -1,0 +1,43 @@
+.wrapper{
+    width: 599px;
+    height: 52px;
+    border-radius: 31.5px;
+    box-shadow: 4px 5px 8px 0 rgba(151, 151, 151, 0.3);
+    background-color: whitesmoke;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: ClanOffcNews;
+    font-size: 16px;
+    font-weight: normal;
+    color: $transparent-grey;
+    align-items: center;
+    cursor: pointer;
+}
+
+li.li:first-child {
+    border-bottom-left-radius: 31.5px;
+    border-top-left-radius: 31.5px;
+}
+
+li.li:last-child {
+    border-bottom-right-radius: 31.5px;
+    border-top-right-radius: 31.5px;
+}
+
+
+.is_active {
+    color: white;
+    background-color: $pale-green;
+}
