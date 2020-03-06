@@ -6,6 +6,8 @@ import Ofertas from 'components/home/Ofertas'
 import image_lg from 'assets/img/slider.jpg'
 import image_sm from 'assets/img/slider_sm.png'
 import logo from 'assets/img/tc-logo.png'
+import Modal from 'components/single/modal/Modal'
+import ModalViaja from 'components/home/modal-viaje/ModalViaja';
 
 
 const Home = () => {
@@ -35,6 +37,9 @@ const Home = () => {
 
         </Helmet>
         <Layout>
+            <Modal>
+                <ModalViaja/>
+            </Modal>
             <Hero 
                 title="Turismo Comunitario" 
                 desc="¡El Perú es mucho más que lindos paisajes! 

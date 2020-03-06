@@ -220,7 +220,7 @@ const Single = () => {
                             </Slider>
                             {
                                 showYellow ?
-                                    <Modal click={handleShowYellow}>
+                                    <Modal responsive click={handleShowYellow}>
                                         <CardContent
                                             title="Precio y Horario"
                                             yellow
@@ -231,7 +231,7 @@ const Single = () => {
                                         />
                                     </Modal> :
                                     showSkyBlue ?
-                                        <Modal click={handleShowSkyBlue}>
+                                        <Modal responsive click={handleShowSkyBlue}>
                                             <CardContent
                                                 title="¿Cómo llegar?"
                                                 skyblue
@@ -247,7 +247,7 @@ const Single = () => {
                                             />
                                         </Modal> :
                                         showPaleGreen ?
-                                            <Modal click={handleShowPaleGreen}>
+                                            <Modal responsive click={handleShowPaleGreen}>
                                                 <CardContent
                                                     title="Clima y Altura"
                                                     palegreen
@@ -258,7 +258,7 @@ const Single = () => {
                                                 />
                                             </Modal> :
                                             showPurple ?
-                                                <Modal click={handleShowPurple}>
+                                                <Modal responsive click={handleShowPurple}>
                                                     <CardContent
                                                         title="Tips de viaje"
                                                         purple
@@ -269,7 +269,7 @@ const Single = () => {
                                                     />
                                                 </Modal> :
                                                 showGreen ?
-                                                    <Modal click={handleShowGreen}>
+                                                    <Modal responsive click={handleShowGreen}>
                                                         <CardContent
                                                             title="Contacto"
                                                             green
