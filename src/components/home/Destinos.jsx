@@ -9,6 +9,8 @@ import Filter from 'components/general/filter/Filter'
 
 const Festividades = () => {
 
+
+
     const [showedItems, setNumberOfItems] = useState(8);
     const [hideButton, setHideButton] = useState(false)
 
@@ -19,11 +21,36 @@ const Festividades = () => {
         showedItems == dataLenght.length - 8 ? setHideButton(true) : '';
     }
 
+    const handle1 = () => {
+        console.log('1');
+    }
+        
+    const handle2 = () => console.log('2');
+    const handle3 = () => console.log('3');
+    const handle4 = () => console.log('4');
+
+    const events = [
+        {
+            "event": handleShowMore
+        },
+        {
+            "event": handle2
+        },
+        {
+            "event": handle3
+        },
+        {
+            "event": handle4
+        },
+    ]
+
     return (
         <MainContent>
             <div className={styles.wrapper_text}>
                 <Text className={styles.heading_santa_destinos} content="Más de 30 actividades para disfrutar la Semana Santa" headingLevel="h1" />
-                <Filter />
+                <Filter>
+                    
+                </Filter>
             </div>
             <div className={styles.wrapper_content}>
                 <div className={styles.inner_wrapper_content}>
