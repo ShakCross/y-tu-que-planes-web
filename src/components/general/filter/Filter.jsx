@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, Children } from 'react'
 import styles from './filter.module.scss'
 import FilterButton from 'components/general/filter/FilterButton'
 
-const Filter = () => {
+const Filter = ({filter1, filter2, filter3, filter4}) => {
 
     const [isActive1, setIsActive1] = useState(false)
 
@@ -11,6 +11,7 @@ const Filter = () => {
         setIsActive2(false)
         setIsActive3(false)
         setIsActive4(false)
+        filter1()
     }
 
     const [isActive2, setIsActive2] = useState(false)
@@ -20,6 +21,7 @@ const Filter = () => {
         setIsActive1(false)
         setIsActive3(false)
         setIsActive4(false)
+        filter2()
     }
 
     const [isActive3, setIsActive3] = useState(false)
@@ -29,6 +31,7 @@ const Filter = () => {
         setIsActive1(false)
         setIsActive2(false)
         setIsActive4(false)
+        filter3()
     }
 
     const [isActive4, setIsActive4] = useState(false)
@@ -38,71 +41,17 @@ const Filter = () => {
         setIsActive1(false)
         setIsActive2(false)
         setIsActive3(false)
+        filter4()
     }
-
-    const sorted = () => {
-        console.log('Hi');
-    }
-    const events1 = () => {
-        handleIsActive1
-        sorted()
-    }
-
-    const events2 = () => {
-        handleIsActive2
-        sorted()
-    }
-
-    const events3 = () => {
-        handleIsActive3
-        sorted()
-    }
-
-    const events4 = () => {
-        handleIsActive4
-        sorted()
-    }
-
-    const tags = [
-        {
-            "name": "Todos",
-            "isActive": isActive1,
-            "sort": sorted,
-            "event": events1
-        },
-        {
-            "name": "Norte",
-            "isActive": isActive2,
-            "sort": sorted,
-            "event": events2
-        },
-        {
-            "name": "Centro",
-            "isActive": isActive3,
-            "sort": sorted,
-            "event": events3
-        },
-        {
-            "name": "Sur",
-            "isActive": isActive4,
-            "sort": sorted,
-            "event": events4
-        }
-    ]
-
-    
-    const [items, setItems] = useState(['Norte', 'Centro', 'Sur'])
-    // const filterEvenResults = setItems(items.filter(x => x % 2))
 
     return (
         <div className={styles.wrapper}>
-            {
-                items.map(tag =>
-                    <FilterButton key={tag} click={filterEvenResults} myClass={styles.li}>
-                        {tag}
-                    </FilterButton>
-                )
-            }
+            <div className={styles.ul}>
+                <FilterButton content="Todos" click={handleIsActive1} active={isActive1} />
+                <FilterButton content="Norte" click={handleIsActive2} active={isActive2} />
+                <FilterButton content="Centro" click={handleIsActive3} active={isActive3} />
+                <FilterButton content="Sur" click={handleIsActive4} active={isActive4} />
+            </div>
         </div>
     )
 }

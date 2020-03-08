@@ -26,12 +26,12 @@
     cursor: pointer;
 }
 
-li.li:first-child {
+div.li:first-child {
     border-bottom-left-radius: 31.5px;
     border-top-left-radius: 31.5px;
 }
 
-li.li:last-child {
+div.li:last-child {
     border-bottom-right-radius: 31.5px;
     border-top-right-radius: 31.5px;
 }

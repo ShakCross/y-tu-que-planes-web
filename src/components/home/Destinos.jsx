@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import styles from './destinos.module.scss'
 import data from 'data/destinos.json'
 import MainContent from 'components/home/main-content/MainContent'
@@ -7,9 +7,7 @@ import Button from 'components/general/button/Button'
 import Text from 'components/general/text/Text'
 import Filter from 'components/general/filter/Filter'
 
-const Festividades = () => {
-
-
+const Destinos = () => {
 
     const [showedItems, setNumberOfItems] = useState(8);
     const [hideButton, setHideButton] = useState(false)
@@ -18,43 +16,47 @@ const Festividades = () => {
 
     const handleShowMore = () => {
         showedItems < dataLenght.length ? setNumberOfItems(showedItems + 8) : '';
-        showedItems == dataLenght.length - 8 ? setHideButton(true) : '';
+        dataLenght.length > dataLenght.length - showedItems ? setHideButton(true) : '';
     }
 
-    const handle1 = () => {
-        console.log('1');
-    }
-        
-    const handle2 = () => console.log('2');
-    const handle3 = () => console.log('3');
-    const handle4 = () => console.log('4');
+    const [tags, setTags] = useState('')
 
-    const events = [
-        {
-            "event": handleShowMore
-        },
-        {
-            "event": handle2
-        },
-        {
-            "event": handle3
-        },
-        {
-            "event": handle4
-        },
-    ]
+    const handleFilterTodos = () => {
+        setTags('')
+    }
+
+    const handleFilterNorte = () => {
+        setTags('Norte')
+    }
+
+    const handleFilterCentro = () => {
+        setTags('Centro')
+    }
+
+    const handleFilterSur = () => {
+        setTags('Sur')
+    }
+
+    const filterTags = tags === '' ? x => x.tag : x => x.tag === tags
 
     return (
         <MainContent>
             <div className={styles.wrapper_text}>
-                <Text className={styles.heading_santa_destinos} content="Más de 30 actividades para disfrutar la Semana Santa" headingLevel="h1" />
-                <Filter>
-                    
-                </Filter>
+                <Text 
+                    className={styles.heading_santa_destinos} 
+                    content="Más de 30 actividades para disfrutar la Semana Santa" 
+                    headingLevel="h1" 
+                />
+                <Filter 
+                    filter1={handleFilterTodos} 
+                    filter2={handleFilterNorte} 
+                    filter3={handleFilterCentro} 
+                    filter4={handleFilterSur} 
+                />
             </div>
             <div className={styles.wrapper_content}>
                 <div className={styles.inner_wrapper_content}>
-                    {data.slice(0, showedItems).map(post =>
+                    {data.filter(filterTags).slice(0, showedItems).map(post =>
                         <Card
                             destinos
                             key={post.id}
@@ -62,15 +64,16 @@ const Festividades = () => {
                             title={post.provincia}
                             url={post.url}
                             location={post.provincia}
+                            tag={post.tag}
                         />
                     )}
                 </div>
             </div>
             {!hideButton &&
-                <Button title="Ver más destinos" click={handleShowMore}/>
+                <Button title="Ver más destinos" click={handleShowMore} />
             }
         </MainContent>
     )
 }
 
-export default Festividades
+export default Destinos
