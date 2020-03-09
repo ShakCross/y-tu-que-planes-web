@@ -19,13 +19,12 @@
 }
 
 .heading__wrapper {
-    z-index: 9999;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 720px;
-    width: 11.1%;
+    width: inherit;
 }
 
 .heading__inner_wrapper {

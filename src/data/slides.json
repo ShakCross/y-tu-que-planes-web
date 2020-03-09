@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "titulo": "Carnavales del Perú",
+        "desc": "Recorre el Perú y disfruta sus carnavales de fiesta en fiesta",
+        "imagen_lg": "src/assets/img/slider1_lg.jpg",
+        "imagen_md": "src/assets/img/slider1_md.jpg",
+        "imagen_xs": "src/assets/img/slider1_xs.jpg",
+        "imagen_tall": "src/assets/img/slider1_tall.jpg",
+        "localia": "Varios",
+        "url": "https://www.ytuqueplanes.com/novedades/183_riete-con-las-ocurrencias-de-stefano-tosso-y-giacomo-benavides-en-cerro-azul",
+        "alt": "blog-candelaria"
+    },
+    {
+        "id": 2,
+        "titulo": "Rutas Cortas",
+        "desc": "Visita estos destinos con los nuevos mapas interactivos",
+        "imagen_lg": "src/assets/img/slider2_lg.jpg",
+        "imagen_md": "src/assets/img/slider2_md.jpg",
+        "imagen_xs": "src/assets/img/slider2_xs.jpg",
+        "imagen_tall": "src/assets/img/slider2_tall.jpg",
+        "imagen": "https://www.ytuqueplanes.com/fotos/banners/d-castillo-chancay.jpg",
+        "localia": "Lima",
+        "url": "https://www.ytuqueplanes.com/novedades/183_riete-con-las-ocurrencias-de-stefano-tosso-y-giacomo-benavides-en-cerro-azul",
+        "alt": "blog-cerro-azul"
+    },
+    {
+        "id": 3,
+        "titulo": "Cerro Azul",
+        "desc": "Un día en Cerro Azul con Stefano Tosso y Giacomo Benavides",
+        "imagen": "https://www.ytuqueplanes.com/fotos/banners/d-sunset-cerro-azul.jpg",
+        "localia": "Lima",
+        "url": "https://www.ytuqueplanes.com/novedades/182_cinco-bares-limenos-donde-el-pisco-sour-es-el-rey",
+        "alt": "blog-bares-pisco"
+    },
+    {
+        "id": 4,
+        "titulo": "Morenada en la Candelaria",
+        "desc": "Puno brilla con los bailes de la fiesta de la Virgen de la Candelaria",
+        "imagen": "https://www.ytuqueplanes.com/fotos/banners/d-morenada-en-puno.jpg",
+        "localia": "Puno",
+        "url": "https://www.ytuqueplanes.com/novedades/182_cinco-bares-limenos-donde-el-pisco-sour-es-el-rey",
+        "alt": "blog-bares-pisco"
+    },
+    {
+        "id": 5,
+        "titulo": "Morenada en la Candelaria",
+        "desc": "Puno brilla con los bailes de la fiesta de la Virgen de la Candelaria",
+        "imagen": "https://www.ytuqueplanes.com/fotos/banners/d-morenada-en-puno.jpg",
+        "localia": "Puno",
+        "url": "https://www.ytuqueplanes.com/novedades/182_cinco-bares-limenos-donde-el-pisco-sour-es-el-rey",
+        "alt": "blog-bares-pisco"
+    }
+]

@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from './hero.module.scss'
 import Breadcrumbs from 'components/general/breadcrumbs/Breadcrumbs'
-import MainSlider from 'components/general/main-slider/MainSlider'
 import HomeSlider from 'components/general/main-slider/HomeSlider'
+import HeroContent from 'components/general/hero-content/HeroContent'
+import data from 'data/slides.json'
 
 const Hero = ({ home, title, desc, responsive, image, image_lg, image_sm, breadcrumbs, content, slug, logo }) => {
     return (
@@ -13,13 +14,24 @@ const Hero = ({ home, title, desc, responsive, image, image_lg, image_sm, breadc
                     home ?
                         <HomeSlider
                             autoplay
-                            delayLength={5000}
+                            delayLength={6000}
                         >
-                            <div> Here it goes </div>
-                            <div> Here it goes </div>
-                            <div> Here it goes </div>
-                            <div> Here it goes </div>
-                            <div> Here it goes </div>
+                            {data.map(slide =>
+                                <div key={slide.id} className={styles.home_slides}>
+                                    <HeroContent 
+                                        url={slide.url} 
+                                        chip={slide.localia} 
+                                        desc={slide.desc} 
+                                        title={slide.titulo} 
+                                    />
+                                    <div className={styles.home_image_wrapper}>
+                                        <img className={styles.home_image_lg} src={slide.imagen_lg} alt={slide.alt}/>
+                                        <img className={styles.home_image_md} src={slide.imagen_md} alt={slide.alt}/>
+                                        <img className={styles.home_image_xs} src={slide.imagen_xs} alt={slide.alt}/>
+                                        <img className={styles.home_image_tall} src={slide.imagen_tall} alt={slide.alt}/>
+                                    </div>
+                                </div>
+                            )}    
                         </HomeSlider>
                         :
                         <div className={styles.inner_wrapper}>
