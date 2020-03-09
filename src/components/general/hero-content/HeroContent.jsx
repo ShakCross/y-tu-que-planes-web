@@ -13,7 +13,7 @@ const HeroContent = ({desc, title, chip, url}) => {
                 <span className={styles.span}>
                     {desc}
                 </span>
-                <Button title="Más Información" xclassname="slider_button" url={url}/>
+                <Button action title="Más Información" xclassname="slider_button"/>
             </div>
         </a>
     )

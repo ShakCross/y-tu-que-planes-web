@@ -1,21 +1,40 @@
 import React from 'react'
 import styles from './button.module.scss'
 
-const Button = ({ title, green, yellow, purple, xclassname, url }) => {
+const Button = ({ title, green, yellow, purple, xclassname, url, skyblue, action, click }) => {
     return (
         <div className={styles.container_button}>
-            <a href={url} target="_blank" rel="noopener noreferrer">
+            {action ?
                 <button
-                className={`
-                    ${green ? styles.wrapper_green : styles.wrapper} 
-                    ${yellow ? styles.wrapper_yellow : styles.wrapper}
-                    ${purple ? styles.wrapper_purple : styles.wrapper} 
-                    ${styles[xclassname]}
-                `}
+                    onClick={click}
+                    className={`
+                        ${styles[xclassname]}
+                        ${green ? styles.wrapper_green :
+                            yellow ? styles.wrapper_yellow :
+                                purple ? styles.wrapper_purple :
+                                    skyblue ? styles.wrapper_skyblue :
+                                        styles.wrapper}
+                        `}
                 >
                     {title}
                 </button>
-            </a>
+                :
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                    <button
+                        className={`
+                            ${styles[xclassname]}
+                            ${green ? styles.wrapper_green :
+                                yellow ? styles.wrapper_yellow :
+                                    purple ? styles.wrapper_purple :
+                                        skyblue ? styles.wrapper_skyblue :
+                                            styles.wrapper}  
+                            `}
+                    >
+                        {title}
+                    </button>
+                </a>
+
+            }
         </div>
     )
 }

@@ -9,7 +9,6 @@ const Hero = ({ home, title, desc, responsive, image, image_lg, image_sm, breadc
     return (
         <>
             <div className={`${home ? styles.wrapper_home : styles.wrapper}`}>
-                <div className={`${home ? styles.shadow_home : styles.shadow}`}></div>
                 {
                     home ?
                         <HomeSlider
@@ -18,6 +17,7 @@ const Hero = ({ home, title, desc, responsive, image, image_lg, image_sm, breadc
                         >
                             {data.map(slide =>
                                 <div key={slide.id} className={styles.home_slides}>
+                                    <div className={`${home ? styles.shadow_home : styles.shadow}`}/>
                                     <HeroContent 
                                         url={slide.url} 
                                         chip={slide.localia} 
