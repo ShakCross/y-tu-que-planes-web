@@ -6,7 +6,6 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 
-
 module.exports = {
     entry: 'src/index.js',
     output: {
@@ -89,7 +88,7 @@ module.exports = {
                       loader: 'file-loader',
                       options: {
                         name: '[name].[ext]',
-                        outputPath: 'images',
+                        outputPath: 'src/assets/img',
                       },
                     }
                   ]
@@ -111,10 +110,10 @@ module.exports = {
             ".jpg",
             ".jpeg",
             ".svg",
-            ".webp",
             ".ttf",
             ".otf",
-            ".json"
+            ".json",
+            "webp"
         ]
     },
     plugins: [

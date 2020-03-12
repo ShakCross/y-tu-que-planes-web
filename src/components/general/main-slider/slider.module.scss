@@ -82,14 +82,14 @@
     color: $pale-green
   }
 
-  .button{
+  .button {
     border: none;
     background-color: transparent;
     color: white;
     cursor: pointer
   }
 
-  .button_wrapper{
+  .button_wrapper {
     text-align: center;
     height: 35px;
     display: flex;
@@ -104,6 +104,9 @@
   @include respond-to('xs') {
     .slider_dot {
       margin: 7px 5px;
+    }
+    .slider_dots{
+      top: 67%;
     }
 }
 

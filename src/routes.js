@@ -9,7 +9,7 @@ import Ofertas from 'pages/Ofertas'
 const Routes = () => {
     return (
         <>
-            <Route exact path='/' component={Home} />
+            <Route path='/' component={Home} />
             <Route path='/ofertas' component={Ofertas} />
             <Route path='/destinos' component={Destinos} />
             <Route path='/rutas-cortas' component={Rutas} />
