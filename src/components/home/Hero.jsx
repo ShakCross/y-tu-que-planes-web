@@ -29,7 +29,7 @@ const Hero = ({ home, title, desc, responsive, image, image_lg, image_sm, breadc
                                     <h1 className={styles.h1} >
                                         {title}
                                     </h1>
-                                    <Button green title="Ir al Blog" xclassname="blog_button" url="https://www.ytuqueplanes.com/novedades" />
+                                    <Button green title="Ver ofertas" xclassname="blog_button" url="https://www.ytuqueplanes.com/novedades" />
                                     {/* <h2 className={styles.span}>
                                         {desc}
                                     </h2> */}

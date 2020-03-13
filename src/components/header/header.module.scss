@@ -28,6 +28,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin: auto;
 }
 
 .main {
@@ -42,6 +43,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin: auto;
 }
 
 .icons {
@@ -56,6 +58,7 @@
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
+    display: none;
 }
 
 .main__link {
@@ -203,18 +206,16 @@
         display: none;
     }
     .logo {
-        -ms-flex-preferred-size: 40%;
-        flex-basis: 20%;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
         justify-content: flex-start;
+        margin: 0 15px;
     }
-    .logo>img {
+    .logo > img {
         width: 50px;
     }
     .icons {
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 220px;
+        display: flex;
+        margin: 0 15px;
+        justify-content: flex-end;
     }
     .hamburguer {
         display: inline-block;

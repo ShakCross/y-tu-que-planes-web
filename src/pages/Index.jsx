@@ -5,6 +5,7 @@ import Blog from 'components/home/Blog'
 import Ofertas from 'components/home/Ofertas'
 import Hero from 'components/home/Hero'
 import Destinos from 'components/home/Destinos'
+import hero_img from 'assets/img/hero-img.jpg'
 
 const Home = () => {
     return (
@@ -20,10 +21,11 @@ const Home = () => {
                    hashTag="@ConoceelPeru" 
                 />
                 <Hero
-                    title="Perú está de fiesta, Lorem ipsum dolor
-                    sit amet, consectetur adipiscing"
+                    title={`Perú está de fiesta, Lorem ipsum ${''} dolor
+                    sit amet, consectetur adipiscing`}
+                    image={hero_img}
                 />
-                <Destinos/>
+
                 <Blog/>
                 <Ofertas/>
             </Layout>

@@ -60,7 +60,7 @@ const Header = ({ empty, count }) => {
                     </div>
                 </div>
                 <div className={styles.icons}>
-                    <div className={` ${news ? styles.newsIcon : styles.newsIconClicked} `}>
+                    {/* <div className={` ${news ? styles.newsIcon : styles.newsIconClicked} `}>
                         <img src={NewsIcon} alt="noticias-icon" onClick={handleNews} />
                     </div>
                     <div className={` ${search ? styles.searchIcon : styles.searchIconClicked} `} onClick={handleSearch}>
@@ -71,7 +71,7 @@ const Header = ({ empty, count }) => {
                             <span className={styles.circle__tick}>{count}</span>
                         </span>
                         <img src={`${empty ? BellIconGrey : BellIcon}`} alt="alertas-icon" />
-                    </div>
+                    </div> */}
                     <div className={styles.hamburguer} onClick={handleToggle}>
                         {(toggle) ?
                             (<div className={styles.hamburguer__icon}><FontAwesomeIcon icon={faBars} /></div>)

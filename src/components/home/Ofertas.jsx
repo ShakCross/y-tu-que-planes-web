@@ -1,24 +1,44 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import styles from './ofertas.module.scss'
 import MainContent from 'components/home/main-content/MainContent'
 import Card from 'components/general/card/Card'
 import Button from 'components/general/button/Button'
 import Text from 'components/general/text/Text'
 import data from 'data/ofertas.json'
+import axios from 'axios';
 
 
 const Ofertas = () => {
 
-    const prov = ["Amazonas", "Cajamarca", "Cerro de Pasco", "Cusco", "Huánuco", "Junín", "Piura"]
+    const url = 'https://landings.hww-dev.com/api/ofertas'
+    const token = 'vr7oug6VVPgeFDGfvvunAgsdNagb5ejbfHA5bDYyGyaLnrTs4AxnHmxVZc2B'
+    
+    const [data, setData] = useState([]);
+  
+    useEffect(() => {
+      const fetchApi = async () => {
+          const result = await axios({
+              method: 'GET',
+              url: url,
+              headers: { Authorization: "Bearer " + token }
+          });
+          setData(result.data);
+        }
+        fetchApi(); 
+    }, []);
 
+    // const prov = ["Ancash", "Arequipa", "Ayacucho", "Cajamarca", "Cusco", "Cusco", "Ica", "Junin", "Lima", "Loreto", "Madre de Dios", "Piura", "San Martin", "Tacna", "Tacna"]
+    const provArray = data.map( i => i.pronvincia)
+    const prov = provArray.filter((v,i) => provArray.indexOf(v) == i)
+    
     const selectRef = useRef();
 
     const [filterProvince, setFilterProvince] = useState(false)
     const handleFilterProvince = () => setFilterProvince ({filterProvince:true})
 
     const filtered = filterProvince ? 
-    selectRef.current.value === 'Todos' ? x => x.provincia : 
-    x => x.provincia === selectRef.current.value : x => x.provincia
+    selectRef.current.value === 'Todos' ? x => x.pronvincia : 
+    x => x.pronvincia === selectRef.current.value : x => x.pronvincia
 
     const [showedItems, setNumberOfItems] = useState(8);
     const [hideButton, setHideButton] = useState(false)
@@ -55,12 +75,13 @@ const Ofertas = () => {
                         <Card
                             shadow
                             key={post.id}
-                            image={post.imagen}
+                            image={'https://landings.hww-dev.com/assets/' + post.imagen}
                             title={post.titulo}
-                            price={post.precio}
-                            before={post.antes}
+                            price={post.precio_promocion}
+                            before={post.precio_real}
                             url={post.url}
-                            duration={post.duration}
+                            duration={post.duracion}
+                            alt={post.alt}
                         />
                     )}
                 </div>
