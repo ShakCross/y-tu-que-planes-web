@@ -1,4 +1,13 @@
  
+.a{
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    transition: all 1s;
+    cursor: pointer;
+}
 
 .wrapper__chip {
     display: flex;
@@ -15,12 +24,6 @@
     height: 55%;
     align-items: center;
     vertical-align: middle;
-}
-
-.a {
-    display: flex;
-    align-items: center;
-    height: inherit;
 }
 
 .content {
@@ -299,4 +302,10 @@
 
 .header_data_header{
     height: 49%;
+}
+
+@include respond-to('lg') {
+    .a{
+        margin: 15px;
+    }
 }

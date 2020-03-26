@@ -7,7 +7,8 @@
         "antes": "359",
         "url": "https://www.ytuqueplanes.com/oferta/6615_full-day-caral-cuna-de-la-civilizacion",
         "alt": "ofertas-caral",
-        "duracion": "Full day"
+        "duracion": "Full day",
+        "tipo": "paquete"
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "antes": "435",
         "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
         "alt": "ofertas-cusco",
-        "duracion": "Full day"
+        "duracion": "Full day",
+        "tipo": "tour"
     },
     {
         "id": 3,
@@ -27,6 +29,29 @@
         "antes": "340",
         "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito",
         "alt": "ofertas-vichayito",
-        "duracion": "Full day"
+        "duracion": "Full day",
+        "tipo": "full day"
+    },
+    {
+        "id": 4,
+        "titulo": "Cusco maravilloso",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/cusco-maravilloso.jpg",
+        "precio": "300",
+        "antes": "435",
+        "url": "https://www.ytuqueplanes.com/oferta/6915_cusco-maravilloso",
+        "alt": "ofertas-cusco",
+        "duracion": "Full day",
+        "tipo": "paquete"
+    },
+    {
+        "id": 5,
+        "titulo": "Vichayito",
+        "imagen": "https://www.ytuqueplanes.com/fotos/ofertas/vichayito.jpg",
+        "precio": "204",
+        "antes": "340",
+        "url": "https://www.ytuqueplanes.com/oferta/6672_vichayito",
+        "alt": "ofertas-vichayito",
+        "duracion": "Full day",
+        "tipo": "tour"
     }
 ]

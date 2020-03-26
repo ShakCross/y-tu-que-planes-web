@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './text.module.scss'
 
-const Text = ({ content, headingLevel }) => {
+const Text = ({ content, headingLevel, className }) => {
     
     const validHeadingLevels = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 
@@ -9,7 +9,7 @@ const Text = ({ content, headingLevel }) => {
     const Title = validHeadingLevels.includes(safeHeading) ? safeHeading : 'p'
 
     return (
-        <div className={styles.wrapper}>
+        <div className={className}>
             <Title>{content}</Title>
         </div>
     )

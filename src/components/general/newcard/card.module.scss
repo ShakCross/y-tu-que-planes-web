@@ -1,0 +1,102 @@
+.wrapper{
+    width: 230px;
+    height: 355px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.14), 0 15px 12px rgba(0, 0, 0, 0.1);
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    transition: all 1s;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.4), 0 15px 12px rgba(0, 0, 0, 0.1);
+        transition: all 1s;
+    }
+}
+
+.top_data {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: goldenrod;
+    width: 85.2px;
+    height: 62.4px;
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.price_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.price {
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: bold;
+    color: #2b2b6f
+}
+
+.price_discount {
+    font-family: Lato;
+    font-size: 10px;
+    color: #2b2b6f;
+    text-decoration: line-through;
+}
+
+.bottom_data{
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    height: 28%;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom, transparent -4%, rgba(0, 0, 0, 0.7) 65%);
+    height: 100%;
+    width: 100%;
+    display: flex;;
+    justify-content: center;
+}
+
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+    justify-content: center;
+    height: 73%;
+}
+
+.text_duration {
+    font-family: Lato;
+    font-size: 14px;
+    color: white;
+    height: 35%;
+}
+
+.text_title {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    height: 50%;
+}
+
+.img{
+    width: 105%;
+    height: 105%;
+    object-fit: cover;
+    object-position: center;
+    transition: object-position ease-in-out 400ms;
+    &:hover{
+        object-position: left;
+        transition: object-position ease-in-out 400ms;
+    }
+}

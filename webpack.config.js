@@ -80,18 +80,22 @@ module.exports = {
                 },
 
             },
-            
             {
-                test: /\.(gif|png|jpe?g|svg|webp)$/i,
-                use: [
-                    {
-                      loader: 'file-loader',
-                      options: {
-                        name: '[name].[ext]',
-                        outputPath: 'src/assets/img',
-                      },
-                    }
-                  ]
+                test: /\.(png|jpe?g|gif|webp|gif|svg)$/i,
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'src/assets/img',
+                    name: '[name].[ext]'
+                }
+            },
+            {
+                test: /\.(woff|woff2|ttf|otf)$/,
+                loader: 'file-loader',
+                include: [/fonts/],
+                options: {
+                    name: '[hash].[ext]',
+                    publicPath: url => '../css/' + url
+                }
             },
         ]
     },
@@ -113,7 +117,7 @@ module.exports = {
             ".ttf",
             ".otf",
             ".json",
-            "webp"
+            ".webp"
         ]
     },
     plugins: [

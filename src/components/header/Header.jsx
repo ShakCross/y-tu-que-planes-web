@@ -37,12 +37,12 @@ const Header = ({ empty, count }) => {
                     </Link>
                 </div>
                 <div className={styles.main}>
-                    <div>
+                    {/* <div>
                         <a className={styles.main__link} href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
-                    </div>
-                    {/* <Link className={styles.main__link} to="/ofertas">
+                    </div> */}
+                    <Link className={styles.main__link} to="/ofertas">
                         Ofertas
-                    </Link> */}
+                    </Link>
                     <Link className={styles.main__link} to="/destinos">
                         Destinos
                     </Link>
