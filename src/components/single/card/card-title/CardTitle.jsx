@@ -25,7 +25,7 @@ CardTitle.defaultProps = {
     palegreen: false, 
     purple: false, 
     green: false,
-    title: 'Precio y Horario'
+    title: 'Precio y horario'
 };
 
 

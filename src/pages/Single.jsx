@@ -123,7 +123,7 @@ const Single = () => {
                         </div>
                         <div className={styles.wrapper}>
                             <Card
-                                title="Precio y Horario"
+                                title="Precio y horario"
                                 yellow
                                 image={clock}
                                 modalImage={clockwhite}
@@ -146,7 +146,7 @@ const Single = () => {
                                 )}
                             />
                             <Card
-                                title="Clima y Altura"
+                                title="Clima y altura"
                                 palegreen
                                 image={sun}
                                 modalImage={sunwhite}
@@ -183,7 +183,7 @@ const Single = () => {
                                 <Card
                                     responsive
                                     click={handleShowYellow}
-                                    title="Precio y Horario"
+                                    title="Precio y horario"
                                     yellow
                                     image={clock}
                                 />
@@ -197,7 +197,7 @@ const Single = () => {
                                 <Card
                                     responsive
                                     click={handleShowPaleGreen}
-                                    title="Clima y Altura"
+                                    title="Clima y altura"
                                     palegreen
                                     image={sun}
                                     modalImage={pinwhite}
@@ -222,7 +222,7 @@ const Single = () => {
                                 showYellow ?
                                     <Modal responsive click={handleShowYellow}>
                                         <CardContent
-                                            title="Precio y Horario"
+                                            title="Precio y horario"
                                             yellow
                                             image={clockwhite}
                                             content={post.precio.map(post =>
@@ -249,7 +249,7 @@ const Single = () => {
                                         showPaleGreen ?
                                             <Modal responsive click={handleShowPaleGreen}>
                                                 <CardContent
-                                                    title="Clima y Altura"
+                                                    title="Clima y altura"
                                                     palegreen
                                                     image={sunwhite}
                                                     content={post.clima.map(post =>

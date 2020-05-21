@@ -141,7 +141,7 @@ const Ofertas = () => {
         <div>
             <H2 title="Conoce nuevas experiencias" />
             <div className={styles.tag}>
-                <Tag click={handleFilter} active={active} title="Mostrar Todo" />
+                <Tag click={handleFilter} active={active} title="Mostrar todo" />
                 <Tag click={handleFilterGastro} active={filterGastro} title="Gastronomía" />
                 <Tag click={handleFilterCultura} active={filterCult} title="Cultural" />
                 <Tag click={handleFilterNaturaleza} active={filterNatu} title="Naturaleza" />
@@ -150,7 +150,7 @@ const Ofertas = () => {
             </div>
             <div className={styles.tag_mobile}>
                 <Slider {...settings}>
-                    <Tag click={handleFilter} active={active} title="Mostrar Todo" />
+                    <Tag click={handleFilter} active={active} title="Mostrar todo" />
                     <Tag click={handleFilterGastro} active={filterGastro} title="Gastronomía" />
                     <Tag click={handleFilterCultura} active={filterCult} title="Cultural" />
                     <Tag click={handleFilterNaturaleza} active={filterNatu} title="Naturaleza" />

@@ -32,9 +32,9 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "2","li": "8 horas (408 km)"},
                     {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
+                    {"id": "4","li": "4 horas"},
                     {"id": "5","li": "De Huari a Acopalca"},
                     {"id": "6","li": "15 min"}
                 ]
@@ -43,16 +43,16 @@
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "2","li": "8 horas (408 km)"},
                     {"id": "3","li": "De Huaraz a Huari"},
-                    {"id": "4","li": "04 horas"},
+                    {"id": "4","li": "4 horas"},
                     {"id": "5","li": "De Huari a Acopalca"},
                     {"id": "6","li": "15 min"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 27°C Mín. 4°C"},
+            {"id": "1","li": "Máx. 27 °C Mín. 4 °C"},
             {"id": "2","li": "Desde 3,100 m s. n. m. hasta 35,800 m s. n. m. "}
         ],
         "tips": [           
@@ -101,27 +101,27 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Juliaca a Puno"},
-                    {"id": "2","li": "01 hora (45 km.)"}
+                    {"id": "2","li": "1 hora (45 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Juliaca (Puno)"},
-                    {"id": "2","li": "01 hora y media (1,309 km.)"}
+                    {"id": "2","li": "1 hora y media (1,309 km)"}
                 ]
             },
             {
                 "via": "Lacustre",
                 "rutas": [           
                     {"id": "1","li": "Del Puerto de Puno a Amantaní"},
-                    {"id": "2","li": "01 hora y 45 min. (37 km.)"}
+                    {"id": "2","li": "1 hora y 45 min (37 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 5°C"},
-            {"id": "2","li": "3,950 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 5 °C"},
+            {"id": "2","li": "3,950 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -200,26 +200,26 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Juliaca a Puno"},
-                    {"id": "2","li": "01 hora (45 km.)"},
+                    {"id": "2","li": "1 hora (45 km)"},
                     {"id": "3","li": "De Puno a Atuncolla"},
-                    {"id": "4","li": "30 min. (28 km.)"},
+                    {"id": "4","li": "30 min (28 km)"},
                     {"id": "5","li": "De Lima a Puno"},
-                    {"id": "6","li": "7 horas (1,309 km.)"},
+                    {"id": "6","li": "7 horas (1,309 km)"},
                     {"id": "7","li": "De Puno a Atuncolla"},
-                    {"id": "8","li": "30 min. (28 km.)"}
+                    {"id": "8","li": "30 min (28 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Juliaca (Puno)"},
-                    {"id": "2","li": "01 hora y media (1,309 km.)"}
+                    {"id": "2","li": "1 hora y media (1,309 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 19°C Mín. 13°C"},
-            {"id": "2","li": "3,822 m s. n. m"}
+            {"id": "1","li": "Máx. 19 °C Mín. 13 °C"},
+            {"id": "2","li": "3,822 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -271,26 +271,26 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Juliaca a Puno"},
-                    {"id": "2","li": "01 hora (45 km.)"},
+                    {"id": "2","li": "1 hora (45 km)"},
                     {"id": "3","li": "De Puno a Ccotos"},
-                    {"id": "4","li": "01 hora y 15 min. (66 km.)"},
+                    {"id": "4","li": "1 hora y 15 min (66 km)"},
                     {"id": "5","li": "De Lima a Puno"},
-                    {"id": "6","li": "17 horas (1,309 km.)"},
+                    {"id": "6","li": "17 horas (1,309 km)"},
                     {"id": "7","li": "De Puno a Ccotos"},
-                    {"id": "8","li": "01 hora y 15 min. (66 km.)"}
+                    {"id": "8","li": "1 hora y 15 min (66 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Juliaca (Puno)"},
-                    {"id": "2","li": "01 hora y media (1,309 km.)"}
+                    {"id": "2","li": "1 hora y media (1,309 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 19°C Mín. 13°C"},
-            {"id": "2","li": "3,822 m s. n. m"}
+            {"id": "1","li": "Máx. 19 °C Mín. 13 °C"},
+            {"id": "2","li": "3,822 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -342,24 +342,24 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Chiclayo a Chaparrí"},
-                    {"id": "2","li": "01 hora y media (74 km.)"},
+                    {"id": "2","li": "1 hora y media (74 km)"},
                     {"id": "3","li": "De Lima a Chiclayo"},
-                    {"id": "4","li": "12 horas (763 km.)"},
+                    {"id": "4","li": "12 horas (763 km)"},
                     {"id": "5","li": "Chiclayo a Chaparrí"},
-                    {"id": "6","li": "01 hora y media. (74 km)"}
+                    {"id": "6","li": "1 hora y media (74 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Chiclayo"},
-                    {"id": "2","li": "01 hora"}
+                    {"id": "2","li": "1 hora"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 34°C Mín. 18°C"},
-            {"id": "2","li": "209 m s. n. m"}
+            {"id": "1","li": "Máx. 34 °C Mín. 18 °C"},
+            {"id": "2","li": "209 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Repelente"},
@@ -407,20 +407,20 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cusco a Urubamba"},
-                    {"id": "2","li": "01 hora (76 km.)"}
+                    {"id": "2","li": "1 hora (76 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cusco"},
-                    {"id": "2","li": "01 hora"}
+                    {"id": "2","li": "1 hora"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 02°C"},
-            {"id": "2","li": "2,687 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 2 °C"},
+            {"id": "2","li": "2,687 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -472,28 +472,28 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Juliaca a Puno"},
-                    {"id": "2","li": "01 hora (45 km.)"},
+                    {"id": "2","li": "1 hora (45 km)"},
                     {"id": "3","li": "De Puno a Capachica"},
-                    {"id": "4","li": "01 hora y 15 min. (60 km.)"},
+                    {"id": "4","li": "1 hora y 15 min (60 km)"},
                     {"id": "5","li": "De Juliaca a Capachica"},
-                    {"id": "6","li": "45 min. (37 km.)"},
+                    {"id": "6","li": "45 min (37 km)"},
                     {"id": "7","li": "Capachica a Chifrón"},
-                    {"id": "8","li": "7 min. (2 km.)"}
+                    {"id": "8","li": "7 min (2 km)"}
                 ]
             },
             {
                 "via": "Lacustre",
                 "rutas": [           
                     {"id": "1","li": "De Juliaca a Puno"},
-                    {"id": "2","li": "01 hora (45 km.)"},
+                    {"id": "2","li": "1 hora (45 km)"},
                     {"id": "3","li": "Del Puerto de Puno a Chifrón"},
-                    {"id": "4","li": "3 horas y 50 min. (48 km.)"}
+                    {"id": "4","li": "3 horas y 50 min (48 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 05°C"},
-            {"id": "2","li": "3,867 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 5 °C"},
+            {"id": "2","li": "3,867 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -564,21 +564,21 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Arequipa a Chivay"},
-                    {"id": "2","li": "03 horas (151 km.)"},
+                    {"id": "2","li": "3 horas (151 km)"},
                     {"id": "3","li": "De Chivay a Coporaque"},
-                    {"id": "4","li": "15 min. (6 km.)"}
+                    {"id": "4","li": "15 min (6 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Arequipa"},
-                    {"id": "2","li": "01 hora y 15 min. (1,025 km.)"}
+                    {"id": "2","li": "1 hora y 15 min (1,025 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Desde 3,300 m s. n. m. hasta 3,575 m s. n. m"}
+            {"id": "1","li": "Desde 3,300 m s. n. m. hasta 3,575 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -631,7 +631,7 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Tarapoto a Moyobamba"},
-                    {"id": "2","li": "02 horas"},
+                    {"id": "2","li": "2 horas"},
                     {"id": "3","li": "De Moyobamba a Nueva Cajamarca"},
                     {"id": "4","li": "45 min"},
                     {"id": "5","li": "De Nueva Cajamarca a Cuevas de Palestina"},
@@ -644,13 +644,13 @@
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Tarapoto"},
-                    {"id": "2","li": "01 hora y media"}
+                    {"id": "2","li": "1 hora y media"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 30°C Mín. 18°C"},
-            {"id": "2","li": "Desde 740 m s. n. m. hasta 875 m s. n. m"}
+            {"id": "1","li": "Máx. 30 °C Mín. 18 °C"},
+            {"id": "2","li": "Desde 740 m s. n. m. hasta 875 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Ponerse el el casco y las botas que le proporcionarán a la entrada"},
@@ -698,20 +698,20 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cusco a Urcos y Cuyuni"},
-                    {"id": "2","li": "01 hora (70 km.)"}
+                    {"id": "2","li": "1 hora (70 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cusco"},
-                    {"id": "2","li": "01 hora"}
+                    {"id": "2","li": "1 hora"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 17°C Mín. 4°C"},
-            {"id": "2","li": "3,800 m s. n. m"}
+            {"id": "1","li": "Máx. 17 °C Mín. 4 °C"},
+            {"id": "2","li": "3,800 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -764,26 +764,26 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cajamarca a Porcón"},
-                    {"id": "2","li": "01 hora (30 km.)"},
+                    {"id": "2","li": "1 hora (30 km)"},
                     {"id": "3","li": "De Lima a Cajamarca"},
-                    {"id": "4","li": "13 horas (897 km.)"},
-                    {"id": "5","li": "De Lima a la carretera Kuntur Wasi"},
-                    {"id": "6","li": "10 horas (531 km.)"},
-                    {"id": "7","li": "De la carretera Kuntur Wasi a Porcón"},
-                    {"id": "8","li": "03 horas (71 km.)"}
+                    {"id": "4","li": "14 horas (870 km)"},
+                    {"id": "5","li": "De Lima al puente Kuntur Wasi"},
+                    {"id": "6","li": "12 horas (772 km)"},
+                    {"id": "7","li": "Del puente Kuntur Wasi a Porcón"},
+                    {"id": "8","li": "2 horas (77 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cajamarca"},
-                    {"id": "2","li": "01 hora"}
+                    {"id": "2","li": "1 hora"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 21°C Mín. 4°C"},
-            {"id": "2","li": "3,100 m s. n. m"}
+            {"id": "1","li": "Máx. 21 °C Mín. 4 °C"},
+            {"id": "2","li": "3,100 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -834,20 +834,20 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cusco a Ollantaytambo-Huilloc"},
-                    {"id": "2","li": "02 horas (98 km.)"}
+                    {"id": "2","li": "2 horas (98 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cusco"},
-                    {"id": "2","li": "01 hora"}
+                    {"id": "2","li": "1 hora"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 19°C Mín. 0°C"},
-            {"id": "2","li": "3,400 m s. n. m"}
+            {"id": "1","li": "Máx. 19 °C Mín. 0 °C"},
+            {"id": "2","li": "3,400 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -899,15 +899,15 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "2","li": "8 horas (408 km)"},
                     {"id": "3","li": "De Huaraz a Humacchuco"},
-                    {"id": "4","li": "01 hora y 40 min. (72 km.)"}
+                    {"id": "4","li": "1 hora y 40 min (72 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 27°C Mín. 4°C"},
-            {"id": "2","li": "Desde 3,300 m s. n. m. hasta 4,600 m s. n. m"}
+            {"id": "1","li": "Máx. 27 °C Mín. 4 °C"},
+            {"id": "2","li": "Desde 3,300 m s. n. m. hasta 4,600 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -966,22 +966,22 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cusco a Ollantaytambo"},
-                    {"id": "2","li": "01 hora y 40 min. (80 km)"},
+                    {"id": "2","li": "1 hora y 40 min (80 km)"},
                     {"id": "3","li": "Ollantaytambo a Patacancha"},
-                    {"id": "4","li": "02 horas y 15 min. (20 km.)"}
+                    {"id": "4","li": "2 horas y 15 min (20 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cusco"},
-                    {"id": "2","li": "01 hora (1,037 km.)"}
+                    {"id": "2","li": "1 hora (1,037 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 19°C Mín. 0°C"},
-            {"id": "2","li": "Desde 3,400 m s. n. m. hasta 4,500 m s. n. m"}
+            {"id": "1","li": "Máx. 19 °C Mín. 0 °C"},
+            {"id": "2","li": "Desde 3,400 m s. n. m. hasta 4,500 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1032,20 +1032,20 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cusco a Pisaq"},
-                    {"id": "2","li": "45 min. (35 km.)"}
+                    {"id": "2","li": "45 min (35 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cusco"},
-                    {"id": "2","li": "01 hora"}
+                    {"id": "2","li": "1 hora"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 2°C"},
-            {"id": "2","li": "Desde 2,600 m s. n. m. hasta 3,700 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 2 °C"},
+            {"id": "2","li": "Desde 2,600 m s. n. m. hasta 3,700 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1098,15 +1098,15 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Laraos"},
-                    {"id": "2","li": "06 horas (314 km.)"},                    
+                    {"id": "2","li": "6 horas (314 km)"},                    
                     {"id": "3","li": "De Lima a Huancaya"},
-                    {"id": "4","li": "08 horas (320 km.)"}
+                    {"id": "4","li": "8 horas (320 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 2°C"},
-            {"id": "2","li": "Desde 3,550 m s. n. m. hasta 3,800 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 2 °C"},
+            {"id": "2","li": "Desde 3,550 m s. n. m. hasta 3,800 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1166,31 +1166,31 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Juliaca a Puno"},
-                    {"id": "2","li": "01 hora (45 km.)"},                    
+                    {"id": "2","li": "1 hora (45 km)"},                    
                     {"id": "3","li": "De Puno a Llachón"},
-                    {"id": "4","li": "01 hora y 45 min. (75 km.)"},
+                    {"id": "4","li": "1 hora y 45 min (75 km)"},
                     {"id": "5","li": "De Juliaca a Llachón"},
-                    {"id": "6","li": "01 hora y 20 min. (59 km.)"}
+                    {"id": "6","li": "1 hora y 20 min (59 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Juliaca (Puno)"},
-                    {"id": "2","li": "01 hora y media"}
+                    {"id": "2","li": "1 hora y media"}
                 ]
             },
             {
                 "via": "Lacustre",
                 "rutas": [           
                     {"id": "1","li": "Del Puerto de Puno a Llachón"},
-                    {"id": "2","li": "01 y 45 min. (33 km.)"}
+                    {"id": "2","li": "1 y 45 min (33 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 5°C"},
-            {"id": "2","li": "3,820 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 5 °C"},
+            {"id": "2","li": "3,820 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1282,15 +1282,15 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Lima al distrito de Pachacamac"},
-                    {"id": "2","li": "40 min. (31 km.)"},                    
+                    {"id": "2","li": "40 min (31 km)"},                    
                     {"id": "3","li": "De Pachacámac al Centro Poblado Rural Quebrada Verde"},
                     {"id": "4","li": "10 min"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 29°C Mín. 10°C"},
-            {"id": "2","li": "Desde 87 m s. n. m. hasta 1,200 m s. n. m"}
+            {"id": "1","li": "Máx. 29 °C Mín. 10 °C"},
+            {"id": "2","li": "Desde 87 m s. n. m. hasta 1,200 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1343,33 +1343,33 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Juliaca a Puno"},
-                    {"id": "2","li": "01 hora (45 km.)"},                    
+                    {"id": "2","li": "1 hora (45 km)"},                    
                     {"id": "3","li": "De Puno a Chucuito"},
-                    {"id": "4","li": "20 min. (18 km.)"},
+                    {"id": "4","li": "20 min (18 km)"},
                     {"id": "5","li": "De Chucuito a Luquina-Karina"},
-                    {"id": "6","li": "01 hora y media (63 km.)"}
+                    {"id": "6","li": "1 hora y media (63 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Juliaca (Puno)"},
-                    {"id": "2","li": "01 hora y media"}
+                    {"id": "2","li": "1 hora y media"}
                 ]
             },
             {
                 "via": "Lacustre",
                 "rutas": [           
                     {"id": "1","li": "Del Puerto de Puno a Luquina"},
-                    {"id": "2","li": "02 horas y media (30 km.)"},
+                    {"id": "2","li": "2 horas y media (30 km)"},
                     {"id": "3","li": "Del Puerto de Puno a Karina"},
-                    {"id": "4","li": "02 horas y 40 min. (33 km.)"}
+                    {"id": "4","li": "2 horas y 40 min (33 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 5°C"},
-            {"id": "2","li": "3,856 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 5 °C"},
+            {"id": "2","li": "3,856 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1419,20 +1419,20 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cusco a Maras"},
-                    {"id": "2","li": "50 min. (48 km.)"}
+                    {"id": "2","li": "50 min (48 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cusco"},
-                    {"id": "2","li": "01 hora (1,037 km.)"}
+                    {"id": "2","li": "1 hora (1,037 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 0°C"},
-            {"id": "2","li": "3,028 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 0 °C"},
+            {"id": "2","li": "3,028 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1482,20 +1482,20 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cusco a Misminay"},
-                    {"id": "2","li": "01 hora (51 km.)"}
+                    {"id": "2","li": "1 hora (51 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cusco"},
-                    {"id": "2","li": "01 hora"}
+                    {"id": "2","li": "1 hora"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 0°C"},
-            {"id": "2","li": "3,700 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 0 °C"},
+            {"id": "2","li": "3,700 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1544,20 +1544,20 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cusco a Pisac"},
-                    {"id": "2","li": "01 hora (37 km.)"}
+                    {"id": "2","li": "1 hora (37 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cusco"},
-                    {"id": "2","li": "01 hora"}
+                    {"id": "2","li": "1 hora"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 0°C"},
-            {"id": "2","li": "3,600 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 0 °C"},
+            {"id": "2","li": "3,600 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1607,20 +1607,20 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Cusco a Raqchi"},
-                    {"id": "2","li": "02 horas y media (125 km.)"}
+                    {"id": "2","li": "2 horas y media (125 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Cusco"},
-                    {"id": "2","li": "01 hora"}
+                    {"id": "2","li": "1 hora"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 0°C"},
-            {"id": "2","li": "3,500 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 0 °C"},
+            {"id": "2","li": "3,500 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1676,26 +1676,26 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Tarapoto a San Pablo"},
-                    {"id": "2","li": "06 horas (330 km.)"},
+                    {"id": "2","li": "6 horas (330 km)"},
                     {"id": "3","li": "De San Pablo a la catarata Gocta"},
-                    {"id": "4","li": "02 horas y media (5.9 km.)"},
+                    {"id": "4","li": "2 horas y media (5.9 km)"},
                     {"id": "5","li": "De Tarapoto a Cocachimba"},
-                    {"id": "6","li": "06 horas (330 km.)"},
+                    {"id": "6","li": "6 horas (330 km)"},
                     {"id": "7","li": "De Cocachimba a la catarata Gocta"},
-                    {"id": "8","li": "02 horas y media (5.5 km.)"}
+                    {"id": "8","li": "2 horas y media (5.5 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Tarapoto"},
-                    {"id": "2","li": "01 hora y 30 min"}
+                    {"id": "2","li": "1 hora y 30 min"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 23°C Mín. 13°C"},
-            {"id": "2","li": "Desde 1,800 m s. n. m. hasta 2,340 m s. n. m"}
+            {"id": "1","li": "Máx. 23 °C Mín. 13 °C"},
+            {"id": "2","li": "Desde 1,800 m s. n. m. hasta 2,340 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1751,11 +1751,11 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Tarapoto a Moyobamba"},
-                    {"id": "2","li": "02 horas (116 km.)"},
+                    {"id": "2","li": "2 horas (116 km)"},
                     {"id": "3","li": "De Moyobamba a Rioja"},
                     {"id": "4","li": "30 min"},
                     {"id": "5","li": "De Rioja a Santa Elena"},
-                    {"id": "6","li": "15 min. (04 km.)"},
+                    {"id": "6","li": "15 min (4 km)"},
                     {"id": "7","li": "Lima-Chiclayo-Bagua-Rioja–Posic-Santa Elena"},
                     {"id": "8","li": "24 horas"}
                 ]
@@ -1764,13 +1764,13 @@
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Tarapoto"},
-                    {"id": "2","li": "01 hora y media"}
+                    {"id": "2","li": "1 hora y media"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 28°C Mín. 16°C"},
-            {"id": "2","li": "Desde 740 m s. n. m. hasta 830 m s. n. m"}
+            {"id": "1","li": "Máx. 28 °C Mín. 16 °C"},
+            {"id": "2","li": "Desde 740 m s. n. m. hasta 830 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Llevar repelente, bloqueador solar"},
@@ -1819,22 +1819,22 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Arequipa a Chivay"},
-                    {"id": "2","li": "03 horas (151 km.)"},
+                    {"id": "2","li": "3 horas (151 km)"},
                     {"id": "3","li": "De Chivay a Sibayo"},
-                    {"id": "4","li": "01 hora (36 km.)"}
+                    {"id": "4","li": "1 hora (36 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Arequipa"},
-                    {"id": "2","li": "01 hora y 15 min. (1,025 km.)"}
+                    {"id": "2","li": "1 hora y 15 min (1,025 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 21°C Mín. 5°C"},
-            {"id": "2","li": "Desde 3,300 m s. n. m. hasta 3,800 m s. n. m"}
+            {"id": "1","li": "Máx. 21 °C Mín. 5 °C"},
+            {"id": "2","li": "Desde 3,300 m s. n. m. hasta 3,800 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1885,27 +1885,27 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Juliaca a Puno"},
-                    {"id": "2","li": "01 hora (45 km.)"}
+                    {"id": "2","li": "1 hora (45 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Juliaca (Puno)"},
-                    {"id": "2","li": "01 hora y media"}
+                    {"id": "2","li": "1 hora y media"}
                 ]
             },
             {
                 "via": "Lacustre",
                 "rutas": [           
                     {"id": "1","li": "Del Puerto de Puno a Taquile"},
-                    {"id": "2","li": "03 horas (37 km.)"}
+                    {"id": "2","li": "3 horas (37 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 5°C"},
-            {"id": "2","li": "3,950 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 5 °C"},
+            {"id": "2","li": "3,950 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -1965,9 +1965,9 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Tarapoto a Moyobamba"},
-                    {"id": "2","li": "02 horas (116 km.)"},
+                    {"id": "2","li": "2 horas (116 km)"},
                     {"id": "3","li": "De Moyobamba a Yantalo"},
-                    {"id": "4","li": "30 min. (15 km.)"},
+                    {"id": "4","li": "30 min (15 km)"},
                     {"id": "5","li": "De Yantalo a Puerto Boca del Río Huascayacu"},
                     {"id": "6","li": "15 min"}
                 ]
@@ -1976,13 +1976,13 @@
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Tarapoto"},
-                    {"id": "2","li": "01 hora y media"}
+                    {"id": "2","li": "1 hora y media"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 30°C Mín. 10°C"},
-            {"id": "2","li": "860 m s. n. m"}
+            {"id": "1","li": "Máx. 30 °C Mín. 10 °C"},
+            {"id": "2","li": "860 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Llevar repelente, bloqueador solar"},
@@ -2032,14 +2032,14 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Juliaca a Puno"},
-                    {"id": "2","li": "01 hora (45 km.)"}
+                    {"id": "2","li": "1 hora (45 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Juliaca (Puno)"},
-                    {"id": "2","li": "01 hora y media"}
+                    {"id": "2","li": "1 hora y media"}
                 ]
             },
             {
@@ -2051,8 +2051,8 @@
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 20°C Mín. 13.3°C"},
-            {"id": "2","li": "3,810 m s. n. m"}
+            {"id": "1","li": "Máx. 20 °C Mín. 13.3 °C"},
+            {"id": "2","li": "3,810 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -2108,17 +2108,17 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Huaraz"},
-                    {"id": "2","li": "08 horas (408 km.)"},
+                    {"id": "2","li": "8 horas (408 km)"},
                     {"id": "3","li": "De Huaraz a Marcará"},
-                    {"id": "4","li": "35 min. (23.5 km.)"},
+                    {"id": "4","li": "35 min (23.5 km)"},
                     {"id": "5","li": "De Marcará a Vicos"},
-                    {"id": "6","li": "20 min. (07 km.)"}
+                    {"id": "6","li": "20 min (7 km)"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 27°C Mín. 4°C"},
-            {"id": "2","li": "Desde 3,100 m s. n. m. hasta 4,328 m s. n. m"}
+            {"id": "1","li": "Máx. 27 °C Mín. 4 °C"},
+            {"id": "2","li": "Desde 3,100 m s. n. m. hasta 4,328 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
@@ -2171,22 +2171,22 @@
                 "via": "Terrestre",
                 "rutas": [           
                     {"id": "1","li": "De Arequipa a Chivay"},
-                    {"id": "2","li": "03 horas (151 km.)"},
+                    {"id": "2","li": "3 horas (151 km)"},
                     {"id": "3","li": "De Chivay a Yanque"},
-                    {"id": "4","li": "15 min. (06 km.)"}
+                    {"id": "4","li": "15 min (6 km)"}
                 ]
             },
             {
                 "via": "Aéreo",
                 "rutas": [           
                     {"id": "1","li": "De Lima a Arequipa"},
-                    {"id": "2","li": "01 hora y 15 min"}
+                    {"id": "2","li": "1 hora y 15 min"}
                 ]
             }
         ],
         "clima": [
-            {"id": "1","li": "Máx. 21°C Mín. 8°C"},
-            {"id": "2","li": "Desde 3,300 m s. n. m. hasta 3,400 m s. n. m"}
+            {"id": "1","li": "Máx. 21 °C Mín. 8 °C"},
+            {"id": "2","li": "Desde 3,300 m s. n. m. hasta 3,400 m s. n. m."}
         ],
         "tips": [           
             {"id": "1", "li": "Zapatillas para trekking"},
