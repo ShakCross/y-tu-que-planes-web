@@ -229,7 +229,7 @@
     background-color: #fff;
     position: relative;
     overflow: hidden;
-    margin: 50px 0px;
+    margin: 50px 20px;
     font-family: ClanOffcNews;
     font-size: 13px;
     font-weight: 500;
@@ -239,9 +239,8 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: center/cover no-repeat;
     cursor: pointer;
-    background-size: 100% 100%
+    background-size: 100% 63%;
 }
 
 .header_data{

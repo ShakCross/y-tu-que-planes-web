@@ -4,7 +4,7 @@ import Chip from 'components/general/chip/Chip'
 import Button from 'components/general/button/Button'
 import H1 from 'components/general/h1/H1'
 
-const HeroContent = ({desc, title, chip, url, to}) => {
+const HeroContent = ({desc, title, chip, to}) => {
     return (
         <a className={styles.heading__wrapper} href={to}>
             <div className={styles.heading__inner_wrapper}>
@@ -13,7 +13,7 @@ const HeroContent = ({desc, title, chip, url, to}) => {
                 <span className={styles.span}>
                     {desc}
                 </span>
-                <Button title="Más Información" xclassname="slider_button" url={url}/>
+                <Button title="Más Información" xclassname="slider_button"/>
             </div>
         </a>
     )

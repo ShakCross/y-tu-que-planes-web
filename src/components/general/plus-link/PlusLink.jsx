@@ -4,15 +4,15 @@ import styles from './plus-link.module.scss'
 const PlusLink = ({ lenght, none, url }) => {
     return (
         <a href={url} className={`${none ? styles.wrapper_none  : styles.wrapper }`} target="_blank" rel="noopener noreferrer">
-            {`${"+ "} ${lenght} ${" actividad(es)"}`}
+            {`${"+ actividades"}`}
         </a>
     )
 }
 
 PlusLink.defaultProps = {
-    lenght: '5',
+    lenght: '',
     none: false,
-    url: '#'
+    url: 'https://www.ytuqueplanes.com/festividades'
 };
 
 

@@ -7,7 +7,7 @@ import H2 from 'components/general/h2/H2'
 import Button from 'components/general/button/Button'
 import CardSlider from 'components/general/card-slider/CardSlider'
 
-const url = 'http://localhost:1337'
+const API = process.env.API;
 
 const Ofertas = () => {
 
@@ -16,7 +16,7 @@ const Ofertas = () => {
     useEffect(() => {
         const fetchData = async () => {
             const result = await axios(
-                'http://localhost:1337/ofertas/',
+                `${API}/ofertas/`,
             );
             setData(result.data);
         };
@@ -40,7 +40,7 @@ const Ofertas = () => {
                         <Card
                             shadow
                             key={post.id}
-                            image={url + post.imagen.url}
+                            image={API + post.imagen.url}
                             title={post.titulo}
                             price={post.precio}
                             before={post.antes}
@@ -55,7 +55,7 @@ const Ofertas = () => {
                     <Card
                         shadow
                         key={post.id}
-                        image={url + post.imagen.url}
+                        image={API + post.imagen.url}
                         title={post.titulo}
                         price={post.precio}
                         before={post.antes}

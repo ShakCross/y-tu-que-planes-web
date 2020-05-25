@@ -7,7 +7,7 @@ import Button from 'components/general/button/Button'
 import MainContent from 'components/home/main-content/MainContent'
 import CardSlider from 'components/general/card-slider/CardSlider'
 
-const url = 'http://localhost:1337'
+const API = process.env.API;
 
 const Blog = () => {
 
@@ -16,7 +16,7 @@ const Blog = () => {
     useEffect(() => {
         const fetchData = async () => {
           const result = await axios(
-            'http://localhost:1337/blogs/',
+            `${API}/blogs/`,
           );
           setData(result.data);
         };
@@ -39,7 +39,7 @@ const Blog = () => {
                     {data.map(post =>
                         <Card 
                             key={post.id} 
-                            image={url + post.imagen.url} 
+                            image={API + post.imagen.url} 
                             title={post.titulo} 
                             location={post.localia}
                             url={post.url} 
@@ -52,7 +52,7 @@ const Blog = () => {
                 {data.map(post =>
                     <Card 
                         key={post.id} 
-                        image={url + post.imagen.url} 
+                        image={API + post.imagen.url} 
                         title={post.titulo} 
                         location={post.localia} 
                         url={post.url} 
