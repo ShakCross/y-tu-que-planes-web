@@ -5,13 +5,11 @@ import { Link } from 'react-router-dom';
 
 
 
-const Breadcrumbs = ({content, slug}) => {
+const Breadcrumbs = ({ content, slug }) => {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.inner_wrapper}>
-                <Link to={'/'} className={styles.content}>Experiencias >&nbsp;</Link>
-                <Link to={'/'+ slug} className={styles.contenttwo}>{content}</Link>
-            </div>
+            <Link to={'/'} className={styles.content}>Home >&nbsp;</Link>
+            <Link to={'/' + slug} className={styles.contenttwo}>{content}</Link>
         </div>
     )
 }

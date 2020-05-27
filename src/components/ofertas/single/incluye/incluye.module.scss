@@ -1,0 +1,15 @@
+.heading {
+  font-family: ClanOffc;
+  font-size: 25px;
+  font-weight: bold;
+  color: $dark-grey;
+  text-align: center;
+  margin-top: 80px;
+}
+.icon_card_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}

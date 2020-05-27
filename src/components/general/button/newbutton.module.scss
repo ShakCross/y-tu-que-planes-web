@@ -1,0 +1,36 @@
+.ofertas_single_green {
+  width: 215px;
+  height: 49px;
+  border-radius: 24.5px;
+  box-shadow: 3px 4px 20px 0 #4fbb00;
+  background-color: #4fbb00;
+  font-family: ClanOffc;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px auto 0px auto;
+}
+.blog_filter_notas,
+.blog_filter_video {
+  width: 112px;
+  height: 38px;
+  border-radius: 31.5px;
+  color: white;
+  font-family: ClanOffc;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 25px;
+}
+.blog_filter_notas {
+  background-color: $yellow;
+}
+
+.blog_filter_video {
+  background-color: $green;
+}
+.icon{
+    margin-right: 5px;
+}

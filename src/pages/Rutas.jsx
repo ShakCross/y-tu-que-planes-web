@@ -3,7 +3,6 @@ import Seo from 'components/general/seo/Seo'
 import Layout from 'components/layout/Layout'
 import Ofertas from 'components/home/Ofertas'
 import Festividades from 'components/home/Festividades'
-import Hero from 'components/home/Hero'
 
 const Home = () => {
     return (

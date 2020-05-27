@@ -1,0 +1,64 @@
+.wrapper {
+    box-sizing: border-box;
+    min-height: 621px;
+    padding: 20px 0px 20px 0px;
+    background: url('../../assets/img/bg-date.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inner_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-basis: 78%;
+    flex-wrap: wrap;
+}
+
+.show_slider {
+    display: none
+}
+
+.wrapper_content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inner_wrapper_content{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+
+.content{
+    height: 50%;
+}
+
+.wrapper_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.heading_santa_destinos{
+    font-family: ClanOffc;
+    font-size: 28px;
+    color: $pale-green;
+    text-align: center;
+}
+
+@include respond-to('xs') {
+    .show_slider {
+        display: block
+    }
+    .wrapper {
+        display: block;
+    }
+    .inner_wrapper {
+        display: none;
+    }
+}

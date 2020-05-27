@@ -1,0 +1,22 @@
+.wrapper {
+  margin-top: 60px;
+}
+.title {
+  font-family: ClanOffc;
+  font-size: 30px;
+  font-weight: 500;
+  color: $dark-grey;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  font-family: ClanOffcNews;
+  font-size: 13px;
+  color: $pale-green;
+}
+.link_text{
+    margin-right: 5px;
+}

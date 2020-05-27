@@ -57,7 +57,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
 }
 
 .ofertas_button, .ofertas_button_mobile  {
@@ -78,6 +77,12 @@
 
 .calendar_button{
     padding: 0px 20px;
+}
+
+.ofertas-single-green{
+    font-family: ClanOffc;
+    font-size: 16px;
+    color: white;
 }
 
 @include respond-to('xs') {

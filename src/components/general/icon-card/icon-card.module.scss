@@ -1,0 +1,53 @@
+.wrapper{
+    width: 264px;
+    height: 293px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(192, 192, 192, 0.5);
+    background-color: var(--white);
+    padding: 25px;
+}
+.data_wrapper{
+    margin-top: 17px;
+}
+.icon_card_title{
+    font-family: ClanOffc;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+.yellow{
+    color: $dark-yellow;
+}
+.sky_blue{
+    color: $sky-blue;
+}
+.green{
+    color: $green;
+}
+.purple{
+    color: $purple;
+}
+.text_light{
+    font-family: ClanOffcBook;
+    font-size: 12px;
+    line-height: 1.4;
+}
+.text_bold{
+    font-family: ClanOffc;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.text_xs{
+    font-family: ClanOffcBold;
+    font-size: 10px;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+@include respond-to('lg') {
+    .wrapper{
+        margin: 5px 5px 35px 5px ;
+    }
+}

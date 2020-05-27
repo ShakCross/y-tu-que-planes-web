@@ -6,7 +6,6 @@ import Festividades from 'components/home/Festividades'
 import Blog from 'components/home/Blog'
 import Ofertas from 'components/home/Ofertas'
 import Hero from 'components/home/Hero'
-import Text from 'components/general/text/Text'
 
 const Home = () => {
     return (

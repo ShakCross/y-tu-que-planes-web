@@ -1,0 +1,205 @@
+// Ofertas
+.wrapper_big {
+  width: 100%;
+  height: 477px;
+}
+
+.img {
+  object-fit: cover;
+  height: inherit;
+  width: 100%;
+  object-position: center;
+}
+
+.content_ofertas {
+  position: absolute;
+  top: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 110px;
+  justify-content: space-between;
+}
+
+.heading_ofertas {
+  font-family: ClanOffc;
+  font-size: 33px;
+  font-weight: bold;
+  color: white;
+}
+
+.input_ofertas {
+  width: 402px;
+  height: 49px;
+  border-radius: 31.5px;
+  border: solid 1px #979797;
+  padding: 0px 15px;
+}
+
+.input_arrow {
+  position: absolute;
+  bottom: 18px;
+  left: 370px;
+  color: blueviolet;
+  font-size: 16px;
+}
+
+.input_ofertas::placeholder {
+  color: $dark-grey;
+  font-family: ClanOffc;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+//OfertasSingle
+.wrapper_medium {
+  width: 100%;
+  height: 402px;
+}
+
+.wrapper_card_ofertas_single {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.card_ofertas_single {
+  width: 127px;
+  height: 90px;
+  border-radius: 8px;
+  background-color: $dark-yellow;
+  color: $dark-blue;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading_ofertas_single {
+  max-width: 450px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.price_ofertas_single {
+  font-family: BreePeru;
+  font-size: 40px;
+}
+
+.discount_ofertas_single {
+  font-family: BreePeru;
+  font-size: 19px;
+}
+
+.title_ofertas_single {
+  font-family: ClanOffc;
+  font-size: 33px;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+}
+
+.button_ofertas_single {
+  width: 154px;
+  height: 46px;
+  border-radius: 8px;
+  background-color: $red;
+  border: none;
+  color: white;
+  margin-top: 40px;
+}
+
+.duration_ofertas_single {
+  font-family: ClanOffc;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.content_ofertas_single {
+  position: absolute;
+  top: 95px;
+  display: flex;
+  align-items: flex-end;
+  height: 260px;
+  justify-content: center;
+  width: 80%;
+  left: 13%;
+}
+
+@include respond-to("lg") {
+  .content_ofertas {
+    height: 160px;
+  }
+}
+
+@include respond-to("xs") {
+  .content_ofertas {
+    height: 200px;
+  }
+  .input_ofertas {
+    min-width: 290px;
+    width: auto;
+  }
+  .input_arrow {
+    left: 260px;
+  }
+  .content_ofertas_single {
+    flex-wrap: wrap;
+    width: 85%;
+    justify-content: space-between;
+  }
+  .heading_ofertas_single {
+    height: 85%;
+    margin-top: 15px;
+    justify-content: flex-start;
+  }
+  .wrapper_card_ofertas_single {
+    height: 50%;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .title_ofertas_single {
+    font-size: 24px;
+  }
+}
+
+//Blog
+.title_blog{
+  font-family: ClanOffc;
+  font-size: 42px;
+  color: white;
+}
+
+.heading_one_blog{
+  font-family: ClanOffcBook;
+  font-size: 16px;
+  color: white;
+}
+
+.heading_two_blog{
+  font-family: BreePeru;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.content_blog{
+  position: absolute;
+  top: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 165px;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1096px;
+}

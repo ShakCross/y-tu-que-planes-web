@@ -1,9 +1,11 @@
 import React from 'react'
 import Seo from 'components/general/seo/Seo'
 import Layout from 'components/layout/Layout'
-import Ofertas from 'components/home/Ofertas'
-import Festividades from 'components/home/Festividades'
-import Hero from 'components/home/Hero'
+import { HeroBlog } from 'components/general/hero/hero.stories.js'
+import FilterCategorias from 'components/blog-viajero/filter-categorias/FilterCategorias'
+import MainContent from 'components/blog-viajero/main-content/MainContent'
+import Noticias from 'components/blog-viajero/noticias/Noticias'
+import Parallax from 'components/home/Parallax'
 
 const Home = () => {
     return (
@@ -18,18 +20,11 @@ const Home = () => {
                    ogImage="https://www.ytuqueplanes.com/images/ytqp-share2.jpg"
                    hashTag="@ConoceelPeru" 
                 />
-                <Hero
-                    title="Turismo Comunitario" 
-                    desc="¡El Perú es mucho más que lindos paisajes! 
-                    Descubre tradiciones y costumbres milenarias."
-                    image_lg="" 
-                    image_sm=""
-                    logo=""
-                    responsive
-                    breadcrumbs
-                />
-                <Ofertas/>
-                <Festividades/>
+                <HeroBlog/>
+                <FilterCategorias/>
+                <MainContent/>
+                <Noticias/>
+                <Parallax/>
             </Layout>
     )
 }

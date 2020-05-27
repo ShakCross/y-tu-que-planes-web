@@ -25,7 +25,7 @@ module.exports = {
                             modules: {
                                 localIdentName: "[name]__[local]___[hash:base64:5]"
                             },
-                            sourceMap: isDevelopment
+                            sourceMap: isDevelopment,
                         }
                     },
                     {
@@ -53,7 +53,12 @@ module.exports = {
                 test: /\.s(a|c)ss$/,
                 exclude: /\.module.(s(a|c)ss)$/,
                 loader: [
-                    isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
+                    isDevelopment ? 'style-loader' : {
+                        loader: MiniCssExtractPlugin.loader,
+                        options: {
+                            publicPath: './'
+                        }
+                    },
                     'css-loader',
                     {
                         loader: 'sass-loader',
@@ -91,10 +96,9 @@ module.exports = {
             {
                 test: /\.(woff|woff2|ttf|otf)$/,
                 loader: 'file-loader',
-                include: [/fonts/],
                 options: {
-                    name: '[hash].[ext]',
-                    publicPath: url => '../css/' + url
+                    name: '[name].[ext]',
+                    outputPath: 'src/assets/fonts'
                 }
             },
         ]

@@ -1,51 +1,34 @@
-import React from 'react'
-import styles from './button.module.scss'
+import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
-const Button = ({ title, green, yellow, purple, xclassname, url, skyblue, action, click }) => {
-    return (
-        <div className={styles.container_button}>
-            {action ?
-                <button
-                    onClick={click}
-                    className={`
-                        ${styles[xclassname]}
-                        ${green ? styles.wrapper_green :
-                            yellow ? styles.wrapper_yellow :
-                                purple ? styles.wrapper_purple :
-                                    skyblue ? styles.wrapper_skyblue :
-                                        styles.wrapper}
-                        `}
-                >
-                    {title}
-                </button>
-                :
-                <a href={url} target="_blank" rel="noopener noreferrer">
-                    <button
-                        className={`
-                            ${styles[xclassname]}
-                            ${green ? styles.wrapper_green :
-                                yellow ? styles.wrapper_yellow :
-                                    purple ? styles.wrapper_purple :
-                                        skyblue ? styles.wrapper_skyblue :
-                                            styles.wrapper}  
-                            `}
-                    >
-                        {title}
-                    </button>
-                </a>
-
-            }
-        </div>
-    )
-}
-
-Button.defaultProps = {
-    title: 'Más Información',
-    green: false,
-    yellow: false,
-    purple: false,
-    xclassname: 'null',
-    url: '#'
+const Button = ({ children, className, url, action, click, href, to }) => {
+  return (
+    <Fragment>
+      {action ? (
+        <button onClick={click} className={className}>
+          {children}
+        </button>
+      ) : href ? (
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          <button className={className}>{children}</button>
+        </a>
+      ) : (
+        <Link to={to} className={className}>
+          {children}
+        </Link>
+      )}
+    </Fragment>
+  );
 };
 
-export default Button
+Button.defaultProps = {
+  children: "Button content",
+  className: "",
+  url: "#",
+  action: false,
+  click: "",
+  href: false,
+  to: "#",
+};
+
+export default Button;

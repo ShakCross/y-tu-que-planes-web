@@ -49,15 +49,13 @@ const Header = ({ empty, count }) => {
                     {/* <Link className={styles.main__link} to="/rutas-cortas">
                         Rutas Cortas
                     </Link>
-                    <Link className={styles.main__link} to="/blog-viajero">
-                        Blog Viajero
-                    </Link> */}
+ */}
                     <div>
                         <a className={styles.main__link} href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
                     </div>
-                    <div>
-                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/novedades">Blog Viajero</a>
-                    </div>
+                    <Link className={styles.main__link} to="/blog-viajero">
+                        Blog Viajero
+                    </Link>
                 </div>
                 <div className={styles.icons}>
                     <div className={` ${news ? styles.newsIcon : styles.newsIconClicked} `}>

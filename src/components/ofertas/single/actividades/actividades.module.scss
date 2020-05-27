@@ -1,0 +1,126 @@
+.heading {
+  font-family: ClanOffc;
+  font-size: 25px;
+  font-weight: bold;
+  color: $dark-grey;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.description {
+  font-family: ClanOffcBook;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  color: #636363;
+  text-align: center;
+  max-width: 698px;
+  margin: 40px auto 0px auto;
+}
+.content_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.slider {
+  width: 525px;
+  height: 293px;
+}
+
+.img {
+  border-radius: 30px;
+}
+.data_wrapper {
+  height: 293px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: space-evenly;
+  line-height: 1.3;
+}
+.li {
+  font-family: ClanOffcNews;
+  font-size: 14px;
+  color: $dark-grey;
+  display: flex;
+}
+.dot {
+  margin-right: 20px;
+}
+.slider_dots {
+  width: 100%;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative
+}
+.slider_dots li{
+  margin: 0 5px;
+}
+
+.slider_dot {
+  width: 31px;
+  height: 31px;
+  border: solid white 2px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: BreePeru;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.slider_dot:focus,
+.button:focus {
+  outline: none;
+}
+
+.slider_dot:hover, .slider_dots .slick-active {
+  background-color: white;
+  color: $pale-green;
+}
+
+.slider_dot.is_selected {
+  background-color: white;
+  color: $pale-green;
+}
+.nextArrow,
+.prevArrow {
+  width: 12px !important;
+  height: 22px;
+  color: $yellow;
+  position: absolute;
+  z-index: 9;
+  top: 135px;
+  cursor: pointer;
+}
+.nextArrow {
+  left: 20px;
+}
+.prevArrow {
+  right: 20px;
+}
+
+@include respond-to("lg") {
+  .content_wrapper {
+    justify-content: center;
+  }
+}
+
+@include respond-to("xs") {
+  .slider {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+  }
+}

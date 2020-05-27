@@ -2,6 +2,9 @@ import React from 'react'
 import { withKnobs, text, number } from "@storybook/addon-knobs";
 import styles from './newcard.module.scss'
 import Card from './CardNew';
+import Chip from 'components/general/chip/Chip'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 export default {
     title: 'Card',
@@ -20,11 +23,11 @@ export const ShadowPrice = ({
 
     return (
         <Card url={url}>
-            <div className={styles.wrapper}>
+            <div className={styles.wrapper_shadow}>
                 <div className={styles.top_data}>
                     <div className={styles.price_wrapper}>
                         <span className={styles.price}>
-                            S/. {price} 
+                            S/. {price}
                         </span>
                         <span className={styles.price_discount}>
                             Antes S/. {before}
@@ -65,7 +68,7 @@ export const SmallShadowPrice = ({
                 <div className={styles.top_data}>
                     <div className={styles.price_wrapper}>
                         <span className={styles.price}>
-                            S/. {price} 
+                            S/. {price}
                         </span>
                         <span className={styles.price_discount}>
                             Antes S/. {before}
@@ -90,6 +93,37 @@ export const SmallShadowPrice = ({
     )
 }
 
+export const DefaultCard = ({
+    province = text("Provincia", "Moquegua"),
+    title = text("Título", "Trekking en z - El Baúl de Antonia"),
+    image = text("Imagen", "https://picsum.photos/400/400?random=1"),
+    alt = text("Alt", "el-baul-de-antonia"),
+    likes = number("Likes", "130"),
+    slug = text("Slug", "slug")
+}) => {
+
+    return (
+        <Card to={slug}>
+            <div className={styles.wrapper_default}>
+                <div className={styles.header_data}>
+                    <div className={styles.content}>
+                        <div className={styles.wrapper_chip}>
+                            <Chip title={province} />
+                            <div className={styles.likes}>
+                                <FontAwesomeIcon className={styles.icon} icon={faHeart} />
+                                <span>{likes}</span>
+                            </div>
+                        </div>
+                        <div className={styles.wrapper_span}>
+                            <span className={styles.span}> {title} </span>
+                        </div>
+                    </div>
+                </div>
+                <img className={styles.img} src={image} alt={alt} />
+            </div>
+        </Card>
+    )
+}
 
 
 

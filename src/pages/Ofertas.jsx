@@ -2,11 +2,7 @@ import React from 'react'
 import Seo from 'components/general/seo/Seo'
 import Layout from 'components/layout/Layout'
 import MainContent from 'components/ofertas/main-content/MainContent'
-import Ofertas from 'components/home/Ofertas'
-import Festividades from 'components/home/Festividades'
-import Hero from 'components/home/Hero'
-import Card from 'components/general/newcard/Card'
-import { ShadowPrice } from 'components/general/card/card.stories'
+import { HeroOfertas } from 'components/general/hero/hero.stories.js'
 
 const Main = () => {
     return (
@@ -21,10 +17,8 @@ const Main = () => {
                 ogImage="https://www.ytuqueplanes.com/images/ytqp-share2.jpg"
                 hashTag="@ConoceelPeru"
             />
-            <Hero title="Encuentra las mejores ofertas para tu próximo viaje"
-            image="https://ytuqueplanes.com/turismo-comunitario/src/assets/img/slider.jpg" 
-            />
-            <MainContent/>
+            <HeroOfertas/>
+            <MainContent />
         </Layout>
     )
 }

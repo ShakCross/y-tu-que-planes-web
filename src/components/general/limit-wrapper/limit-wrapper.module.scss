@@ -1,8 +1,17 @@
-.wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1096px;
-    margin: auto;
-    flex-direction: column;
+.wrapper {
+  max-width: 1096px;
+  margin: auto;
+}
+
+@include respond-to("lg") {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@include respond-to("lg") {
+  .wrapper_card_slider {
+    width: 97%;
+    margin: 0px 0px 0px auto;
+  }
 }

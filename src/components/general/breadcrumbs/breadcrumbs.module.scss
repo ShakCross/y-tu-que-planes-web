@@ -4,24 +4,19 @@
     height: 30px;
     display: flex;
     align-items: center;
-    bottom: 120px;
-}
-
-.inner_wrapper{
-    position: relative;
-    margin-top: 50px;
+    top: 100px;
 }
 
 .content{
     color: white;
-    font-family: ClanOffcBold;
-    font-size: 13px;
+    font-family: ClanOffc;
+    font-size: 14px;
 }
 
 .contenttwo{
     color: $pale-green;
-    font-family: ClanOffcBold;
-    font-size: 13px;
+    font-family: ClanOffc;
+    font-size: 14px;
 }
 
 @include respond-to('xs') {

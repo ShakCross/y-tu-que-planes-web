@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "ui": "start-storybook"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "André Santa Cruz Chirinos",
   "license": "ISC",
@@ -17,7 +18,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.1.2",
-    "react-slick": "^0.25.2"
+    "react-slick": "^0.26.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -28,7 +29,10 @@
     "@fortawesome/free-regular-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
+    "@storybook/addon-actions": "^5.3.17",
     "@storybook/addon-knobs": "^5.3.17",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/addons": "^5.3.17",
     "@storybook/react": "^5.3.17",
     "babel-loader": "^8.0.6",
     "browserslist": "^4.8.6",
