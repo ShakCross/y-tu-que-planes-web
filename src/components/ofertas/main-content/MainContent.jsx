@@ -92,7 +92,7 @@ const MainContent = () => {
                                 before={post.antes}
                                 duration={post.duracion}
                                 alt={post.alt}
-                                url={post.url}
+                                slug="/os"
                             />
                         </div>
                     )}
@@ -115,7 +115,7 @@ const MainContent = () => {
                             before={post.antes}
                             duration={post.duracion}
                             alt={post.alt}
-                            url={post.url}
+                            slug="/os"
                         />
                     )}
                 </Slider>
@@ -137,7 +137,7 @@ const MainContent = () => {
                             before={post.antes}
                             duration={post.duracion}
                             alt={post.alt}
-                            url={post.url}
+                            slug="/os"
                         />
                     )}
                 </Slider>

@@ -9,9 +9,9 @@ const Filter = ({ content1, content2, content3, content4, filter1, filter2, filt
         mobileFirst: true,
         responsive: [
             {
-                breakpoint: 10000,
-                settings: 'unslick'
-            },
+                breakpoint: 999999,
+                settings: "unslick",
+              },
             {
                 breakpoint: 769,
                 settings: {
@@ -69,18 +69,18 @@ const Filter = ({ content1, content2, content3, content4, filter1, filter2, filt
 
     return (
         <div className={styles.wrapper}>
-            <Slider {...settings}>
+            <Slider className={styles.wrapper_desktop} {...settings}>
                 <FilterButton content={content1} click={handleIsActive1} active={isActive1} className="filter_button" classNameActive="filter_button_active" />
                 <FilterButton content={content2} click={handleIsActive2} active={isActive2} className="filter_button" classNameActive="filter_button_active" />
                 <FilterButton content={content3} click={handleIsActive3} active={isActive3} className="filter_button" classNameActive="filter_button_active" />
                 <FilterButton content={content4} click={handleIsActive4} active={isActive4} className="filter_button" classNameActive="filter_button_active" />
             </Slider>
-            <div className={styles.wrapper_desktop}>
+            {/* <div className={styles.wrapper_desktop}>
                 <FilterButton content={content1} click={handleIsActive1} active={isActive1} className="filter_button" classNameActive="filter_button_active" />
                 <FilterButton content={content2} click={handleIsActive2} active={isActive2} className="filter_button" classNameActive="filter_button_active" />
                 <FilterButton content={content3} click={handleIsActive3} active={isActive3} className="filter_button" classNameActive="filter_button_active" />
                 <FilterButton content={content4} click={handleIsActive4} active={isActive4} className="filter_button" classNameActive="filter_button_active" />
-            </div>
+            </div> */}
         </div>
     )
 }

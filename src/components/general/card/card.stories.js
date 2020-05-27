@@ -12,7 +12,7 @@ export default {
 };
 
 export const ShadowPrice = ({
-    url = text("Url", "https://www.google.com/"),
+    slug = text("Slug", "https://www.google.com/"),
     price = number("Precio", "90"),
     before = number("Precio Antes", "130"),
     duration = text("Duración", "Full day"),
@@ -22,7 +22,7 @@ export const ShadowPrice = ({
 }) => {
 
     return (
-        <Card url={url}>
+        <Card to={slug}>
             <div className={styles.wrapper_shadow}>
                 <div className={styles.top_data}>
                     <div className={styles.price_wrapper}>
@@ -53,7 +53,7 @@ export const ShadowPrice = ({
 }
 
 export const SmallShadowPrice = ({
-    url = text("Url", "https://www.google.com/"),
+    slug = text("Slug", "https://www.google.com/"),
     price = number("Precio", "90"),
     before = number("Precio Antes", "130"),
     duration = text("Duración", "Full day"),
@@ -63,7 +63,7 @@ export const SmallShadowPrice = ({
 }) => {
 
     return (
-        <Card url={url}>
+        <Card to={slug}>
             <div className={styles.wrapper_sm}>
                 <div className={styles.top_data}>
                     <div className={styles.price_wrapper}>
@@ -93,7 +93,39 @@ export const SmallShadowPrice = ({
     )
 }
 
-export const DefaultCard = ({
+export const CardDefaultLg = ({
+    province = text("Provincia", "Moquegua"),
+    title = text("Título", "Trekking en z - El Baúl de Antonia"),
+    image = text("Imagen", "https://picsum.photos/400/400?random=1"),
+    alt = text("Alt", "el-baul-de-antonia"),
+    likes = number("Likes", "130"),
+    slug = text("Slug", "slug")
+}) => {
+
+    return (
+        <Card to={slug}>
+            <div className={styles.wrapper_default_lg}>
+                <div className={styles.header_data_blog}>
+                    <div className={styles.content_blog}>
+                        <div className={styles.wrapper_chip_blog}>
+                            <Chip title={province} />
+                            <div className={styles.likes_blog}>
+                                <FontAwesomeIcon className={styles.icon_blog} icon={faHeart} />
+                                <span>{likes}</span>
+                            </div>
+                        </div>
+                        <div className={styles.wrapper_span_blog}>
+                            <span className={styles.span_blog}> {title} </span>
+                        </div>
+                    </div>
+                </div>
+                <img className={styles.img_blog} src={image} alt={alt} />
+            </div>
+        </Card>
+    )
+}
+
+export const CardDefault = ({
     province = text("Provincia", "Moquegua"),
     title = text("Título", "Trekking en z - El Baúl de Antonia"),
     image = text("Imagen", "https://picsum.photos/400/400?random=1"),
@@ -105,21 +137,21 @@ export const DefaultCard = ({
     return (
         <Card to={slug}>
             <div className={styles.wrapper_default}>
-                <div className={styles.header_data}>
-                    <div className={styles.content}>
-                        <div className={styles.wrapper_chip}>
+                <div className={styles.header_data_blog}>
+                    <div className={styles.content_blog}>
+                        <div className={styles.wrapper_chip_blog}>
                             <Chip title={province} />
-                            <div className={styles.likes}>
-                                <FontAwesomeIcon className={styles.icon} icon={faHeart} />
+                            <div className={styles.likes_blog}>
+                                <FontAwesomeIcon className={styles.icon_blog} icon={faHeart} />
                                 <span>{likes}</span>
                             </div>
                         </div>
-                        <div className={styles.wrapper_span}>
-                            <span className={styles.span}> {title} </span>
+                        <div className={styles.wrapper_span_blog}>
+                            <span className={styles.span_blog}> {title} </span>
                         </div>
                     </div>
                 </div>
-                <img className={styles.img} src={image} alt={alt} />
+                <img className={styles.img_blog} src={image} alt={alt} />
             </div>
         </Card>
     )

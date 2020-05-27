@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import styles from "./card-section.module.scss";
-import { DefaultCard } from "components/general/card/card.stories.js";
+import { CardDefaultLg } from "components/general/card/card.stories.js";
 import Text from "components/general/text/Text";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,7 +18,7 @@ const CardSection = ({ title }) => {
         </Link>
       </div>
       {data.map((post) => (
-        <DefaultCard
+        <CardDefaultLg
           title={post.titulo}
           province={post.provincia}
           image={post.imagen}
