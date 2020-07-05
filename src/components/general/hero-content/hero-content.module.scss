@@ -1,61 +1,59 @@
- 
-
-.button__container {
-    text-align: center;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    top: 5px;
-    position: relative;
-    left: 10px;
-    border-left: solid white 1px;
-    padding-left: 6px;
+.button_container {
+  text-align: center;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  top: 5px;
+  position: relative;
+  left: 10px;
+  border-left: solid white 1px;
+  padding-left: 6px;
 }
 
 .button {
-    border: none;
-    background-color: transparent;
-    color: white;
+  border: none;
+  background-color: transparent;
+  color: white;
 }
 
-.heading__wrapper {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 720px;
-    width: inherit;
+.heading_wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+  width: inherit;
 }
 
-.heading__inner_wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative;
-    width: 90%;
-    width: 70%;
-    height: 240px;
-    flex-direction: column;
+.heading_inner_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  width: 90%;
+  width: 70%;
+  height: 240px;
+  flex-direction: column;
 }
 
 .span {
-    font-family: ClanOffc;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-    margin-top: 20px;
-    max-width: 473px;
+  font-family: ClanOffc;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-top: 20px;
+  max-width: 473px;
 }
 
-@include respond-to('xs') {
-    .heading__inner_wrapper {
-        height: 333px;
-        width: 85%;
-    }
-    .span {
-        max-width: 345px;
-    }
-    .heading__wrapper {
-        height: 580px;
-    }
+@include respond-to("xs") {
+  .heading_inner_wrapper {
+    height: 333px;
+    width: 85%;
+  }
+  .span {
+    max-width: 345px;
+  }
+  .heading_wrapper {
+    height: 580px;
+  }
 }

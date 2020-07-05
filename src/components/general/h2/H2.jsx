@@ -3,7 +3,7 @@ import styles from './h2.module.scss'
 
 const H2 = ({ title }) => {
     return (
-        <div className={styles.inner__wrapper}>
+        <div className={styles.inner_wrapper}>
             <h2 className={styles.wrapper}>
                 {title}
             </h2>

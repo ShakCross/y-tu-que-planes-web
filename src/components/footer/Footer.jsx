@@ -16,40 +16,40 @@ const Footer = () => {
     return (
         <footer>
             <div className={styles.wrapper}>
-                <div className={styles.inner__wrapper}>
-                    <div className={styles.wsp__mobile}>
+                <div className={styles.inner_wrapper}>
+                    <div className={styles.wsp_mobile}>
                         <a target="_blank" rel="noopener noreferrer" href="https://wa.me/051944492314">
                             <button className={styles.button_ws}>
                                 <FontAwesomeIcon icon={faWhatsapp} />
-                                <div className={styles.button__div} >
+                                <div className={styles.button_div} >
                                     Asistencia al viajero
                                 </div>
                             </button>
                         </a>
-                        <div className={styles.help__mobile}>
+                        <div className={styles.help_mobile}>
                             <H5 title="¿Necesitas ayuda?" />
                             <p className={styles.ayuda_p}>Escríbenos las 24 horas</p>
                         </div>
                     </div>
-                    <div className={styles.wrapper__links}>
-                        <div className={styles.inner_wrapper__links}>
+                    <div className={styles.wrapper_links}>
+                        <div className={styles.inner_wrapper_links}>
                             <div className={styles.h5}>
                                 <H5 title="Información para tu viaje" />
                             </div>
                             <ul className={styles.list}>
-                                <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="http://export.promperu.gob.pe/emailing/2019/feb/pdf/feriados_2019.pdf"><li>Lista de Feriados</li></a>
-                                <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="https://www.senamhi.gob.pe/"><li>Clima y Pronóstico del Tiempo</li></a>
-                                <a className={styles.list__link} target="_blank" rel="noopener noreferrer" href="http://www.sernanp.gob.pe/"><li>Áreas Naturales Protegidas</li></a>
+                                <a className={styles.list_link} target="_blank" rel="noopener noreferrer" href="http://export.promperu.gob.pe/emailing/2019/feb/pdf/feriados_2019.pdf"><li>Lista de Feriados</li></a>
+                                <a className={styles.list_link} target="_blank" rel="noopener noreferrer" href="https://www.senamhi.gob.pe/"><li>Clima y Pronóstico del Tiempo</li></a>
+                                <a className={styles.list_link} target="_blank" rel="noopener noreferrer" href="http://www.sernanp.gob.pe/"><li>Áreas Naturales Protegidas</li></a>
                             </ul>
                         </div>
                     </div>
-                    <div className={styles.wrapper__help}>
-                        <div className={styles.inner_wrapper__help}>
+                    <div className={styles.wrapper_help}>
+                        <div className={styles.inner_wrapper_help}>
                             <div className={styles.wsp}>
                                 <a target="_blank" rel="noopener noreferrer" href="https://wa.me/051944492314">
                                     <button className={styles.button_ws}>
                                         <FontAwesomeIcon icon={faWhatsapp} />
-                                        <div className={styles.button__div} >
+                                        <div className={styles.button_div} >
                                             Asistencia al viajero
                                 </div>
                                     </button>
@@ -68,8 +68,8 @@ const Footer = () => {
                                     <SocialICon xclassname="you" xsvg="you_svg" name={faYoutube} target="http://www.youtube.com/visitperu" />
                                     <SocialICon xclassname="spo" xsvg="spo_svg" name={faSpotify} target="https://open.spotify.com/user/yt%C3%BAqu%C3%A9planes/playlist/7pTRlBhxN2YhkEqtwu0T4k" />
                                 </ul>
-                                <div className={styles.wrapper__perulogos__mobile}>
-                                    <div className={styles.inner_wrapper__perulogos}>
+                                <div className={styles.wrapper_perulogos_mobile}>
+                                    <div className={styles.inner_wrapper_perulogos}>
                                         <div>
                                             <img className={styles.perulogos} src={iperu} alt="iperu-logo" />
                                         </div>
@@ -85,8 +85,8 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className={styles.wrapper__subscribe}>
-                        <div className={styles.inner_wrapper__subscribe}>
+                    <div className={styles.wrapper_subscribe}>
+                        <div className={styles.inner_wrapper_subscribe}>
                             <div className={styles.h5}>
                                 <H5 title="¡Suscríbete para recibir nuevas ofertas y novedades!" />
                             </div>
@@ -94,8 +94,8 @@ const Footer = () => {
                             <div className={styles.sub_button}>
                                 <Button purple title="Suscríbete" url="https://www.ytuqueplanes.com/suscribete.aspx"/>
                             </div>
-                            <div className={styles.wrapper__perulogos}>
-                                <div className={styles.inner_wrapper__perulogos}>
+                            <div className={styles.wrapper_perulogos}>
+                                <div className={styles.inner_wrapper_perulogos}>
                                     <div>
                                         <img className={styles.perulogos} src={iperu} alt="iperu-logo" />
                                     </div>

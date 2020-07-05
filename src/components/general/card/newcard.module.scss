@@ -159,8 +159,6 @@
   background-color: #fff;
   box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,7 +191,7 @@
 
 .img_blog:hover {
   object-position: 25px 0px;
-  transition: object-position ease-in-out 400ms
+  transition: object-position ease-in-out 400ms;
 }
 
 .icon_blog {

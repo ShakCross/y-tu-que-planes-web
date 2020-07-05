@@ -11,7 +11,7 @@ import data from "data/blog.json";
 const Blog = () => {
   return (
     <MainContent>
-      <div className={styles.wrapper__text}>
+      <div className={styles.wrapper_text}>
         <H2 title="¿No sabes a dónde ir?" />
         <span className={styles.span}>
           Descubre nuevas ideas de viaje gracias a las recomendaciones de
@@ -26,8 +26,8 @@ const Blog = () => {
           />
         </div>
       </div>
-      <div className={styles.wrapper__content}>
-        <div className={styles.inner_wrapper__content}>
+      <div className={styles.wrapper_content}>
+        <div className={styles.inner_wrapper_content}>
           {data.map((post) => (
             <CardDefault
               key={post.id}

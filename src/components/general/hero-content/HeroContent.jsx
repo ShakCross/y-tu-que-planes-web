@@ -6,8 +6,8 @@ import H1 from 'components/general/h1/H1'
 
 const HeroContent = ({desc, title, chip, url}) => {
     return (
-        <a className={styles.heading__wrapper} href={url}>
-            <div className={styles.heading__inner_wrapper}>
+        <a className={styles.heading_wrapper} href={url}>
+            <div className={styles.heading_inner_wrapper}>
                 <Chip filled title={chip}/>
                 <H1 title={title} />
                 <span className={styles.span}>

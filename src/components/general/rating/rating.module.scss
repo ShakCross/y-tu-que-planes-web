@@ -1,41 +1,39 @@
- 
-
 .wrapper {
-    display: flex;
-    width: 25px;
-    height: 25px;
-    border-radius: 9px;
-    font-family: ClanOffcNews;
-    font-size: 13px;
-    font-weight: 500;
-    color: $pale-blue;
-    background-color: $default-background-t;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border-radius: 9px;
+  font-family: ClanOffcNews;
+  font-size: 13px;
+  font-weight: 500;
+  color: $pale-blue;
+  background-color: $default-background-t;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .wrapper_no_bg {
-    display: flex;
-    width: 110px;
-    height: 25px;
-    border-radius: 9px;
-    font-family: ClanOffcNews;
-    font-size: 13px;
-    font-weight: 500;
-    color: $pale-blue;
-    background-color: transparent;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  width: 110px;
+  height: 25px;
+  border-radius: 9px;
+  font-family: ClanOffcNews;
+  font-size: 13px;
+  font-weight: 500;
+  color: $pale-blue;
+  background-color: transparent;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .title {
-    font-size: 13px;
-    margin-top: 3px;
-    margin-right: 3px;
-    margin-left: 3px;
+  font-size: 13px;
+  margin-top: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 .icon {
-    font-size: 15px;
-    color: $yellow;
+  font-size: 15px;
+  color: $yellow;
 }

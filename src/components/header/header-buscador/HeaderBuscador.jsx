@@ -5,7 +5,7 @@ const HeaderBuscador = ({ xclassname, clicked }) => {
     return (
         <>
             <div className={`${styles.wrapper}  ${styles[xclassname]}`}>
-                <div className={styles.inner__wrapper}>
+                <div className={styles.inner_wrapper}>
                     <div className={styles.content_wrapper}>
                         <div className={styles.title}>
                             ¿Qué estás buscando?

@@ -35,8 +35,8 @@ const Hero = ({ home, title, desc, responsive, image, image_lg, image_sm, breadc
                         </HomeSlider>
                         :
                         <div className={styles.inner_wrapper}>
-                            <div className={styles.heading__wrapper}>
-                                <div className={styles.heading__inner_wrapper}>
+                            <div className={styles.heading_wrapper}>
+                                <div className={styles.heading_inner_wrapper}>
                                     <h1 className={styles.h1} >
                                         {title}
                                     </h1>

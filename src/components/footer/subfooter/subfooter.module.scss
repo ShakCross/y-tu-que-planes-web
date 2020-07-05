@@ -1,102 +1,79 @@
- 
-
 .wrapper {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-color: $default-background;
-    height: 40px;
-    border-top: solid 1px #e0e0e0;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: $default-background;
+  height: 40px;
+  border-top: solid 1px #e0e0e0;
+  align-items: center;
 }
 
-.inner__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    width: 75%;
+.inner_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
 }
 
 .h6 {
-    font-family: ClanOffcNews;
-    font-size: 12px;
-    font-weight: 700;
-    color: $transparent-grey;
+  font-family: ClanOffcNews;
+  font-size: 12px;
+  font-weight: 700;
+  color: $transparent-grey;
 }
 
-.h6__a {
-    color: rgba(36, 36, 36, 0.5);
-    font-family: ClanOffcNews;
-    font-size: 10.5px;
-    font-weight: 400;
+.h6_a {
+  color: rgba(36, 36, 36, 0.5);
+  font-family: ClanOffcNews;
+  font-size: 10.5px;
+  font-weight: 400;
 }
 
 .rights {
-    color: rgba(36, 36, 36, 0.5);
-    font-family: ClanOffcNews;
-    font-size: 10.5px;
-    font-weight: 400;
+  color: rgba(36, 36, 36, 0.5);
+  font-family: ClanOffcNews;
+  font-size: 10.5px;
+  font-weight: 400;
 }
 
 .links {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+  flex: 1;
 }
 
 .copyright {
-    -webkit-box-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
-    text-align: right;
+  flex: 2;
+  text-align: right;
 }
 
-@include respond-to('lg') {
-    .copyright {
-        text-align: center;
-        flex: none;
-    }
-    .links {
-        text-align: center;
-        flex: none;
-        margin: 5px 5px;
-    }
-    .inner__wrapper {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        widows: 100%;
-        align-items: center;
-    }
-    .wrapper {
-        height: auto;
-        padding: 15px 0px;
-    }
+@include respond-to("lg") {
+  .copyright {
+    text-align: center;
+    flex: none;
+  }
+  .links {
+    text-align: center;
+    flex: none;
+    margin: 5px 5px;
+  }
+  .inner_wrapper {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    widows: 100%;
+    align-items: center;
+  }
+  .wrapper {
+    height: auto;
+    padding: 15px 0px;
+  }
 }
 
 @media only screen and (max-width: 752px) {
-    .copyright {
-        margin: 15px;
-    }
-    .links{
-        flex-basis: 50%;
-    }
+  .copyright {
+    margin: 15px;
+  }
+  .links {
+    flex-basis: 50%;
+  }
 }

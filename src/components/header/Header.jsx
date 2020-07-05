@@ -38,22 +38,22 @@ const Header = ({ empty, count }) => {
                 </div>
                 <div className={styles.main}>
                     {/* <div>
-                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
+                        <a className={styles.main_link} href="https://www.ytuqueplanes.com/ofertas">Ofertas</a>
                     </div> */}
-                    <Link className={styles.main__link} to="/ofertas">
+                    <Link className={styles.main_link} to="/ofertas">
                         Ofertas
                     </Link>
-                    <Link className={styles.main__link} to="/destinos">
+                    <Link className={styles.main_link} to="/destinos">
                         Destinos
                     </Link>
-                    {/* <Link className={styles.main__link} to="/rutas-cortas">
+                    {/* <Link className={styles.main_link} to="/rutas-cortas">
                         Rutas Cortas
                     </Link>
  */}
                     <div>
-                        <a className={styles.main__link} href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
+                        <a className={styles.main_link} href="https://www.ytuqueplanes.com/rutas-cortas">Rutas Cortas</a>
                     </div>
-                    <Link className={styles.main__link} to="/blog-viajero">
+                    <Link className={styles.main_link} to="/blog-viajero">
                         Blog Viajero
                     </Link>
                 </div>
@@ -65,16 +65,16 @@ const Header = ({ empty, count }) => {
                         <img src={SearchIcon} alt="buscar-icon"/>
                     </div>
                     <div className={styles.bellContainer} onClick={handleAlert}>
-                        <span className={`${empty ? styles.circle__none : styles.circle}`}>
-                            <span className={styles.circle__tick}>{count}</span>
+                        <span className={`${empty ? styles.circle_none : styles.circle}`}>
+                            <span className={styles.circle_tick}>{count}</span>
                         </span>
                         <img src={`${empty ? BellIconGrey : BellIcon}`} alt="alertas-icon" />
                     </div>
                     <div className={styles.hamburguer} onClick={handleToggle}>
                         {(toggle) ?
-                            (<div className={styles.hamburguer__icon}><FontAwesomeIcon icon={faBars} /></div>)
+                            (<div className={styles.hamburguer_icon}><FontAwesomeIcon icon={faBars} /></div>)
                             :
-                            (<div className={styles.times__icon}><FontAwesomeIcon className={styles.times} icon={faTimes} /></div>)
+                            (<div className={styles.times_icon}><FontAwesomeIcon className={styles.times} icon={faTimes} /></div>)
                         }
                     </div>
                 </div>

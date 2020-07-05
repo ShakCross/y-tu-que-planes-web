@@ -7,7 +7,7 @@ const HeaderNotificaciones = ({ xclassname, clicked }) => {
     return (
         <>
             <div className={`${styles[xclassname]} ${styles.wrapper}`}>
-                <div className={styles.inner__wrapper}>
+                <div className={styles.inner_wrapper}>
                     <div className={styles.date_wrapper}>
                         <div className={styles.date}>Última publicación: 13 de Noviembre 2019</div>
                         <div className={styles.date}>ALERTAS</div>

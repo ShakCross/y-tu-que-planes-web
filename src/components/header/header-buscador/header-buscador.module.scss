@@ -1,74 +1,72 @@
 .wrapper {
-    height: 287px;
-    position: fixed;
-    z-index: 9;
-    width: 100%;
-    top: 75px;
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    background-color: #edeeee;
+  height: 287px;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  top: 75px;
+  transition: all 500ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #edeeee;
 }
 
 .wrapper-none {
-    top: -330px;
-    position: fixed;
-    height: 0px !important;
+  top: -330px;
+  position: fixed;
+  height: 0px !important;
 }
 
 .background {
-    background-color: black;
-    opacity: 0.23;
-    height: 1200px;
-    top: 75px;
-    position: fixed;
-    width: 100%;
-    z-index: 5;
+  background-color: black;
+  opacity: 0.23;
+  height: 1200px;
+  top: 75px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
-.inner__wrapper {
-    margin: auto;
-    width: 534px;
-    height: 147px;
-    border-radius: 31.5px;
-    border: solid 1px #979797;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.inner_wrapper {
+  margin: auto;
+  width: 534px;
+  height: 147px;
+  border-radius: 31.5px;
+  border: solid 1px #979797;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.content_wrapper{
-    width: 90%;
-    height: 75%;
+.content_wrapper {
+  width: 90%;
+  height: 75%;
 }
 
 .title {
-    font-family: ClanOffc;
-    font-size: 14px;
-    color: $dark-grey;
-    font-weight: 600;
+  font-family: ClanOffc;
+  font-size: 14px;
+  color: $dark-grey;
+  font-weight: 600;
 }
 
 .content {
-    font-family: ClanOffcNews;
-    font-size: 14px;
-    color: $dark-grey;
-    margin-bottom: 10px;
+  font-family: ClanOffcNews;
+  font-size: 14px;
+  color: $dark-grey;
+  margin-bottom: 10px;
 }
 
-.hr{
-    margin: 10px auto;
+.hr {
+  margin: 10px auto;
 }
 
-@include respond-to('sm') {
-    .inner__wrapper {
-        min-width: 85%;
-        width: auto;
-    }
+@include respond-to("sm") {
+  .inner_wrapper {
+    min-width: 85%;
+    width: auto;
+  }
 }

@@ -46,9 +46,9 @@ export default class MainSlider extends Component {
                         width: "83%"
                     }}
                 >
-                    <ul className={styles.dots__ul}>
+                    <ul className={styles.dots_ul}>
                         {dots}
-                        <div style={{ textAlign: "center" }} className={styles.button__container}>
+                        <div style={{ textAlign: "center" }} className={styles.button_container}>
                             <button className={styles.button}>
                             {this.play = this.slider ?
                                     <FontAwesomeIcon icon={this.pause ? faPause : faPlay} onClick={this.pause}/>

@@ -1,70 +1,70 @@
 .wrapper {
-    height: 395px;
-    position: fixed;
-    z-index: 9;
-    width: 100%;
-    top: 75px;
-    transition: all 500ms ease-in-out;
-    padding-top: 50px;
-    align-items: center;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    background-color: #edeeee;
+  height: 395px;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  top: 75px;
+  transition: all 500ms ease-in-out;
+  padding-top: 50px;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #edeeee;
 }
 
-.inner_wrapper_resp{
-    display: none;
+.inner_wrapper_resp {
+  display: none;
 }
 
 .wrapper-none {
-    top: -330px;
-    position: fixed;
-    height: 0px !important;
+  top: -330px;
+  position: fixed;
+  height: 0px !important;
 }
 
-.inner_wrapper{
-    width: 930px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    height: 300px;
-    align-items: center;
+.inner_wrapper {
+  width: 930px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
 }
-.inner_wrapper_content{
-    width: inherit;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 203px;
+.inner_wrapper_content {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 203px;
 }
 
 .background {
-    background-color: black;
-    opacity: 0.23;
-    height: 1200px;
-    top: 75px;
-    position: fixed;
-    width: 100%;
-    z-index: 5;
+  background-color: black;
+  opacity: 0.23;
+  height: 1200px;
+  top: 75px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
-.date_wrapper{
-    margin: 0px auto;
-    width: 1120px;
-    padding: 0px 30px;
+.date_wrapper {
+  margin: 0px auto;
+  width: 1120px;
+  padding: 0px 30px;
 }
 
-.date{
-    font-family: BreePeru;
-    font-size: 12px;
-    font-weight: 300;
-    color: $grey;
+.date {
+  font-family: BreePeru;
+  font-size: 12px;
+  font-weight: 300;
+  color: $grey;
 }
 
-@include respond-to('md') {
-    .inner_wrapper{
-        display: none;
-    }
-    .inner_wrapper_resp{
-        display: block;
-    }
+@include respond-to("md") {
+  .inner_wrapper {
+    display: none;
+  }
+  .inner_wrapper_resp {
+    display: block;
+  }
 }

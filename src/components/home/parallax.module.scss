@@ -1,39 +1,38 @@
- 
-
 .wrapper {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 1 auto;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 328px;
-    align-items: center;
-    background: url(https://www.ytuqueplanes.com/fotos/banners/d-cueva-rioja.jpg) top/0% 200px fixed no-repeat;
-    cursor: pointer;
-    background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 328px;
+  align-items: center;
+  background: url(https://www.ytuqueplanes.com/fotos/banners/d-cueva-rioja.jpg)
+    top/0% 200px fixed no-repeat;
+  cursor: pointer;
+  background-size: cover;
 }
 
 .ico_big {
-    -ms-flex-preferred-size: 57%;
-    flex-basis: 57%;
-    z-index: 2;
+  flex-basis: 57%;
+  z-index: 2;
 }
 
 .h4 {
-    z-index: 2;
+  z-index: 2;
 }
 
-@include respond-to('xs') {
-    .h4 {
-        display: none;
-    }
+@include respond-to("xs") {
+  .h4 {
+    display: none;
+  }
 }
 
-@include respond-to('md') {
-    .wrapper {
-        background-attachment: scroll;
-        background: url(https://www.ytuqueplanes.com/fotos/banners/d-cueva-rioja.jpg) center center fixed no-repeat;
-        background-size: cover;
-    }
+@include respond-to("md") {
+  .wrapper {
+    background-attachment: scroll;
+    background: url(https://www.ytuqueplanes.com/fotos/banners/d-cueva-rioja.jpg)
+      center center fixed no-repeat;
+    background-size: cover;
+  }
 }

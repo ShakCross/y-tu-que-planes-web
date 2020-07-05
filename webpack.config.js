@@ -18,7 +18,8 @@ module.exports = {
             {
                 test: /\.module\.s(a|c)ss$/,
                 loader: [
-                    isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
+                    isDevelopment ? 'style-loader' : 
+                    MiniCssExtractPlugin.loader,
                     {
                         loader: "css-loader",
                         options: {
@@ -28,6 +29,7 @@ module.exports = {
                             sourceMap: isDevelopment,
                         }
                     },
+                    'postcss-loader',
                     {
                         loader: "sass-loader",
                         options: {
@@ -37,15 +39,6 @@ module.exports = {
                                 includePaths: [path.resolve(__dirname, 'src/styles')]
                             }
                         }
-                    },
-                    {
-                        loader: "postcss-loader",
-                        options: {
-                            ident: 'postcss',
-                            plugins: [
-                                require('autoprefixer')(),
-                            ]
-                        }
                     }
                 ]
             },
@@ -53,26 +46,19 @@ module.exports = {
                 test: /\.s(a|c)ss$/,
                 exclude: /\.module.(s(a|c)ss)$/,
                 loader: [
-                    isDevelopment ? 'style-loader' : {
+                    isDevelopment ? 'style-loader' : 
+                    {
                         loader: MiniCssExtractPlugin.loader,
                         options: {
                             publicPath: './'
                         }
                     },
                     'css-loader',
+                    'postcss-loader',
                     {
                         loader: 'sass-loader',
                         options: {
                             sourceMap: isDevelopment,
-                        }
-                    },
-                    {
-                        loader: "postcss-loader",
-                        options: {
-                            ident: 'postcss',
-                            plugins: [
-                                require('autoprefixer')(),
-                            ]
                         }
                     }
                 ]
@@ -135,5 +121,5 @@ module.exports = {
             filename: 'style.css',
             chunkFilename: isDevelopment ? "[id].css" : "[id].[hash].css"
         })
-    ],
+    ]
 }

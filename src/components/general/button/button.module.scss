@@ -1,114 +1,127 @@
-.wrapper, .wrapper_green, .wrapper_yellow, .wrapper_purple {
-    font-family: ClanOffc;
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-    border: none;
-    min-width: 217px;
-    min-height: 53px;
-    border-radius: 70px;
-    cursor: pointer;
-    background-color: $pale-green;
-    border: solid 2px $pale-green;
+.wrapper,
+.wrapper_green,
+.wrapper_yellow,
+.wrapper_purple {
+  font-family: ClanOffc;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  min-width: 217px;
+  min-height: 53px;
+  border-radius: 70px;
+  cursor: pointer;
+  background-color: $pale-green;
+  border: solid 2px $pale-green;
 }
 
 .wrapper_yellow {
-    border: solid 2px $yellow;
-    background-color: $yellow;
+  border: solid 2px $yellow;
+  background-color: $yellow;
 }
 
-.wrapper_purple{
-    background-color: $purple;
-    border: solid 2px $purple;
+.wrapper_purple {
+  background-color: $purple;
+  border: solid 2px $purple;
 }
 
-.wrapper_green{
-    background-color: $green;
-    border: solid 2px $green;
+.wrapper_green {
+  background-color: $green;
+  border: solid 2px $green;
 }
 
-.wrapper:hover, .wrapper_yellow:hover, .wrapper_green:hover, .wrapper_purple:hover {
-    background-color: transparent;
-    border: solid 2px $pale-green;
-    color: $pale-green;
-    transition: all 200ms ease-in-out;
+.wrapper:hover,
+.wrapper_yellow:hover,
+.wrapper_green:hover,
+.wrapper_purple:hover {
+  background-color: transparent;
+  border: solid 2px $pale-green;
+  color: $pale-green;
+  transition: all 200ms ease-in-out;
 }
 
-.wrapper_yellow:hover{
-    border: solid 2px $yellow;
-    color: $yellow;
+.wrapper_yellow:hover {
+  border: solid 2px $yellow;
+  color: $yellow;
 }
 
-.wrapper_green:hover{
-    border: solid 2px $green;
-    color: $green;
+.wrapper_green:hover {
+  border: solid 2px $green;
+  color: $green;
 }
 
-.wrapper_purple:hover{
-    border: solid 2px $purple;
-    color: $purple;
+.wrapper_purple:hover {
+  border: solid 2px $purple;
+  color: $purple;
 }
 
-.wrapper:focus, .wrapper_yellow:focus, .wrapper_green:focus, .wrapper_purple:focus{
-    outline: none;
+.wrapper:focus,
+.wrapper_yellow:focus,
+.wrapper_green:focus,
+.wrapper_purple:focus {
+  outline: none;
 }
 
 .container_button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.ofertas_button, .ofertas_button_mobile  {
-    padding: 18px 35px;
+.ofertas_button,
+.ofertas_button_mobile {
+  padding: 18px 35px;
 }
 
-.ofertas_button_mobile, .blog_button_mobile{
+.ofertas_button_mobile,
+.blog_button_mobile {
+  display: none;
+}
+
+.slider_button {
+  padding: 16px 35px 16px 35px;
+}
+
+.slider_button:hover {
+  color: white;
+}
+
+.calendar_button {
+  padding: 0px 20px;
+}
+
+.ofertas-single-green {
+  font-family: ClanOffc;
+  font-size: 16px;
+  color: white;
+}
+
+@include respond-to("xs") {
+  .calendar_button {
+    padding: 18px 17px 16px 17px;
+  }
+  .ofertas_button,
+  .blog_button {
     display: none;
+  }
+  .ofertas_button_mobile,
+  .blog_button_mobile {
+    display: block;
+  }
 }
 
-.slider_button{
-    padding: 16px 35px 16px 35px;
-}
-
-.slider_button:hover{
-    color: white;
-}
-
-.calendar_button{
-    padding: 0px 20px;
-}
-
-.ofertas-single-green{
-    font-family: ClanOffc;
+@include respond-to("md") {
+  .ofertas_button {
+    padding: 19px 0;
     font-size: 16px;
-    color: white;
+  }
 }
 
-@include respond-to('xs') {
-    .calendar_button {
-        padding: 18px 17px 16px 17px;
-    }
-    .ofertas_button, .blog_button {
-        display: none;
-    }
-    .ofertas_button_mobile, .blog_button_mobile{
-        display: block;
-    }
-}
-
-@include respond-to('md') {
-    .ofertas_button {
-        padding: 19px 0;
-        font-size: 16px;
-    }
-}
-
-.null{
-    visibility: visible;
+.null {
+  visibility: visible;
 }
 
 .button_mini {
-    width: 76px;
-    height: 24px;
+  width: 76px;
+  height: 24px;
 }

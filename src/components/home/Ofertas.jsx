@@ -12,7 +12,7 @@ import data from 'data/ofertas.json'
 const Ofertas = () => {
     return (
         <MainContent>
-            <div className={styles.wrapper__text}>
+            <div className={styles.wrapper_text}>
                 <H2 title="¡No hay excusas!" />
                 <span className={styles.span}>
                     Encuentra las mejores ofertas para tu próximo viaje.
@@ -21,8 +21,8 @@ const Ofertas = () => {
                     <Button yellow title="Ver todas las Ofertas" xclassname="ofertas_button" url="https://www.ytuqueplanes.com/ofertas" />
                 </div>
             </div>
-            <div className={styles.wrapper__content}>
-                <div className={styles.inner_wrapper__content}>
+            <div className={styles.wrapper_content}>
+                <div className={styles.inner_wrapper_content}>
                     {data.map(post =>
                         <ShadowPrice
                             key={post.id}
