@@ -12,7 +12,7 @@ const Routes = () => {
         <>
             <Route exact path='/' component={Home} />
             <Route path='/ofertas' component={Ofertas} />
-            <Route path='/os' component={OfertasSingle} />
+            <Route path='/ofertas-interna' component={OfertasSingle} />
             <Route path='/blog-viajero' component={Blog} />
             {/* {data.map(post =>
                 <Route key={post.id} exact path={'/' + post.slug} component={Single} />

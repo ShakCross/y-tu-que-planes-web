@@ -103,7 +103,7 @@ export const CardDefaultLg = ({
 }) => {
 
     return (
-        <Card to={slug}>
+        <Card className={styles.margin_card_default_lg} to={slug}>
             <div className={styles.wrapper_default_lg}>
                 <div className={styles.header_data_blog}>
                     <div className={styles.content_blog}>

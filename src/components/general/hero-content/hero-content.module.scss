@@ -1,3 +1,9 @@
+.slides{
+  object-fit: cover;
+  object-position: center ;
+  max-width: 100%;
+  position: absolute;
+}
 .button_container {
   text-align: center;
   height: 35px;
@@ -17,7 +23,6 @@
 }
 
 .heading_wrapper {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,13 +52,15 @@
 
 @include respond-to("xs") {
   .heading_inner_wrapper {
-    height: 333px;
     width: 85%;
   }
   .span {
     max-width: 345px;
   }
   .heading_wrapper {
+    height: 580px;
+  }
+  .slides{
     height: 580px;
   }
 }

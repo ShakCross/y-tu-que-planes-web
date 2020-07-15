@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Card = ({ children, to }) => {
-  return <Link to={to}>{children}</Link>;
+const Card = ({ children, to, className }) => {
+  return <Link className={className} to={to}>{children}</Link>;
 };
 
 Card.defaultProps = {
     children: '',
-    to: '/'
+    to: '/',
+    className: ''
 };
 
 export default Card;

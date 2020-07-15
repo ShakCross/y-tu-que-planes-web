@@ -10,3 +10,8 @@
   margin: 0;
   text-transform: uppercase;
 }
+@include respond-to("xs") {
+  .wrapper{
+    margin-top: 15px;
+  }
+}

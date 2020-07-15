@@ -18,6 +18,7 @@
 .wrapper_yellow {
   border: solid 2px $yellow;
   background-color: $yellow;
+  margin-top: 25px;
 }
 
 .wrapper_purple {
@@ -28,6 +29,7 @@
 .wrapper_green {
   background-color: $green;
   border: solid 2px $green;
+  margin-top: 25px;
 }
 
 .wrapper:hover,
@@ -107,6 +109,9 @@
   .ofertas_button_mobile,
   .blog_button_mobile {
     display: block;
+  }
+  .slider_button{
+    margin-top: 20px;
   }
 }
 

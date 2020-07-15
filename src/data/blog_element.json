@@ -106,5 +106,41 @@
         "alt": "alt-blog",
         "categoria": "festividad",
         "slug": "fest-4"
+    },
+    {
+        "id": 13,
+        "titulo": "Youtube-1",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "provincia": "Loreto",
+        "alt": "alt-blog",
+        "categoria": "youtube",
+        "slug": "you-1"
+    },
+    {
+        "id": 14,
+        "titulo": "Youtube-2",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "provincia": "Moquegua",
+        "alt": "alt-blog",
+        "categoria": "youtube",
+        "slug": "you-2"
+    },
+    {
+        "id": 15,
+        "titulo": "Youtube-3",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "provincia": "Ucayali",
+        "alt": "alt-blog",
+        "categoria": "youtube",
+        "slug": "you-3"
+    },
+    {
+        "id": 16,
+        "titulo": "Youtube-4",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "provincia": "La Libertad",
+        "alt": "alt-blog",
+        "categoria": "youtube",
+        "slug": "you-4"
     }
 ]

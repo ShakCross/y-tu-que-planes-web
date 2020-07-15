@@ -77,5 +77,14 @@ img {
 div.slick-slide.slick-active.slick-current div div.wrapper-fest-module_wrapper__k_VpD{
     opacity: 1;
 }
+.slick-dots li{
+    margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+    .slick-dots{
+        bottom: 170px !important;
+    }
+  }
 
  

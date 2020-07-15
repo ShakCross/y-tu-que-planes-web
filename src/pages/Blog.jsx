@@ -23,8 +23,8 @@ const Home = () => {
                 <HeroBlog/>
                 <FilterCategorias/>
                 <MainContent/>
-                <Noticias/>
-                <Parallax/>
+                {/* <Noticias/>
+                <Parallax/> */}
             </Layout>
     )
 }
